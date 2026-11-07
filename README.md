@@ -83,8 +83,7 @@ docs/                   Documentación del proyecto
 
 - La copia actual de Debian contiene 13 fichas de Comunidades, 19 de Ubicaciones, 41 entradas de Glosario y 34 etapas de Cronología. La rama `main` contiene el índice común de 248 fichas: 225 personajes, 5 antagonistas, 14 caminantes y 4 animales.
 - La integración conecta Personajes, Antagonistas y Animales con el índice común.
-- `personajes.sh` y el TSV del índice tenían finales de línea CRLF, que causaban el error `
-\\r'`; ambos se normalizaron a LF. Después de la corrección, Thiago confirmó que la lista de Personajes abre.
+- `personajes.sh` y el TSV del índice tenían finales de línea CRLF, que causaban el error `$'\r'`; ambos se normalizaron a LF. Después de la corrección, Thiago confirmó que la lista de Personajes abre.
 - **Pendiente:** cotejar las fichas con números y escenas primarios. Las fichas no revisadas conservan `UNCONFIRMED`. La verificación confirmada se limita a la apertura de la lista de Personajes; no cubre las demás categorías.
 
 
