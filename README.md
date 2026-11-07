@@ -1,69 +1,80 @@
 # Alexandria OS
 
-Repositorio privado y fuente de verdad del proyecto: [thiagoalfonsounp-creator/alexandria-os](https://github.com/thiagoalfonsounp-creator/alexandria-os).
+Alexandria OS es un entorno de archivo y consulta basado en Debian 13 para el cómic principal de *The Walking Dead*, una biblioteca personal y módulos de supervivencia.
 
-Alexandria OS es una distribución personalizada basada en Debian 13 para consultar el universo del cómic principal de *The Walking Dead*, organizar una biblioteca personal y desarrollar una experiencia de supervivencia.
+Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os](https://github.com/thiagoalfonsounp-creator/alexandria-os).
 
-## Estado actual — 7 de noviembre de 2026
+## Estado del proyecto — 7 de noviembre de 2026
 
-- La rama principal es `main`.
-- GitHub contiene la documentación `README.md` y `AGENTS.md`. El código ejecutable de la copia instalada en la VM todavía no está sincronizado en este repositorio; `bin/alexandria` y `src/world/menu.sh` aún no están presentes. Por eso, este clon todavía no se puede iniciar como la copia de la VM.
-- El usuario ejecutó el paquete actualizado en Debian y confirmó que funciona. En las capturas se ven `WALKER DATABASE` con siete apartados, `FIELD OBSERVATIONS` con FO-001 a FO-003 y el expediente FO-001 con todos sus campos.
-- El paquete local también contiene un catálogo y lector de cómics, un cuaderno de campo y el módulo `THE REFUGE` en preparación. Su publicación en GitHub y las verificaciones que no aparecen arriba siguen pendientes.
+- El código de la copia de trabajo y la documentación están sincronizados en la rama `main`.
+- El archivo de personajes incluye 248 entradas navegables: 31 expedientes ampliados, 199 fichas breves, 4 fichas de animales y 14 identificaciones de caminantes. El selector muestra las entradas por agrupación y permite desplazarse por la lista.
+- Las fichas breves registran nombres y grupos de referencia sin inventar escenas, parentescos o destinos. Cuando falta comprobación directa del número del cómic, usan `UNCONFIRMED`.
+- Se corrigieron nombres que provenían de la adaptación televisiva: el archivo usa Maggie Greene, Carol y Sophia Grimes en el epílogo. El cómic no establece para Carol el apellido Peletier.
+- El usuario confirmó en Debian que la versión anterior de `WALKER DATABASE` y `FIELD OBSERVATIONS` funciona. La ampliación del archivo de personajes se incorporó al código, pero todavía no se ha probado en la VM.
+- No se incluyen páginas, paneles ni archivos de cómics protegidos.
 
-## Requisitos y ejecución
+## Instalación y ejecución
 
-La implementación actual está preparada para Debian GNU/Linux 13 y utiliza Bash, `dialog` y `nano`. El lector de cómics PDF requiere `poppler-utils` (`pdfinfo` y `pdftoppm`) y `chafa`. `unzip` permite extraer el paquete.
+La aplicación utiliza Bash, `dialog` y `nano`. El lector de PDF requiere `poppler-utils` (`pdfinfo` y `pdftoppm`) y `chafa`.
 
 ```bash
 sudo apt update
 sudo apt install bash dialog nano unzip poppler-utils chafa
 ```
 
-Una vez que el código de la VM se sincronice con el repositorio, el lanzador previsto es:
+Desde la raíz del proyecto:
 
 ```bash
-cd /home/walker/alexandria-os
 ./bin/alexandria
 ```
 
-Los menús se recorren con las flechas y Enter. Escape cancela o vuelve al menú anterior. Algunos scripts asumen `/home/walker/alexandria-os` o `$HOME/alexandria-os`; esas rutas deben ajustarse si se instala con otra ubicación o usuario.
+En los menús, usá las flechas y Enter. Escape cancela o vuelve al menú anterior. El selector de personajes se desplaza con las flechas y las teclas de página.
+
+Algunos módulos del paquete todavía usan `/home/walker/alexandria-os` o `$HOME/alexandria-os`; mantené esa ruta o actualizá los scripts que la usan.
+
+## Archivo de personajes
+
+`data/world/personajes_index.tsv` conecta cada entrada visible con su ficha. `src/world/personajes.sh` carga ese índice y muestra el tipo de ficha y su agrupación. Las fichas breves están en `data/world/personajes/`; los expedientes ampliados permanecen junto a los demás módulos de `data/world/`.
+
+El alcance de este archivo principal es la serie regular, números 1-193, y el epílogo. El inventario usado para localizar nombres y sus exclusiones se documenta en `data/world/personajes_alcance.txt`. Se usa como índice terciario; los hechos narrativos se respaldan con números del cómic.
 
 ## Biblioteca personal
 
-Los PDF o CBZ deben guardarse localmente en `imports/comics/` y solo deben usarse archivos que tengas derecho a utilizar. No subas cómics protegidos al repositorio ni los incluyas en paquetes compartidos.
+Guardá PDF o CBZ de tu propiedad en `imports/comics/`. No subas cómics protegidos al repositorio ni los incluyas en paquetes compartidos.
 
-## Criterio del archivo
+## Canon y evidencia
 
-El contenido sobre caminantes se limita al canon del cómic principal. Las escenas, las observaciones de conducta y las declaraciones del autor se mantienen diferenciadas. Los registros usan las etiquetas `CONFIRMED`, `OBSERVED` o `UNCONFIRMED`; los datos no establecidos por las fuentes quedan abiertos.
+El archivo sigue el cómic principal y mantiene separados los hechos de escena, las observaciones de conducta y las declaraciones del autor. Las etiquetas de evidencia son `CONFIRMED`, `OBSERVED` y `UNCONFIRMED`. Los datos que el cómic no establece quedan abiertos.
 
-## Estructura prevista del proyecto
+## Estructura
 
 ```text
-AGENTS.md               Reglas de trabajo, canon y evidencia
-README.md               Estado, requisitos, uso e historial
+AGENTS.md               Reglas de canon, contenido y desarrollo
+README.md               Estado, uso e historial
 bin/                    Lanzador principal
-src/world/              Menús y expedientes de THE WORLD
+src/world/              Menús y módulos de THE WORLD
 src/comic_archive/      Catálogo y lector de cómics
-data/world/             Expedientes y observaciones en texto
+config/                 Configuración
+assets/                 Recursos de interfaz
+data/world/             Expedientes y catálogos en texto
 imports/comics/         Archivos personales locales; no se publican
 docs/                   Documentación del proyecto
 ```
 
-Esta estructura describe el paquete local; el código todavía no se encuentra en GitHub.
-
 ## Historial de trabajo
 
-### 2026-11-07 — Inicio de la documentación
+### 2026-11-07 — Documentación y sincronización del proyecto
 
-- Se establecieron `README.md` como registro acumulativo del estado del proyecto y `AGENTS.md` como reglas de trabajo.
-- El repositorio privado usa la rama principal `main`.
+- Se establecieron `AGENTS.md` y este README como reglas de trabajo y registro acumulativo.
+- Se incorporó a GitHub el código fuente del paquete local junto con la documentación. El repositorio es privado y usa `main`.
+- El usuario confirmó en Debian que `WALKER DATABASE` y `FIELD OBSERVATIONS` funcionaban.
 
-### 2026-11-07 — Verificación funcional y actualización documental
+### 2026-11-07 — Ampliación del archivo de personajes
 
-- El usuario ejecutó el paquete actualizado en la VM Debian y confirmó el funcionamiento de `WALKER DATABASE` y `FIELD OBSERVATIONS`.
-- Se detallaron en `AGENTS.md` el criterio de canon, los niveles de evidencia, el esquema de los registros y las reglas de validación.
-- Se actualizó este README con la verificación y se aclaró que el código de la VM aún debe sincronizarse con GitHub.
-- **Pendiente:** incorporar el código ejecutable de la VM a `main` y documentar las verificaciones futuras.
+- Se recuperó el inventario agrupado de personajes y se integraron 248 entradas en `personajes_index.tsv`, con fichas vinculadas a todas las rutas.
+- Se reemplazó el menú codificado a mano por un selector que carga el índice, conserva el orden de agrupación y muestra si la ficha es ampliada, breve, animal o caminante.
+- Se ampliaron expedientes de personajes principales y se añadieron fichas breves para secundarios. Las entradas sin verificación directa conservan `UNCONFIRMED` y no reciben números de edición inventados.
+- Se ajustaron nombres y continuidad al cómic principal, y se documentaron los materiales complementarios que quedan fuera del selector.
+- El código nuevo requiere comprobación en la VM Debian; la ejecución anterior no verifica esta ampliación.
 
-Al finalizar cada tarea, actualizá el estado y agregá una entrada nueva a este historial sin eliminar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
+Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.

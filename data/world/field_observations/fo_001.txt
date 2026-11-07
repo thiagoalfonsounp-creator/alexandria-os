@@ -1,0 +1,15 @@
+ALEXANDRIA OS | THE WORLD
+FIELD OBSERVATIONS
+============================================================
+
+Observation ID: FO-001
+Subject: Camuflaje por olor
+Comic Reference: The Walking Dead #4
+Description: Rick y Glenn se cubren con restos de caminante para pasar entre
+ellos. Cuando la lluvia limpia los restos, los caminantes vuelven a
+advertirlos.
+Analysis: El olor funciona como pista en esta escena; no se demuestra el
+alcance ni la fisiología sensorial.
+Evidence Level: OBSERVED
+Conclusion: El camuflaje por olor puede ser temporal y depender de las
+condiciones.

@@ -1,0 +1,35 @@
+ALEXANDRIA OS | THE WORLD
+WALKER DATABASE - PROFILE
+============================================================
+
+EXPEDIENTE: TW-WLK-001
+SUJETO: CAMINANTES (WALKERS)
+ALCANCE: SERIE PRINCIPAL DEL CÓMIC
+ESTADO: ARCHIVO INICIAL
+
+PERFIL
+Los supervivientes llaman caminantes a los muertos que vuelven a moverse.
+Este expediente reúne reglas mostradas en la serie principal del cómic y
+separa las escenas, las declaraciones del autor y las cuestiones abiertas.
+
+ALCANCE DE CANON
+Comic Reference: The Walking Dead #1-193.
+No se usan la adaptación televisiva ni los videojuegos para completar vacíos.
+Las respuestas de Robert Kirkman se identifican como fuentes autorales y no
+se presentan como escenas del cómic.
+
+TÉRMINOS DE CONDUCTA
+Roamer y lurker son etiquetas usadas para describir patrones de actividad.
+En este archivo no se tratan como especies biológicas distintas.
+
+NIVELES DE EVIDENCIA
+CONFIRMED: el cómic o una declaración autoral explícita establece el dato.
+OBSERVED: una escena muestra el patrón, pero no explica su mecanismo ni
+demuestra que se cumpla en todos los caminantes.
+UNCONFIRMED: la serie principal no resuelve el dato con la evidencia
+disponible en el expediente.
+
+CRITERIO DE REGISTRO
+Cada afirmación se documenta por separado con su nivel de evidencia,
+referencia y nota de alcance. No se asignan velocidad, fuerza, sentidos,
+tiempo de reanimación ni mecanismo biológico sin una fuente explícita.

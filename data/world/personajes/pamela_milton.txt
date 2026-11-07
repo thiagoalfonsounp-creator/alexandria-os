@@ -1,0 +1,43 @@
+ALEXANDRIA OS | THE WORLD
+ARCHIVO DOCUMENTAL - PERSONAJES
+============================================================
+
+EXPEDIENTE: TW-PER-026
+PERSONAJE: PAMELA MILTON
+CANON: COMIC THE WALKING DEAD, SERIE PRINCIPAL
+ESTADO: FICHA AMPLIADA
+AVISO: CONTIENE SPOILERS
+
+IDENTIFICACION
+Pamela aparece por primera vez en el numero 176. Es la gobernadora
+de la Commonwealth y madre de Sebastian Milton. La comunidad que
+dirige tiene una estructura de clases que favorece a sus residentes
+de mayor rango.
+
+CONFLICTO POLITICO
+Rick cuestiona la desigualdad y el trato que reciben los residentes
+de menor rango. Pamela defiende su gobierno y procura conservar el
+orden existente. La tension aumenta cuando Sebastian ataca a Rick
+y cuando Mercer y otros miembros del ejercito desafian a Pamela.
+
+El desenlace de la serie enfrenta a Pamela con las consecuencias
+de ese sistema. La ficha registra los hechos de los numeros citados
+y no atribuye a Pamela un cargo posterior que el comic no confirme.
+
+EVIDENCIA
+CONFIRMED: aparece por primera vez en el numero 176; el conflicto
+de la Commonwealth se desarrolla hasta el numero 193.
+OBSERVED: sus decisiones y sus desacuerdos con Rick se muestran en
+escenas del arco final.
+UNCONFIRMED: su posicion y su vida despues del final que no queden
+establecidas de forma expresa.
+
+VINCULOS
+SEBASTIAN MILTON: su hijo.
+MERCER: oficial de su ejercito que termina enfrentandose a su
+liderazgo.
+RICK GRIMES: interlocutor y adversario politico durante la llegada
+del grupo de Alexandria.
+
+REFERENCIAS DE LECTURA
+The Walking Dead, numeros 176-193.

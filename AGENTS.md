@@ -12,9 +12,11 @@ Estas reglas se aplican a Alexandria OS y a sus subdirectorios. El repositorio p
 
 - Usá como canon narrativo principal el cómic de *The Walking Dead*.
 - No uses la serie de televisión ni los videojuegos para completar vacíos del cómic.
+- Usá los nombres establecidos en el cómic. No traslades apellidos de la adaptación televisiva cuando el cómic no los establece; si el nombre varía entre medios, registrá la incertidumbre.
 - Diferenciá los hechos mostrados directamente en el cómic, las observaciones de conducta y las declaraciones de Robert Kirkman. Identificá las fuentes autorales —por ejemplo, *Letter Hacks*— y sus números de edición.
 - Si una fuente no establece un dato, conservá la incertidumbre. No inventes una explicación, fecha, duración ni mecanismo.
 - Usá las etiquetas de evidencia exactamente como `CONFIRMED`, `OBSERVED` y `UNCONFIRMED`.
+- Usá inventarios de fans para localizar nombres, no como sustituto del cómic. En una ficha sin número o escena comprobados, indicá `UNCONFIRMED` y dejá pendiente la referencia primaria.
 
 ## Registros de campo
 
@@ -33,6 +35,8 @@ Describí primero la escena y separá de ella cualquier interpretación. No pres
 ## Organización del contenido
 
 - Reservá expedientes completos para personajes de relevancia narrativa alta. Incluí información interesante de personajes secundarios cuando aporte al archivo.
+- Mantené `data/world/personajes_index.tsv` como índice del selector de personajes. Cada entrada debe apuntar a una ficha existente y distinguir fichas ampliadas, breves, animales y caminantes identificados.
+- El alcance del archivo principal es la serie regular, números 1-193, y su epílogo. Identificá por separado los materiales complementarios que queden fuera de ese alcance.
 - Registrá ubicaciones relevantes para la historia, la supervivencia o los conflictos.
 - Ordená las cronologías según el orden interno de los acontecimientos. Marcá como aproximadas o desconocidas las fechas que el cómic no precise.
 - Representá el recorrido de Rick y su grupo como un mapa esquemático, no como navegación a escala.

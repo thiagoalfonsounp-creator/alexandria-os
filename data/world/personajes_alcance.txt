@@ -1,0 +1,37 @@
+ALEXANDRIA OS | THE WORLD
+ARCHIVO DOCUMENTAL - ALCANCE DEL REPARTO
+============================================================
+
+ALCANCE PRINCIPAL
+El selector de personajes cubre 248 entradas de la serie regular de
+The Walking Dead, numeros 1-193, y el epilogo del numero 193. Incluye
+personajes humanos nombrados, animales con nombre y caminantes
+identificados.
+
+FUENTE DE LOCALIZACION
+Comic Series Characters, Walking Dead Wiki (Fandom):
+https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+Consultada el 2026-11-07. La pagina se usa para recuperar nombres y
+agrupaciones; no se considera fuente primaria del relato.
+
+CRITERIO DE EVIDENCIA
+La pertenencia de un nombre a la lista se conserva en
+personajes_index.tsv. Las agrupaciones sirven de indice y no se
+presentan por si solas como hechos confirmados por el comic.
+Las fichas breves sin numero o escena primaria llevan la etiqueta
+UNCONFIRMED. No se asignan apariciones ni relaciones por inferencia.
+Al ampliar una ficha, anotar los numeros consultados y diferenciar
+los hechos de escena de las observaciones y declaraciones autorales.
+
+MATERIALES COMPLEMENTARIOS FUERA DEL SELECTOR
+El inventario de referencia tambien muestra personajes de historias
+separadas. The Walking Dead: The Alien incluye a Jeffrey Grimes y
+Claudia en Barcelona. Negan Lives incluye a Derick, Lucy y Barry.
+Esos personajes no se mezclan con la serie regular; pueden recibir
+un apartado separado si el alcance del proyecto se extiende a esos
+especiales.
+
+La lista de referencia muestra ademas un bloque de Virginia con Josh,
+Paul, Jeremy y Lucille. Josh, hijo de Vincent y Julia en Alexandria,
+ya esta incluido bajo su familia. Paul, Jeremy y Lucille pertenecen
+al especial Here's Negan y quedan fuera del alcance principal.

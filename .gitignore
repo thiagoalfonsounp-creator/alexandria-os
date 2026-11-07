@@ -1,0 +1,5 @@
+# Los PDF y CBZ de la biblioteca personal no forman parte del repositorio.
+*.pdf
+*.cbz
+imports/comics/*
+!imports/comics/.gitkeep

@@ -1,0 +1,24 @@
+#!/bin/bash
+while true; do
+opcion=$(dialog --title "ALEXANDIRA OS 0.1" \
+  --menu "Elegí una sección" 17 64 6 \
+  1 "THE WORLD" \
+  2 "THE COMIC ARCHIVE" \
+  3 "THE REFUGE" \
+  4 "CUADERNO DE CAMPO" \
+  5 "MANUAL / AYUDA" \
+  6 "TERMINAL" \
+  3>&1 1>&2 2>&3)
+ case "$opcion" in
+   1) bash /home/walker/alexandria-os/src/world/menu.sh ;;
+   2) bash /home/walker/alexandria-os/src/comic_archive/menu.sh ;;
+   3) dialog --msgbox "THE REFUGE todavía está en preparación." 7 50 ;;
+   4) nano /home/walker/alexandria-os/data/cuaderno.txt ;;
+   5) dialog --msgbox "Flechas y Enter: recorrer y elegir. Escape: cancelar. Cuaderno: editar notas en Nano. Terminal: volver a consola. Las secciones principales siguen en desarrollo." 9 65 ;;
+
+   6) break ;;
+   *) break ;;
+ esac
+done
+
+	

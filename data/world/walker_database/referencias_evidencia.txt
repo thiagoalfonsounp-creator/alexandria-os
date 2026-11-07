@@ -1,0 +1,27 @@
+ALEXANDRIA OS | THE WORLD
+WALKER DATABASE - REFERENCES & EVIDENCE
+============================================================
+
+NIVELES DE EVIDENCIA
+CONFIRMED: afirmación explícita en el cómic o declaración autoral
+identificada como fuente de autor.
+OBSERVED: patrón mostrado en una escena; no demuestra por sí solo un
+mecanismo ni una regla universal.
+UNCONFIRMED: cuestión que las fuentes citadas no resuelven.
+
+FUENTES DEL CÓMIC PRINCIPAL
+The Walking Dead #2-4, #7, #9-10, #15, #20, #34, #38, #41, #60, #120-121,
+#146 y #186. The Walking Dead Deluxe #41.
+
+FUENTES AUTORALES
+Respuestas de Robert Kirkman en Letter Hacks #2, #7, #41, #120, #146 y
+#186. Se etiquetan como declaraciones del autor, no como escenas.
+
+PENDIENTES
+1. La respuesta extensa sobre infección y reanimación aparece atribuida a
+   Letter Hacks #146 en el índice consultado; Den of Geek la ubica en #147.
+   Cotejar el ejemplar antes de fijar la referencia bibliográfica.
+2. No se halló un intervalo numérico de reanimación establecido por el
+   cómic principal. No incorporar rangos de la televisión.
+3. El origen del brote permanece sin resolver en las fuentes autorales
+   consultadas.
