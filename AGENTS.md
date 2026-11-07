@@ -1,36 +1,53 @@
 # Reglas del proyecto Alexandria OS
 
-Este archivo está destinado a que el propietario configure las reglas estrictas del proyecto. Su alcance es este directorio y sus subdirectorios. Las reglas del proyecto se aplican dentro de los límites de las instrucciones de mayor prioridad del entorno.
+Estas reglas se aplican a Alexandria OS y a sus subdirectorios. El repositorio privado de GitHub es la fuente de verdad del proyecto: <https://github.com/thiagoalfonsounp-creator/alexandria-os>.
 
-## Instrucciones establecidas por el propietario
+## Objetivo y registro
 
-- El repositorio `https://github.com/thiagoalfonsounp-creator/alexandria-os` es la fuente de verdad del proyecto.
-- Mantener `README.md` actualizado para documentar el trabajo realizado en el proyecto.
+- Alexandria OS es una distribución personalizada basada en Debian 13 para consultar el universo de *The Walking Dead*, organizar una biblioteca personal y desarrollar una experiencia de supervivencia.
+- Mantené `README.md` actualizado con el estado comprobado del proyecto. Al cerrar cada tarea, agregá una entrada cronológica con cambios, archivos afectados, validaciones y pendientes. No borres entradas anteriores.
+- Separá el diseño propuesto, los cambios presentes en archivos y el comportamiento ejecutado y comprobado en Debian. No declares una función verificada solo por inspeccionar el código.
 
-## Reglas adicionales por configurar
+## Canon y fuentes
 
-Las siguientes secciones son espacios de configuración. Los comentarios no establecen reglas nuevas; el propietario debe reemplazarlos por instrucciones explícitas.
+- Usá como canon narrativo principal el cómic de *The Walking Dead*.
+- No uses la serie de televisión ni los videojuegos para completar vacíos del cómic.
+- Diferenciá los hechos mostrados directamente en el cómic, las observaciones de conducta y las declaraciones de Robert Kirkman. Identificá las fuentes autorales —por ejemplo, *Letter Hacks*— y sus números de edición.
+- Si una fuente no establece un dato, conservá la incertidumbre. No inventes una explicación, fecha, duración ni mecanismo.
+- Usá las etiquetas de evidencia exactamente como `CONFIRMED`, `OBSERVED` y `UNCONFIRMED`.
 
-### Objetivo y alcance
-<!-- Definir qué debe resolver el proyecto y sus límites. -->
+## Registros de campo
 
-### Restricciones obligatorias
-<!-- Especificar acciones prohibidas y condiciones obligatorias. -->
+Cada registro de `FIELD OBSERVATIONS` debe conservar estos campos y este orden:
 
-### Arquitectura y tecnologías
-<!-- Indicar tecnologías permitidas, estructura y criterios técnicos. -->
+1. `Observation ID`
+2. `Subject`
+3. `Comic Reference`
+4. `Description`
+5. `Analysis`
+6. `Evidence Level`
+7. `Conclusion`
 
-### Estilo y convenciones
-<!-- Definir idioma, nombres, formato y convenciones de código y documentación. -->
+Describí primero la escena y separá de ella cualquier interpretación. No presentes una conducta observada una sola vez como una regla universal.
 
-### Validación y calidad
-<!-- Especificar las comprobaciones necesarias antes de dar una tarea por terminada. -->
+## Organización del contenido
 
-### Git y publicación
-<!-- Definir ramas, commits, revisiones y condiciones para publicar cambios. -->
+- Reservá expedientes completos para personajes de relevancia narrativa alta. Incluí información interesante de personajes secundarios cuando aporte al archivo.
+- Registrá ubicaciones relevantes para la historia, la supervivencia o los conflictos.
+- Ordená las cronologías según el orden interno de los acontecimientos. Marcá como aproximadas o desconocidas las fechas que el cómic no precise.
+- Representá el recorrido de Rick y su grupo como un mapa esquemático, no como navegación a escala.
+- Mantené una estética de archivo documental con referencias visuales al cómic, sin incorporar páginas, paneles ni otro material protegido al repositorio o a paquetes compartidos.
 
-### Datos y credenciales
-<!-- Establecer reglas de tratamiento de datos y secretos. -->
+## Implementación y datos
 
-### Decisiones y autorizaciones
-<!-- Definir qué decisiones puede tomar el agente y cuáles requieren consulta. -->
+- La interfaz usa Bash y `dialog`; conservá la navegación por teclado y los textos en español.
+- Guardá los expedientes de texto en `data/` y conectá cada opción del menú con su archivo o módulo correspondiente.
+- Conservá los permisos ejecutables de los scripts de `bin/` y `src/`.
+- Algunos scripts asumen `/home/walker/alexandria-os` o `$HOME/alexandria-os`. Si se cambian esas rutas, actualizá todos los puntos afectados y documentá el nuevo requisito.
+- Los cómics PDF o CBZ son archivos locales del usuario. No los agregues al repositorio ni a paquetes distribuibles.
+
+## Validación
+
+- Indicá qué se ejecutó, en qué entorno y qué resultado se observó.
+- Conservá como pendientes las comprobaciones que no se realizaron.
+- Al registrar avances, usá fecha y hora de Argentina (ART, UTC−3) cuando estén disponibles.
