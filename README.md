@@ -78,4 +78,14 @@ docs/                   Documentación del proyecto
 - Se ajustaron nombres y continuidad al cómic principal, y se documentaron los materiales complementarios que quedan fuera del selector.
 - El código nuevo requiere comprobación en la VM Debian; la ejecución anterior no verifica esta ampliación.
 
+
+### 2026-11-07 — Integración de la copia Debian con el índice de personajes
+
+- La copia actual de Debian contiene 13 fichas de Comunidades, 19 de Ubicaciones, 41 entradas de Glosario y 34 etapas de Cronología. La rama `main` contiene el índice común de 248 fichas: 225 personajes, 5 antagonistas, 14 caminantes y 4 animales.
+- La integración conecta Personajes, Antagonistas y Animales con el índice común.
+- `personajes.sh` y el TSV del índice tenían finales de línea CRLF, que causaban el error `
+\\r'`; ambos se normalizaron a LF. Después de la corrección, Thiago confirmó que la lista de Personajes abre.
+- **Pendiente:** cotejar las fichas con números y escenas primarios. Las fichas no revisadas conservan `UNCONFIRMED`. La verificación confirmada se limita a la apertura de la lista de Personajes; no cubre las demás categorías.
+
+
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
