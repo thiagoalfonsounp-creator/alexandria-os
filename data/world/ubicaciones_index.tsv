@@ -1,0 +1,20 @@
+ID	NOMBRE	TIPO	ARCHIVO
+ubi_001	Cynthiana	Ciudad de origen	data/world/ubicaciones/ubi_001.txt
+ubi_002	Hospital del despertar	Centro sanitario	data/world/ubicaciones/ubi_002.txt
+ubi_003	Atlanta	Ciudad	data/world/ubicaciones/ubi_003.txt
+ubi_004	Campamento de Atlanta	Refugio provisional	data/world/ubicaciones/ubi_004.txt
+ubi_005	Wiltshire Estates	Urbanización	data/world/ubicaciones/ubi_005.txt
+ubi_006	Granja Greene	Explotación rural	data/world/ubicaciones/ubi_006.txt
+ubi_007	La prisión	Complejo penitenciario	data/world/ubicaciones/ubi_007.txt
+ubi_008	Woodbury	Asentamiento urbano	data/world/ubicaciones/ubi_008.txt
+ubi_009	Arena de Woodbury	Espacio de espectáculo	data/world/ubicaciones/ubi_009.txt
+ubi_010	Iglesia de Gabriel	Edificio religioso	data/world/ubicaciones/ubi_010.txt
+ubi_011	Alexandria Safe-Zone	Urbanización amurallada	data/world/ubicaciones/ubi_011.txt
+ubi_012	Hilltop Colony	Asentamiento agrícola	data/world/ubicaciones/ubi_012.txt
+ubi_013	El Santuario	Base industrial	data/world/ubicaciones/ubi_013.txt
+ubi_014	El Reino	Recinto comunitario	data/world/ubicaciones/ubi_014.txt
+ubi_015	Oceanside	Asentamiento costero	data/world/ubicaciones/ubi_015.txt
+ubi_016	Campamentos de los Susurradores	Territorios móviles	data/world/ubicaciones/ubi_016.txt
+ubi_017	Pittsburgh	Ciudad de paso	data/world/ubicaciones/ubi_017.txt
+ubi_018	Commonwealth	Centro urbano y red territorial	data/world/ubicaciones/ubi_018.txt
+ubi_019	Granja de Carl y Sophia	Hogar del epílogo	data/world/ubicaciones/ubi_019.txt

@@ -1,0 +1,10 @@
+GLOSARIO DEL CÓMIC
+
+16. PUESTO AVANZADO
+Definición: instalación separada que puede servir para vigilancia,
+alojamiento o abastecimiento.
+Importancia: su distancia de una base expone tanto el alcance como la
+vulnerabilidad de una red.
+Relacionado: Salvadores, patrulla, ruta.
+Referencia: arcos de los Salvadores; identificar cada puesto en el cómic.
+Evidence Level: UNCONFIRMED.

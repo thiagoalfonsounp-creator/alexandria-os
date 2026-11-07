@@ -1,0 +1,42 @@
+ID	ENTRADA	REFERENCIA	ARCHIVO
+00	Criterio y fuentes	Guía de lectura	data/world/glosario/00_metodo.txt
+01	APOCALIPSIS	Referencia: #1 en adelante. El inicio y su fecha civil no se fijan aquí.	data/world/glosario/01_apocalipsis.txt
+02	CAMINANTE	Referencia: #1-193; localizar el uso textual exacto en los ejemplares.	data/world/glosario/02_caminante.txt
+03	ZOMBI	Referencia: #1-193; cotejar las apariciones y hablantes antes de atribuirlas.	data/world/glosario/03_zombi.txt
+04	MERODEADOR (ROAMER)	Referencia: etapa inicial; número y uso textual exactos pendientes.	data/world/glosario/04_merodeador_roamer.txt
+05	ACECHADOR (LURKER)	Referencia: serie principal; número y uso textual exactos pendientes.	data/world/glosario/05_acechador_lurker.txt
+06	REANIMACIÓN	Referencia: #1-193; mecanismo y escena concreta pendientes de cotejo.	data/world/glosario/06_reanimacion.txt
+07	MORDEDURA	Referencia: #1-193; consultar escenas antes de resumir excepciones.	data/world/glosario/07_mordedura.txt
+08	INFECCIÓN	Referencia: #1-193; fuente y escena exactas pendientes.	data/world/glosario/08_infeccion.txt
+09	DAÑO CEREBRAL	Referencia: #1-193; corroborar con escenas de combate.	data/world/glosario/09_dano_cerebral.txt
+10	HORDA	Referencia: #1-193; ejemplos en varios arcos.	data/world/glosario/10_horda.txt
+11	SEÑUELO	Referencia: #1-193; aplicación depende de cada escena.	data/world/glosario/11_senuelo.txt
+12	CAMUFLAJE CON PIEL	Referencia: arcos de los Susurradores; número y condiciones pendientes.	data/world/glosario/12_camuflaje_con_piel.txt
+13	SUSURRADORES	Referencia: aproximadamente #130-168; cotejar cada hito por número.	data/world/glosario/13_susurradores.txt
+14	SALVADORES (SAVIORS)	Referencia: #97-126; confirmar detalles por número.	data/world/glosario/14_salvadores_saviors.txt
+15	TRIBUTO	Referencia: #97-126; escenas concretas pendientes.	data/world/glosario/15_tributo.txt
+16	PUESTO AVANZADO	Referencia: arcos de los Salvadores; identificar cada puesto en el cómic.	data/world/glosario/16_puesto_avanzado.txt
+17	PATRULLA	Referencia: #67-193; ejemplos y vocabulario exactos pendientes.	data/world/glosario/17_patrulla.txt
+18	PERÍMETRO	Referencia: #67-193; cotejar Alexandria y otros asentamientos.	data/world/glosario/18_perimetro.txt
+19	REFUGIO	Referencia: #1-193; término descriptivo del archivo.	data/world/glosario/19_refugio.txt
+20	ABASTECIMIENTO	Referencia: #1-193; ejemplos por cotejar.	data/world/glosario/20_abastecimiento.txt
+21	SALIDA DE BÚSQUEDA	Referencia: #1-193; término descriptivo, no nombre de una organización.	data/world/glosario/21_salida_de_busqueda.txt
+22	RACIONAMIENTO	Referencia: #1-193; describir únicamente prácticas mostradas.	data/world/glosario/22_racionamiento.txt
+23	ASENTAMIENTO	Referencia: #1-193; concepto descriptivo.	data/world/glosario/23_asentamiento.txt
+24	COMUNIDAD	Referencia: #1-193; concepto descriptivo.	data/world/glosario/24_comunidad.txt
+25	LIDERAZGO	Referencia: #1-193; análisis editorial, no modelo único.	data/world/glosario/25_liderazgo.txt
+26	ALIANZA	Referencia: #97 en adelante; los integrantes cambian con el relato.	data/world/glosario/26_alianza.txt
+27	COMERCIO	Referencia: #91-193; cotejar escenas concretas.	data/world/glosario/27_comercio.txt
+28	ALEXANDRIA	Referencia: #67-193.	data/world/glosario/28_alexandria.txt
+29	HILLTOP	Referencia: #91-193.	data/world/glosario/29_hilltop.txt
+30	EL REINO	Referencia: #100-126; cotejar menciones posteriores.	data/world/glosario/30_el_reino.txt
+31	SANTUARIO	Referencia: #97-126.	data/world/glosario/31_santuario.txt
+32	OCEANSIDE	Referencia: etapa posterior a la guerra; número exacto pendiente.	data/world/glosario/32_oceanside.txt
+33	COMMONWEALTH	Referencia: #175-193.	data/world/glosario/33_commonwealth.txt
+34	CAZADORES	Referencia: #61-66.	data/world/glosario/34_cazadores.txt
+35	PRISIÓN	Referencia: #13-48.	data/world/glosario/35_prision.txt
+36	GRANJA GREENE	Referencia: #9-14; cotejar la escena del retorno.	data/world/glosario/36_granja_greene.txt
+37	WOODBURY	Referencia: #27-48.	data/world/glosario/37_woodbury.txt
+38	EPÍLOGO	Referencia: #193.	data/world/glosario/38_epilogo.txt
+39	SALTO TEMPORAL	Referencia: #126-127 y comentario autoral en Letter Hacks #164.	data/world/glosario/39_salto_temporal.txt
+40	LETTER HACKS	Referencia: citar siempre el número específico; no sustituye una escena.	data/world/glosario/40_letter_hacks.txt

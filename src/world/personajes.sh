@@ -65,7 +65,7 @@ fi
 
 while true; do
     etiqueta=$(dialog --title "$titulo" \
-        --menu "Elegí qué expediente querés consultar" 28 110 14 \
+        --menu "Elegí qué expediente querés consultar" 0 0 14 \
         "${opciones[@]}" \
         "__VOLVER__" "Regresar a THE WORLD" \
         3>&1 1>&2 2>&3)
@@ -83,5 +83,5 @@ while true; do
     fi
 
     dialog --title "$titulo | $etiqueta" \
-        --textbox "$PROJECT_ROOT/$archivo" 28 110
+        --textbox "$PROJECT_ROOT/$archivo" 0 0
 done

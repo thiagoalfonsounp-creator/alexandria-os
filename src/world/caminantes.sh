@@ -19,7 +19,7 @@ mostrar_archivo() {
 
 while true; do
     seccion=$(dialog --title "WALKER DATABASE" \
-        --menu "Elegí un apartado del archivo" 22 96 11 \
+        --menu "Elegí un apartado del archivo" 20 88 10 \
         "Caminantes identificados" "Individuos del cómic con ficha breve" \
         "Perfil" "Alcance, identidad y criterio de evidencia" \
         "Anatomía y daño" "Cabeza, cerebro y lesiones" \

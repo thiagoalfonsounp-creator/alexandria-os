@@ -1,10 +1,9 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
 while true; do
     categoria=$(dialog --title "THE WORLD" \
-        --menu "Elegí una categoría" 22 78 11 \
+        --menu "Elegí una categoría" 20 72 10 \
         "Personajes" "Protagonistas y secundarios" \
         "Animales" "Animales identificados del cómic" \
         "Caminantes" "WALKER DATABASE" \
@@ -29,13 +28,25 @@ while true; do
             bash "$SCRIPT_DIR/caminantes.sh"
             ;;
         "Antagonistas")
-            bash "$SCRIPT_DIR/antagonistas.sh"
+            bash "$SCRIPT_DIR/personajes.sh" ANTAGONISTA
+            ;;
+        "Comunidades")
+            bash "$SCRIPT_DIR/comunidades.sh"
+            ;;
+        "Ubicaciones")
+            bash "$SCRIPT_DIR/ubicaciones.sh"
             ;;
         "Observaciones")
-            bash "$HOME/alexandria-os/src/world/observaciones.sh"
+            bash "$SCRIPT_DIR/observaciones.sh"
             ;;
         "Volver"|"")
             break
+            ;;
+        "Glosario")
+            bash "$SCRIPT_DIR/glosario.sh"
+            ;;
+        "Cronología")
+            bash "$SCRIPT_DIR/cronologia.sh"
             ;;
         *)
             dialog --title "THE WORLD" \
