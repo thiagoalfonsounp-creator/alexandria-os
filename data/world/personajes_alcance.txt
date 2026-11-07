@@ -3,35 +3,43 @@ ARCHIVO DOCUMENTAL - ALCANCE DEL REPARTO
 ============================================================
 
 ALCANCE PRINCIPAL
-El selector de personajes cubre 248 entradas de la serie regular de
-The Walking Dead, numeros 1-193, y el epilogo del numero 193. Incluye
-personajes humanos nombrados, animales con nombre y caminantes
-identificados.
+El archivo reúne 248 entradas de la serie regular de The Walking Dead,
+números 1-193, y el epílogo. Incluye 225 personajes, 5 antagonistas
+principales, 14 caminantes identificados y 4 animales con ficha.
+Hay 31 expedientes ampliados, 199 fichas breves y 18 identificaciones.
 
-FUENTE DE LOCALIZACION
+ORGANIZACIÓN DEL SELECTOR
+Personajes, antagonistas, caminantes identificados y animales se muestran
+en apartados separados. Cada nombre lleva entre paréntesis el arco y el
+número de primera aparición cuando esos datos están confirmados. Cuando
+falta la comprobación, el selector muestra "Arco no confirmado" y el TSV
+conserva UNCONFIRMED. No se deduce un debut individual a partir de la
+comunidad, familia o agrupación del índice.
+
+FUENTES Y EVIDENCIA
 Comic Series Characters, Walking Dead Wiki (Fandom):
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
-Consultada el 2026-11-07. La pagina se usa para recuperar nombres y
-agrupaciones; no se considera fuente primaria del relato.
+Consultada el 2026-11-07. Se usa para localizar nombres y agrupaciones,
+no como fuente primaria de escenas, destinos o relaciones.
 
-CRITERIO DE EVIDENCIA
-La pertenencia de un nombre a la lista se conserva en
-personajes_index.tsv. Las agrupaciones sirven de indice y no se
-presentan por si solas como hechos confirmados por el comic.
-Las fichas breves sin numero o escena primaria llevan la etiqueta
-UNCONFIRMED. No se asignan apariciones ni relaciones por inferencia.
-Al ampliar una ficha, anotar los numeros consultados y diferenciar
-los hechos de escena de las observaciones y declaraciones autorales.
+Los títulos y rangos de los arcos siguen los volúmenes recopilatorios de
+la serie regular, del volumen 1 (Days Gone Bye, números 1-6) al volumen 32
+(Rest in Peace, números 187-193). La tabla de referencia está disponible en:
+https://en.wikipedia.org/wiki/The_Walking_Dead_(comic_book)#Collected_editions
+
+Las fichas breves sin número o escena comprobados llevan la etiqueta
+UNCONFIRMED. No se asignan apariciones, relaciones ni destinos por
+inferencia. Al ampliar una ficha, anotar los números consultados y
+diferenciar hechos de escena, observaciones y declaraciones autorales.
 
 MATERIALES COMPLEMENTARIOS FUERA DEL SELECTOR
-El inventario de referencia tambien muestra personajes de historias
-separadas. The Walking Dead: The Alien incluye a Jeffrey Grimes y
-Claudia en Barcelona. Negan Lives incluye a Derick, Lucy y Barry.
-Esos personajes no se mezclan con la serie regular; pueden recibir
-un apartado separado si el alcance del proyecto se extiende a esos
-especiales.
+El inventario de referencia también muestra personajes de historias
+separadas. The Walking Dead: The Alien incluye a Jeffrey Grimes y Claudia
+en Barcelona. Negan Lives incluye a Derick, Lucy y Barry. Esos personajes
+no se mezclan con la serie regular; pueden recibir un apartado separado si
+el alcance del proyecto se extiende a esos especiales.
 
-La lista de referencia muestra ademas un bloque de Virginia con Josh,
-Paul, Jeremy y Lucille. Josh, hijo de Vincent y Julia en Alexandria,
-ya esta incluido bajo su familia. Paul, Jeremy y Lucille pertenecen
-al especial Here's Negan y quedan fuera del alcance principal.
+La lista de referencia muestra además un bloque de Virginia con Josh,
+Paul, Jeremy y Lucille. Josh, hijo de Vincent y Julia en Alexandria, ya
+está incluido bajo su familia. Paul, Jeremy y Lucille pertenecen al
+especial Here's Negan y quedan fuera del alcance principal.

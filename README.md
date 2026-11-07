@@ -7,7 +7,8 @@ Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os]
 ## Estado del proyecto — 7 de noviembre de 2026
 
 - El código de la copia de trabajo y la documentación están sincronizados en la rama `main`.
-- El archivo de personajes incluye 248 entradas navegables: 31 expedientes ampliados, 199 fichas breves, 4 fichas de animales y 14 identificaciones de caminantes. El selector muestra las entradas por agrupación y permite desplazarse por la lista.
+- El archivo reúne 248 entradas: 225 personajes, 5 antagonistas principales, 14 caminantes identificados y 4 animales. Incluye 31 expedientes ampliados, 199 fichas breves y 18 identificaciones. Cada categoría tiene su selector y la lista se desplaza con el teclado.
+- El selector agrega el arco y el número de primera aparición entre paréntesis cuando se confirmaron. Si falta esa verificación, muestra `Arco no confirmado`; el índice conserva `UNCONFIRMED`.
 - Las fichas breves registran nombres y grupos de referencia sin inventar escenas, parentescos o destinos. Cuando falta comprobación directa del número del cómic, usan `UNCONFIRMED`.
 - Se corrigieron nombres que provenían de la adaptación televisiva: el archivo usa Maggie Greene, Carol y Sophia Grimes en el epílogo. El cómic no establece para Carol el apellido Peletier.
 - El usuario confirmó en Debian que la versión anterior de `WALKER DATABASE` y `FIELD OBSERVATIONS` funciona. La ampliación del archivo de personajes se incorporó al código, pero todavía no se ha probado en la VM.
@@ -34,7 +35,7 @@ Algunos módulos del paquete todavía usan `/home/walker/alexandria-os` o `$HOME
 
 ## Archivo de personajes
 
-`data/world/personajes_index.tsv` conecta cada entrada visible con su ficha. `src/world/personajes.sh` carga ese índice y muestra el tipo de ficha y su agrupación. Las fichas breves están en `data/world/personajes/`; los expedientes ampliados permanecen junto a los demás módulos de `data/world/`.
+`data/world/personajes_index.tsv` conecta cada entrada con su ficha, categoría, agrupación, nivel de detalle y datos confirmados de primera aparición. `src/world/personajes.sh` carga el índice para personajes, antagonistas, caminantes y animales. Las fichas breves están en `data/world/personajes/`; los expedientes ampliados permanecen junto a los demás módulos de `data/world/`.
 
 El alcance de este archivo principal es la serie regular, números 1-193, y el epílogo. El inventario usado para localizar nombres y sus exclusiones se documenta en `data/world/personajes_alcance.txt`. Se usa como índice terciario; los hechos narrativos se respaldan con números del cómic.
 
@@ -72,7 +73,7 @@ docs/                   Documentación del proyecto
 ### 2026-11-07 — Ampliación del archivo de personajes
 
 - Se recuperó el inventario agrupado de personajes y se integraron 248 entradas en `personajes_index.tsv`, con fichas vinculadas a todas las rutas.
-- Se reemplazó el menú codificado a mano por un selector que carga el índice, conserva el orden de agrupación y muestra si la ficha es ampliada, breve, animal o caminante.
+- Se separaron personajes, antagonistas principales, animales y caminantes identificados en los menús. Cada nombre muestra su arco y número de primera aparición cuando están confirmados; los datos pendientes conservan `UNCONFIRMED`.
 - Se ampliaron expedientes de personajes principales y se añadieron fichas breves para secundarios. Las entradas sin verificación directa conservan `UNCONFIRMED` y no reciben números de edición inventados.
 - Se ajustaron nombres y continuidad al cómic principal, y se documentaron los materiales complementarios que quedan fuera del selector.
 - El código nuevo requiere comprobación en la VM Debian; la ejecución anterior no verifica esta ampliación.

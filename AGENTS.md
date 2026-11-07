@@ -35,7 +35,8 @@ Describí primero la escena y separá de ella cualquier interpretación. No pres
 ## Organización del contenido
 
 - Reservá expedientes completos para personajes de relevancia narrativa alta. Incluí información interesante de personajes secundarios cuando aporte al archivo.
-- Mantené `data/world/personajes_index.tsv` como índice del selector de personajes. Cada entrada debe apuntar a una ficha existente y distinguir fichas ampliadas, breves, animales y caminantes identificados.
+- Mantené `data/world/personajes_index.tsv` como índice de personajes, antagonistas, animales y caminantes identificados. Sus columnas son `PERSONAJE`, `GRUPO`, `TIPO`, `NIVEL`, `ARCO`, `PRIMERA_APARICION` y `ARCHIVO`. Cada entrada debe apuntar a una ficha existente y distinguir esas categorías y los niveles de detalle.
+- Mostrá el arco y el número de primera aparición entre paréntesis junto a cada nombre cuando estén confirmados. Si la fuente primaria no permite confirmarlos, usá `Arco no confirmado` y dejá los campos correspondientes como `UNCONFIRMED`; no deduzcas el arco a partir de la comunidad o la familia.
 - El alcance del archivo principal es la serie regular, números 1-193, y su epílogo. Identificá por separado los materiales complementarios que queden fuera de ese alcance.
 - Registrá ubicaciones relevantes para la historia, la supervivencia o los conflictos.
 - Ordená las cronologías según el orden interno de los acontecimientos. Marcá como aproximadas o desconocidas las fechas que el cómic no precise.

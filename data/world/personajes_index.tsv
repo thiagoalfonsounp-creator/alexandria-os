@@ -1,249 +1,249 @@
-PERSONAJE	GRUPO	TIPO	NIVEL	ARCHIVO
-Carl Grimes	Condado de Grant · familia Grimes	PERSONAJE	AMPLIADO	data/world/carl_grimes.txt
-Rick Grimes	Condado de Grant · familia Grimes	PERSONAJE	AMPLIADO	data/world/rick_grimes.txt
-Lori Grimes	Condado de Grant · familia Grimes	PERSONAJE	AMPLIADO	data/world/lori_grimes.txt
-Shane Walsh	Condado de Grant · residentes	PERSONAJE	AMPLIADO	data/world/shane_walsh.txt
-Reggie	Condado de Grant · residentes	PERSONAJE	BREVE	data/world/personajes/reggie__condado_de_grant_residentes.txt
-Morgan Jones	Condado de Grant · familia Jones	PERSONAJE	AMPLIADO	data/world/personajes/morgan_jones.txt
-Duane Jones	Condado de Grant · familia Jones	PERSONAJE	BREVE	data/world/personajes/duane_jones__condado_de_grant_familia_jones.txt
-Glenn Rhee	Campamento de Atlanta	PERSONAJE	AMPLIADO	data/world/glenn_rhee.txt
-Dale	Campamento de Atlanta	PERSONAJE	AMPLIADO	data/world/dale_horvath.txt
-Jim	Campamento de Atlanta	PERSONAJE	BREVE	data/world/personajes/jim__campamento_de_atlanta.txt
-Sophia Grimes	Familia de Carol · epílogo Grimes	PERSONAJE	AMPLIADO	data/world/sophia_peletier.txt
-Carol	Familia de Carol	PERSONAJE	AMPLIADO	data/world/carol_peletier.txt
-Andrea	Familia de Andrea	PERSONAJE	AMPLIADO	data/world/andrea.txt
-Amy	Familia de Andrea	PERSONAJE	BREVE	data/world/personajes/amy__familia_de_andrea.txt
-Ben	Familia de Allen	PERSONAJE	BREVE	data/world/personajes/ben__familia_de_allen.txt
-Billy (familia Allen)	Familia de Allen	PERSONAJE	BREVE	data/world/personajes/billy_familia_allen__familia_de_allen.txt
-Allen	Familia de Allen	PERSONAJE	BREVE	data/world/personajes/allen__familia_de_allen.txt
-Donna	Familia de Allen	PERSONAJE	BREVE	data/world/personajes/donna__familia_de_allen.txt
-Chris (grupo de Tyreese)	Grupo de Tyreese	PERSONAJE	BREVE	data/world/personajes/chris_grupo_de_tyreese__grupo_de_tyreese.txt
-Tyreese	Familia de Tyreese	PERSONAJE	AMPLIADO	data/world/tyreese.txt
-Julie	Familia de Tyreese	PERSONAJE	BREVE	data/world/personajes/julie__familia_de_tyreese.txt
-Maggie Greene	Familia Greene · Hilltop	PERSONAJE	AMPLIADO	data/world/maggie_rhee.txt
-Hershel Greene	Familia Greene	PERSONAJE	AMPLIADO	data/world/hershel_greene.txt
-Billy Greene	Familia Greene	PERSONAJE	BREVE	data/world/personajes/billy_greene__familia_greene.txt
-Rachel Greene	Familia Greene	PERSONAJE	BREVE	data/world/personajes/rachel_greene__familia_greene.txt
-Susie Greene	Familia Greene	PERSONAJE	BREVE	data/world/personajes/susie_greene__familia_greene.txt
-Lacey Greene	Familia Greene	PERSONAJE	BREVE	data/world/personajes/lacey_greene__familia_greene.txt
-Arnold Greene	Familia Greene	PERSONAJE	BREVE	data/world/personajes/arnold_greene__familia_greene.txt
-Shawn Greene	Familia Greene	PERSONAJE	BREVE	data/world/personajes/shawn_greene__familia_greene.txt
-Patricia	Familia de Patricia	PERSONAJE	BREVE	data/world/personajes/patricia__familia_de_patricia.txt
-Otis	Familia de Patricia	PERSONAJE	BREVE	data/world/personajes/otis__familia_de_patricia.txt
-Judith Grimes	Prisión	PERSONAJE	BREVE	data/world/personajes/judith_grimes__prision.txt
-Axel	Prisión	PERSONAJE	BREVE	data/world/personajes/axel__prision.txt
-Dexter	Prisión	PERSONAJE	BREVE	data/world/personajes/dexter__prision.txt
-Thomas	Prisión	PERSONAJE	BREVE	data/world/personajes/thomas__prision.txt
-Andrew	Prisión	PERSONAJE	BREVE	data/world/personajes/andrew__prision.txt
-Michonne	Grupo de Michonne	PERSONAJE	AMPLIADO	data/world/michonne.txt
-Terry (grupo de Michonne)	Grupo de Michonne	PERSONAJE	BREVE	data/world/personajes/terry_grupo_de_michonne__grupo_de_michonne.txt
-Mike (grupo de Michonne)	Grupo de Michonne	PERSONAJE	BREVE	data/world/personajes/mike_grupo_de_michonne__grupo_de_michonne.txt
-Wes (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/wes_woodbury__sobrevivientes_de_woodbury.txt
-Calvin Deets	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/calvin_deets__sobrevivientes_de_woodbury.txt
-Bob Stookey	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/bob_stookey__sobrevivientes_de_woodbury.txt
-Lou	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/lou__sobrevivientes_de_woodbury.txt
-Denny	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/denny__sobrevivientes_de_woodbury.txt
-Marianne	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/marianne__sobrevivientes_de_woodbury.txt
-Gloria	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/gloria__sobrevivientes_de_woodbury.txt
-Earl (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/earl_woodbury__sobrevivientes_de_woodbury.txt
-Austin	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/austin__sobrevivientes_de_woodbury.txt
-Lilly	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/lilly__sobrevivientes_de_woodbury.txt
-Tom (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/tom_woodbury__sobrevivientes_de_woodbury.txt
-Red	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/red__sobrevivientes_de_woodbury.txt
-Hap	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/hap__sobrevivientes_de_woodbury.txt
-Jared	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/jared__sobrevivientes_de_woodbury.txt
-Matthew	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/matthew__sobrevivientes_de_woodbury.txt
-Smitty	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/smitty__sobrevivientes_de_woodbury.txt
-Megan	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/megan__sobrevivientes_de_woodbury.txt
-Alice Warren	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/alice_warren__sobrevivientes_de_woodbury.txt
-Johnny (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/johnny_woodbury__sobrevivientes_de_woodbury.txt
-Gabriel Harris	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/gabriel_woodbury__sobrevivientes_de_woodbury.txt
-Daniel	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/daniel__sobrevivientes_de_woodbury.txt
-Rudy	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/rudy__sobrevivientes_de_woodbury.txt
-Raymond	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/raymond__sobrevivientes_de_woodbury.txt
-Eric (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/eric_woodbury__sobrevivientes_de_woodbury.txt
-James (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/james_woodbury__sobrevivientes_de_woodbury.txt
-Jameson	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/jameson__sobrevivientes_de_woodbury.txt
-Evan	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/evan__sobrevivientes_de_woodbury.txt
-Andy (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/andy_woodbury__sobrevivientes_de_woodbury.txt
-Arlo	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/arlo__sobrevivientes_de_woodbury.txt
-Bruce (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/bruce_woodbury__sobrevivientes_de_woodbury.txt
-Sam (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/sam_woodbury__sobrevivientes_de_woodbury.txt
-Eugene Cooney	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/eugene_woodbury__sobrevivientes_de_woodbury.txt
-Harold	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/harold__sobrevivientes_de_woodbury.txt
-Gus (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/gus_woodbury__sobrevivientes_de_woodbury.txt
-Caesar Martinez	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/caesar_martinez__sobrevivientes_de_woodbury.txt
-Dr. Stevens	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/dr_stevens__sobrevivientes_de_woodbury.txt
-Scott (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	data/world/personajes/scott_woodbury__sobrevivientes_de_woodbury.txt
-Brian Blake (el Gobernador)	Familia Blake · Woodbury	PERSONAJE	AMPLIADO	data/world/el_gobernador.txt
-Penny Blake	Familia Blake · Woodbury	PERSONAJE	BREVE	data/world/personajes/penny_blake__familia_blake_woodbury.txt
-Christina	Equipo de noticias en Woodbury	PERSONAJE	BREVE	data/world/personajes/christina__equipo_de_noticias_en_woodbury.txt
-Mike (equipo de noticias)	Equipo de noticias en Woodbury	PERSONAJE	BREVE	data/world/personajes/mike_equipo_de_noticias__equipo_de_noticias_en_woodbury.txt
-Eugene Porter	Ejército de Abraham	PERSONAJE	AMPLIADO	data/world/eugene_porter.txt
-Rosita Espinosa	Ejército de Abraham	PERSONAJE	AMPLIADO	data/world/rosita_espinosa.txt
-Abraham Ford	Ejército de Abraham	PERSONAJE	AMPLIADO	data/world/abraham_ford.txt
-Jud	Saqueadores	PERSONAJE	BREVE	data/world/personajes/jud__saqueadores.txt
-Craig	Saqueadores	PERSONAJE	BREVE	data/world/personajes/craig__saqueadores.txt
-Andy (saqueadores)	Saqueadores	PERSONAJE	BREVE	data/world/personajes/andy_saqueadores__saqueadores.txt
-Gabriel Stokes	Sobrevivientes de la iglesia	PERSONAJE	BREVE	data/world/personajes/gabriel_stokes__sobrevivientes_de_la_iglesia.txt
-Chris (cazadores)	Cazadores	PERSONAJE	BREVE	data/world/personajes/chris_cazadores__cazadores.txt
-Theresa	Cazadores	PERSONAJE	BREVE	data/world/personajes/theresa__cazadores.txt
-Albert	Cazadores	PERSONAJE	BREVE	data/world/personajes/albert__cazadores.txt
-David (cazadores)	Cazadores	PERSONAJE	BREVE	data/world/personajes/david_cazadores__cazadores.txt
-Greg (cazadores)	Cazadores	PERSONAJE	BREVE	data/world/personajes/greg_cazadores__cazadores.txt
-Charlie (cazadores)	Cazadores	PERSONAJE	BREVE	data/world/personajes/charlie_cazadores__cazadores.txt
-Aaron	Alexandria	PERSONAJE	BREVE	data/world/aaron.txt
-Heath	Alexandria	PERSONAJE	BREVE	data/world/heath.txt
-Clyde	Alexandria	PERSONAJE	BREVE	data/world/personajes/clyde__alexandria.txt
-Jamie	Alexandria	PERSONAJE	BREVE	data/world/personajes/jamie__alexandria.txt
-Lola	Alexandria	PERSONAJE	BREVE	data/world/personajes/lola__alexandria.txt
-Barbara (Alexandria)	Alexandria	PERSONAJE	BREVE	data/world/personajes/barbara_alexandria__alexandria.txt
-David (Alexandria)	Alexandria	PERSONAJE	BREVE	data/world/personajes/david_alexandria__alexandria.txt
-Annie (Alexandria)	Alexandria	PERSONAJE	BREVE	data/world/personajes/annie_alexandria__alexandria.txt
-Siddiq	Alexandria	PERSONAJE	BREVE	data/world/personajes/siddiq__alexandria.txt
-Anna	Alexandria	PERSONAJE	BREVE	data/world/personajes/anna__alexandria.txt
-Carlos (Alexandria)	Alexandria	PERSONAJE	BREVE	data/world/personajes/carlos_alexandria__alexandria.txt
-Darius	Alexandria	PERSONAJE	BREVE	data/world/personajes/darius__alexandria.txt
-Jesus (Paul Monroe)	Alexandria · Hilltop	PERSONAJE	AMPLIADO	data/world/jesus.txt
-Erin	Alexandria	PERSONAJE	BREVE	data/world/personajes/erin__alexandria.txt
-Olivia	Alexandria	PERSONAJE	BREVE	data/world/personajes/olivia__alexandria.txt
-Denise Cloyd	Alexandria	PERSONAJE	BREVE	data/world/personajes/denise_cloyd__alexandria.txt
-John (Alexandria)	Alexandria	PERSONAJE	BREVE	data/world/personajes/john_alexandria__alexandria.txt
-Holly	Alexandria	PERSONAJE	BREVE	data/world/personajes/holly__alexandria.txt
-Eric (Alexandria)	Alexandria	PERSONAJE	BREVE	data/world/personajes/eric_alexandria__alexandria.txt
-Tobin	Alexandria	PERSONAJE	BREVE	data/world/personajes/tobin__alexandria.txt
-Bruce (Alexandria)	Alexandria	PERSONAJE	BREVE	data/world/personajes/bruce_alexandria__alexandria.txt
-Scott (Alexandria)	Alexandria	PERSONAJE	BREVE	data/world/personajes/scott_alexandria__alexandria.txt
-Mikey	Familia de Nicholas	PERSONAJE	BREVE	data/world/personajes/mikey__familia_de_nicholas.txt
-Paula	Familia de Nicholas	PERSONAJE	BREVE	data/world/personajes/paula__familia_de_nicholas.txt
-Nicholas	Familia de Nicholas	PERSONAJE	BREVE	data/world/personajes/nicholas__familia_de_nicholas.txt
-Vincent	Familia de Vincent	PERSONAJE	BREVE	data/world/personajes/vincent__familia_de_vincent.txt
-Julia	Familia de Vincent	PERSONAJE	BREVE	data/world/personajes/julia__familia_de_vincent.txt
-Josh (familia de Vincent)	Familia de Vincent	PERSONAJE	BREVE	data/world/personajes/josh_familia_de_vincent__familia_de_vincent.txt
-Spencer Monroe	Familia Monroe	PERSONAJE	BREVE	data/world/personajes/spencer_monroe__familia_monroe.txt
-Douglas Monroe	Familia Monroe	PERSONAJE	AMPLIADO	data/world/douglas_monroe.txt
-Regina Monroe	Familia Monroe	PERSONAJE	BREVE	data/world/personajes/regina_monroe__familia_monroe.txt
-Jessie Anderson	Familia Anderson	PERSONAJE	BREVE	data/world/personajes/jessie_anderson__familia_anderson.txt
-Ron Anderson	Familia Anderson	PERSONAJE	BREVE	data/world/personajes/ron_anderson__familia_anderson.txt
-Peter Anderson	Familia Anderson	PERSONAJE	BREVE	data/world/personajes/peter_anderson__familia_anderson.txt
-Carlos (carroñeros)	Carroñeros de Washington	PERSONAJE	BREVE	data/world/personajes/carlos_carroneros__carroneros_de_washington.txt
-Patrick	Carroñeros de Washington	PERSONAJE	BREVE	data/world/personajes/patrick__carroneros_de_washington.txt
-Sandra (carroñeros)	Carroñeros de Washington	PERSONAJE	BREVE	data/world/personajes/sandra_carroneros__carroneros_de_washington.txt
-Derek (carroñeros)	Carroñeros de Washington	PERSONAJE	BREVE	data/world/personajes/derek_carroneros__carroneros_de_washington.txt
-Liam	Carroñeros de Washington	PERSONAJE	BREVE	data/world/personajes/liam__carroneros_de_washington.txt
-Earl Sutton	Hilltop	PERSONAJE	BREVE	data/world/personajes/earl_sutton__hilltop.txt
-Hershel Greene Jr.	Hilltop · familia Greene	PERSONAJE	BREVE	data/world/personajes/hershel_greene_jr__hilltop_familia_greene.txt
-Eduardo	Hilltop	PERSONAJE	BREVE	data/world/personajes/eduardo__hilltop.txt
-Wesley	Hilltop	PERSONAJE	BREVE	data/world/personajes/wesley__hilltop.txt
-Harlan	Hilltop · familia Harlan	PERSONAJE	BREVE	data/world/personajes/harlan__hilltop_familia_harlan.txt
-Alex (Hilltop)	Hilltop	PERSONAJE	BREVE	data/world/personajes/alex_hilltop__hilltop.txt
-Marco	Hilltop	PERSONAJE	BREVE	data/world/personajes/marco__hilltop.txt
-Rolland	Hilltop	PERSONAJE	BREVE	data/world/personajes/rolland__hilltop.txt
-Dante	Hilltop	PERSONAJE	BREVE	data/world/personajes/dante__hilltop.txt
-Louie	Hilltop	PERSONAJE	BREVE	data/world/personajes/louie__hilltop.txt
-Brian (Hilltop)	Hilltop	PERSONAJE	BREVE	data/world/personajes/brian_hilltop__hilltop.txt
-Wes (Hilltop)	Hilltop	PERSONAJE	BREVE	data/world/personajes/wes_hilltop__hilltop.txt
-Samuel	Hilltop	PERSONAJE	BREVE	data/world/personajes/samuel__hilltop.txt
-Oscar (Hilltop)	Hilltop	PERSONAJE	BREVE	data/world/personajes/oscar_hilltop__hilltop.txt
-Larry	Hilltop	PERSONAJE	BREVE	data/world/personajes/larry__hilltop.txt
-Ken	Hilltop	PERSONAJE	BREVE	data/world/personajes/ken__hilltop.txt
-Gregory	Hilltop	PERSONAJE	BREVE	data/world/personajes/gregory__hilltop.txt
-Doug (Hilltop)	Hilltop	PERSONAJE	BREVE	data/world/personajes/doug_hilltop__hilltop.txt
-Kal	Hilltop	PERSONAJE	BREVE	data/world/personajes/kal__hilltop.txt
-Ethan	Hilltop	PERSONAJE	BREVE	data/world/personajes/ethan__hilltop.txt
-Brianna	Familia de Brianna	PERSONAJE	BREVE	data/world/personajes/brianna__familia_de_brianna.txt
-Johnny (familia de Brianna)	Familia de Brianna	PERSONAJE	BREVE	data/world/personajes/johnny_familia_de_brianna__familia_de_brianna.txt
-Sr. Harlan	Familia Harlan	PERSONAJE	BREVE	data/world/personajes/sr_harlan__familia_harlan.txt
-Sra. Harlan	Familia Harlan	PERSONAJE	BREVE	data/world/personajes/sra_harlan__familia_harlan.txt
-Brandon Rose	Familia Rose	PERSONAJE	BREVE	data/world/personajes/brandon_rose__familia_rose.txt
-Morton Rose	Familia Rose	PERSONAJE	BREVE	data/world/personajes/morton_rose__familia_rose.txt
-Tammy Rose	Familia Rose	PERSONAJE	BREVE	data/world/personajes/tammy_rose__familia_rose.txt
-Negan	Los Salvadores	PERSONAJE	AMPLIADO	data/world/negan.txt
-Laura	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/laura__los_salvadores.txt
-Martin	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/martin__los_salvadores.txt
-Tara	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/tara__los_salvadores.txt
-John (Salvadores 1)	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/john_salvadores_1__los_salvadores.txt
-Mark	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/mark__los_salvadores.txt
-Gavin	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/gavin__los_salvadores.txt
-Christopher (Salvadores)	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/christopher_salvadores__los_salvadores.txt
-Georgie	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/georgie__los_salvadores.txt
-Angela	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/angela__los_salvadores.txt
-Tory	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/tory__los_salvadores.txt
-Rich	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/rich__los_salvadores.txt
-Sandra (Salvadores)	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/sandra_salvadores__los_salvadores.txt
-John (Salvadores 2)	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/john_salvadores_2__los_salvadores.txt
-Amber (Salvadores)	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/amber_salvadores__los_salvadores.txt
-Carson (Salvadores)	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/carson_salvadores__los_salvadores.txt
-Paul (Salvadores)	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/paul_salvadores__los_salvadores.txt
-Donnie	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/donnie__los_salvadores.txt
-Mike (Salvadores)	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/mike_salvadores__los_salvadores.txt
-Davis	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/davis__los_salvadores.txt
-Gary	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/gary__los_salvadores.txt
-David (Salvadores)	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/david_salvadores__los_salvadores.txt
-Connor	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/connor__los_salvadores.txt
-Seth	Los Salvadores	PERSONAJE	BREVE	data/world/personajes/seth__los_salvadores.txt
-Dwight	Los Salvadores · Santuario · Commonwealth	PERSONAJE	AMPLIADO	data/world/personajes/dwight.txt
-Sherry	Familia de Dwight · Salvadores	PERSONAJE	BREVE	data/world/personajes/sherry__familia_de_dwight_salvadores.txt
-Benjamin	El Reino	PERSONAJE	BREVE	data/world/personajes/benjamin__el_reino.txt
-Gus (Reino)	El Reino	PERSONAJE	BREVE	data/world/personajes/gus_reino__el_reino.txt
-William	El Reino	PERSONAJE	BREVE	data/world/personajes/william__el_reino.txt
-Zachary	El Reino	PERSONAJE	BREVE	data/world/personajes/zachary__el_reino.txt
-Taylor	El Reino	PERSONAJE	BREVE	data/world/personajes/taylor__el_reino.txt
-Brian (Reino)	El Reino	PERSONAJE	BREVE	data/world/personajes/brian_reino__el_reino.txt
-Ezekiel	El Reino	PERSONAJE	AMPLIADO	data/world/ezekiel.txt
-Marcus	El Reino	PERSONAJE	BREVE	data/world/personajes/marcus__el_reino.txt
-Richard	El Reino	PERSONAJE	BREVE	data/world/personajes/richard__el_reino.txt
-Magna	Grupo de Magna	PERSONAJE	AMPLIADO	data/world/personajes/magna.txt
-Yumiko	Grupo de Magna	PERSONAJE	BREVE	data/world/personajes/yumiko__grupo_de_magna.txt
-Kelly	Grupo de Magna	PERSONAJE	BREVE	data/world/personajes/kelly__grupo_de_magna.txt
-Connie	Grupo de Magna	PERSONAJE	AMPLIADO	data/world/personajes/connie.txt
-Luke	Grupo de Magna	PERSONAJE	BREVE	data/world/personajes/luke__grupo_de_magna.txt
-Bernie	Grupo de Magna	PERSONAJE	BREVE	data/world/personajes/bernie__grupo_de_magna.txt
-Beta	Los Susurradores	PERSONAJE	AMPLIADO	data/world/beta.txt
-Joshua	Los Susurradores · familia de Joshua	PERSONAJE	BREVE	data/world/personajes/joshua__los_susurradores_familia_de_joshua.txt
-Lydia	Los Susurradores	PERSONAJE	AMPLIADO	data/world/lydia.txt
-Alpha	Los Susurradores	PERSONAJE	AMPLIADO	data/world/alpha.txt
-Mike (familia de Joshua)	Los Susurradores · familia de Joshua	PERSONAJE	BREVE	data/world/personajes/mike_familia_de_joshua__los_susurradores_familia_de_joshua.txt
-Pete (Oceanside)	Oceanside	PERSONAJE	BREVE	data/world/personajes/pete_oceanside__oceanside.txt
-Juanita Sanchez (Princess)	Pittsburgh · Commonwealth	PERSONAJE	AMPLIADO	data/world/personajes/juanita_sanchez.txt
-Elodie Hawthorne	Commonwealth	PERSONAJE	BREVE	data/world/personajes/elodie_hawthorne__commonwealth.txt
-Mercer	Commonwealth	PERSONAJE	AMPLIADO	data/world/personajes/mercer.txt
-Andrea (Commonwealth)	Commonwealth	PERSONAJE	BREVE	data/world/personajes/andrea_commonwealth__commonwealth.txt
-Aditya Kapoor	Commonwealth	PERSONAJE	BREVE	data/world/personajes/aditya_kapoor__commonwealth.txt
-Elias	Commonwealth	PERSONAJE	BREVE	data/world/personajes/elias__commonwealth.txt
-Conner	Commonwealth	PERSONAJE	BREVE	data/world/personajes/conner__commonwealth.txt
-Frost	Commonwealth	PERSONAJE	BREVE	data/world/personajes/frost__commonwealth.txt
-Samuels	Commonwealth	PERSONAJE	BREVE	data/world/personajes/samuels__commonwealth.txt
-Lance Hornsby	Commonwealth	PERSONAJE	BREVE	data/world/personajes/lance_hornsby__commonwealth.txt
-George	Commonwealth	PERSONAJE	BREVE	data/world/personajes/george__commonwealth.txt
-Rufus	Commonwealth	PERSONAJE	BREVE	data/world/personajes/rufus__commonwealth.txt
-Maxwell	Commonwealth	PERSONAJE	BREVE	data/world/personajes/maxwell__commonwealth.txt
-Matt	Commonwealth	PERSONAJE	BREVE	data/world/personajes/matt__commonwealth.txt
-Kayla	Commonwealth	PERSONAJE	BREVE	data/world/personajes/kayla__commonwealth.txt
-Jerome	Commonwealth	PERSONAJE	BREVE	data/world/personajes/jerome__commonwealth.txt
-Nancy	Commonwealth	PERSONAJE	BREVE	data/world/personajes/nancy__commonwealth.txt
-Stephanie	Commonwealth	PERSONAJE	BREVE	data/world/personajes/stephanie__commonwealth.txt
-Anthony	Commonwealth	PERSONAJE	BREVE	data/world/personajes/anthony__commonwealth.txt
-Pamela Milton	Commonwealth · familia Milton	PERSONAJE	AMPLIADO	data/world/personajes/pamela_milton.txt
-Sebastian Milton	Commonwealth · familia Milton	PERSONAJE	BREVE	data/world/personajes/sebastian_milton__commonwealth_familia_milton.txt
-Andrea Grimes (hija de Carl y Sophia)	Familia Grimes · epílogo	PERSONAJE	BREVE	data/world/personajes/andrea_grimes_ii.txt
-Cloris	Greenville	PERSONAJE	BREVE	data/world/personajes/cloris__greenville.txt
-Curtis	Greenville	PERSONAJE	BREVE	data/world/personajes/curtis__greenville.txt
-Buttons	Animales	ANIMAL	IDENTIFICACIÓN	data/world/personajes/buttons__animales.txt
-Apple	Animales	ANIMAL	IDENTIFICACIÓN	data/world/personajes/apple__animales.txt
-Peach Pit	Animales	ANIMAL	IDENTIFICACIÓN	data/world/personajes/peach_pit__animales.txt
-Shiva	Animales	ANIMAL	IDENTIFICACIÓN	data/world/personajes/shiva__animales.txt
-Steven (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/steven_caminante__caminantes_identificados.txt
-Fran (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/fran_caminante__caminantes_identificados.txt
-Jason (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/jason_caminante__caminantes_identificados.txt
-Dave (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/dave_caminante__caminantes_identificados.txt
-Amber (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/amber_caminante__caminantes_identificados.txt
-Kevin (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/kevin_caminante__caminantes_identificados.txt
-Al (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/al_caminante__caminantes_identificados.txt
-Daisy-Lou (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/daisy_lou_caminante__caminantes_identificados.txt
-Justin (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/justin_caminante__caminantes_identificados.txt
-Eddie (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/eddie_caminante__caminantes_identificados.txt
-Max (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/max_caminante__caminantes_identificados.txt
-Front (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/front_caminante__caminantes_identificados.txt
-Kyra (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/kyra_caminante__caminantes_identificados.txt
-Sally (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	data/world/personajes/sally_caminante__caminantes_identificados.txt
+PERSONAJE	GRUPO	TIPO	NIVEL	ARCO	PRIMERA_APARICION	ARCHIVO
+Carl Grimes	Condado de Grant · familia Grimes	PERSONAJE	AMPLIADO	Days Gone Bye	#1	data/world/carl_grimes.txt
+Rick Grimes	Condado de Grant · familia Grimes	PERSONAJE	AMPLIADO	Days Gone Bye	#1	data/world/rick_grimes.txt
+Lori Grimes	Condado de Grant · familia Grimes	PERSONAJE	AMPLIADO	Days Gone Bye	#1	data/world/lori_grimes.txt
+Shane Walsh	Condado de Grant · residentes	ANTAGONISTA	AMPLIADO	Days Gone Bye	#1	data/world/shane_walsh.txt
+Reggie	Condado de Grant · residentes	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/reggie__condado_de_grant_residentes.txt
+Morgan Jones	Condado de Grant · familia Jones	PERSONAJE	AMPLIADO	Days Gone Bye	#1	data/world/personajes/morgan_jones.txt
+Duane Jones	Condado de Grant · familia Jones	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/duane_jones__condado_de_grant_familia_jones.txt
+Glenn Rhee	Campamento de Atlanta	PERSONAJE	AMPLIADO	Days Gone Bye	#2	data/world/glenn_rhee.txt
+Dale	Campamento de Atlanta	PERSONAJE	AMPLIADO	Days Gone Bye	#3	data/world/dale_horvath.txt
+Jim	Campamento de Atlanta	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/jim__campamento_de_atlanta.txt
+Sophia Grimes	Familia de Carol · epílogo Grimes	PERSONAJE	AMPLIADO	Days Gone Bye	#2	data/world/sophia_peletier.txt
+Carol	Familia de Carol	PERSONAJE	AMPLIADO	Days Gone Bye	#3	data/world/carol_peletier.txt
+Andrea	Familia de Andrea	PERSONAJE	AMPLIADO	Days Gone Bye	#3	data/world/andrea.txt
+Amy	Familia de Andrea	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/amy__familia_de_andrea.txt
+Ben	Familia de Allen	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/ben__familia_de_allen.txt
+Billy (familia Allen)	Familia de Allen	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/billy_familia_allen__familia_de_allen.txt
+Allen	Familia de Allen	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/allen__familia_de_allen.txt
+Donna	Familia de Allen	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/donna__familia_de_allen.txt
+Chris (grupo de Tyreese)	Grupo de Tyreese	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/chris_grupo_de_tyreese__grupo_de_tyreese.txt
+Tyreese	Familia de Tyreese	PERSONAJE	AMPLIADO	Miles Behind Us	#7	data/world/tyreese.txt
+Julie	Familia de Tyreese	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/julie__familia_de_tyreese.txt
+Maggie Greene	Familia Greene · Hilltop	PERSONAJE	AMPLIADO	Miles Behind Us	#10	data/world/maggie_rhee.txt
+Hershel Greene	Familia Greene	PERSONAJE	AMPLIADO	Miles Behind Us	#10	data/world/hershel_greene.txt
+Billy Greene	Familia Greene	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/billy_greene__familia_greene.txt
+Rachel Greene	Familia Greene	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/rachel_greene__familia_greene.txt
+Susie Greene	Familia Greene	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/susie_greene__familia_greene.txt
+Lacey Greene	Familia Greene	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/lacey_greene__familia_greene.txt
+Arnold Greene	Familia Greene	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/arnold_greene__familia_greene.txt
+Shawn Greene	Familia Greene	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/shawn_greene__familia_greene.txt
+Patricia	Familia de Patricia	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/patricia__familia_de_patricia.txt
+Otis	Familia de Patricia	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/otis__familia_de_patricia.txt
+Judith Grimes	Prisión	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/judith_grimes__prision.txt
+Axel	Prisión	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/axel__prision.txt
+Dexter	Prisión	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/dexter__prision.txt
+Thomas	Prisión	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/thomas__prision.txt
+Andrew	Prisión	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/andrew__prision.txt
+Michonne	Grupo de Michonne	PERSONAJE	AMPLIADO	The Heart's Desire	#19	data/world/michonne.txt
+Terry (grupo de Michonne)	Grupo de Michonne	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/terry_grupo_de_michonne__grupo_de_michonne.txt
+Mike (grupo de Michonne)	Grupo de Michonne	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/mike_grupo_de_michonne__grupo_de_michonne.txt
+Wes (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/wes_woodbury__sobrevivientes_de_woodbury.txt
+Calvin Deets	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/calvin_deets__sobrevivientes_de_woodbury.txt
+Bob Stookey	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/bob_stookey__sobrevivientes_de_woodbury.txt
+Lou	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/lou__sobrevivientes_de_woodbury.txt
+Denny	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/denny__sobrevivientes_de_woodbury.txt
+Marianne	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/marianne__sobrevivientes_de_woodbury.txt
+Gloria	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/gloria__sobrevivientes_de_woodbury.txt
+Earl (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/earl_woodbury__sobrevivientes_de_woodbury.txt
+Austin	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/austin__sobrevivientes_de_woodbury.txt
+Lilly	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/lilly__sobrevivientes_de_woodbury.txt
+Tom (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/tom_woodbury__sobrevivientes_de_woodbury.txt
+Red	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/red__sobrevivientes_de_woodbury.txt
+Hap	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/hap__sobrevivientes_de_woodbury.txt
+Jared	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/jared__sobrevivientes_de_woodbury.txt
+Matthew	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/matthew__sobrevivientes_de_woodbury.txt
+Smitty	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/smitty__sobrevivientes_de_woodbury.txt
+Megan	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/megan__sobrevivientes_de_woodbury.txt
+Alice Warren	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/alice_warren__sobrevivientes_de_woodbury.txt
+Johnny (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/johnny_woodbury__sobrevivientes_de_woodbury.txt
+Gabriel Harris	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/gabriel_woodbury__sobrevivientes_de_woodbury.txt
+Daniel	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/daniel__sobrevivientes_de_woodbury.txt
+Rudy	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/rudy__sobrevivientes_de_woodbury.txt
+Raymond	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/raymond__sobrevivientes_de_woodbury.txt
+Eric (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/eric_woodbury__sobrevivientes_de_woodbury.txt
+James (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/james_woodbury__sobrevivientes_de_woodbury.txt
+Jameson	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/jameson__sobrevivientes_de_woodbury.txt
+Evan	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/evan__sobrevivientes_de_woodbury.txt
+Andy (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/andy_woodbury__sobrevivientes_de_woodbury.txt
+Arlo	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/arlo__sobrevivientes_de_woodbury.txt
+Bruce (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/bruce_woodbury__sobrevivientes_de_woodbury.txt
+Sam (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/sam_woodbury__sobrevivientes_de_woodbury.txt
+Eugene Cooney	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/eugene_woodbury__sobrevivientes_de_woodbury.txt
+Harold	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/harold__sobrevivientes_de_woodbury.txt
+Gus (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/gus_woodbury__sobrevivientes_de_woodbury.txt
+Caesar Martinez	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/caesar_martinez__sobrevivientes_de_woodbury.txt
+Dr. Stevens	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/dr_stevens__sobrevivientes_de_woodbury.txt
+Scott (Woodbury)	Sobrevivientes de Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/scott_woodbury__sobrevivientes_de_woodbury.txt
+Brian Blake (el Gobernador)	Familia Blake · Woodbury	ANTAGONISTA	AMPLIADO	The Best Defense	#27	data/world/el_gobernador.txt
+Penny Blake	Familia Blake · Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/penny_blake__familia_blake_woodbury.txt
+Christina	Equipo de noticias en Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/christina__equipo_de_noticias_en_woodbury.txt
+Mike (equipo de noticias)	Equipo de noticias en Woodbury	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/mike_equipo_de_noticias__equipo_de_noticias_en_woodbury.txt
+Eugene Porter	Ejército de Abraham	PERSONAJE	AMPLIADO	Here We Remain	#53	data/world/eugene_porter.txt
+Rosita Espinosa	Ejército de Abraham	PERSONAJE	AMPLIADO	Here We Remain	#53	data/world/rosita_espinosa.txt
+Abraham Ford	Ejército de Abraham	PERSONAJE	AMPLIADO	Here We Remain	#53	data/world/abraham_ford.txt
+Jud	Saqueadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/jud__saqueadores.txt
+Craig	Saqueadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/craig__saqueadores.txt
+Andy (saqueadores)	Saqueadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/andy_saqueadores__saqueadores.txt
+Gabriel Stokes	Sobrevivientes de la iglesia	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/gabriel_stokes__sobrevivientes_de_la_iglesia.txt
+Chris (cazadores)	Cazadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/chris_cazadores__cazadores.txt
+Theresa	Cazadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/theresa__cazadores.txt
+Albert	Cazadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/albert__cazadores.txt
+David (cazadores)	Cazadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/david_cazadores__cazadores.txt
+Greg (cazadores)	Cazadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/greg_cazadores__cazadores.txt
+Charlie (cazadores)	Cazadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/charlie_cazadores__cazadores.txt
+Aaron	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/aaron.txt
+Heath	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/heath.txt
+Clyde	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/clyde__alexandria.txt
+Jamie	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/jamie__alexandria.txt
+Lola	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/lola__alexandria.txt
+Barbara (Alexandria)	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/barbara_alexandria__alexandria.txt
+David (Alexandria)	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/david_alexandria__alexandria.txt
+Annie (Alexandria)	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/annie_alexandria__alexandria.txt
+Siddiq	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/siddiq__alexandria.txt
+Anna	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/anna__alexandria.txt
+Carlos (Alexandria)	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/carlos_alexandria__alexandria.txt
+Darius	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/darius__alexandria.txt
+Jesus (Paul Monroe)	Alexandria · Hilltop	PERSONAJE	AMPLIADO	A Larger World	#92	data/world/jesus.txt
+Erin	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/erin__alexandria.txt
+Olivia	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/olivia__alexandria.txt
+Denise Cloyd	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/denise_cloyd__alexandria.txt
+John (Alexandria)	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/john_alexandria__alexandria.txt
+Holly	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/holly__alexandria.txt
+Eric (Alexandria)	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/eric_alexandria__alexandria.txt
+Tobin	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/tobin__alexandria.txt
+Bruce (Alexandria)	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/bruce_alexandria__alexandria.txt
+Scott (Alexandria)	Alexandria	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/scott_alexandria__alexandria.txt
+Mikey	Familia de Nicholas	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/mikey__familia_de_nicholas.txt
+Paula	Familia de Nicholas	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/paula__familia_de_nicholas.txt
+Nicholas	Familia de Nicholas	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/nicholas__familia_de_nicholas.txt
+Vincent	Familia de Vincent	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/vincent__familia_de_vincent.txt
+Julia	Familia de Vincent	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/julia__familia_de_vincent.txt
+Josh (familia de Vincent)	Familia de Vincent	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/josh_familia_de_vincent__familia_de_vincent.txt
+Spencer Monroe	Familia Monroe	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/spencer_monroe__familia_monroe.txt
+Douglas Monroe	Familia Monroe	PERSONAJE	AMPLIADO	Life Among Them	#70	data/world/douglas_monroe.txt
+Regina Monroe	Familia Monroe	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/regina_monroe__familia_monroe.txt
+Jessie Anderson	Familia Anderson	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/jessie_anderson__familia_anderson.txt
+Ron Anderson	Familia Anderson	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/ron_anderson__familia_anderson.txt
+Peter Anderson	Familia Anderson	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/peter_anderson__familia_anderson.txt
+Carlos (carroñeros)	Carroñeros de Washington	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/carlos_carroneros__carroneros_de_washington.txt
+Patrick	Carroñeros de Washington	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/patrick__carroneros_de_washington.txt
+Sandra (carroñeros)	Carroñeros de Washington	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/sandra_carroneros__carroneros_de_washington.txt
+Derek (carroñeros)	Carroñeros de Washington	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/derek_carroneros__carroneros_de_washington.txt
+Liam	Carroñeros de Washington	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/liam__carroneros_de_washington.txt
+Earl Sutton	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/earl_sutton__hilltop.txt
+Hershel Greene Jr.	Hilltop · familia Greene	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/hershel_greene_jr__hilltop_familia_greene.txt
+Eduardo	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/eduardo__hilltop.txt
+Wesley	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/wesley__hilltop.txt
+Harlan	Hilltop · familia Harlan	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/harlan__hilltop_familia_harlan.txt
+Alex (Hilltop)	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/alex_hilltop__hilltop.txt
+Marco	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/marco__hilltop.txt
+Rolland	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/rolland__hilltop.txt
+Dante	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/dante__hilltop.txt
+Louie	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/louie__hilltop.txt
+Brian (Hilltop)	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/brian_hilltop__hilltop.txt
+Wes (Hilltop)	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/wes_hilltop__hilltop.txt
+Samuel	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/samuel__hilltop.txt
+Oscar (Hilltop)	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/oscar_hilltop__hilltop.txt
+Larry	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/larry__hilltop.txt
+Ken	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/ken__hilltop.txt
+Gregory	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/gregory__hilltop.txt
+Doug (Hilltop)	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/doug_hilltop__hilltop.txt
+Kal	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/kal__hilltop.txt
+Ethan	Hilltop	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/ethan__hilltop.txt
+Brianna	Familia de Brianna	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/brianna__familia_de_brianna.txt
+Johnny (familia de Brianna)	Familia de Brianna	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/johnny_familia_de_brianna__familia_de_brianna.txt
+Sr. Harlan	Familia Harlan	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/sr_harlan__familia_harlan.txt
+Sra. Harlan	Familia Harlan	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/sra_harlan__familia_harlan.txt
+Brandon Rose	Familia Rose	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/brandon_rose__familia_rose.txt
+Morton Rose	Familia Rose	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/morton_rose__familia_rose.txt
+Tammy Rose	Familia Rose	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/tammy_rose__familia_rose.txt
+Negan	Los Salvadores	ANTAGONISTA	AMPLIADO	Something to Fear	#100	data/world/negan.txt
+Laura	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/laura__los_salvadores.txt
+Martin	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/martin__los_salvadores.txt
+Tara	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/tara__los_salvadores.txt
+John (Salvadores 1)	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/john_salvadores_1__los_salvadores.txt
+Mark	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/mark__los_salvadores.txt
+Gavin	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/gavin__los_salvadores.txt
+Christopher (Salvadores)	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/christopher_salvadores__los_salvadores.txt
+Georgie	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/georgie__los_salvadores.txt
+Angela	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/angela__los_salvadores.txt
+Tory	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/tory__los_salvadores.txt
+Rich	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/rich__los_salvadores.txt
+Sandra (Salvadores)	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/sandra_salvadores__los_salvadores.txt
+John (Salvadores 2)	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/john_salvadores_2__los_salvadores.txt
+Amber (Salvadores)	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/amber_salvadores__los_salvadores.txt
+Carson (Salvadores)	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/carson_salvadores__los_salvadores.txt
+Paul (Salvadores)	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/paul_salvadores__los_salvadores.txt
+Donnie	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/donnie__los_salvadores.txt
+Mike (Salvadores)	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/mike_salvadores__los_salvadores.txt
+Davis	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/davis__los_salvadores.txt
+Gary	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/gary__los_salvadores.txt
+David (Salvadores)	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/david_salvadores__los_salvadores.txt
+Connor	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/connor__los_salvadores.txt
+Seth	Los Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/seth__los_salvadores.txt
+Dwight	Los Salvadores · Santuario · Commonwealth	PERSONAJE	AMPLIADO	Something to Fear	#98	data/world/personajes/dwight.txt
+Sherry	Familia de Dwight · Salvadores	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/sherry__familia_de_dwight_salvadores.txt
+Benjamin	El Reino	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/benjamin__el_reino.txt
+Gus (Reino)	El Reino	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/gus_reino__el_reino.txt
+William	El Reino	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/william__el_reino.txt
+Zachary	El Reino	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/zachary__el_reino.txt
+Taylor	El Reino	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/taylor__el_reino.txt
+Brian (Reino)	El Reino	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/brian_reino__el_reino.txt
+Ezekiel	El Reino	PERSONAJE	AMPLIADO	What Comes After	#108	data/world/ezekiel.txt
+Marcus	El Reino	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/marcus__el_reino.txt
+Richard	El Reino	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/richard__el_reino.txt
+Magna	Grupo de Magna	PERSONAJE	AMPLIADO	A New Beginning	#127	data/world/personajes/magna.txt
+Yumiko	Grupo de Magna	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/yumiko__grupo_de_magna.txt
+Kelly	Grupo de Magna	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/kelly__grupo_de_magna.txt
+Connie	Grupo de Magna	PERSONAJE	AMPLIADO	A New Beginning	#127	data/world/personajes/connie.txt
+Luke	Grupo de Magna	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/luke__grupo_de_magna.txt
+Bernie	Grupo de Magna	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/bernie__grupo_de_magna.txt
+Beta	Los Susurradores	ANTAGONISTA	AMPLIADO	Call to Arms	#154	data/world/beta.txt
+Joshua	Los Susurradores · familia de Joshua	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/joshua__los_susurradores_familia_de_joshua.txt
+Lydia	Los Susurradores	PERSONAJE	AMPLIADO	Whispers into Screams	#133	data/world/lydia.txt
+Alpha	Los Susurradores	ANTAGONISTA	AMPLIADO	A New Beginning	#132	data/world/alpha.txt
+Mike (familia de Joshua)	Los Susurradores · familia de Joshua	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/mike_familia_de_joshua__los_susurradores_familia_de_joshua.txt
+Pete (Oceanside)	Oceanside	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/pete_oceanside__oceanside.txt
+Juanita Sanchez (Princess)	Pittsburgh · Commonwealth	PERSONAJE	AMPLIADO	Lines We Cross	#171	data/world/personajes/juanita_sanchez.txt
+Elodie Hawthorne	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/elodie_hawthorne__commonwealth.txt
+Mercer	Commonwealth	PERSONAJE	AMPLIADO	New World Order	#177	data/world/personajes/mercer.txt
+Andrea (Commonwealth)	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/andrea_commonwealth__commonwealth.txt
+Aditya Kapoor	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/aditya_kapoor__commonwealth.txt
+Elias	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/elias__commonwealth.txt
+Conner	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/conner__commonwealth.txt
+Frost	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/frost__commonwealth.txt
+Samuels	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/samuels__commonwealth.txt
+Lance Hornsby	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/lance_hornsby__commonwealth.txt
+George	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/george__commonwealth.txt
+Rufus	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/rufus__commonwealth.txt
+Maxwell	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/maxwell__commonwealth.txt
+Matt	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/matt__commonwealth.txt
+Kayla	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/kayla__commonwealth.txt
+Jerome	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/jerome__commonwealth.txt
+Nancy	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/nancy__commonwealth.txt
+Stephanie	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/stephanie__commonwealth.txt
+Anthony	Commonwealth	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/anthony__commonwealth.txt
+Pamela Milton	Commonwealth · familia Milton	PERSONAJE	AMPLIADO	New World Order	#176	data/world/personajes/pamela_milton.txt
+Sebastian Milton	Commonwealth · familia Milton	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/sebastian_milton__commonwealth_familia_milton.txt
+Andrea Grimes (hija de Carl y Sophia)	Familia Grimes · epílogo	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/andrea_grimes_ii.txt
+Cloris	Greenville	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/cloris__greenville.txt
+Curtis	Greenville	PERSONAJE	BREVE	UNCONFIRMED	UNCONFIRMED	data/world/personajes/curtis__greenville.txt
+Buttons	Animales	ANIMAL	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/buttons__animales.txt
+Apple	Animales	ANIMAL	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/apple__animales.txt
+Peach Pit	Animales	ANIMAL	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/peach_pit__animales.txt
+Shiva	Animales	ANIMAL	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/shiva__animales.txt
+Steven (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/steven_caminante__caminantes_identificados.txt
+Fran (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/fran_caminante__caminantes_identificados.txt
+Jason (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/jason_caminante__caminantes_identificados.txt
+Dave (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/dave_caminante__caminantes_identificados.txt
+Amber (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/amber_caminante__caminantes_identificados.txt
+Kevin (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/kevin_caminante__caminantes_identificados.txt
+Al (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/al_caminante__caminantes_identificados.txt
+Daisy-Lou (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/daisy_lou_caminante__caminantes_identificados.txt
+Justin (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/justin_caminante__caminantes_identificados.txt
+Eddie (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/eddie_caminante__caminantes_identificados.txt
+Max (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/max_caminante__caminantes_identificados.txt
+Front (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/front_caminante__caminantes_identificados.txt
+Kyra (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/kyra_caminante__caminantes_identificados.txt
+Sally (caminante)	Caminantes identificados	CAMINANTE	IDENTIFICACIÓN	UNCONFIRMED	UNCONFIRMED	data/world/personajes/sally_caminante__caminantes_identificados.txt

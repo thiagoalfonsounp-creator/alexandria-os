@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-ROOT="$HOME/alexandria-os"
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd -- "$SCRIPT_DIR/../.." && pwd)"
+ROOT="$PROJECT_ROOT"
 DATA_DIR="$ROOT/data/world/walker_database"
 
 mostrar_archivo() {
@@ -17,7 +19,8 @@ mostrar_archivo() {
 
 while true; do
     seccion=$(dialog --title "WALKER DATABASE" \
-        --menu "Elegí un apartado del archivo" 20 88 10 \
+        --menu "Elegí un apartado del archivo" 22 96 11 \
+        "Caminantes identificados" "Individuos del cómic con ficha breve" \
         "Perfil" "Alcance, identidad y criterio de evidencia" \
         "Anatomía y daño" "Cabeza, cerebro y lesiones" \
         "Infección y reanimación" "Mordidas, muerte y retorno" \
@@ -29,6 +32,9 @@ while true; do
         3>&1 1>&2 2>&3)
 
     case "$seccion" in
+        "Caminantes identificados")
+            bash "$SCRIPT_DIR/personajes.sh" CAMINANTE
+            ;;
         "Perfil")
             mostrar_archivo "$DATA_DIR/perfil.txt" "WALKER DATABASE | PERFIL"
             ;;
