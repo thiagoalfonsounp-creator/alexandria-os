@@ -137,4 +137,13 @@ docs/                   Documentación del proyecto
 - **Pendiente:** copiar el script actualizado y revisar el retrato en pantalla.
 
 
+
+### 2026-11-09 — Ajuste de detalle del retrato textual
+
+- La captura mostró que el modo Braille quedaba demasiado punteado. Se reemplazó por símbolos de mosaico Sextant y se amplió el panel a 28 columnas en terminales anchas; la geometría se reduce en terminales más angostas.
+- El retrato se mantiene dentro de la interfaz textual de `dialog`; no se introdujeron interfaces gráficas ni se presenta como imagen rasterizada.
+- **Validación:** código actualizado en `main`; este modo todavía no se comprobó en Debian.
+- **Pendiente:** transferir el script a la VM y revisar una ficha con retrato.
+
+
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
