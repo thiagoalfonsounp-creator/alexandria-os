@@ -38,13 +38,15 @@ Algunos módulos del paquete todavía usan `/home/walker/alexandria-os` o `$HOME
 
 ## THE REFUGE
 
-El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. La primera versión jugable es una campaña breve de terminal con consejo, expedición, crisis, tres turnos de guerra y una decisión final. Las elecciones alteran suministros, supervivientes, moral, defensas, inteligencia, alianzas y el desenlace.
+El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. La campaña de terminal incluye consejo, expedición, crisis, tres turnos de guerra y una decisión final. Las elecciones alteran suministros, supervivientes, moral, defensas, inteligencia, alianzas y el desenlace.
+
+En la confrontación final hay una prueba de reflejos textual: aparecen tres señales aleatorias con las teclas W, A, S o D. Hay 2,5 segundos para responder a cada señal, sin presionar Enter; cada acierto suma 2 puntos al puntaje del desenlace.
 
 La campaña se guarda localmente como JSON en `$XDG_STATE_HOME/alexandria-os/the-refuge.json`; si `XDG_STATE_HOME` no está definido, usa `~/.local/state/alexandria-os/the-refuge.json`. Los datos guardados no se escriben en el repositorio.
 
 La historia presenta una variación original inspirada en el arco *All-Out War*. Image Comics identifica el número [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) como su inicio y el [#126](https://imagecomics.com/comics/releases/the-walking-dead-126) como su conclusión. Los valores, decisiones y finales de la campaña son mecánicas de juego y no alteran el canon.
 
-**Validación:** el código está conectado al lanzador en `main`; todavía no se ejecutó en la VM Debian. La próxima comprobación debe hacerse desde el menú de Alexandria y confirmar guardado, reanudación y un desenlace.
+**Validación:** el usuario confirmó que THE REFUGE ya llega a un desenlace en Debian. El QTE se revisó estáticamente en `main`, pero todavía no se ha ejecutado en la VM. Queda pendiente sincronizar la versión actual y comprobar las teclas, el tiempo, el puntaje y la continuidad del terminal al salir de la prueba.
 
 ## Archivo de personajes
 
@@ -207,5 +209,12 @@ docs/                   Documentación del proyecto
 - Se corrigió el formato de las opciones y se conservaron sus ayudas dentro de las descripciones. La lógica de desenlaces y el guardado no se modificaron.
 - **Validación:** revisión estática del código en `main`; todavía no ejecutado en la VM Debian.
 - **Pendiente:** sincronizar `src/refuge/refuge.py` con Debian y reanudar la partida guardada en `CONFRONTACIÓN FINAL` para elegir un desenlace y confirmar que queda guardado como finalizado.
+
+### 2026-11-09 18:06 ART — Prueba de reflejos en THE REFUGE
+
+- Se incorporó a la confrontación final una secuencia textual de tres señales aleatorias (W, A, S o D), con 2,5 segundos por señal y respuesta directa de tecla, sin Enter. Cada acierto añade 2 puntos al puntaje del desenlace.
+- El resultado registra los aciertos de reflejos y el puntaje junto con el desenlace. El modo de terminal se restaura al terminar la secuencia.
+- **Validación:** revisión estática del código en `main`; no se ejecutó el QTE en Debian. El usuario confirmó que la campaña alcanza un desenlace.
+- **Pendiente:** sincronizar la actualización en la VM Debian y comprobar aciertos, errores, tiempo agotado, puntaje final y que el terminal queda usable al salir.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
