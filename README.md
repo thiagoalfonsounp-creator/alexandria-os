@@ -112,4 +112,11 @@ docs/                   Documentación del proyecto
 - **Validación:** la captura confirma carga y encuadre de la imagen con la versión anterior; el nuevo ajuste aún no se comprobó en Debian.
 - **Pendiente:** copiar el script actualizado a la VM y revisar una ficha con retrato.
 
+### 2026-11-09 3:17:35 PM ART — Ajuste de proporciones de fichas
+
+- La captura de Debian mostró demasiado ancho vacío a la derecha y un panel de retrato sobredimensionado.
+- Se redujo la ventana máxima a 88 columnas, el panel a 22 columnas y el render a 16 filas; el texto sigue ajustándose al ancho de la terminal.
+- **Validación:** el usuario confirmó el resultado de la versión anterior; estas nuevas proporciones todavía no se comprobaron en Debian.
+- **Pendiente:** copiar el script actualizado a la VM y revisar una ficha con retrato.
+
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
