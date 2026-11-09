@@ -97,5 +97,12 @@ docs/                   Documentación del proyecto
 - Se incorporó [`IDENTIDAD_VISUAL.md`](IDENTIDAD_VISUAL.md) como propuesta pendiente; no se aplicaron cambios visuales a la interfaz.
 - **Pendiente:** probar estas categorías integradas en la VM Debian y cotejar las referencias de las fichas con los ejemplares del cómic. No se registra como validada ninguna categoría que no se haya probado en la VM.
 
+### 2026-11-09 14:27 ART — Presentación vertical de fichas
+
+- `src/world/personajes.sh` prepara una vista temporal con líneas envueltas en una columna izquierda y una ventana de ancho uniforme; el ancho se adapta a terminales más angostas.
+- Se reserva a la derecha un panel de 28 columnas. Si existe una imagen con el mismo nombre base del expediente en `data/world/retratos/` (PNG, JPG, JPEG, WebP o GIF), `chafa` la convierte a caracteres Unicode monocromos; sin imagen aparece `RETRATO PENDIENTE`.
+- No se añadieron imágenes. Los retratos para el repositorio deben ser originales o contar con autorización; no se incorporan páginas ni paneles del cómic.
+- **Validación:** el cambio de código quedó en la rama `main`; no se ejecutó en la VM Debian.
+- **Pendiente:** copiar la actualización a Debian y comprobar visualmente Personajes, Antagonistas, Animales y Caminantes, además de probar un retrato local.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
