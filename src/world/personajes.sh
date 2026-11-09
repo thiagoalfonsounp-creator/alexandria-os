@@ -72,10 +72,10 @@ lineas_terminal=$(tput lines 2>/dev/null || true)
 if [[ "$columnas_terminal" =~ ^[0-9]+$ ]] && (( columnas_terminal > 0 && columnas_terminal < ANCHO_VENTANA )); then
     ANCHO_VENTANA=$((columnas_terminal - 2))
 fi
-if (( ANCHO_VENTANA < 92 )); then
+if (( ANCHO_VENTANA < 100 )); then
     ANCHO_RETRATO=24
 fi
-if (( ANCHO_VENTANA < 76 )); then
+if (( ANCHO_VENTANA < 88 )); then
     ANCHO_RETRATO=20
 fi
 if (( ANCHO_VENTANA < 60 )); then
