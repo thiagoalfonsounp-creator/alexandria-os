@@ -64,25 +64,34 @@ if (( ${#opciones[@]} == 0 )); then
 fi
 
 
-ANCHO_VENTANA=88
-ANCHO_RETRATO=22
-SEPARACION=4
+ANCHO_VENTANA=96
+ANCHO_RETRATO=20
+SEPARACION=2
 columnas_terminal=$(tput cols 2>/dev/null || true)
+lineas_terminal=$(tput lines 2>/dev/null || true)
 if [[ "$columnas_terminal" =~ ^[0-9]+$ ]] && (( columnas_terminal > 0 && columnas_terminal < ANCHO_VENTANA )); then
-    ANCHO_VENTANA=$columnas_terminal
+    ANCHO_VENTANA=$((columnas_terminal - 2))
 fi
-if (( ANCHO_VENTANA < 70 )); then
+if (( ANCHO_VENTANA < 76 )); then
     ANCHO_RETRATO=18
     SEPARACION=2
 fi
-if (( ANCHO_VENTANA < 56 )); then
-    ANCHO_RETRATO=16
-    SEPARACION=2
+if (( ANCHO_VENTANA < 60 )); then
+    ANCHO_RETRATO=14
+    SEPARACION=1
 fi
 ANCHO_TEXTO=$((ANCHO_VENTANA - ANCHO_RETRATO - SEPARACION - 6))
-if (( ANCHO_TEXTO < 16 )); then
-    ANCHO_TEXTO=16
+if (( ANCHO_TEXTO < 24 )); then
+    ANCHO_TEXTO=24
     ANCHO_VENTANA=$((ANCHO_TEXTO + ANCHO_RETRATO + SEPARACION + 6))
+fi
+
+ALTURA_VENTANA=36
+if [[ "$lineas_terminal" =~ ^[0-9]+$ ]] && (( lineas_terminal > 0 )); then
+    ALTURA_VENTANA=$((lineas_terminal - 2))
+fi
+if (( ALTURA_VENTANA < 12 )); then
+    ALTURA_VENTANA=12
 fi
 
 crear_vista_ficha() {
@@ -95,7 +104,34 @@ crear_vista_ficha() {
     local -a salida_chafa=()
 
     nombre_base="${nombre_base%.txt}"
-    mapfile -t lineas_texto < <(sed 's/\r$//' "$archivo_ficha" | fold -s -w "$ANCHO_TEXTO")
+    mapfile -t lineas_texto < <(
+        sed 's/\r$//' "$archivo_ficha" |
+        awk '
+            function emitir_parrafo() {
+                if (parrafo != "") {
+                    print parrafo
+                    parrafo = ""
+                }
+            }
+            {
+                linea = $0
+                if (linea ~ /^[[:space:]]*$/) {
+                    emitir_parrafo()
+                    print ""
+                    next
+                }
+                if (linea == toupper(linea) || linea ~ /^[[:alpha:]][[:alpha:][:space:]_.-]*:/) {
+                    emitir_parrafo()
+                    print linea
+                    next
+                }
+                if (parrafo == "") parrafo = linea
+                else parrafo = parrafo " " linea
+            }
+            END { emitir_parrafo() }
+        ' |
+        fold -s -w "$ANCHO_TEXTO"
+    )
 
     borde="+$(printf '%*s' "$((ANCHO_RETRATO - 2))" '' | tr ' ' '-')+"
     espacio="|$(printf '%*s' "$((ANCHO_RETRATO - 2))" '')|"
@@ -166,6 +202,6 @@ while true; do
         continue
     fi
     crear_vista_ficha "$PROJECT_ROOT/$archivo" "$vista_temporal"
-    dialog --title "$titulo | $etiqueta" --textbox "$vista_temporal" 0 "$ANCHO_VENTANA"
+    dialog --title "$titulo | $etiqueta" --textbox "$vista_temporal" "$ALTURA_VENTANA" "$ANCHO_VENTANA"
     rm -f -- "$vista_temporal"
 done
