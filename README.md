@@ -154,4 +154,14 @@ docs/                   Documentación del proyecto
 - **Alcance:** se valida visualmente esta ficha de Rick. No se registran como verificadas todas las fichas, Antagonistas ni Animales.
 
 
+
+### 2026-11-09 — Retratos selectivos por relevancia
+
+- El visor reserva panel para expedientes `AMPLIADO` y para las fichas breves enumeradas en `data/world/retratos_destacados.txt`.
+- Las demás fichas se muestran sin panel de retrato, en un cuadro de texto más compacto. La lista curada inicial incluye a Allen, Axel, Dexter, Duane, Judith, Rachel y Reggie.
+- El RAR adjunto contiene 38 imágenes: los nombres coinciden con los 31 expedientes ampliados y los 7 secundarios seleccionados. Los binarios aún deben copiarse a `data/world/retratos/` en Debian.
+- **Validación:** el cambio de código quedó en `main`; la captura anterior confirma el retrato de Rick, pero el filtro nuevo aún no se ha comprobado en la VM.
+- **Pendiente:** transferir el script, la lista y las imágenes a Debian; revisar una ficha breve sin retrato y otra incluida en la lista.
+
+
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
