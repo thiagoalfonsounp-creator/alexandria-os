@@ -201,4 +201,11 @@ docs/                   Documentación del proyecto
 - **Pendiente:** probar el selector y los textos en la VM Debian y cotejar las etapas con los ejemplares. La revisión de esta tarea fue estática y no valida la ejecución en la VM.
 
 
+### 2026-11-09 17:24 ART — Corrección de la continuación en THE REFUGE
+
+- El reporte indicó que la aplicación se cerraba al continuar la partida en la confrontación final. La revisión de `src/refuge/refuge.py` localizó la causa: `final_decision()` entregaba opciones de tres valores, pero `choose()` esperaba pares de etiqueta y descripción. El desempaquetado fallaba al construir el menú.
+- Se corrigió el formato de las opciones y se conservaron sus ayudas dentro de las descripciones. La lógica de desenlaces y el guardado no se modificaron.
+- **Validación:** revisión estática del código en `main`; todavía no ejecutado en la VM Debian.
+- **Pendiente:** sincronizar `src/refuge/refuge.py` con Debian y reanudar la partida guardada en `CONFRONTACIÓN FINAL` para elegir un desenlace y confirmar que queda guardado como finalizado.
+
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
