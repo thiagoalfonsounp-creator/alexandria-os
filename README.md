@@ -128,4 +128,13 @@ docs/                   Documentación del proyecto
 - **Pendiente:** copiar el script actualizado a Debian y revisar una ficha con retrato.
 
 
+
+### 2026-11-09 — Más detalle en retratos monocromos
+
+- Se cambió el render de Chafa a símbolos Braille, que permiten representar más detalle dentro de las mismas celdas. El panel conserva su ancho de 20 columnas y el límite de salida del retrato pasa a 20 filas.
+- El retrato sigue siendo una aproximación de caracteres dentro del visor de texto, no una imagen rasterizada.
+- **Validación:** cambio publicado en `main`; falta comprobar cómo se representa en la VM Debian.
+- **Pendiente:** copiar el script actualizado y revisar el retrato en pantalla.
+
+
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
