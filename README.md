@@ -164,4 +164,12 @@ docs/                   Documentación del proyecto
 - **Pendiente:** transferir el script, la lista y las imágenes a Debian; revisar una ficha breve sin retrato y otra incluida en la lista.
 
 
+
+### 2026-11-09 — Retratos selectivos copiados y verificados
+
+- Se copiaron a la VM Debian el visor actualizado, la lista `data/world/retratos_destacados.txt` y los retratos en `data/world/retratos/`.
+- En Debian se confirmaron los conteos esperados: 7 nombres en la lista curada y 38 archivos de imagen. El conjunto corresponde a los 31 expedientes ampliados y 7 fichas breves seleccionadas.
+- El usuario confirmó el resultado esperado al consultar una ficha ampliada y una ficha breve incluida en la selección.
+- **Alcance:** la comprobación visual se limita a las fichas consultadas; no valida todos los expedientes ni todas las categorías. Queda pendiente revisar una ficha breve fuera de la selección y comprobar las categorías restantes en Debian.
+
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
