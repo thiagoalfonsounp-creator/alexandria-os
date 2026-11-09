@@ -22,7 +22,7 @@ La aplicación utiliza Bash, `dialog` y `nano`. El lector de PDF requiere `poppl
 
 ```bash
 sudo apt update
-sudo apt install bash dialog nano unzip poppler-utils chafa
+sudo apt install bash dialog nano unzip poppler-utils chafa python3
 ```
 
 Desde la raíz del proyecto:
@@ -34,6 +34,16 @@ Desde la raíz del proyecto:
 En los menús, usá las flechas y Enter. Escape cancela o vuelve al menú anterior. El selector de personajes se desplaza con las flechas y las teclas de página.
 
 Algunos módulos del paquete todavía usan `/home/walker/alexandria-os` o `$HOME/alexandria-os`; mantené esa ruta o actualizá los scripts que la usan.
+
+## THE REFUGE
+
+El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. La primera versión jugable es una campaña breve de terminal con consejo, expedición, crisis, tres turnos de guerra y una decisión final. Las elecciones alteran suministros, supervivientes, moral, defensas, inteligencia, alianzas y el desenlace.
+
+La campaña se guarda localmente como JSON en `$XDG_STATE_HOME/alexandria-os/the-refuge.json`; si `XDG_STATE_HOME` no está definido, usa `~/.local/state/alexandria-os/the-refuge.json`. Los datos guardados no se escriben en el repositorio.
+
+La historia presenta una variación original inspirada en el arco *All-Out War*. Image Comics identifica el número [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) como su inicio y el [#126](https://imagecomics.com/comics/releases/the-walking-dead-126) como su conclusión. Los valores, decisiones y finales de la campaña son mecánicas de juego y no alteran el canon.
+
+**Validación:** el código está conectado al lanzador en `main`; todavía no se ejecutó en la VM Debian. La próxima comprobación debe hacerse desde el menú de Alexandria y confirmar guardado, reanudación y un desenlace.
 
 ## Archivo de personajes
 
@@ -171,5 +181,15 @@ docs/                   Documentación del proyecto
 - En Debian se confirmaron los conteos esperados: 7 nombres en la lista curada y 38 archivos de imagen. El conjunto corresponde a los 31 expedientes ampliados y 7 fichas breves seleccionadas.
 - El usuario confirmó el resultado esperado al consultar una ficha ampliada y una ficha breve incluida en la selección.
 - **Alcance:** la comprobación visual se limita a las fichas consultadas; no valida todos los expedientes ni todas las categorías. Queda pendiente revisar una ficha breve fuera de la selección y comprobar las categorías restantes en Debian.
+
+
+### 2026-11-09 — Primera versión jugable de THE REFUGE
+
+- Se creó `src/refuge/refuge.py` y se conectó la opción **THE REFUGE** de `bin/alexandria` al módulo de terminal.
+- La campaña persistente contiene consejo, expedición, crisis, tres turnos de guerra contra los Salvadores y una decisión final frente a Negan. Las decisiones cambian suministros, supervivientes, moral, defensas, inteligencia, alianzas y el desenlace.
+- El estado se guarda localmente en JSON para permitir continuar la partida; no se guarda dentro del repositorio. La narrativa y los desenlaces son variaciones originales, sin reproducir páginas ni diálogos del cómic.
+- Se añadió `python3` a las dependencias de instalación. Las referencias temáticas se limitaron a la ficha oficial de Image Comics para los números [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) y [#126](https://imagecomics.com/comics/releases/the-walking-dead-126).
+- **Validación:** código y conexión al menú confirmados en GitHub `main`; no ejecutado en Debian.
+- **Pendiente:** instalar/copiar la actualización en la VM y comprobar navegación, persistencia JSON, reanudación y desenlaces.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
