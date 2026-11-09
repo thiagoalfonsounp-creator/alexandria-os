@@ -1,0 +1,33 @@
+THE WORLD / RECORRIDO DE RICK
+MAPA 2 — RED DE COMUNIDADES
+============================================================
+ESQUEMA DE RELACIONES. Los nodos no son coordenadas ni una ruta única.
+
+RUTA NARRATIVA HACIA ALEXANDRIA
+PRISIÓN / DISPERSIÓN . . . IGLESIA DE GABRIEL / CAZADORES . . . ALEXANDRIA
+Los puntos marcan una transición general; no trazan la carretera.
+
+                         ALEXANDRIA
+                             |
+           +-----------------+-----------------+
+           |                 |                 |
+        HILLTOP          EL REINO        EL SANTUARIO
+           |                 |                 |
+           +------ alianzas, viajes y conflicto ------+
+                             |
+                  TERRITORIO MÓVIL DE LOS
+                     SUSURRADORES
+
+LECTURA
+- Alexandria sirve como nodo narrativo de la red, no como punto central
+  geográfico calculado.
+- Hilltop y el Reino aparecen como comunidades vinculadas con la alianza.
+- El Santuario se incluye por el conflicto con los Salvadores; no se lo
+  presenta como destino amistoso ni como parada lineal.
+- Los campamentos de los Susurradores son territorio móvil; no se les
+  asignan coordenadas.
+- Oceanside no figura en este diagrama mientras su presencia en el cómic
+  no se confirme directamente.
+
+Evidence Level: UNCONFIRMED hasta revisar los ejemplares indicados.
+Referencias de lectura: #67-168; ver etapas 06-08 y el criterio de esta sección.

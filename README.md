@@ -4,11 +4,12 @@ Alexandria OS es un entorno de archivo y consulta basado en Debian 13 para el c�
 
 Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os](https://github.com/thiagoalfonsounp-creator/alexandria-os).
 
-## Estado del proyecto — 7 de noviembre de 2026
+## Estado del proyecto — 9 de noviembre de 2026
 
 - El código de la copia de trabajo y la documentación están sincronizados en la rama `main`.
 - El archivo reúne 248 entradas: 225 personajes, 5 antagonistas principales, 14 caminantes identificados y 4 animales. Incluye 31 expedientes ampliados, 199 fichas breves y 18 identificaciones. Cada categoría tiene su selector y la lista se desplaza con el teclado.
 - `THE WORLD` también conecta Comunidades (13 fichas), Ubicaciones (19), Glosario (40 términos y una guía de método) y Cronología (33 etapas y una guía de método). Sus menús vuelven a la categoría anterior con Escape.
+- `Recorrido de Rick` cuenta con tres mapas esquemáticos de texto y diez etapas, desde Cynthiana hasta el epílogo. No fija distancias ni coordenadas; las rutas permanecen `UNCONFIRMED` hasta cotejar los ejemplares.
 - La propuesta de identidad visual está documentada en [`IDENTIDAD_VISUAL.md`](IDENTIDAD_VISUAL.md); es una guía de diseño, todavía no implementada en la interfaz.
 - El selector agrega el arco y el número de primera aparición entre paréntesis cuando se confirmaron. Si falta esa verificación, muestra `Arco no confirmado`; el índice conserva `UNCONFIRMED`.
 - Las fichas breves registran nombres y grupos de referencia sin inventar escenas, parentescos o destinos. Cuando falta comprobación directa del número del cómic, usan `UNCONFIRMED`.
@@ -191,5 +192,13 @@ docs/                   Documentación del proyecto
 - Se añadió `python3` a las dependencias de instalación. Las referencias temáticas se limitaron a la ficha oficial de Image Comics para los números [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) y [#126](https://imagecomics.com/comics/releases/the-walking-dead-126).
 - **Validación:** código y conexión al menú confirmados en GitHub `main`; no ejecutado en Debian.
 - **Pendiente:** instalar/copiar la actualización en la VM y comprobar navegación, persistencia JSON, reanudación y desenlaces.
+
+### 2026-11-09 16:53 ART — Recorrido de Rick
+
+- Se conectó `Recorrido de Rick` al menú de `THE WORLD` mediante un módulo propio y un índice TSV. Incluye tres mapas esquemáticos de texto, diez etapas y una guía de criterio.
+- Los diagramas separan el origen y los refugios del sur, la red de comunidades y el tramo final. No representan carreteras, escalas, distancias ni coordenadas que el proyecto no haya cotejado.
+- Las fichas usan rangos de números como localizadores y mantienen `UNCONFIRMED` hasta revisar directamente los ejemplares. Se dejó Pittsburgh sin conexión geográfica afirmada y Oceanside fuera del mapa mientras siga pendiente su confirmación en el canon del cómic.
+- **Pendiente:** probar el selector y los textos en la VM Debian; cotejar las etapas con los cómics. La revisión de esta tarea fue estática y no valida la ejecución en la VM.
+
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.

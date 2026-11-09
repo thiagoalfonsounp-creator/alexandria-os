@@ -48,6 +48,9 @@ while true; do
         "Cronología")
             bash "$SCRIPT_DIR/cronologia.sh"
             ;;
+        "Recorrido de Rick")
+            bash "$SCRIPT_DIR/recorrido_rick.sh"
+            ;;
         *)
             dialog --title "THE WORLD" \
                 --msgbox "La sección '$categoria' está planificada y se incorporará más adelante." 8 64

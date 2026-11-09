@@ -1,0 +1,49 @@
+THE WORLD / RECORRIDO DE RICK
+CRITERIO, ALCANCE Y ESTADO DE EVIDENCIA
+============================================================
+Continuidad: cómic principal de The Walking Dead, #1-193.
+Aviso: contiene spoilers de toda la serie y del epílogo.
+
+QUÉ REPRESENTA
+Los diagramas agrupan lugares y etapas narrativas del recorrido de Rick.
+Son esquemas documentales, no mapas de navegación ni reproducciones
+geográficas a escala. Las líneas y ramas indican secuencia general o
+relación narrativa, nunca una carretera, dirección exacta o distancia.
+
+QUÉ NO SE DEDUCE
+El cómic no fija aquí fechas civiles, duración de cada viaje, kilómetros,
+coordenadas de cada refugio ni el trazado completo de las carreteras.
+Esos datos quedan abiertos. El epílogo se trata como coda, no como un
+trayecto de Rick: la ubicación exacta de la granja no se asigna.
+
+EVIDENCIA
+Evidence Level: UNCONFIRMED para las síntesis de esta sección hasta
+cotejar directamente los números y escenas indicados. Las sinopsis y
+ediciones recopilatorias del editor son localizadores editoriales, no
+sustituyen la lectura del cómic. Los rangos de números siguen el índice
+de cronología del proyecto y sirven para orientar la revisión.
+
+FUENTES EDITORIALES DE LOCALIZACIÓN
+Skybound, ficha oficial de la serie (Cynthiana, Kentucky):
+https://www.skybound.com/the-walking-dead/comics
+Image Comics, The Walking Dead #1:
+https://imagecomics.com/comics/releases/the-walking-dead-1
+Image Comics, The Walking Dead #2:
+https://imagecomics.com/comics/releases/the-walking-dead-2
+Image Comics, The Walking Dead #13:
+https://imagecomics.com/comics/releases/the-walking-dead-13
+Image Comics, Compendium Two (#49-96):
+https://imagecomics.com/comics/releases/the-walking-dead-compendium-two
+Image Comics, Compendium Three (#97-144):
+https://imagecomics.com/comics/releases/the-walking-dead-compendium-three
+Image Comics, Compendium Four (#145-193):
+https://imagecomics.com/comics/releases/the-walking-dead-compendium-four
+
+PENDIENTES
+- Cotejar cada waypoint con el número y la escena del ejemplar.
+- No colocar Oceanside en el recorrido hasta confirmar su pertenencia al
+  canon del cómic con una fuente primaria; permanece en el catálogo general
+  de Ubicaciones con estado UNCONFIRMED.
+- Confirmar si Pittsburgh es un waypoint del recorrido de Rick y establecer
+  su relación con la Commonwealth antes de dibujar una conexión directa.
+- Probar el menú y los diagramas en la VM Debian.
