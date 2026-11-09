@@ -119,4 +119,13 @@ docs/                   Documentación del proyecto
 - **Validación:** el usuario confirmó el resultado de la versión anterior; estas nuevas proporciones todavía no se comprobaron en Debian.
 - **Pendiente:** copiar el script actualizado a la VM y revisar una ficha con retrato.
 
+
+### 2026-11-09 — Reflujo del texto y equilibrio del retrato
+
+- Se fijó el ancho de la ficha en 96 columnas y se ajustó la altura al terminal. En terminales más angostas, el panel del retrato se reduce.
+- El panel del retrato quedó en 20 columnas, separado por 2; los renglones consecutivos del texto ahora se recomponen como párrafos antes de envolverse, para evitar fragmentos cortos.
+- **Validación:** el cambio quedó en `main`; todavía no se ha comprobado en la VM Debian.
+- **Pendiente:** copiar el script actualizado a Debian y revisar una ficha con retrato.
+
+
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
