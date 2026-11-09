@@ -1,0 +1,9 @@
+# Fichas breves seleccionadas manualmente como secundarios relevantes.
+# Usar el nombre base exacto del expediente, sin extensión.
+allen__familia_de_allen
+axel__prision
+dexter__prision
+duane_jones__condado_de_grant_familia_jones
+judith_grimes__prision
+rachel_greene__familia_greene
+reggie__condado_de_grant_residentes
