@@ -4,6 +4,7 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd -- "$SCRIPT_DIR/../.." && pwd)"
 DATA_DIR="$PROJECT_ROOT/data/world"
 INDEX_FILE="$DATA_DIR/personajes_index.tsv"
+RETRATOS_DESTACADOS_FILE="$DATA_DIR/retratos_destacados.txt"
 tipo_solicitado="${1:-PERSONAJE}"
 
 case "$tipo_solicitado" in
@@ -25,7 +26,17 @@ if [[ ! -r "$INDEX_FILE" ]]; then
 fi
 
 declare -A archivo_por_etiqueta
+declare -A retrato_por_etiqueta
+declare -A retratos_destacados
 opciones=()
+
+if [[ -r "$RETRATOS_DESTACADOS_FILE" ]]; then
+    while IFS= read -r nombre_retrato || [[ -n "$nombre_retrato" ]]; do
+        nombre_retrato="${nombre_retrato%$'\r'}"
+        [[ -z "$nombre_retrato" || "$nombre_retrato" == \#* ]] && continue
+        retratos_destacados["$nombre_retrato"]=1
+    done < "$RETRATOS_DESTACADOS_FILE"
+fi
 
 while IFS=$'\t' read -r personaje grupo tipo nivel arco primera_aparicion archivo; do
     [[ "$personaje" == "PERSONAJE" || -z "$personaje" || -z "$archivo" ]] && continue
@@ -51,6 +62,14 @@ while IFS=$'\t' read -r personaje grupo tipo nivel arco primera_aparicion archiv
         fi
     else
         etiqueta="$personaje (Arco no confirmado)"
+    fi
+
+    nombre_base="${archivo##*/}"
+    nombre_base="${nombre_base%.txt}"
+    if [[ "$nivel" == "AMPLIADO" || -n "${retratos_destacados[$nombre_base]:-}" ]]; then
+        retrato_por_etiqueta["$etiqueta"]="SI"
+    else
+        retrato_por_etiqueta["$etiqueta"]="NO"
     fi
 
     opciones+=("$etiqueta" "$estado · $grupo")
@@ -88,6 +107,16 @@ if (( ANCHO_TEXTO < 24 )); then
     ANCHO_VENTANA=$((ANCHO_TEXTO + ANCHO_RETRATO + SEPARACION + 6))
 fi
 
+ANCHO_VENTANA_SIN_RETRATO=88
+if [[ "$columnas_terminal" =~ ^[0-9]+$ ]] && (( columnas_terminal > 0 && columnas_terminal < ANCHO_VENTANA_SIN_RETRATO )); then
+    ANCHO_VENTANA_SIN_RETRATO=$((columnas_terminal - 2))
+fi
+ANCHO_TEXTO_SIN_RETRATO=$((ANCHO_VENTANA_SIN_RETRATO - 6))
+if (( ANCHO_TEXTO_SIN_RETRATO < 24 )); then
+    ANCHO_TEXTO_SIN_RETRATO=24
+    ANCHO_VENTANA_SIN_RETRATO=$((ANCHO_TEXTO_SIN_RETRATO + 6))
+fi
+
 ALTURA_VENTANA=36
 if [[ "$lineas_terminal" =~ ^[0-9]+$ ]] && (( lineas_terminal > 0 )); then
     ALTURA_VENTANA=$((lineas_terminal - 2))
@@ -99,11 +128,24 @@ fi
 crear_vista_ficha() {
     local archivo_ficha="$1"
     local archivo_salida="$2"
+    local mostrar_retrato="${3:-NO}"
     local nombre_base="${archivo_ficha##*/}"
     local extension imagen="" borde espacio fila max_filas indice
+    local ancho_texto_ficha="$ANCHO_TEXTO"
+    local ancho_retrato_ficha="$ANCHO_RETRATO"
+    local separacion_ficha="$SEPARACION"
     local -a lineas_texto=()
     local -a filas_retrato=()
     local -a salida_chafa=()
+
+    if [[ "$mostrar_retrato" == "SI" ]]; then
+        ANCHO_FICHA_ACTUAL="$ANCHO_VENTANA"
+    else
+        ANCHO_FICHA_ACTUAL="$ANCHO_VENTANA_SIN_RETRATO"
+        ancho_texto_ficha="$ANCHO_TEXTO_SIN_RETRATO"
+        ancho_retrato_ficha=0
+        separacion_ficha=0
+    fi
 
     nombre_base="${nombre_base%.txt}"
     mapfile -t lineas_texto < <(
@@ -132,39 +174,41 @@ crear_vista_ficha() {
             }
             END { emitir_parrafo() }
         ' |
-        fold -s -w "$ANCHO_TEXTO"
+        fold -s -w "$ancho_texto_ficha"
     )
 
-    borde="+$(printf '%*s' "$((ANCHO_RETRATO - 2))" '' | tr ' ' '-')+"
-    espacio="|$(printf '%*s' "$((ANCHO_RETRATO - 2))" '')|"
+    if [[ "$mostrar_retrato" == "SI" ]]; then
+        borde="+$(printf '%*s' "$((ancho_retrato_ficha - 2))" '' | tr ' ' '-')+"
+        espacio="|$(printf '%*s' "$((ancho_retrato_ficha - 2))" '')|"
 
-    for extension in png jpg jpeg webp gif; do
-        if [[ -r "$DATA_DIR/retratos/$nombre_base.$extension" ]]; then
-            imagen="$DATA_DIR/retratos/$nombre_base.$extension"
-            break
+        for extension in png jpg jpeg webp gif; do
+            if [[ -r "$DATA_DIR/retratos/$nombre_base.$extension" ]]; then
+                imagen="$DATA_DIR/retratos/$nombre_base.$extension"
+                break
+            fi
+        done
+
+        if [[ -n "$imagen" ]] && command -v chafa >/dev/null 2>&1; then
+            mapfile -t salida_chafa < <(chafa --format symbols --colors none --symbols sextant --invert --relative off --size "$((ancho_retrato_ficha - 2))x18" "$imagen" 2>/dev/null)
+            if ((${#salida_chafa[@]} > 0)); then
+                filas_retrato+=("$borde")
+                for fila in "${salida_chafa[@]}"; do
+                    filas_retrato+=("$(printf '|%-*s|' "$((ancho_retrato_ficha - 2))" "$fila")")
+                done
+                filas_retrato+=("$borde")
+            fi
         fi
-    done
 
-    if [[ -n "$imagen" ]] && command -v chafa >/dev/null 2>&1; then
-        mapfile -t salida_chafa < <(chafa --format symbols --colors none --symbols sextant --invert --relative off --size "$((ANCHO_RETRATO - 2))x18" "$imagen" 2>/dev/null)
-        if ((${#salida_chafa[@]} > 0)); then
-            filas_retrato+=("$borde")
-            for fila in "${salida_chafa[@]}"; do
-                filas_retrato+=("$(printf '|%-*s|' "$((ANCHO_RETRATO - 2))" "$fila")")
-            done
-            filas_retrato+=("$borde")
+        if ((${#filas_retrato[@]} == 0)); then
+            filas_retrato=(
+                "$borde"
+                "$espacio"
+                "$(printf '| %-*s |' "$((ancho_retrato_ficha - 4))" "RETRATO")"
+                "$(printf '| %-*s |' "$((ancho_retrato_ficha - 4))" "PENDIENTE")"
+                "$espacio"
+                "$borde"
+            )
         fi
-    fi
-
-    if ((${#filas_retrato[@]} == 0)); then
-        filas_retrato=(
-            "$borde"
-            "$espacio"
-            "$(printf '| %-*s |' "$((ANCHO_RETRATO - 4))" "RETRATO")"
-            "$(printf '| %-*s |' "$((ANCHO_RETRATO - 4))" "PENDIENTE")"
-            "$espacio"
-            "$borde"
-        )
     fi
 
     max_filas=${#lineas_texto[@]}
@@ -174,7 +218,7 @@ crear_vista_ficha() {
 
     : > "$archivo_salida"
     for ((indice = 0; indice < max_filas; indice++)); do
-        printf "%-*s%*s%-*s\n" "$ANCHO_TEXTO" "${lineas_texto[indice]:-}" "$SEPARACION" "" "$ANCHO_RETRATO" "${filas_retrato[indice]:-}" >> "$archivo_salida"
+        printf "%-*s%*s%-*s\n" "$ancho_texto_ficha" "${lineas_texto[indice]:-}" "$separacion_ficha" "" "$ancho_retrato_ficha" "${filas_retrato[indice]:-}" >> "$archivo_salida"
     done
 }
 
@@ -203,7 +247,8 @@ while true; do
         dialog --title "$titulo" --msgbox "No se pudo preparar la vista de la ficha." 7 62
         continue
     fi
-    crear_vista_ficha "$PROJECT_ROOT/$archivo" "$vista_temporal"
-    dialog --title "$titulo | $etiqueta" --textbox "$vista_temporal" "$ALTURA_VENTANA" "$ANCHO_VENTANA"
+    mostrar_retrato="${retrato_por_etiqueta[$etiqueta]:-NO}"
+    crear_vista_ficha "$PROJECT_ROOT/$archivo" "$vista_temporal" "$mostrar_retrato"
+    dialog --title "$titulo | $etiqueta" --textbox "$vista_temporal" "$ALTURA_VENTANA" "$ANCHO_FICHA_ACTUAL"
     rm -f -- "$vista_temporal"
 done
