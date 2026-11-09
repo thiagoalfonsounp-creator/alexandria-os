@@ -64,17 +64,19 @@ if (( ${#opciones[@]} == 0 )); then
 fi
 
 
-ANCHO_VENTANA=96
-ANCHO_RETRATO=20
+ANCHO_VENTANA=104
+ANCHO_RETRATO=28
 SEPARACION=2
 columnas_terminal=$(tput cols 2>/dev/null || true)
 lineas_terminal=$(tput lines 2>/dev/null || true)
 if [[ "$columnas_terminal" =~ ^[0-9]+$ ]] && (( columnas_terminal > 0 && columnas_terminal < ANCHO_VENTANA )); then
     ANCHO_VENTANA=$((columnas_terminal - 2))
 fi
+if (( ANCHO_VENTANA < 92 )); then
+    ANCHO_RETRATO=24
+fi
 if (( ANCHO_VENTANA < 76 )); then
-    ANCHO_RETRATO=18
-    SEPARACION=2
+    ANCHO_RETRATO=20
 fi
 if (( ANCHO_VENTANA < 60 )); then
     ANCHO_RETRATO=14
@@ -144,7 +146,7 @@ crear_vista_ficha() {
     done
 
     if [[ -n "$imagen" ]] && command -v chafa >/dev/null 2>&1; then
-        mapfile -t salida_chafa < <(chafa --format symbols --colors none --symbols braille --invert --relative off --size "$((ANCHO_RETRATO - 2))x20" "$imagen" 2>/dev/null)
+        mapfile -t salida_chafa < <(chafa --format symbols --colors none --symbols sextant --invert --relative off --size "$((ANCHO_RETRATO - 2))x18" "$imagen" 2>/dev/null)
         if ((${#salida_chafa[@]} > 0)); then
             filas_retrato+=("$borde")
             for fila in "${salida_chafa[@]}"; do
