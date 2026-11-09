@@ -105,4 +105,11 @@ docs/                   Documentación del proyecto
 - **Validación:** el cambio de código quedó en la rama `main`; no se ejecutó en la VM Debian.
 - **Pendiente:** copiar la actualización a Debian y comprobar visualmente Personajes, Antagonistas, Animales y Caminantes, además de probar un retrato local.
 
+### 2026-11-09 — Ajuste del panel de retratos
+
+- La captura de Debian mostró que el retrato ya cargaba, pero la conversión monocroma quedaba demasiado oscura y casi cuadrada.
+- Se añadió `--invert` para el fondo claro de `dialog` y se amplió la salida de 14 a 18 filas, conservando el panel compacto.
+- **Validación:** la captura confirma carga y encuadre de la imagen con la versión anterior; el nuevo ajuste aún no se comprobó en Debian.
+- **Pendiente:** copiar el script actualizado a la VM y revisar una ficha con retrato.
+
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
