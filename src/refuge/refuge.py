@@ -448,9 +448,9 @@ def decide_ending(state, final_choice):
 
 def final_decision(state):
     options = [
-        ("hold", "Sostener el frente", "Aprovecha las defensas acumuladas"),
-        ("talk", "Negociar con Negan", "Depende de inteligencia y alianzas"),
-        ("evacuate", "Abrir una ruta de evacuación", "Prioriza salvar a la comunidad"),
+        ("hold", "Sostener el frente — Aprovecha las defensas acumuladas"),
+        ("talk", "Negociar con Negan — Depende de inteligencia y alianzas"),
+        ("evacuate", "Abrir una ruta de evacuación — Prioriza salvar a la comunidad"),
     ]
     selected = choose(
         "CONFRONTACIÓN FINAL",
