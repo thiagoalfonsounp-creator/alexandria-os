@@ -108,7 +108,7 @@ crear_vista_ficha() {
     done
 
     if [[ -n "$imagen" ]] && command -v chafa >/dev/null 2>&1; then
-        mapfile -t salida_chafa < <(chafa --format symbols --colors none --relative off --size "$((ANCHO_RETRATO - 2))x14" "$imagen" 2>/dev/null)
+        mapfile -t salida_chafa < <(chafa --format symbols --colors none --invert --relative off --size "$((ANCHO_RETRATO - 2))x18" "$imagen" 2>/dev/null)
         if ((${#salida_chafa[@]} > 0)); then
             filas_retrato+=("$borde")
             for fila in "${salida_chafa[@]}"; do
