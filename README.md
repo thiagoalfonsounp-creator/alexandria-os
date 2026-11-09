@@ -146,4 +146,12 @@ docs/                   Documentación del proyecto
 - **Pendiente:** transferir el script a la VM y revisar una ficha con retrato.
 
 
+
+### 2026-11-09 — Validación visual del retrato de Rick
+
+- La captura de Debian muestra la ficha de Rick Grimes con el retrato representado mediante mosaicos Sextant en el panel derecho y el texto legible en la columna izquierda.
+- El usuario confirmó que esta presentación le convence.
+- **Alcance:** se valida visualmente esta ficha de Rick. No se registran como verificadas todas las fichas, Antagonistas ni Animales.
+
+
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
