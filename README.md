@@ -13,7 +13,7 @@ Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os]
 - `THE WORLD` también conecta Comunidades (13 fichas), Ubicaciones (19), Glosario (40 términos y una guía de método) y Cronología (33 etapas y una guía de método). Sus menús vuelven a la categoría anterior con Escape.
 - La entrega académica final sigue pendiente: imagen virtual Debian `.ova` e informe exclusivamente en PDF, según los requisitos registrados en `AGENTS.md`.
 - `Recorrido de Rick` está conectado al menú de `THE WORLD` mediante `src/world/menu.sh` y `src/world/recorrido_rick.sh`. Su índice `data/world/recorrido_rick_index.tsv` reúne 14 entradas: tres mapas esquemáticos, una guía de método y diez etapas (R01–R10), desde Cynthiana hasta el epílogo. No fija distancias ni coordenadas; los datos sin cotejo directo permanecen `UNCONFIRMED`.
-- La propuesta de identidad visual está documentada en [`IDENTIDAD_VISUAL.md`](IDENTIDAD_VISUAL.md); es una guía de diseño, todavía no implementada en la interfaz.
+- La identidad visual empezó a aplicarse en `config/dialogrc`, `bin/alexandria` y `src/world/personajes.sh`: el lanzador carga una paleta monocromática y los marcos de retrato incorporan rayas diagonales. Falta comprobar la nueva presentación en Debian.
 - El selector agrega el arco y el número de primera aparición entre paréntesis cuando se confirmaron. Si falta esa verificación, muestra `Arco no confirmado`; el índice conserva `UNCONFIRMED`.
 - Las fichas breves registran nombres y grupos de referencia; cuando falta comprobación directa del cómic, usan `UNCONFIRMED`. La versión 0.4 incorpora descripciones de trabajo a 46 fichas desde el RAR aportado por el usuario. Sus escenas, relaciones, destinos y números siguen `UNCONFIRMED` hasta cotejarlos directamente con el cómic.
 - Se corrigieron nombres que provenían de la adaptación televisiva: el archivo usa Maggie Greene, Carol y Sophia Grimes en el epílogo. El cómic no establece para Carol el apellido Peletier.
@@ -295,3 +295,11 @@ Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borr
 - No se cambiaron pantallas ni código en esta tarea. El visor de personajes ya puede representar retratos en la terminal; la paleta y el tratamiento global siguen pendientes de implementación.
 - **Validación:** se actualizó la documentación en main; no se ejecutó ni se verificó una nueva interfaz en Debian.
 - **Pendiente:** aplicar la propuesta a una ficha y al menú, y revisar su legibilidad y navegación en la VM.
+
+
+### 2026-11-10 — Primera aplicación de identidad monocromática
+
+- Se añadió `config/dialogrc` con fondo negro, paneles claros y selección en video inverso blanco y negro. `bin/alexandria` exporta DIALOGRC para los módulos abiertos desde el menú principal y agrega una franja de archivo al encabezado.
+- `src/world/personajes.sh` usa rayas diagonales en los bordes superior e inferior del marco del retrato; el texto de las fichas no cambia.
+- **Validación:** revisión estática de los archivos actualizados en GitHub `main`; el cambio todavía no se ejecutó en Debian.
+- **Pendiente:** copiar la actualización a la VM y revisar el menú, una ficha con retrato, la legibilidad y la navegación. La verificación visual queda limitada a las pantallas que se comprueben allí.
