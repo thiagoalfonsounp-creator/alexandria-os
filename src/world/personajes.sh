@@ -130,7 +130,7 @@ crear_vista_ficha() {
     local archivo_salida="$2"
     local mostrar_retrato="${3:-NO}"
     local nombre_base="${archivo_ficha##*/}"
-    local extension imagen="" borde espacio fila max_filas indice
+    local extension imagen="" borde espacio fila max_filas indice trama
     local ancho_texto_ficha="$ANCHO_TEXTO"
     local ancho_retrato_ficha="$ANCHO_RETRATO"
     local separacion_ficha="$SEPARACION"
@@ -178,7 +178,8 @@ crear_vista_ficha() {
     )
 
     if [[ "$mostrar_retrato" == "SI" ]]; then
-        borde="+$(printf '%*s' "$((ancho_retrato_ficha - 2))" '' | tr ' ' '-')+"
+        trama=$(printf '%*s' "$((ancho_retrato_ficha - 2))" '' | tr ' ' '/')
+        borde="+$trama+"
         espacio="|$(printf '%*s' "$((ancho_retrato_ficha - 2))" '')|"
 
         for extension in png jpg jpeg webp gif; do
