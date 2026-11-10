@@ -1,99 +1,96 @@
 # Alexandria OS — Identidad visual
 
-**Estado:** dirección visual actualizada con retrato por personaje; propuesta todavía no implementada ni verificada en la VM.
+**Estado:** dirección monocromática definida como propuesta. El tema global todavía no está aplicado ni comprobado en Debian. El visor ya puede mostrar retratos seleccionados mediante caracteres de terminal; esta guía define cómo integrarlos en el lenguaje visual.
 
 ## Dirección
 
-Alexandria OS debe sentirse como una interfaz construida dentro de un **cómic de supervivencia**. La organización documental elegida para el contenido se conserva, con una presentación gráfica de tinta, viñetas, contraste fuerte y tramas de impresión.
+Alexandria OS conserva una interfaz exclusivamente textual y navegable con teclado. Su identidad toma el blanco y negro entintado del cómic, con grises y tramas de rayas diagonales, dentro de la estructura ordenada y sobria de un expediente documental.
 
-La interfaz de destino es textual y navegable con teclado. La VM usa Debian 13 y dispone de `dialog`, Python 3 y `chafa`; el diseño debe funcionar en una terminal y seguir siendo legible si no hay imágenes ni color de 24 bits.
+La estética del cómic debe aparecer en el marco, los márgenes, los encabezados y el tratamiento de los retratos. La información de las fichas debe seguir pareciendo un registro serio: clara, jerárquica y fácil de consultar. La textura nunca debe competir con la lectura.
 
 ## Decisiones confirmadas
 
-- Conservar la organización de **archivo documental** elegida por Thiago.
-- Llevar la estética del cómic a toda la interfaz: blanco y negro, grises, contornos gruesos, tramas de impresión y paneles tipo viñeta.
-- Mostrar junto al texto un retrato del personaje correspondiente a cada ficha. La referencia actual es Rick Grimes.
-- Usar lettering de cómic para títulos destacados. La fuente candidata es **Bangers**; reservarla para encabezados y mantener una monoespaciada legible para el contenido.
-- Reservar el rojo oscuro para amenazas, alertas y acontecimientos importantes.
-- Aplicar una identidad común a **THE WORLD**, **THE COMIC ARCHIVE** y **THE REFUGE**.
-- Mantener navegación por teclado, alto contraste y fichas que no requieran desplazamiento lateral.
+- Mantener la organización de archivo documental y el vocabulario de expediente.
+- Reemplazar el azul intenso de la interfaz actual por una paleta estrictamente monocromática: negro, blanco y grises neutros.
+- Evocar la tinta impresa mediante rayas diagonales y medias tintas, aplicadas con moderación a márgenes, marcos y retratos.
+- Mantener las fichas sobrias: títulos de sección claros, identificadores y estados de evidencia visibles, párrafos legibles y sin adornos que distraigan.
+- Conservar una identidad común para **THE WORLD**, **THE COMIC ARCHIVE** y **THE REFUGE**.
+- Mantener toda la experiencia en la terminal. No se planifica una interfaz gráfica.
+- Usar la fuente monoespaciada disponible en la terminal. La jerarquía se construye con mayúsculas, espaciado, marcos y selección inversa; no se reemplaza la fuente del sistema.
+- Mantener navegación por teclado y evitar el desplazamiento horizontal.
 
 ## Sistema visual propuesto
 
 | Uso | Tratamiento |
 | --- | --- |
-| Fondo | Negro con bordes y tramas de tinta; reemplazar el azul saturado de la captura de referencia. |
-| Paneles | Papel claro o gris dentro de marcos negros gruesos, como viñetas impresas. |
-| Texto principal | Negro sobre superficie clara, monoespaciado y compacto para conservar legibilidad. |
-| Títulos destacados | Lettering de cómic Bangers en nombres de módulo y encabezados; no usarlo en párrafos ni datos densos. |
-| Metadatos | Gris oscuro: identificadores, fuente, estado y fecha. |
-| Selección y alerta | Rojo oscuro con texto claro; acompañar el color con etiquetas como `[ALERTA]`. |
-| Trama | Medias tintas visibles en márgenes, fondos y retratos; evitar colocarlas debajo del texto. |
-| Retrato | Imagen monocromática de alto contraste, en un marco lateral y correspondiente a la ficha abierta. |
-| Tipografía | Bangers para títulos destacados; monoespaciada del sistema para párrafos, metadatos y controles. |
+| Fondo general | Negro o gris muy oscuro, sin azul saturado ni acentos de color. |
+| Superficie de ficha | Gris claro o blanco papel, con texto negro de alto contraste. |
+| Marcos | Líneas simples y regulares; el peso visual viene de la tinta y de pequeñas zonas tramadas. |
+| Texto principal | Negro sobre superficie clara, monoespaciado y sin textura de fondo. |
+| Encabezados | Mayúsculas y espaciado claro; conservar el nombre del módulo y el identificador del expediente. |
+| Selección | Video inverso en blanco y negro y un marcador de cursor; no depender de un color para indicar foco. |
+| Estados | Etiquetas explícitas como CONFIRMED, OBSERVED y UNCONFIRMED, además de símbolos cuando ayuden. |
+| Trama | Rayas diagonales o medias tintas solo en márgenes, separadores, marcos y retratos. |
+| Retrato | Representación monocromática de alto contraste, en un panel lateral proporcionado a la ficha. |
 
-Los tonos son objetivos visuales. Si el terminal o `dialog` no admite color extendido, usar negro, blanco, gris y rojo estándar. El retrato debe conservar silueta y contraste al convertirse para terminal con `chafa`.
+Las tramas no deben quedar detrás del texto ni reducir el contraste. La selección y los estados deben seguir distinguiéndose en terminales que solo muestren 16 colores o trabajen en monocromo.
 
-### Tipografía de cómic en una interfaz de terminal
+## Criterios para las fichas
 
-La fuente de un TTF como Bangers no se puede asignar por separado a los títulos de `dialog`: el programa usa la fuente que tenga configurada la terminal. Para conservar la interfaz TUI prevista, los encabezados fijos podrán mostrarse como lettering prerenderizado y convertido a caracteres de terminal con `chafa`, si el modo de salida de la VM lo admite. El rótulo de texto monoespaciado debe permanecer como alternativa accesible cuando no se muestren imágenes. Los títulos dinámicos y el contenido seguirán usando la fuente de terminal.
-
-Si el proyecto incorpora una interfaz gráfica, Bangers podrá usarse directamente en sus títulos. Si se distribuye el archivo de fuente con el sistema, se debe incluir también la licencia SIL Open Font License 1.1 y su atribución. Referencias: [Bangers en Google Fonts](https://fonts.google.com/specimen/Bangers) y [licencia de la fuente](https://github.com/googlefonts/bangers/blob/main/OFL.txt).
+- Conservar los campos de expediente: identificador, nombre, fuente, alcance, estado de evidencia y secciones narrativas.
+- Mantener el cuerpo del texto alineado a la izquierda, con párrafos recompuestos y ajustados al ancho disponible.
+- Reservar un panel lateral contenido para los retratos seleccionados; el espacio no debe ensancharse más de lo necesario ni estrechar demasiado la columna de lectura.
+- Mostrar los retratos en caracteres monocromos mediante chafa. Si falta una imagen o la herramienta, la ficha debe seguir completa y legible sin retrato.
+- No usar globos de diálogo, onomatopeyas ni composiciones recargadas dentro del expediente.
+- Mantener el avance vertical del texto y los controles de desplazamiento visibles.
 
 ## Reglas de pantalla
 
-- Mantener una cabecera con el nombre del módulo y el identificador del registro.
-- Dividir el cuerpo en dos zonas: texto a la izquierda y retrato enmarcado a la derecha, aproximadamente un tercio del ancho.
-- Mantener cabecera, datos esenciales e imagen dentro de la altura visible; dejar el recorrido largo en un área desplazable.
-- Usar marcos gruesos y tramas para dar ritmo de viñeta, sin poner textura detrás de párrafos.
-- Mostrar una leyenda de teclas fija al pie: mover, abrir, volver y salir.
-- Ajustar líneas al ancho del terminal; ningún texto importante debe requerir desplazamiento horizontal.
-- Reservar el rojo para estados con significado. No depender del color como única señal.
-- Mantener el mismo lenguaje visual entre módulos; cambiar la información y los indicadores, no la identidad base.
-- Renderizar el retrato local con `chafa` en la terminal y usar una alternativa tipográfica si falta el archivo.
+- Mantener una cabecera con módulo, nombre de la sección e identificador del registro.
+- Usar una superficie clara para fichas extensas y un fondo oscuro fuera del panel.
+- Reservar las rayas para espacios no informativos: bordes, separadores, márgenes o una franja alrededor del retrato.
+- Ajustar el contenido al terminal y no cortar palabras de forma que cambie su sentido.
+- Mantener una leyenda breve de teclas al pie: mover, abrir, volver y salir.
+- Dar la misma jerarquía a los estados de evidencia en todas las categorías.
+- Reutilizar el lenguaje visual en menús, índices y expedientes sin convertirlos en pantallas gráficas.
 
-## Boceto: pantalla principal
+## Boceto de dirección para el menú
 
-```text
+~~~text
 +------------------------------------------------------------------------------+
-| ALEXANDRIA OS // ARCHIVO DE SUPERVIVIENTES          DEBIAN 13 · OPERATIVO   |
-+-------------------------------+----------------------------------------------+
-| MÓDULOS                       | REGISTRO DEL SISTEMA                        |
-|                               |                                              |
-| > 01  THE WORLD               | ARCHIVO LOCAL: DISPONIBLE                   |
-|   02  THE COMIC ARCHIVE       | ÚLTIMA SESIÓN: [fecha]                      |
-|   03  THE REFUGE              |                                              |
-|                               | “LA MEMORIA TAMBIÉN ES SUPERVIVENCIA.”      |
-+-------------------------------+----------------------------------------------+
-| [↑/↓] MOVER   [ENTER] ABRIR   [ESC] VOLVER   [Q] SALIR   ARCHIVO ALEXANDRIA   |
+| ALEXANDRIA OS // ARCHIVO DE SUPERVIVIENTES                                   |
+| /////////------------------------------------------------------------------- |
+| > 01  THE WORLD                         REGISTRO DEL SISTEMA                  |
+|   02  THE COMIC ARCHIVE                 ARCHIVO LOCAL: DISPONIBLE             |
+|   03  THE REFUGE                                                             |
+|------------------------------------------------------------------------------|
+| [↑/↓] MOVER   [ENTER] ABRIR   [ESC] VOLVER   [Q] SALIR                       |
 +------------------------------------------------------------------------------+
-```
+~~~
 
-## Boceto: ficha de Rick Grimes con retrato
+Las rayas representan una trama de borde, no un fondo para texto. El esquema expresa una jerarquía textual; no implica una interfaz gráfica.
 
-```text
-+------------------------ THE WORLD / PERSONAJES -----------------------------+
-| EXPEDIENTE: TW-PER-001          FUENTE: THE WALKING DEAD · CÓMIC             |
-+-----------------------------------------------+-----------------------------+
-| RICK GRIMES                                   |                             |
-| PERSONAJE CENTRAL · SPOILERS                  |       RETRATO DE            |
-|                                               |       RICK GRIMES           |
-| IDENTIFICACIÓN                                |       TINTA + TRAMA         |
-| Richard Grimes. Ayudante del sheriff local.   |                             |
-|                                               |                             |
-| RECORRIDO                                     |                             |
-| Despierta en un hospital cuando la sociedad   |                             |
-| ya colapsó. Busca a su familia y a otros      |                             |
-| supervivientes.                               |                             |
-+-----------------------------------------------+-----------------------------+
-| [↑/↓] DESPLAZAR   [ESC] VOLVER   FICHA 20%                                |
+## Boceto de ficha
+
+~~~text
++-------------------- THE WORLD / PERSONAJES · TW-PER-001 --------------------+
+| EXPEDIENTE: RICK GRIMES              FUENTE: THE WALKING DEAD · CÓMIC       |
+|-----------------------------------------------------------------------------|
+| IDENTIFICACIÓN                                      +---------------------+ |
+| Richard Grimes. Ayudante del sheriff local.        | ////// RETRATO ///// | |
+|                                                     | //// MONOCROMO ///// | |
+| RECORRIDO                                           +---------------------+ |
+| Despierta en un hospital cuando la sociedad ya colapsó. Busca a su familia. |
+|                                                                             |
+| EVIDENCIA: CONFIRMED                                                        |
+| [↑/↓] DESPLAZAR                                      FICHA 20%              |
 +------------------------------------------------------------------------------+
-```
+~~~
 
-La propuesta ubica el retrato en el espacio libre que se ve a la derecha de la ficha actual. Es un boceto de composición, no una captura de una pantalla implementada.
+El retrato queda subordinado al expediente y la trama se mantiene dentro de su marco. El texto de ejemplo solo ilustra la composición.
 
-## Primer paso de implementación
+## Estado y próximos pasos
 
-Aplicar el tema, el retrato y el tratamiento tipográfico a la ficha de Rick Grimes de la captura compartida. Comprobar en la VM la legibilidad de texto e imagen, el ajuste a 80 columnas, el estado seleccionado, el lettering prerenderizado y su alternativa sin imagen, y las teclas de navegación. Después, reutilizar el mismo lenguaje visual en la pantalla principal y en los demás módulos.
+La guía registra una dirección de diseño, no un cambio de interfaz. El visor de personajes ya representa retratos seleccionados mediante chafa; la propuesta de paleta monocromática, marcos y tramas aún requiere implementación y revisión en la VM Debian.
 
-La carpeta local del repositorio contiene por ahora solo `README.md` y `AGENTS.md`; no incluye el código de la interfaz. La VM estaba minimizada durante la revisión, así que todavía no se pudo confirmar dónde están el programa ni su configuración de `dialog`.
+El siguiente paso será aplicar la paleta al menú y a una ficha representativa, comprobando legibilidad, navegación y retrato en terminales de distintos anchos. Después se podrá extender el mismo tratamiento a los demás módulos. No se considera validada una pantalla hasta verla ejecutada en Debian.
