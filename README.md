@@ -39,7 +39,9 @@ Algunos módulos del paquete todavía usan `/home/walker/alexandria-os` o `$HOME
 
 ## THE REFUGE
 
-El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. La campaña de terminal incluye consejo, expedición, crisis, tres turnos de guerra y una decisión final. Las elecciones alteran suministros, supervivientes, moral, defensas, inteligencia, alianzas y el desenlace.
+El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. La campaña ahora tiene diez jornadas de decisiones antes de la confrontación final: consejo, expedición, crisis, reconstrucción, recepción de refugiados y cinco turnos de guerra contra los Salvadores. Las decisiones afectan suministros, supervivientes, moral, defensas, inteligencia y alianzas.
+
+En algunas jornadas ocurre un incidente aleatorio, como un hallazgo, una horda, una lesión, una transmisión o sabotaje a las reservas. Algunas acciones también son arriesgadas: su probabilidad de éxito mejora con inteligencia y defensas. Dos jornadas consecutivas con faltantes de comida o agua causan una baja. La campaña termina antes del final si no quedan supervivientes o si la moral y las defensas llegan a cero; la opción de mayor riesgo indica en el menú que puede acabar la partida.
 
 En la confrontación final, la prueba de reflejos se juega en una arena ASCII de tres oleadas y 18 segundos. El jugador es `@`; los enemigos son `S` (Salvador), `N` (Negan) y `Z` (caminante). `#` marca obstáculos y `!` avisa un ataque inminente. Movete con W, A, S o D; hay tres vidas y Q termina la prueba. Cada ataque esquivado suma 2 puntos, hasta un máximo de 6. La pantalla usa texto en la terminal, sin interfaz gráfica.
 
@@ -47,9 +49,7 @@ La campaña se guarda localmente como JSON en `$XDG_STATE_HOME/alexandria-os/the
 
 La historia presenta una variación original inspirada en el arco *All-Out War*. Image Comics identifica el número [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) como su inicio y el [#126](https://imagecomics.com/comics/releases/the-walking-dead-126) como su conclusión. Los valores, decisiones y finales de la campaña son mecánicas de juego y no alteran el canon.
 
-**Validación:** el usuario confirmó que la campaña llegó a un desenlace antes de este cambio. La arena nueva se revisó estáticamente en `main`, pero no se ejecutó en la VM Debian. Queda pendiente sincronizarla y comprobar movimiento, ataques, vidas, puntaje y restauración de la terminal.
-
-## Archivo de personajes
+**Validación:** el usuario confirmó el desenlace de la campaña antes de esta expansión. El código actual se revisó estáticamente en `main`, pero no se ejecutó en la VM Debian. Queda pendiente sincronizar y comprobar duración, incidentes, consecuencias de riesgo, condiciones de derrota, guardado, reanudación y la arena final.## Archivo de personajes
 
 `data/world/personajes_index.tsv` conecta cada entrada con su ficha, categoría, agrupación, nivel de detalle y datos confirmados de primera aparición. `src/world/personajes.sh` carga el índice para personajes, antagonistas, caminantes y animales. Las fichas breves están en `data/world/personajes/`; los expedientes ampliados permanecen junto a los demás módulos de `data/world/`.
 
@@ -231,5 +231,13 @@ docs/                   Documentación del proyecto
 - La arena tiene tres vidas; Q permite terminarla. Cada ataque anunciado que se esquiva añade 2 puntos al desenlace, con un máximo de 6. La lógica restaura el modo previo de la terminal al salir.
 - **Validación:** revisión estática del código en `main`; la arena no se ejecutó en Debian. El usuario había confirmado el desenlace de la campaña antes de este cambio.
 - **Pendiente:** sincronizar la actualización en la VM Debian y comprobar movimiento, avisos, daño, puntaje, desenlace guardado y estado de la terminal al salir.
+
+### 2026-11-09 23:03 ART — Ampliación de campaña y azar en THE REFUGE
+
+- La campaña pasó de seis decisiones previas al final a diez jornadas: se añadieron reconstrucción y recepción de refugiados, y la guerra contra los Salvadores pasó de tres a cinco turnos.
+- Se incorporaron incidentes aleatorios que pueden modificar reservas, moral, supervivientes o alianzas, junto con maniobras de riesgo cuya probabilidad mejora con inteligencia y defensas. Dos jornadas consecutivas con faltantes causan una baja; una acción marcada como peligro extremo puede terminar la campaña.
+- La partida registra el resultado de cada maniobra y conserva el estado de derrota. La arena ASCII de reflejos sigue en la confrontación final y no se añadió interfaz gráfica.
+- **Validación:** revisión estática de `src/refuge/refuge.py` en `main`; no ejecutado en Debian.
+- **Pendiente:** sincronizar el módulo y probar una campaña completa, incidentes, riesgos, derrotas, guardado y reanudación en la VM.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
