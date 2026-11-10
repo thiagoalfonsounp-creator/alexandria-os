@@ -1,5 +1,6 @@
 # Alexandria OS
 
+
 Alexandria OS es un entorno de archivo y consulta basado en Debian 13 para el cómic principal de *The Walking Dead*, una biblioteca personal y módulos de supervivencia.
 
 Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os](https://github.com/thiagoalfonsounp-creator/alexandria-os).
@@ -39,17 +40,21 @@ Algunos módulos del paquete todavía usan `/home/walker/alexandria-os` o `$HOME
 
 ## THE REFUGE
 
-El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. La campaña ahora tiene diez jornadas de decisiones antes de la confrontación final: consejo, expedición, crisis, reconstrucción, recepción de refugiados y cinco turnos de guerra contra los Salvadores. Las decisiones afectan suministros, supervivientes, moral, defensas, inteligencia y alianzas.
+El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. La campaña tiene diez jornadas de decisiones antes de la confrontación final: consejo, expedición, crisis, reconstrucción, recepción de refugiados y cinco turnos de guerra contra los Salvadores. Las decisiones afectan suministros, supervivientes, moral, defensas, inteligencia y alianzas.
 
 En algunas jornadas ocurre un incidente aleatorio, como un hallazgo, una horda, una lesión, una transmisión o sabotaje a las reservas. Algunas acciones también son arriesgadas: su probabilidad de éxito mejora con inteligencia y defensas. Dos jornadas consecutivas con faltantes de comida o agua causan una baja. La campaña termina antes del final si no quedan supervivientes o si la moral y las defensas llegan a cero; la opción de mayor riesgo indica en el menú que puede acabar la partida.
 
 En la confrontación final, la prueba de reflejos se juega en una arena ASCII de tres oleadas y 18 segundos. El jugador es `@`; los enemigos son `S` (Salvador), `N` (Negan) y `Z` (caminante). `#` marca obstáculos y `!` avisa un ataque inminente. Movete con W, A, S o D; hay tres vidas y Q termina la prueba. Cada ataque esquivado suma 2 puntos, hasta un máximo de 6. La pantalla usa texto en la terminal, sin interfaz gráfica.
 
+Al finalizar la campaña, el juego muestra una crónica desplazable según el resultado: victoria estratégica, victoria con pérdidas, retirada negociada, evacuación, caída del refugio o derrota anticipada. El epílogo incorpora la decisión final y la preparación acumulada para imaginar cómo podría seguir esta línea alternativa. También se puede volver a leer desde la opción **Leer desenlace y epílogo** del menú. Las narraciones son originales y no cambian el canon del cómic.
+
 La campaña se guarda localmente como JSON en `$XDG_STATE_HOME/alexandria-os/the-refuge.json`; si `XDG_STATE_HOME` no está definido, usa `~/.local/state/alexandria-os/the-refuge.json`. Los datos guardados no se escriben en el repositorio.
 
 La historia presenta una variación original inspirada en el arco *All-Out War*. Image Comics identifica el número [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) como su inicio y el [#126](https://imagecomics.com/comics/releases/the-walking-dead-126) como su conclusión. Los valores, decisiones y finales de la campaña son mecánicas de juego y no alteran el canon.
 
-**Validación:** el usuario confirmó el desenlace de la campaña antes de esta expansión. El código actual se revisó estáticamente en `main`, pero no se ejecutó en la VM Debian. Queda pendiente sincronizar y comprobar duración, incidentes, consecuencias de riesgo, condiciones de derrota, guardado, reanudación y la arena final.## Archivo de personajes
+**Validación:** el usuario confirmó el desenlace de la versión anterior. Los epílogos y la pantalla desplazable se revisaron estáticamente en main; todavía no se ejecutaron en la VM Debian. Queda pendiente sincronizar y comprobar las rutas narrativas, las derrotas, la relectura del desenlace, el guardado y la arena final.
+
+## Archivo de personajes
 
 `data/world/personajes_index.tsv` conecta cada entrada con su ficha, categoría, agrupación, nivel de detalle y datos confirmados de primera aparición. `src/world/personajes.sh` carga el índice para personajes, antagonistas, caminantes y animales. Las fichas breves están en `data/world/personajes/`; los expedientes ampliados permanecen junto a los demás módulos de `data/world/`.
 
@@ -71,6 +76,7 @@ README.md               Estado, uso e historial
 bin/                    Lanzador principal
 src/world/              Menús y módulos de THE WORLD
 src/comic_archive/      Catálogo y lector de cómics
+src/refuge/             Campaña de supervivencia y epílogos en terminal
 config/                 Configuración
 assets/                 Recursos de interfaz
 data/world/             Expedientes y catálogos en texto
@@ -239,5 +245,13 @@ docs/                   Documentación del proyecto
 - La partida registra el resultado de cada maniobra y conserva el estado de derrota. La arena ASCII de reflejos sigue en la confrontación final y no se añadió interfaz gráfica.
 - **Validación:** revisión estática de `src/refuge/refuge.py` en `main`; no ejecutado en Debian.
 - **Pendiente:** sincronizar el módulo y probar una campaña completa, incidentes, riesgos, derrotas, guardado y reanudación en la VM.
+
+### 2026-11-09 23:23 ART — Epílogos narrativos en THE REFUGE
+
+- Al terminar una campaña, THE REFUGE presenta una crónica desplazable que cambia según el desenlace: victoria estratégica, victoria con pérdidas, retirada negociada, evacuación, derrota en la confrontación o derrota anticipada por colapso del refugio.
+- La decisión final distingue la ruta de sostener el frente, negociar o evacuar; el puntaje estratégico determina la resolución y la narración describe una posible continuación de esa línea alternativa. Los epílogos quedan guardados y pueden volver a leerse desde el menú.
+- La narración se identifica como una variación original del cómic; no modifica el canon. La interfaz sigue en terminal y usa el cuadro de texto desplazable de dialog.
+- **Validación:** revisión estática del código y del README en main; no ejecutado en Debian.
+- **Pendiente:** sincronizar el módulo y jugar cada ruta de desenlace y derrota, verificando que el epílogo aparezca al terminar y quede accesible al volver al menú.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
