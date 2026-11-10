@@ -203,6 +203,80 @@ def available(choices, state):
     return result
 
 
+DECISION_STATS = {
+    "stock_food": ("morale",),
+    "fortify": ("defense",),
+    "infirmary": ("morale",),
+    "scouts": ("intel",),
+    "food_run": ("intel", "survivors"),
+    "water_run": ("intel", "survivors"),
+    "medicine_run": ("intel",),
+    "route_scout": ("intel",),
+    "infested_depot": ("intel", "defense"),
+    "crisis_fortify": ("defense",),
+    "evacuate_zone": ("survivors", "intel"),
+    "request_allies": ("alliances", "morale"),
+    "investigate": ("intel",),
+    "infested_pass": ("intel", "defense"),
+    "treat_wounded": ("survivors", "morale"),
+    "repair_homes": ("defense",),
+    "rest": ("morale",),
+    "ration_recovery": ("morale",),
+    "welcome_refugees": ("alliances", "survivors"),
+    "screen_refugees": ("intel",),
+    "turn_refugees_away": ("defense", "morale"),
+    "accept_unchecked": ("intel", "defense"),
+    "negotiate": ("intel", "alliances"),
+    "war_defend": ("defense",),
+    "war_reinforce": ("alliances", "survivors"),
+    "war_intel": ("intel",),
+    "war_hold": ("defense", "morale"),
+    "war_sabotage": ("intel", "defense"),
+    "final_hold": ("defense", "morale"),
+    "final_talk": ("intel", "alliances"),
+    "final_evacuate": ("survivors", "intel"),
+}
+
+
+def decision_success_probability(state, choice):
+    risk = choice.get("risk")
+    if risk:
+        chance = (
+            risk["success_chance"]
+            + state["intel"] * risk.get("intel_bonus", 0)
+            + state["defense"] * risk.get("defense_bonus", 0)
+        )
+    else:
+        stats = DECISION_STATS.get(choice["id"], ("intel",))
+        normalized = [
+            state.get(name, 0) / STAT_LIMITS[name][1]
+            for name in stats
+        ]
+        skill = sum(normalized) / len(normalized)
+        chance = 0.70 + 0.20 * skill
+    return max(0.05, min(0.95, chance))
+
+
+def decision_stat_label(choice):
+    stats = DECISION_STATS.get(choice.get("id"), ("intel",))
+    return "/".join(STAT_NAMES[name] for name in stats)
+
+
+def negative_changes(changes):
+    result = {}
+    resource_losses = {
+        name: amount
+        for name, amount in changes.get("resources", {}).items()
+        if amount < 0
+    }
+    if resource_losses:
+        result["resources"] = resource_losses
+    for name, amount in changes.items():
+        if name != "resources" and amount < 0:
+            result[name] = amount
+    return result
+
+
 def choices_for(phase, state):
     if phase == "council":
         return [
@@ -506,24 +580,36 @@ def apply_changes(state, changes):
 
 
 def resolve_choice(state, choice):
-    apply_changes(state, choice.get("changes", {}))
-    outcome = choice["result"]
-    risk = choice.get("risk")
-    if not risk:
-        return outcome
-
-    success_chance = (
-        risk["success_chance"]
-        + state["intel"] * risk.get("intel_bonus", 0)
-        + state["defense"] * risk.get("defense_bonus", 0)
+    success_chance = decision_success_probability(state, choice)
+    success_percent = int(round(success_chance * 100))
+    failure_percent = 100 - success_percent
+    probability_text = (
+        f"Probabilidad estimada: {success_percent}% éxito / "
+        f"{failure_percent}% fallo."
     )
-    success_chance = max(0.05, min(0.95, success_chance))
-    if random.random() < success_chance:
-        apply_changes(state, risk.get("success_changes", {}))
-        return outcome + "\n\nÉxito de la maniobra: " + risk["success_text"]
+    risk = choice.get("risk")
 
-    apply_changes(state, risk.get("failure_changes", {}))
-    return outcome + "\n\nFracaso de la maniobra: " + risk["failure_text"]
+    if random.random() < success_chance:
+        apply_changes(state, choice.get("changes", {}))
+        if risk:
+            apply_changes(state, risk.get("success_changes", {}))
+            result = risk["success_text"]
+        else:
+            result = choice["result"]
+        return f"{probability_text}\n\nÉXITO: {result}"
+
+    apply_changes(state, negative_changes(choice.get("changes", {})))
+    if risk:
+        apply_changes(state, risk.get("failure_changes", {}))
+        result = risk["failure_text"]
+    else:
+        apply_changes(state, choice.get("failure_changes", {"morale": -1}))
+        result = choice.get(
+            "failure_text",
+            "La maniobra falla: no se alcanza el objetivo, se pierde tiempo "
+            "y la comunidad siente el desgaste.",
+        )
+    return f"{probability_text}\n\nFALLO: {result}"
 
 
 def resolve_random_incident(state):
@@ -834,12 +920,19 @@ def ending_score(state):
     )
 
 
-ARENA_WIDTH = 28
-ARENA_HEIGHT = 9
+ARENA_WIDTH = 40
+ARENA_HEIGHT = 14
 ARENA_WALLS = {
-    (7, 2), (8, 2), (7, 3), (8, 3),
-    (13, 1), (14, 1), (13, 7), (14, 7),
-    (19, 5), (20, 5), (19, 6), (20, 6),
+    (5, 2), (6, 2), (5, 3), (6, 3),
+    (13, 2), (14, 2), (13, 3), (14, 3),
+    (26, 2), (27, 2), (26, 3), (27, 3),
+    (34, 3), (35, 3), (34, 4), (35, 4),
+    (8, 7), (9, 7), (8, 8), (9, 8),
+    (17, 10), (18, 10), (17, 11), (18, 11),
+    (25, 7), (26, 7), (25, 8), (26, 8),
+    (33, 10), (34, 10), (33, 11), (34, 11),
+    (4, 10), (5, 10), (4, 11), (5, 11),
+    (20, 3), (21, 3), (20, 4), (21, 4),
 }
 ARENA_SPAWNS = (
     (1, 1), (ARENA_WIDTH - 2, ARENA_HEIGHT - 2),
@@ -908,7 +1001,7 @@ def _arena_far_spawn(player, enemies, skip=None):
 
 
 def _arena_spawn_enemy(symbol, player, enemies, now):
-    interval = {"S": 0.62, "N": 0.78, "Z": 0.86}[symbol]
+    interval = {"S": 0.56, "N": 0.70, "Z": 0.78}[symbol]
     return {
         "symbol": symbol,
         "position": _arena_far_spawn(player, enemies),
@@ -973,11 +1066,11 @@ def _arena_draw(player, enemies, seconds_left, lives, dodges, wave, event):
     lines = [
         "THE REFUGE // PRUEBA DE ESQUIVA",
         (
-            f"OLEADA {wave}/3  TIEMPO {seconds_left:04.1f}s  "
+            f"OLEADA {wave}/4  TIEMPO {seconds_left:04.1f}s  "
             f"VIDAS {lives}/3  ESQUIVAS {dodges}  "
             f"BONUS +{min(6, dodges * 2)}"
         ),
-        "@ jugador | S Salvador | N Negan | Z caminante | ! ataque anunciado | # cobertura",
+        "@ vos | S Salvador | N Negan | Z caminante | ! ataque | # cobertura",
         border,
     ]
     for y in range(ARENA_HEIGHT):
@@ -1005,7 +1098,7 @@ def _arena_draw(player, enemies, seconds_left, lives, dodges, wave, event):
 
 
 def quick_time_event():
-    duration = 18.0
+    duration = 22.0
     if not sys.stdin.isatty():
         return 0
 
@@ -1014,10 +1107,10 @@ def quick_time_event():
     player = (ARENA_WIDTH // 2, ARENA_HEIGHT // 2)
     enemies = []
     started = time.monotonic()
-    for symbol in ("S", "S"):
+    for symbol in ("S", "S", "Z"):
         enemies.append(_arena_spawn_enemy(symbol, player, enemies, started))
 
-    spawn_schedule = ((6.0, "N"), (12.0, "Z"))
+    spawn_schedule = ((4.4, "S"), (8.8, "N"), (13.2, "Z"), (17.6, "S"))
     next_spawn = 0
     lives = 3
     dodges = 0
@@ -1047,7 +1140,7 @@ def quick_time_event():
                 event = f"¡Oleada nueva! Se acerca {'Negan' if symbol == 'N' else 'un caminante'}."
                 next_spawn += 1
 
-            wave = min(3, int(elapsed // 6) + 1)
+            wave = min(4, int(elapsed // 5.5) + 1)
             if now >= next_frame:
                 _arena_draw(
                     player, enemies, max(0.0, duration - elapsed),
@@ -1105,7 +1198,7 @@ def quick_time_event():
                 event = f"¡Te alcanzaron {hits} vez/veces! Perdés vida y el enemigo vuelve a aparecer."
 
         elapsed = min(duration, time.monotonic() - started)
-        wave = min(3, int(elapsed // 6) + 1)
+        wave = min(4, int(elapsed // 5.5) + 1)
         if lives <= 0:
             event = "La horda te alcanzó. El desenlace continúa con las esquivas logradas."
         elif finished_by_player:
@@ -1227,31 +1320,76 @@ def show_ending(state):
 
 
 def final_decision(state):
-    options = [
-        ("hold", "Sostener el frente — Aprovecha las defensas acumuladas"),
-        ("talk", "Negociar con Negan — Depende de inteligencia y alianzas"),
-        ("evacuate", "Abrir una ruta de evacuación — Prioriza salvar a la comunidad"),
-    ]
+    labels = {
+        "hold": "Sostener el frente",
+        "talk": "Negociar con Negan",
+        "evacuate": "Abrir ruta de evacuación",
+    }
+    options = []
+    for tag, label in labels.items():
+        decision = {"id": f"final_{tag}"}
+        probability = decision_success_probability(state, decision)
+        success_percent = int(round(probability * 100))
+        failure_percent = 100 - success_percent
+        stats_label = decision_stat_label(decision)
+        options.append(
+            (tag, f"{label} — Éxito {success_percent}% / fallo {failure_percent}% ({stats_label})")
+        )
+
     selected = choose(
         "CONFRONTACIÓN FINAL",
-        "Elegí cómo responder. El desenlace pertenece a esta simulación alternativa.",
+        "Elegí cómo responder. Las probabilidades dependen de las estadísticas indicadas. Es una simulación alternativa.",
         options,
         16,
-        76,
+        86,
         5,
     )
     if selected is None:
         return False
 
+    final_choice = {"id": f"final_{selected}"}
+    probability = decision_success_probability(state, final_choice)
+    success_percent = int(round(probability * 100))
+    failure_percent = 100 - success_percent
+    effects = {
+        "hold": (
+            {"defense": 1},
+            {"defense": -1, "morale": -1},
+            "La coordinación sostiene la línea.",
+            "La línea cede parcialmente y la comunidad pierde confianza.",
+        ),
+        "talk": (
+            {"alliances": 1, "morale": 1},
+            {"alliances": -1, "intel": -1},
+            "La negociación consigue apoyo y renueva la confianza.",
+            "Negan rechaza los términos y la comunidad pierde influencia.",
+        ),
+        "evacuate": (
+            {"morale": 1},
+            {"morale": -2, "defense": -1},
+            "La ruta de salida se mantiene abierta.",
+            "La ruta queda expuesta y la retirada se vuelve más difícil.",
+        ),
+    }
+    success_changes, failure_changes, success_text, failure_text = effects[selected]
+    if random.random() < probability:
+        apply_changes(state, success_changes)
+        decision_result = f"ÉXITO ({success_percent}%): {success_text}"
+    else:
+        apply_changes(state, failure_changes)
+        decision_result = f"FALLO ({failure_percent}%): {failure_text}"
+
     reflex_dodges = quick_time_event()
     reflex_bonus = min(6, reflex_dodges * 2)
     state["status"] = "complete"
     decide_ending(state, selected, reflex_dodges)
+    state["ending"]["text"] = decision_result + "\n\n" + state["ending"]["text"]
     record_decision(
         state,
         "Confrontación final",
         selected,
-        f"{state['ending']['title']} — esquivas {reflex_dodges}, reflejos +{reflex_bonus}",
+        f"{decision_result} — {state['ending']['title']}; "
+        f"esquivas {reflex_dodges}, reflejos +{reflex_bonus}",
     )
     state["ending"]["reflex_dodges"] = reflex_dodges
     state["ending"]["reflex_bonus"] = reflex_bonus
@@ -1272,13 +1410,22 @@ def play_campaign(state):
         if phase == "war":
             title = f"GUERRA — TURNO {state['war_turn']} DE {WAR_TURNS}"
 
-        prompt = f"{description}\n\n{status_text(state)}"
+        prompt = (
+            f"{description}\n\n"
+            "Cada opción indica probabilidad de éxito y fallo según las estadísticas actuales.\n\n"
+            f"{status_text(state)}"
+        )
         raw_choices = choices_for(phase, state)
         choices = available(raw_choices, state)
-        menu_choices = [
-            (str(index), f"{choice['label']} — {choice['hint']}")
-            for index, choice in enumerate(choices, start=1)
-        ]
+        menu_choices = []
+        for index, choice in enumerate(choices, start=1):
+            success_percent = int(round(decision_success_probability(state, choice) * 100))
+            failure_percent = 100 - success_percent
+            item_description = (
+                f"{choice['label']} — Éxito {success_percent}% / "
+                f"fallo {failure_percent}% ({decision_stat_label(choice)}) — {choice['hint']}"
+            )
+            menu_choices.append((str(index), item_description))
         selected = choose(title, prompt, menu_choices, 23, 86, 8)
         if selected is None:
             return
@@ -1363,14 +1510,26 @@ def show_archive(state):
         Path(file_name).unlink(missing_ok=True)
 
 
+def show_about():
+    message(
+        "¿QUÉ ES THE REFUGE?",
+        "THE REFUGE es una campaña de supervivencia por turnos ambientada en una línea alternativa de The Walking Dead.\n\n"
+        "Durante diez jornadas vas a organizar el refugio y administrar recursos y seguridad. Cada decisión muestra sus probabilidades de éxito y fallo, junto con la estadística que influye: inteligencia, defensas, moral, alianzas o supervivientes. Cuanto mejor esté esa estadística, mayores serán las chances de éxito; fallar puede costar recursos y poner en riesgo la campaña.\n\n"
+        "Después llegan cinco turnos de guerra y una confrontación final con una prueba de esquiva en la terminal. La partida se guarda localmente para que puedas continuarla. Los desenlaces son variaciones originales: no modifican el canon del cómic.",
+        19,
+        78,
+    )
+
+
 def show_rules():
     message(
         "THE REFUGE — REGLAS",
         "Campaña persistente: consejo, expedición, crisis, reconstrucción, refugiados, cinco turnos de guerra y confrontación final.\n\n"
-        "Cada jornada consume comida y agua. Dos jornadas consecutivas con faltantes causan una baja. Los eventos aleatorios pueden ayudar o perjudicar; las maniobras arriesgadas dependen también de inteligencia y defensas. Si no quedan supervivientes o colapsan moral y defensas, la campaña termina.\n\n"
-        "La partida se guarda localmente en formato JSON. Escape vuelve al menú y conserva el último estado guardado.\n\n"
+        "Cada jornada consume comida y agua. Dos jornadas consecutivas con faltantes causan una baja. Cada opción muestra su probabilidad de éxito/fallo y la estadística que usa; un valor más alto aumenta las chances. En las maniobras arriesgadas también influyen inteligencia y defensas. Si no quedan supervivientes o colapsan moral y defensas, la campaña termina.\n\n"
+        "La partida se guarda localmente. Escape vuelve al menú y conserva el último estado guardado.\n\n"
+        "En la prueba final, movete con W, A, S y D. Resistís cuatro oleadas durante 22 segundos, con tres vidas; Q termina la prueba.\n\n"
         "Marco temático: All-Out War, The Walking Dead #115-126. Esta campaña presenta una variación original, sin reproducir páginas ni diálogos del cómic.",
-        19,
+        22,
         78,
     )
 
@@ -1403,6 +1562,7 @@ def main():
     while True:
         state = load_campaign()
         options = [
+            ("about", "¿Qué es THE REFUGE?"),
             ("new", "Iniciar una campaña"),
             ("continue", "Continuar la campaña guardada"),
             ("ending", "Leer desenlace y epílogo"),
@@ -1422,7 +1582,9 @@ def main():
 
         if selected in (None, "back"):
             return 0
-        if selected == "new":
+        if selected == "about":
+            show_about()
+        elif selected == "new":
             start_campaign(state)
         elif selected == "continue":
             if state and state.get("status") == "active":
