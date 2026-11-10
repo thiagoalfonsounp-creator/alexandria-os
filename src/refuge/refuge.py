@@ -47,22 +47,33 @@ RESOURCE_LIMITS = {
     "materials": 10,
 }
 
+WAR_TURNS = 5
+INCIDENT_CHANCE = 0.38
+
 PHASES = {
     "council": (
         "CONSEJO DEL REFUGIO",
-        "La comunidad tiene un breve margen para prepararse. Elegí una prioridad.",
+        "La comunidad se prepara para una campaña larga. Elegí una prioridad para empezar.",
     ),
     "expedition": (
         "EXPEDICIÓN",
-        "Un grupo puede salir a buscar suministros o información. Cada salida deja al refugio con menos manos.",
+        "El grupo sale a buscar recursos. Algunas rutas son más peligrosas que otras.",
     ),
     "crisis": (
         "CRISIS EN EL PERÍMETRO",
         "Una amenaza se acerca mientras la comunidad aún se organiza. Tu respuesta afectará la preparación.",
     ),
+    "recovery": (
+        "RECONSTRUCCIÓN",
+        "Hay que reparar daños, atender heridos y recuperar la confianza antes de la ofensiva.",
+    ),
+    "refugees": (
+        "NUEVOS REFUGIADOS",
+        "Un grupo llega desde una comunidad cercana. Aceptarlo puede ayudar, pero también consume reservas.",
+    ),
     "war": (
         "GUERRA CONTRA LOS SALVADORES",
-        "La ofensiva comienza. En cada turno elegí entre sostener defensas, reunir apoyo, reconocer posiciones o negociar.",
+        "La ofensiva avanza por cinco turnos. Cada decisión afecta los recursos y la capacidad de resistir.",
     ),
     "final": (
         "CONFRONTACIÓN FINAL",
@@ -116,9 +127,10 @@ def create_campaign():
         "defense": 1,
         "intel": 0,
         "alliances": 0,
+        "shortage_streak": 0,
         "resources": {
-            "food": 6,
-            "water": 6,
+            "food": 9,
+            "water": 9,
             "medicine": 3,
             "materials": 4,
         },
@@ -164,6 +176,7 @@ def load_campaign():
             "La partida fue creada por otra versión del módulo. Conservé el archivo sin modificar.",
         )
         return None
+    state.setdefault("shortage_streak", 0)
     return state
 
 
@@ -175,7 +188,8 @@ def status_text(state):
         f"Comida: {r['food']}   Agua: {r['water']}\n"
         f"Medicinas: {r['medicine']}   Materiales: {r['materials']}\n"
         f"Moral: {state['morale']}/10   Defensas: {state['defense']}/6\n"
-        f"Inteligencia: {state['intel']}/6   Alianzas: {state['alliances']}/5"
+        f"Inteligencia: {state['intel']}/6   Alianzas: {state['alliances']}/5\n"
+        f"Escasez consecutiva: {state.get('shortage_streak', 0)}/2 jornadas"
     )
 
 
@@ -253,6 +267,22 @@ def choices_for(phase, state):
                 "changes": {"intel": 2, "morale": -1},
                 "result": "El grupo vuelve con información útil sobre los accesos y movimientos cercanos.",
             },
+            {
+                "id": "infested_depot",
+                "label": "Entrar al depósito infestado",
+                "hint": "Riesgo medio; inteligencia mejora la probabilidad de éxito",
+                "risk": {
+                    "success_chance": 0.68,
+                    "intel_bonus": 0.035,
+                    "defense_bonus": 0.015,
+                    "success_changes": {"resources": {"food": 3, "medicine": 1}},
+                    "success_text": "El equipo logra entrar y vuelve con comida y medicinas.",
+                    "failure_changes": {"survivors": -3, "morale": -2},
+                    "failure_text": "La alarma atrae caminantes y el grupo regresa con bajas.",
+                },
+                "changes": {},
+                "result": "La expedición intenta alcanzar un depósito rodeado de caminantes.",
+            },
         ]
 
     if phase == "crisis":
@@ -286,6 +316,113 @@ def choices_for(phase, state):
                 "requires": {"medicine": 1},
                 "changes": {"resources": {"medicine": -1}, "intel": 2},
                 "result": "La investigación aclara por dónde puede llegar el peligro.",
+            },
+            {
+                "id": "infested_pass",
+                "label": "Cruzar el paso infestado",
+                "hint": "PELIGRO EXTREMO: un fracaso puede terminar la campaña",
+                "risk": {
+                    "success_chance": 0.72,
+                    "intel_bonus": 0.035,
+                    "defense_bonus": 0.025,
+                    "success_changes": {"resources": {"materials": 2, "food": 2}, "intel": 1},
+                    "success_text": "La columna cruza sin quedar rodeada y recupera materiales y provisiones.",
+                    "failure_changes": {"survivors": -12, "morale": -3, "defense": -1},
+                    "failure_text": "La columna queda atrapada en el paso. El refugio pierde a todos sus supervivientes.",
+                },
+                "changes": {},
+                "result": "Una columna intenta abrirse paso por una ruta bloqueada.",
+            },
+        ]
+
+    if phase == "recovery":
+        return [
+            {
+                "id": "treat_wounded",
+                "label": "Atender a los heridos",
+                "hint": "Medicinas -1; supervivientes +1; moral +1",
+                "requires": {"medicine": 1},
+                "changes": {"resources": {"medicine": -1}, "survivors": 1, "morale": 1},
+                "result": "La enfermería estabiliza a una persona y devuelve algo de confianza al grupo.",
+            },
+            {
+                "id": "repair_homes",
+                "label": "Reparar las viviendas",
+                "hint": "Materiales -2; defensas +1; moral +1",
+                "requires": {"materials": 2},
+                "changes": {"resources": {"materials": -2}, "defense": 1, "morale": 1},
+                "result": "Las reparaciones mejoran los refugios y ayudan a la comunidad a recuperar su rutina.",
+            },
+            {
+                "id": "rest",
+                "label": "Dar un día de descanso",
+                "hint": "Moral +2; inteligencia -1",
+                "changes": {"morale": 2, "intel": -1},
+                "result": "La gente descansa, aunque se retrasa el análisis de los movimientos enemigos.",
+            },
+            {
+                "id": "ration_recovery",
+                "label": "Repartir una comida caliente",
+                "hint": "Comida -2; agua -1; moral +3",
+                "requires": {"food": 2, "water": 1},
+                "changes": {"resources": {"food": -2, "water": -1}, "morale": 3},
+                "result": "La comida compartida fortalece la moral del refugio.",
+            },
+        ]
+
+    if phase == "refugees":
+        return [
+            {
+                "id": "welcome_refugees",
+                "label": "Dar lugar a las familias",
+                "hint": "Comida -2; agua -2; supervivientes +2; moral +1",
+                "requires": {"food": 2, "water": 2},
+                "changes": {
+                    "resources": {"food": -2, "water": -2},
+                    "survivors": 2,
+                    "morale": 1,
+                },
+                "result": "Las familias se integran al refugio y se suman a sus tareas.",
+            },
+            {
+                "id": "screen_refugees",
+                "label": "Revisar al grupo antes de aceptarlo",
+                "hint": "Inteligencia +1; medicinas -1; supervivientes +1",
+                "requires": {"medicine": 1},
+                "changes": {
+                    "resources": {"medicine": -1},
+                    "intel": 1,
+                    "survivors": 1,
+                    "morale": -1,
+                },
+                "result": "La revisión reduce la incertidumbre, aunque la demora genera desconfianza.",
+            },
+            {
+                "id": "turn_refugees_away",
+                "label": "No abrir el refugio",
+                "hint": "Defensas +1; moral -2; alianzas -1",
+                "changes": {"defense": 1, "morale": -2, "alliances": -1},
+                "result": "El grupo sigue de largo. El perímetro queda controlado, pero la decisión divide a la comunidad.",
+            },
+            {
+                "id": "accept_unchecked",
+                "label": "Dejar entrar a todos sin revisar",
+                "hint": "Riesgo: puede traer ayuda o un problema al refugio",
+                "risk": {
+                    "success_chance": 0.70,
+                    "intel_bonus": 0.025,
+                    "defense_bonus": 0.015,
+                    "success_changes": {
+                        "survivors": 3,
+                        "resources": {"food": 2},
+                        "alliances": 1,
+                    },
+                    "success_text": "El grupo trae provisiones y se integra a la comunidad.",
+                    "failure_changes": {"survivors": -4, "morale": -2},
+                    "failure_text": "Una persona infectada provoca pánico y varias bajas.",
+                },
+                "changes": {},
+                "result": "La decisión se toma sin tiempo para revisar al grupo.",
             },
         ]
 
@@ -336,6 +473,22 @@ def choices_for(phase, state):
                 "changes": {"defense": 1, "morale": -1},
                 "result": "La línea se mantiene con el esfuerzo de quienes siguen en el frente.",
             },
+            {
+                "id": "war_sabotage",
+                "label": "Infiltrarse en los suministros enemigos",
+                "hint": "Riesgo medio: la inteligencia mejora la probabilidad de éxito",
+                "risk": {
+                    "success_chance": 0.62,
+                    "intel_bonus": 0.035,
+                    "defense_bonus": 0.012,
+                    "success_changes": {"resources": {"materials": 2, "medicine": 1}, "intel": 1},
+                    "success_text": "La infiltración sale bien y retrasa una parte de la ofensiva.",
+                    "failure_changes": {"survivors": -4, "defense": -1, "morale": -2},
+                    "failure_text": "El grupo queda expuesto y vuelve con bajas.",
+                },
+                "changes": {},
+                "result": "Un equipo intenta entrar en una zona controlada por los Salvadores.",
+            },
         ]
 
     return []
@@ -351,6 +504,106 @@ def apply_changes(state, changes):
             state[name] = max(low, min(high, state[name] + changes[name]))
 
 
+def resolve_choice(state, choice):
+    apply_changes(state, choice.get("changes", {}))
+    outcome = choice["result"]
+    risk = choice.get("risk")
+    if not risk:
+        return outcome
+
+    success_chance = (
+        risk["success_chance"]
+        + state["intel"] * risk.get("intel_bonus", 0)
+        + state["defense"] * risk.get("defense_bonus", 0)
+    )
+    success_chance = max(0.05, min(0.95, success_chance))
+    if random.random() < success_chance:
+        apply_changes(state, risk.get("success_changes", {}))
+        return outcome + "\n\nÉxito de la maniobra: " + risk["success_text"]
+
+    apply_changes(state, risk.get("failure_changes", {}))
+    return outcome + "\n\nFracaso de la maniobra: " + risk["failure_text"]
+
+
+def resolve_random_incident(state):
+    if random.random() >= INCIDENT_CHANCE:
+        return ""
+
+    incident = random.choice(
+        ("cache", "herd", "injury", "refugees", "radio", "spoiled")
+    )
+    if incident == "cache":
+        resource = random.choice(tuple(RESOURCE_NAMES))
+        before = state["resources"][resource]
+        amount = random.randint(1, 3)
+        apply_changes(state, {"resources": {resource: amount}})
+        gained = state["resources"][resource] - before
+        return f"Hallazgo aleatorio: encontraron {gained} de {RESOURCE_NAMES[resource].lower()}."
+
+    if incident == "herd":
+        if state["defense"] >= 3:
+            apply_changes(state, {"resources": {"materials": -1}})
+            return "Incidente aleatorio: una horda golpeó el perímetro; las defensas resistieron, pero se perdió material."
+        casualties = random.randint(1, 2)
+        apply_changes(state, {"survivors": -casualties, "morale": -1})
+        return f"Incidente aleatorio: una horda atravesó un acceso y hubo {casualties} baja(s)."
+
+    if incident == "injury":
+        if state["resources"]["medicine"] > 0:
+            apply_changes(state, {"resources": {"medicine": -1}})
+            return "Incidente aleatorio: una persona resultó herida; la enfermería pudo atenderla."
+        apply_changes(state, {"survivors": -1, "morale": -1})
+        return "Incidente aleatorio: una persona resultó herida y no había medicinas disponibles."
+
+    if incident == "refugees":
+        if state["resources"]["food"] >= 2 and state["resources"]["water"] >= 2:
+            apply_changes(
+                state,
+                {"survivors": 1, "morale": 1, "resources": {"food": -1, "water": -1}},
+            )
+            return "Incidente aleatorio: una persona refugiada se suma al grupo y comparte información."
+        apply_changes(state, {"morale": -1})
+        return "Incidente aleatorio: una persona pide refugio, pero las reservas no alcanzan."
+
+    if incident == "radio":
+        if state["intel"] >= 2:
+            apply_changes(state, {"alliances": 1, "morale": 1})
+            return "Incidente aleatorio: una transmisión permite coordinarse con una comunidad vecina."
+        apply_changes(state, {"intel": 1})
+        return "Incidente aleatorio: se intercepta una transmisión con datos parciales."
+
+    resource = random.choice(("food", "water"))
+    amount = random.randint(1, 2)
+    before = state["resources"][resource]
+    apply_changes(state, {"resources": {resource: -amount}})
+    lost = before - state["resources"][resource]
+    if state["intel"] >= 4:
+        apply_changes(state, {"intel": -1})
+        return "Incidente aleatorio: se detectó un intento de sabotaje a tiempo, pero el esfuerzo costó inteligencia."
+    return f"Incidente aleatorio: alguien contaminó una reserva; se perdió {lost} de {RESOURCE_NAMES[resource].lower()}."
+
+
+def failure_reason(state):
+    if state["survivors"] <= 0:
+        return "La comunidad perdió a todos sus supervivientes."
+    if state["morale"] <= 0 and state["defense"] <= 0:
+        return "La moral y las defensas llegaron a cero; el refugio se desintegró."
+    return ""
+
+
+def finish_if_failed(state):
+    reason = failure_reason(state)
+    if not reason:
+        return ""
+    state["status"] = "failed"
+    state["ending"] = {
+        "title": "EL REFUGIO CAE",
+        "score": 0,
+        "text": reason,
+    }
+    return reason
+
+
 def consume_rations(state):
     shortages = []
     for resource, label in (("food", "comida"), ("water", "agua")):
@@ -359,15 +612,26 @@ def consume_rations(state):
         else:
             state["morale"] = max(0, state["morale"] - 1)
             shortages.append(label)
+
     if shortages:
-        return "La reserva de " + " y ".join(shortages) + " se agotó; la moral baja."
-    return "Se consumió una ración de comida y agua."
+        state["shortage_streak"] = state.get("shortage_streak", 0) + 1
+    else:
+        state["shortage_streak"] = 0
+
+    result = "Se consumió una ración de comida y agua."
+    if shortages:
+        result = "La reserva de " + " y ".join(shortages) + " se agotó; la moral baja."
+    if state["shortage_streak"] >= 2:
+        apply_changes(state, {"survivors": -1})
+        state["shortage_streak"] = 0
+        result += " La escasez prolongada causa una baja."
+    return result
 
 
 def phase_label(state):
     phase = state["phase"]
     if phase == "war":
-        return f"GUERRA — TURNO {state['war_turn']} DE 3"
+        return f"GUERRA — TURNO {state['war_turn']} DE {WAR_TURNS}"
     return PHASES.get(phase, ("THE REFUGE", ""))[0]
 
 
@@ -378,10 +642,14 @@ def advance(state):
     elif phase == "expedition":
         state["phase"] = "crisis"
     elif phase == "crisis":
+        state["phase"] = "recovery"
+    elif phase == "recovery":
+        state["phase"] = "refugees"
+    elif phase == "refugees":
         state["phase"] = "war"
         state["war_turn"] = 1
     elif phase == "war":
-        if state["war_turn"] < 3:
+        if state["war_turn"] < WAR_TURNS:
             state["war_turn"] += 1
         else:
             state["phase"] = "final"
@@ -795,7 +1063,7 @@ def play_campaign(state):
 
         title, description = PHASES[phase]
         if phase == "war":
-            title = f"GUERRA — TURNO {state['war_turn']} DE 3"
+            title = f"GUERRA — TURNO {state['war_turn']} DE {WAR_TURNS}"
 
         prompt = f"{description}\n\n{status_text(state)}"
         raw_choices = choices_for(phase, state)
@@ -809,16 +1077,36 @@ def play_campaign(state):
             return
 
         choice = choices[int(selected) - 1]
-        apply_changes(state, choice["changes"])
-        ration_result = consume_rations(state)
-        outcome = choice["result"] + "\n" + ration_result
+        outcome = resolve_choice(state, choice)
+        failure = finish_if_failed(state)
+        if failure:
+            outcome += "\n\nFIN DE CAMPAÑA: " + failure
+        else:
+            outcome += "\n" + consume_rations(state)
+            incident = resolve_random_incident(state)
+            if incident:
+                outcome += "\n\n" + incident
+            failure = finish_if_failed(state)
+            if failure:
+                outcome += "\n\nFIN DE CAMPAÑA: " + failure
+
         record_decision(state, phase_label(state), choice["label"], outcome)
-        advance(state)
+        if state["status"] == "active":
+            advance(state)
         save_campaign(state)
+        if state["status"] == "failed":
+            message(
+                "FIN DE CAMPAÑA",
+                f"{outcome}\n\n{state['ending']['text']}\n\n"
+                "Iniciá una nueva campaña para volver a intentarlo.",
+                18,
+                76,
+            )
+            return
         message(
             "DECISIÓN REGISTRADA",
             f"{outcome}\n\n{status_text(state)}",
-            16,
+            18,
             76,
         )
 
@@ -828,11 +1116,11 @@ def show_status(state):
         message("COMUNIDAD", "Todavía no hay una campaña guardada.")
         return
     text = status_text(state)
-    if state["status"] == "complete" and state.get("ending"):
+    if state.get("status") in ("complete", "failed") and state.get("ending"):
         text += f"\n\nEstado: campaña finalizada — {state['ending']['title']}"
     else:
         text += f"\n\nEtapa actual: {phase_label(state)}"
-    message("ESTADO DEL REFUGIO", text, 15, 72)
+    message("ESTADO DEL REFUGIO", text, 16, 76)
 
 
 def show_archive(state):
@@ -871,8 +1159,8 @@ def show_archive(state):
 def show_rules():
     message(
         "THE REFUGE — REGLAS",
-        "Campaña persistente: consejo, expedición, crisis, tres turnos de guerra y una decisión final.\n\n"
-        "Las decisiones modifican comida, agua, medicinas, materiales, supervivientes, moral, defensas, inteligencia y alianzas. Las reservas de comida y agua se consumen al cerrar cada jornada.\n\n"
+        "Campaña persistente: consejo, expedición, crisis, reconstrucción, refugiados, cinco turnos de guerra y confrontación final.\n\n"
+        "Cada jornada consume comida y agua. Dos jornadas consecutivas con faltantes causan una baja. Los eventos aleatorios pueden ayudar o perjudicar; las maniobras arriesgadas dependen también de inteligencia y defensas. Si no quedan supervivientes o colapsan moral y defensas, la campaña termina.\n\n"
         "La partida se guarda localmente en formato JSON. Escape vuelve al menú y conserva el último estado guardado.\n\n"
         "Marco temático: All-Out War, The Walking Dead #115-126. Esta campaña presenta una variación original, sin reproducir páginas ni diálogos del cómic.",
         19,
@@ -892,8 +1180,8 @@ def start_campaign(current):
     save_campaign(state)
     message(
         "THE REFUGE",
-        "La campaña comienza. Prepará el refugio, administrá las reservas y decidí cómo responder a la amenaza de los Salvadores.\n\n"
-        "Las acciones y sus consecuencias se guardan después de cada jornada.",
+        "La campaña comienza. Prepará el refugio durante diez jornadas antes de la confrontación final. La guerra ocupa cinco turnos.\n\n"
+        "Algunas maniobras tienen riesgo y se indican en el menú. Los eventos aleatorios pueden alterar tus recursos; una decisión extrema puede acabar con la campaña.",
         11,
         74,
     )
@@ -931,7 +1219,7 @@ def main():
         elif selected == "continue":
             if state and state.get("status") == "active":
                 play_campaign(state)
-            elif state and state.get("status") == "complete":
+            elif state and state.get("status") in ("complete", "failed"):
                 message("CAMPAÑA FINALIZADA", "La partida guardada ya tiene un desenlace. Iniciá una nueva campaña para volver a jugar.")
             else:
                 message("SIN PARTIDA", "Todavía no hay una campaña para continuar.")
