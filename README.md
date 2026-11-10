@@ -51,7 +51,7 @@ La campaña se guarda localmente como JSON en `$XDG_STATE_HOME/alexandria-os/the
 
 La historia presenta una variación original inspirada en el arco *All-Out War*. Image Comics identifica el número [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) como su inicio y el [#126](https://imagecomics.com/comics/releases/the-walking-dead-126) como su conclusión. Los valores, decisiones y finales de la campaña son mecánicas de juego y no alteran el canon.
 
-**Validación:** el usuario confirmó el desenlace de la versión anterior. Los epílogos y la pantalla desplazable se revisaron estáticamente en `main`; todavía no se ejecutaron en la VM Debian. Queda pendiente sincronizar y comprobar las rutas narrativas, las derrotas, la relectura del desenlace, el guardado y la arena final.
+**Validación:** Debian mostró un error de sintaxis porque faltaban los dos puntos en `def final_decision(state):`; se corrigió la definición en `main`. La versión corregida todavía debe sincronizarse y comprobarse en la VM.
 
 ## Archivo de personajes
 
@@ -252,5 +252,12 @@ docs/                   Documentación del proyecto
 - La narración se identifica como una variación original del cómic; no modifica el canon. La interfaz sigue en terminal y usa el cuadro de texto desplazable de `dialog`.
 - **Validación:** revisión estática del código y del README en `main`; no ejecutado en Debian.
 - **Pendiente:** sincronizar el módulo y jugar cada ruta de desenlace y derrota, verificando que el epílogo aparezca al terminar y quede accesible al volver al menú.
+
+### 2026-11-09 23:39 ART — Corrección del acceso a THE REFUGE
+
+- La ejecución directa en Debian mostró un error de sintaxis en la definición de final_decision: faltaba el carácter : al final de la línea.
+- Se corrigió la definición en src/refuge/refuge.py. La opción del lanzador sigue conectada al módulo.
+- **Validación:** el error reportado queda corregido en GitHub main; la versión corregida todavía no se ejecutó en Debian.
+- **Pendiente:** sincronizar el módulo corregido en la VM y confirmar que THE REFUGE abre desde el menú y desde la ejecución directa.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
