@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 43 (Noviembre, 2007).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Filiación: Miembro destacado de la milicia de Woodbury.
+• Relación sentimental: Lilly Caul (su novia).
+
+¿Qué hizo? (El adoctrinamiento y el asalto a la prisión)
+
+Antes del estallido social, Austin era un simple estudiante de asistencia jurídica en el Atlanta Technical College. Al llegar a Woodbury, se adaptó rápido debido a su agilidad y juventud, ganándose un puesto fijo en los equipos de exploración encargados de buscar provisiones en las zonas de riesgo del exterior.
+• El noviazgo con Lilly (#43): Austin compartía un fuerte vínculo amoroso y de dormitorio con Lilly Caul. Solía actuar como su cable a tierra, convenciéndola en más de una ocasión de que el Gobernador (Brian Blake) era un mal necesario y que sus cuestionables métodos eran la única garantía real de mantenerlos a salvo y de darles una oportunidad de comenzar una nueva vida.
+• Fuego de cobertura en la invasión: Engañado por la retórica del Gobernador de que la prisión albergaba a criminales peligrosos, Austin marchó en la caravana de asalto. Durante el tiroteo masivo, manejó armamento pesado e intercambió disparos directos contra las líneas de defensa de Rick, cubriendo el avance de los camiones de Woodbury por los patios delanteros.
+
+¿Cómo terminó? (La mordida y el sacrificio final)
+
+A diferencia de los guardias genéricos que mueren aplastados por el tanque, el destino final de Austin es un acto trágico de sacrificio directamente ligado a la novela canónica The Fall of the Governor - Part 2:
+• El quiebre de Lilly: Tras ver cómo Lilly Caul asesinaba a sangre fría a Lori y a la bebé Judith por órdenes directas del Gobernador, y la posterior ejecución del líder a manos de la propia Lilly, la batalla de la prisión colapsó. El ejército se disolvió en pánico mientras una mega-horda zombi invadía el patio del penal.
+• El encierro en el bloque de celdas: Austin, Lilly y otros cinco soldados sobrevivientes de Woodbury se vieron obligados a huir del patio a toda prisa, arrinconados por los muertos vivientes. Lograron refugiarse y atrincherarse bajo llave dentro de uno de los bloques de celdas interiores de la prisión abandonada.
+• La trágica revelación y muerte definitiva: Una vez a salvo dentro del bloque, Austin le confesó a su novia una terrible realidad: durante la caótica retirada del patio, un caminante lo había mordido profundamente. Sabiendo que su tiempo estaba contado y que la fiebre zombi lo consumiría en horas, Austin tomó una decisión heroica para salvar a la mujer que amaba. Abrió las puertas de la celda y se sacrificó voluntariamente atrayendo a la horda hacia él, sirviendo de distracción carnal para que Lilly y los sobrevivientes restantes pudieran escapar por los túneles traseros del penal.
+Austin fue devorado vivo por la horda zombi en los pasillos de la prisión. Los sobrevivientes regresaron a Woodbury, donde Lilly Caul asumió formalmente el liderazgo definitivo del pueblo cargando con el luto de su novio.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

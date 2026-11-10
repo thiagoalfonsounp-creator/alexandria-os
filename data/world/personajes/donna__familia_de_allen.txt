@@ -10,14 +10,41 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 2 (Octubre, 2003).
+• Última aparición: The Walking Dead Número 9 (Junio, 2004).
+• Familiares directos: Allen (esposo, fallecido); Ben y Billy (hijos mellizos, fallecidos).
+
+¿Qué hizo? (Su rol moralista en el campamento)
+
+Donna actuaba como la brújula moral autoimpuesta del grupo, aunque sus prejuicios solían generar tensiones. A pesar de su actitud severa, era una madre ferozmente protectora que ponía la seguridad de Ben y Billy por encima de todo:
+• Sus prejuicios iniciales (#3): Donna juzgaba abiertamente el estilo de vida de las mujeres del campamento. Criticó duramente a Lori Grimes por no mantener una actitud "apropiada" y tuvo roces constantes con Andrea y Amy, a quienes consideraba demasiado liberales e inmaduras para la situación.
+• El rechazo a la equidad de género (#4): Cuando las mujeres del grupo decidieron que también debían aprender a disparar para defenderse, Donna fue la única que se opuso rotundamente al principio. Consideraba que la defensa y la caza eran tareas exclusivas de los hombres (como su esposo Allen o Rick y Shane) y que las mujeres debían limitarse a las labores del campamento y la crianza. Sin embargo, terminó cediendo y asistiendo a las prácticas de tiro por la seguridad de sus hijos.
+• El viaje hacia Wiltshire Estates: Tras el ataque zombi al campamento de Atlanta (donde muere Amy), Donna empacó sus cosas y se unió al éxodo en la casa rodante de Dale, buscando un lugar fortificado donde establecerse con su familia.
+
+¿Cómo terminó? (La tragedia de Wiltshire Estates)
+
+El destino final de Donna ocurre de manera abrupta e impactante en el Número 9 del cómic, sirviendo como una brutal lección para el grupo de que ningún lugar aparentemente seguro estaba libre de peligro.
+• La falsa seguridad: El grupo llegó a Wiltshire Estates, una urbanización privada y cerrada con muros altos. Al encontrar el lugar cubierto de nieve y aparentemente desierto, Rick creyó que habían encontrado el refugio perfecto.
+• El error fatal: Mientras exploraban las lujosas casas para limpiarlas, Donna tomó la iniciativa y abrió la puerta principal de una de las residencias para revisarla.
+• La emboscada: La casa estaba infestada. En el segundo en que abrió la puerta, una horda de caminantes ocultos en la oscuridad se abalanzó sobre ella. Donna no tuvo tiempo de reaccionar ni de usar su arma; fue derribada contra el suelo nevado instantáneamente.
+• Devorada viva: Ante la mirada horrorizada de su esposo Allen, quien se encontraba a pocos metros y quedó paralizado por el shock, los zombis comenzaron a desmembrar y devorar viva a Donna. Rick Grimes intentó disparar para salvarla, pero la cantidad de caminantes era abrumadora y solo pudo arrastrar a Allen lejos para evitar que él también muriera.
+• Sin descanso definitivo en escena: Debido a que el grupo tuvo que huir a toda prisa de la urbanización en el Número 10 al descubrir que todo el complejo estaba plagado, el cuerpo de Donna quedó abandonado en el lugar. Reanimó como caminante fuera de viñeta en Wiltshire Estates.
+Su muerte destruyó psicológicamente a Allen, dejando a Ben y Billy desamparados y marcando el inicio de la trágica reacción en cadena que terminó extinguiendo a toda la familia.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

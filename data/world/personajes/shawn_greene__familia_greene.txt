@@ -10,14 +10,37 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 11 (Septiembre, 2004).
+• Última aparición: The Walking Dead Número 11 (Fallece definitivamente en el mismo número).
+• Familiares directos: Hershel (padre, fallecido); Arnold, Lacey, Maggie, Billy, Rachel y Susie (hermanos, todos fallecidos).
+
+¿Qué hizo? (La historia previa y el confinamiento)
+
+Antes de los eventos del cómic, Shawn trabajaba en los cultivos de la granja familiar. Fue la primera gran pérdida que sufrió la familia Greene tras el estallido del brote zombi.
+• La mordida fuera de escena: Mientras el apocalipsis apenas comenzaba, Shawn se encontraba reparando una de las cercas perimetrales de la granja cuando fue emboscado de imprevisto y mordido por un caminante.
+• El origen de la ideología de Hershel: Tras sucumbir rápidamente ante la fiebre y morir debido a la infección, reanimó como caminante. Al ser su primogénito, Hershel se rehusó por completo a aceptar que su hijo estaba muerto y que se había convertido en un monstruo caníbal. Sosteniendo la idea de que Shawn solo sufría de una grave enfermedad mental/física curable, Hershel lo encerró bajo llave dentro del granero familiar para resguardarlo. Fue el confinamiento de Shawn el que inspiró a la familia a seguir capturando zombis locales de la zona para rellenar el granero con la firme esperanza de que el gobierno encontrara una cura masiva.
+
+¿Cómo terminó? (El causante de la masacre)
+
+Aunque estuvo encerrado durante semanas, su destino final se desató en el Número 11 del cómic y provocó de manera directa la caída del refugio de la granja:
+• El escape del granero: Hershel y Arnold abrieron las pesadas puertas del granero con la intención de meter a un zombi recién atrapado. Sin embargo, la masa de caminantes empujó las maderas. En la primera fila de la estampida se encontraba el cadáver reanimado de Shawn.
+• El ataque a su propio hermano: Completamente desprovisto de humanidad o lazos familiares, el zombi de Shawn se abalanzó directamente sobre su hermano mayor Arnold Greene y lo mordió profundamente en el cuello, desgarrándole los vasos sanguíneos y provocando que Arnold se desangrara en el suelo en cuestión de minutos.
+• Muerte definitiva: Al ver con sus propios ojos cómo su hijo zombificado asesinaba a sangre fría a otro de sus hijos vivos, la venda de negación religiosa de Hershel Greene se rompió en mil pedazos. En un ataque de shock y desgarradora lucidez, Hershel sacó su arma y le disparó a Shawn directamente en la cabeza, dándole fin a su estado de caminante de forma permanente.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

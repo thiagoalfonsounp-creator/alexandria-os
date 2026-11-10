@@ -10,14 +10,37 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 43 (Noviembre, 2007).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Profesión pre-apocalipsis: Albañil y obrero de la construcción.
+• Filiación: Residente y soldado de infantería de Woodbury.
+
+¿Qué hizo? (Su rol en los muros y en el asalto)
+
+Debido a su experiencia previa con la mezcla de materiales y la albañilería, Matthew fue asignado de inmediato por el Gobernador (Brian Blake) a las cuadrillas de ingeniería pesada. Su labor principal consistía en expandir las barricadas hacia el sector norte del pueblo fortificado para asegurar que los caminantes no pudieran colarse.
+Al igual que el resto de los residentes civiles que fueron militarizados, Matthew fue completamente adoctrinado bajo la idea de que la prisión era un nido de delincuentes peligrosos que amenazaban la vida de su comunidad. En el Número 43, cuando el Gobernador ordenó la movilización total, Matthew tomó un rifle de asalto y se subió a los camiones. Durante la batalla del penal, formó parte del grueso de la infantería que avanzó a pie disparando contra las líneas de defensa de Rick Grimes para ejecutar la orden de "no dejar a nadie con vida".
+
+¿Cómo terminó?
+
+A diferencia de los guardias que murieron bajo el fuego de las torres de vigilancia, Matthew Hennesey es uno de los poquísimos soldados que logró sobrevivir físicamente a la sangrienta batalla del patio:
+• La retirada estratégica: Cuando el asalto se desmoronó debido a la muerte del Gobernador a manos de Lilly Caul y a la posterior invasión masiva de una mega-horda zombi, Matthew no se atrincheró en los bloques de celdas. En medio del caos absoluto, logró replegarse a tiempo hacia uno de los camiones de asalto de Woodbury que huían del lugar.
+• El regreso a un pueblo fantasma: Matthew regresó sano y salva a Woodbury junto a Lilly Caul y los escasos seis soldados supervivientes, buscando continuar su vida libre de la tiranía del Gobernador.
+• Muerte definitiva (La caída de Woodbury): Su destino final definitivo ocurre poco después dentro del canon de las novelas del universo expandido (The Fall of the Governor - Part 2). El estruendo de la guerra atrajo a miles de caminantes que fracturaron violentamente las debilitadas cercas de Woodbury. Sin milicias suficientes para contener el ataque, las calles fueron invadidas. Matthew Hennesey fue acorralado y devorado vivo por la horda zombi mientras intentaba defender los departamentos del sector norte.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

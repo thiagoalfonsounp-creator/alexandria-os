@@ -10,14 +10,41 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 13 (Octubre, 2004).
+• Última aparición: The Walking Dead Número 19 (Mayo, 2005).
+• Relaciones sentimentales: Andrew (su novio y compañero de celda).
+
+¿Qué hizo? (La falsa acusación y el intento de golpe de Estado)
+
+Dexter era un hombre afroamericano imponente, calvo y de gran fuerza física. Al principio intentó mantener una tregua pacífica con el grupo de Atlanta, pero la convivencia se destruyó por completo debido a la paranoia y a un crimen del que fue injustamente culpado:
+• La falsa acusación (#16): Cuando las gemelas Rachel y Susie Greene fueron brutalmente decapitadas en la barbería, las sospechas recayeron de inmediato sobre los reclusos. Debido a su historial violento, Rick Grimes asumió que Dexter era el asesino. Sin escuchar sus protestas de inocencia, Rick y los suyos sometieron a Dexter a golpes y lo encerraron encadenado en una celda.
+• El descubrimiento del verdadero asesino (#17): Poco después se demostró que el verdadero culpable era el recluso Thomas Richards. Aunque Rick liberó a Dexter y le pidió disculpas, el daño ya estaba hecho. Dexter, profundamente resentido y humillado por el maltrato recibido en la que consideraba "su casa", juró no volver a someterse ante el grupo de fuera.
+• El complot por las armas (#18): Aprovechando que Patricia lo ayudó a salir en un inicio y que los ánimos estaban tensos, Dexter y su novio Andrew planearon recuperar el control de la prisión. Lograron escabullirse hasta el Bloque A de la prisión (una zona aún no explorada por el grupo de Rick) y descubrieron el armero principal del recinto, adueñándose de escopetas y rifles antidisturbios.
+• El golpe de Estado (#19): Armados hasta los dientes, Dexter y Andrew arrinconaron a Rick Grimes y al grupo en el patio delantero. Apuntándoles a la cabeza, Dexter pronunció su icónica frase: "Estábamos aquí primero... se van ya de mi puta casa". El golpe de Estado parecía un éxito rotundo, dejando a Rick sin opciones de defenderse.
+
+¿Cómo terminó? (La invasión caminante y la traición de Rick)
+
+Su destino final ocurrió de manera abrupta en el mismo Número 13 del cómic (revelado formalmente en el Número 19), justo en el clímax de su enfrentamiento contra Rick:
+• La interrupción de la horda: Justo en el momento en que Dexter exigía la expulsión inmediata de los sobrevivientes, el ruido y la tensión atrajeron a una horda masiva de caminantes que había logrado romper una de las cercas traseras del Bloque A, invadiendo el patio donde se encontraban.
+• La alianza temporal forzada: Ante el peligro inminente de ser devorados, ambos bandos tuvieron que bajar las armas entre sí y comenzar a disparar juntos contra la masa de muertos vivientes. Dexter, demostrando valentía, se colocó en la primera línea de fuego para repeler el ataque junto a Rick y Tyreese.
+• El asesinato silencioso: En medio del caos absoluto del tiroteo, las explosiones y los gritos, Dexter se encontraba de espaldas a Rick disparándole a los zombis. Rick Grimes, consciente de que si sobrevivían a la horda Dexter volvería a apuntarles con el arma para echarlos o matarlos, vio una oportunidad fría y perfecta. Rick apuntó su pistola a la parte trasera de la cabeza de Dexter y apretó el gatillo.
+• El encubrimiento: Dexter cayó fulminado instantáneamente en el suelo con el cráneo destrozado por la bala de Rick. El único testigo directo del acto fue Tyreese, quien miró a Rick en shock. Rick simplemente le sostuvo la mirada y continuó disparando a los zombis. Tras contener la invasión, el grupo asumió que Dexter había muerto por "fuego cruzado" o por el ataque de un caminante.
+La muerte de Dexter quebró el espíritu de su novio Andrew, quien huyó despavorido de la prisión hacia los bosques exteriores en ese mismo número, dejando el control absoluto del recinto de forma definitiva en manos de Rick Grimes. Dexter fue enterrado posteriormente en los patios traseros de la prisión junto al resto de caídos del lugar.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

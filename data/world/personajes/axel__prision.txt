@@ -10,14 +10,41 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 13 (Octubre, 2004).
+• Última aparición: The Walking Dead Número 47 (Marzo, 2008).
+• Relaciones sentimentales: Patricia (novia dentro de la prisión, fallecida).
+
+¿Qué hizo? (La búsqueda de confianza y su rol logístico)
+
+El camino de Axel para ganarse el respeto del grupo original de Atlanta no fue fácil debido a los crímenes atroces cometidos por sus compañeros de celda (como la decapitación de las gemelas Greene a manos de Thomas Richards):
+• La prueba de aislamiento (#16 - #21): Tras los brutales asesinatos de Thomas y la posterior rebelión armada de los reclusos Dexter y Andrew, Rick Grimes decidió encerrar a Axel bajo estricta vigilancia, desconfiando de él por el simple hecho de ser un convicto. Axel cooperó pacíficamente en todo momento, declarando que él no era un asesino y que solo quería encajar y ayudar a mantener el lugar seguro.
+• El nexo mecánico y agricultor: Una vez que demostró su total honestidad, Axel se convirtió en una pieza logística invaluable para la prisión. Usó sus habilidades físicas para ayudar a reparar las cercas perimetrales y colaboró codo a codo con Hershel Greene y Billy arando la tierra en los patios delanteros para los cultivos familiares.
+• El amor con Patricia: Tras la dolorosa muerte de Otis en los patios, Axel se acercó a una devastada Patricia para ofrecerle consuelo. Ambos desarrollaron una relación sentimental madura y sana, encontrando un breve refugio emocional en medio del caos del fin del mundo.
+• Defensa armada contra Woodbury (#43): Cuando comenzaron las primeras escaramuzas contra el ejército del Gobernador, Axel no dudó en tomar un rifle de asalto y pararse en las líneas de defensa de las torres de vigilancia de la prisión, demostrando que consideraba al grupo de Rick como su verdadera familia.
+
+¿Cómo terminó? (El sangriento inicio del asalto final)
+
+A diferencia de otras adaptaciones donde su muerte es un golpe de efecto sorpresivo a mitad de una plática, en el cómic original su trágico final ocurre en el Número 47, marcando el inicio de la masacre total del recinto.
+• La trinchera improvisada: Durante el asalto definitivo del Gobernador, el tanque de Woodbury abrió fuego contra los muros de la prisión. Axel se encontraba en el patio delantero junto a su novia Patricia, utilizando los camiones y los bloques de concreto como barricada para repeler los disparos de los soldados enemigos.
+• El disparo de un francotirador: Mientras Axel se asomaba por un costado de la barricada para abrir fuego con su arma, un francotirador del ejército de Woodbury lo divisó desde la distancia. El proyectil de alto calibre le impactó directamente en el centro de la cabeza, atravesándole el cráneo.
+• Muerte instantánea: Axel cayó desplomado al suelo de manera fulminante sobre un charco de sangre, muriendo en el acto al lado de una horrorizada Patricia, quien presenció cómo la cabeza de su novio era destrozada por la bala.
+• El escudo humano involuntario: Segundos después de su muerte, debido a la intensidad del fuego cruzado, su cuerpo inerte recibió múltiples impactos de bala adicionales mientras Patricia intentaba protegerse detrás de él en medio del pánico de la batalla.
+Debido a que el patio de la prisión fue completamente invadido por los tanques, los soldados de Woodbury y posteriormente por miles de caminantes en el número siguiente, el cadáver de Axel quedó abandonado en el césped, reanimando fuera de viñeta como un zombi atrapado dentro del recinto destruído.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

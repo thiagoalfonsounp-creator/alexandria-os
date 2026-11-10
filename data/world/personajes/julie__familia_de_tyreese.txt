@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 7 (Abril, 2004).
+• Última aparición: The Walking Dead Número 15 (Diciembre, 2004).
+• Familiares directos: Tyreese (padre, fallecido); Chris (novio, fallecido).
+
+¿Qué hizo? (La codependencia y el pacto secreto)
+
+Julie era una adolescente sumamente protegida por su padre, quien era un hombre imponente y ferozmente dedicado a su seguridad. Sin embargo, Julie había desarrollado una relación de codependencia absoluta y algo tóxica con su novio Chris.
+Abrumada por el estrés constante, el miedo a ser devorada y el nihilismo de ver el colapso del mundo, Julie se dejó convencer por Chris de que la vida ya no valía la pena. Juntos idearon un pacto de suicidio mutuo bajo la romántica y distorsionada idea de que morir juntos era la única forma de asegurar que permanecerían unidos por la eternidad sin sufrir.
+• La consumación en la prisión (#14): Tras llegar a la prisión y asegurar uno de los bloques de celdas, los dos adolescentes decidieron que era el momento de ejecutar su plan. Primero mantuvieron relaciones sexuales en una de las celdas y, acto seguido, se sentaron frente a frente apuntándose mutuamente con armas de fuego.
+• La traición del destino: Acordaron disparar al mismo tiempo a la cuenta de tres. Sin embargo, debido a los nervios y al pánico, Chris apretó el gatillo antes de tiempo. El disparo impactó directamente en el torso de Julie, matándola casi instantáneamente antes de que ella pudiera disparar su propia arma.
+
+¿Cómo terminó? (El nacimiento de una regla biológica)
+
+El destino de Julie tras su muerte física sacudió por completo los cimientos y el entendimiento que los sobrevivientes tenían sobre la infección en el Número 15 del cómic:
+• La reanimación sin mordida: Tyreese escuchó la detonación y corrió desesperado a la celda, encontrando a Chris llorando sobre el cuerpo ensangrentado de su hija. Destrozado, Tyreese acunó el cadáver de Julie en sus brazos. Segundos después, los ojos de Julie se abrieron completamente nublados, sus mandíbulas comenzaron a chasquear y reanimó como caminante, intentando morder el cuello de su propio padre.
+• La ejecución definitiva: Chris, asustado por ver en lo que se había convertido su novia, reaccionó rápido y le disparó a Julie zombificada directamente en la cabeza, terminando con ella de manera definitiva.
+• El gran descubrimiento de Rick: Esta escena dejó a Rick Grimes en un shock absoluto. Julie no había sido mordida ni arañada por ningún zombi; había muerto estrictamente por una herida de bala humana. Al verla reanimar, Rick conectó los cabos sueltos y entendió la aterradora realidad de la trama: el virus zombi no se transmite por la mordida, sino que ya está latente dentro de todos los seres humanos vivos. La mordida solo causa una infección médica mortal que te mata, pero cualquier tipo de muerte activa la reanimación.
+La muerte de Julie sumió a Tyreese en una depresión salvaje y violenta, lo que lo llevó a estrangular a Chris esa misma noche y a mutilar su cadáver zombificado. Julie fue enterrada al día siguiente en los jardines de la prisión.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

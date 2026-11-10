@@ -10,14 +10,35 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 27 (Abril, 2006).
+• Filiación: Residente civil de Woodbury.
+
+¿Qué hizo?
+
+Al ser un personaje secundario de relleno dentro de los paneles del cómic, Earl no cuenta con líneas de diálogo trascendentales ni participa en las cúpulas de toma de decisiones del Gobernador (Brian Blake).
+Su rol se limitaba a ser un sobreviviente más que realizaba trabajos comunitarios menores y acudía a los violentos eventos deportivos organizados en los anfiteatros de Woodbury para mantener entretenida y adoctrinada a la población.
+
+¿Cómo terminó?
+
+Aunque no se muestra explícitamente su muerte viñeta a viñeta, el destino de Earl y del resto de los ciudadanos que se quedaron en Woodbury está completamente sellado por el canon oficial tras el final de la guerra contra la prisión:
+• La horda invasora: Tras el destructivo asalto al penal y la muerte del Gobernador, el pueblo de Woodbury quedó desprotegido, con su milicia mermada y con las cercas perimetrales debilitadas. El ruido masivo de los combates previos atrajo a una mega-horda zombi.
+• Muerte definitiva: Los caminantes fracturaron los muros defensivos e inundaron las calles del poblado. Earl fue acorralado y presuntamente devorada por la horda junto con la gran mayoría de los civiles que intentaban resguardarse en los departamentos.
+• El pueblo fantasma: Los pocos supervivientes de esa invasión (liderados por Lilly Caul) terminaron abandonando el lugar debido a los daños estructurales, dejando a Earl reanimado como un caminante más errando de por vida en un Woodbury completamente en ruinas y desierto.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

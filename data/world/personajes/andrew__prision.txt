@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 13 (Octubre, 2004).
+• Última aparición: The Walking Dead Número 19 (Mayo, 2005).
+• Relación sentimental: Dexter (su novio, fallecido).
+
+¿Qué hizo? (La devoción por Dexter y el complot armado)
+
+Andrew era un joven delgado y con el cabello largo peinado en rastas. Tenía una personalidad asustadiza, dependiente y sumisa, lo que lo hacía seguir ciegamente cualquier instrucción que le diera su novio. Su fe en el nuevo mundo era retorcida: creía firmemente que el apocalipsis zombi era una respuesta divina a sus oraciones para ayudarlo a mantenerse limpio y alejado de las drogas.
+Su participación clave en la trama se desarrolla a través de su lealtad absoluta en los disturbios por el control de la prisión:
+• El armero secreto (#18): Luego de que Rick Grimes encerrara injustamente a Dexter acusándolo de matar a las gemelas Greene, Dexter buscó venganza. Una vez libre, le ordenó a Andrew explorar el peligroso y desconocido Bloque A de la prisión. Andrew localizó con éxito el armero principal del recinto, recolectando escopetas, municiones y uniformes antidisturbios.
+• El intento de golpe de Estado (#19): Andrew se mantuvo firme al lado de Dexter cuando este emboscó a Rick, Tyreese y al resto de sobrevivientes en el patio delantero, apuntándoles a la cabeza para expulsarlos de la prisión.
+• La crisis mental por la pérdida: El plan colapsó cuando una horda zombi invadió el patio. En medio del tiroteo masivo, Rick Grimes asesinó secretamente a Dexter disparándole en la cabeza por la espalda para eliminar la amenaza humana. Al ver caer el cuerpo sin vida de su pareja, el mundo de Andrew se derrumbó por completo. Cayó de rodillas en medio de las balas y los zombis, gritando y llorando de manera incontrolable.
+
+¿Cómo terminó? (La huida cobarde y el destino revelado)
+
+Superado por el pánico, el dolor del luto y al notar que los caminantes iban a devorarlo, Andrew tiró su rifle al suelo en el mismo Número 19. Desesperado, corrió hacia el portón principal, abrió las rejas y huyó despavorido hacia los bosques exteriores, dejando la prisión atrás y desapareciendo por completo del marco principal de la historieta.
+A diferencia de la serie de televisión (donde regresa para sabotear los generadores de la prisión), en las páginas del cómic original su trágico final definitivo ocurre fuera de la vista de Rick Grimes, el cual se detalló en el universo expandido de las novelas oficiales (The Fall of the Governor):
+• La mordida en el campo: Tras deambular solo y sin armas por los campos periféricos de Atlanta durante semanas, Andrew fue emboscado y mordido de gravedad por un caminante. Sucumbió rápidamente a la infección de la herida y reanimó como un zombi errante.
+• Muerte definitiva: Tiempo después, su caminante terminó vagando cerca de las líneas de exploración del ejército de Woodbury. En el volumen canónico de la historieta corta "The Gathering", la soldado Lilly Caul se topó con el zombi de Andrew y le ejecutó un disparo directo en la cabeza, dándole fin a su trágico recorrido de supervivencia.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

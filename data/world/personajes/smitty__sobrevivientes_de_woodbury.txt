@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 43 (Noviembre, 2007).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Nombre real: Desconocido (solo se le llama por su apodo, "Smitty").
+• Filiación: Residente y miliciano de Woodbury.
+
+¿Qué hizo? (El disparo a Billy Greene y la culpa)
+
+Smitty fue completamente adoctrinado bajo los discursos manipuladores del Gobernador (Brian Blake), quien le hizo creer a la población civil que el grupo de la prisión estaba repleto de criminales salvajes y caníbales que debían ser erradicados para asegurar el futuro de Woodbury.
+• El asalto al penal (#48): Smitty tomó su fusil de asalto y avanzó a pie junto al grueso de la infantería por el patio delantero de la prisión una vez que el tanque blindado derribó las vallas metálicas.
+• El asesinato de Billy Greene: Durante el caótico fuego cruzado del patio, Smitty divisó a dos figuras corriendo a descubierto hacia la salida. Smitty apuntó su arma, apretó el gatillo y le ejecutó un disparo letal directamente en la cabeza a Billy Greene, matándolo de forma instantánea.
+• El quiebre moral: A diferencia de otros soldados que celebraban las bajas, matar al joven hijo de Hershel destruyó la mente de Smitty en ese mismo instante. Al acercarse y notar que la persona a la que le había destrozado el cráneo era simplemente un adolescente inocente que huía aterrado, Smitty entró en una profunda crisis nerviosa. Las viñetas y las novelas canónicas registran las perturbadoras palabras que Smitty se repetía a sí mismo en shock ante el Gobernador: "Oh Dios... yo... Oh Dios. Acabo de... acabo de matar a un chico. Acabo de matar al chico de ese hombre como si fuera una especie de animal enfermo". Este acto le demostró a Smitty que ellos no eran los héroes de la historia.
+
+¿Cómo terminó? (La caída en el patio)
+
+Su destino final ocurre minutos después en el clímax de ese mismo Número 48 del cómic, atrapado por el colapso táctico del ejército de Woodbury:
+• La mega-horda invasora: El ensordecedor ruido de la batalla y el cañón del tanque atrajeron a miles de caminantes de los bosques colindantes. Los muertos vivientes inundaron rápidamente el patio delantero del penal, entrando en masa por las mismas brechas que los camiones de Woodbury habían destruido.
+• Muerte definitiva: Sumido en una parálisis psicológica por la culpa de haber asesinado a Billy, y en medio del pánico generalizado por la posterior ejecución del Gobernador a manos de Lilly Caul, Smitty fue incapaz de replegarse a tiempo hacia los camiones de escape. Fue flanqueado por los muertos vivientes en el césped. Smitty fue rodeado, derribado y devorado vivo por la horda caminante fuera de viñeta (off-panel).
+Su cuerpo quedó abandonado en el campo de batalla, reanimando minutos después como un caminante más dentro de una prisión completamente arrasada, destruída y consumida por el fuego de la guerra.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

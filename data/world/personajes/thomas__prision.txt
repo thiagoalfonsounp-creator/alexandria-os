@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 13 (Octubre, 2004).
+• Última aparición: The Walking Dead Número 17 (Febrero, 2005).
+• Crímenes conocidos: El brutal asesinato y decapitación de las niñas gemelas Rachel y Susie Greene; intento de asesinato de Andrea y Patricia.
+
+¿Qué hizo? (El despertar del monstruo en la prisión)
+
+Debido a su actitud sumisa, limpia y educada, el grupo de Atlanta le creyó sus mentiras y le permitió circular libremente por las áreas seguras de la prisión. Thomas aprovechó esta libertad para dar rienda suelta a sus impulsos sádicos reprimidos tras el colapso de la sociedad:
+• El atroz crimen de la barbería (#15): Mientras el grupo estaba distraído en otro bloque, Thomas arrinconó a las pequeñas hijas de Hershel, Rachel y Susie Greene, dentro de la antigua barbería. Utilizando un machete de cocina, Thomas decapitó brutalmente a ambas niñas y colocó sus cabezas cortadas sobre un estante de manera grotesca.
+• El ataque a Andrea (#16): Tras el macabro hallazgo de los cuerpos, las sospechas recayeron erróneamente sobre el recluso Dexter. Thomas, libre de sospecha, intentó saciar nuevamente su sed de sangre esa misma noche. Emboscó a Andrea en un pasillo oscuro de la prisión e intentó cortarle el cuello con un cuchillo. Andrea logró defenderse ferozmente, forcejeando con él y logrando cortarle parte de la mejilla y la oreja con sus uñas. Rick Grimes escuchó los gritos y llegó corriendo al lugar, logrando someter a Thomas a golpes.
+• La golpiza de Rick: Enfurecido al descubrir la verdad sobre el asesino de las niñas, Rick Grimes perdió el control por completo y le propinó una golpiza salvaje a Thomas. Rick le golpeó el rostro repetidamente contra el suelo de concreto hasta destrozarle las manos y desfigurarle la cara al prisionero, dejándolo inconsciente en un charco de sangre.
+
+¿Cómo terminó? (La traición a Patricia y su muerte definitiva)
+
+El destino final de Thomas Richards se desató en el Número 17 del cómic, marcando la primera ejecución humana cometida dentro del grupo para mantener el orden social:
+• La manipulación de Patricia: Tras la golpiza, el grupo encerró a Thomas encadenado en una celda mientras debatían si debían colgarlo en el patio trasero de la prisión. Thomas, con el rostro vendado y desfigurado, usó sus dotes de manipulación psicológica para llorar ante la ingenua Patricia, convenciéndola de que él era la verdadera víctima y que "el monstruo era Rick".
+• El ataque de gratitud: Patricia cayó en la trampa. Se coló en la celda a escondidas para liberarlo de las cadenas. En el segundo en que Thomas se vio libre, su instinto psicópata se activó de inmediato: se abalanzó sobre Patricia e intentó estrangularla y asesinarla en el suelo de la celda.
+• Los disparos de Maggie Greene: Los gritos de Patricia alertaron a la prisión. Maggie Greene llegó corriendo a la celda empuñando una pistola. Sin titubear y llena de una furia acumulada por el asesinato de sus hermanas menores, Maggie apuntó al torso de Thomas y le vació el cargador completo de su arma, matándolo en el acto a quemarropa.
+• El destino de su cadáver: Rick Grimes y Hershel determinaron que el cuerpo de un monstruo como Thomas no merecía ser enterrado junto a las personas decentes de la prisión. Su cadáver fue sacado al patio exterior y arrojado por encima de las cercas perimetrales para que fuera devorado y despedazado por la horda de caminantes que rodeaba el recinto.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

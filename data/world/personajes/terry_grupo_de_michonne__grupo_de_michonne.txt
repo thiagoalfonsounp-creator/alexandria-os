@@ -10,14 +10,38 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 19 (Junio, 2005 - como caminante) y en el Especial de Michonne (Marzo, 2012 - vivo).
+• Última aparición: The Walking Dead Número 19 (Fallece definitivamente en el mismo número).
+• Relaciones: Mike (mejor amigo, fallecido); Michonne (compañera de refugio y captora).
+
+¿Qué hizo? (La caída del refugio)
+
+Al inicio de la infección, Terry se refugió en la casa de Mike. Cuando Michonne llegó corriendo al lugar huyendo de los muertos, se desató el caos:
+• El rescate de Mike: Mientras intentaban asegurar la entrada, un zombi logró morder a Mike en el brazo. Terry reaccionó rápido, intervino y asesinó al caminante, salvando a su amigo de ser devorado por completo en ese instante. Entre él y Michonne trataron la herida de Mike y amputaron la zona infectada intentando detener el avance del virus.
+• La negligencia: Michonne tuvo que salir del departamento a buscar suministros médicos y comida en los alrededores de Atlanta. Sin embargo, la herida de Mike empeoró rápidamente. Mientras Michonne estaba fuera, Mike murió debido a la infección y reanimó como un caminante.
+• El ataque: Totalmente tomado por sorpresa por el cadáver reanimado de su mejor amigo, Terry fue emboscado dentro del departamento. Incapaz de defenderse de Mike, Terry sufrió múltiples mordidas fatales, muriendo desangrado en el suelo de la sala.
+
+¿Cómo terminó? (Las "mascotas" de camuflaje y muerte definitiva)
+
+El destino final de Terry es uno de los elementos visuales más perturbadores y brillantes de toda la saga del cómic:
+• La mutilación: Cuando Michonne regresó días después tras haber quedado atrapada en la casa de un vecino, encontró a Mike y a Terry convertidos en zombis vagando dentro del departamento. Destrozada por el dolor y la culpa, fue incapaz de destruirles el cerebro. En su lugar, utilizó su nueva katana para cortarles los brazos por completo y rebanarles las mandíbulas con precisión quirúrgica, eliminando por completo su capacidad de morder o arañar.
+• El descubrimiento biológico: Al encerrarlos con cadenas, Michonne notó un patrón biológico clave: los caminantes del exterior perdían el interés en ella si caminaba al lado de los cuerpos putrefactos de Mike y Terry. Su olor a muerto anulaba su presencia, sirviendo como un escudo de camuflaje perfecto. Terry pasó meses encadenado del cuello, arrastrado por los bosques periféricos de Atlanta como una herramienta de supervivencia sin voluntad.
+• Muerte definitiva (#19): El final definitivo de su caminante ocurre en el patio delantero de la prisión. Tras usar a Terry y a Mike para rescatar al capataz Otis de una horda en la carretera, Rick Grimes aceptó dejar entrar a Michonne al recinto con una condición estricta de seguridad: sus "mascotas" no cruzarían las rejas. Michonne aceptó con tranquilidad, desenvainó su espada y decapitó limpiamente a Terry y a Mike en el patio, destruyendo finalmente sus cerebros y dejándolos descansar en paz tras meses de confinamiento zombi.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

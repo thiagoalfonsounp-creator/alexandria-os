@@ -10,14 +10,40 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 43 (Noviembre, 2007).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Ocupación pre-apocalipsis: Conductor e instructor de maquinaria pesada.
+• Filiación: Conductor principal del Tanque de Asalto de Woodbury.
+
+¿Qué hizo? (La destrucción de los muros perimetrales)
+
+Antes del fin del mundo, Jared se dedicaba al manejo de vehículos industriales pesados, destreza que lo volvió indispensable para los planes de conquista de Woodbury. Cuando el Gobernador (Brian Blake) encontró arrumbado un tanque de guerra funcional en una base de la Guardia Nacional, Jared fue el único capaz de repararlo, ponerlo en marcha y maniobrar su torreta.
+• La intimidación inicial (#43): Jared condujo el tanque hasta las afueras de la prisión. Su sola presencia infundió un terror absoluto en el grupo de Rick Grimes, ya que las vallas metálicas no eran rival para el vehículo.
+• El derribo de las defensas (#47): Durante el asalto definitivo, harto de que las torres de vigilancia de la prisión contuvieran a la infantería, el Gobernador se subió a la parte trasera del tanque y le ordenó a Jared avanzar a toda velocidad. Jared puso el motor en marcha y embistió directamente las cercas perimetrales del penal, derribándolas por completo.
+• La destrucción del hogar: Bajo las órdenes del tirano, Jared maniobró el cañón principal y disparó proyectiles pesados contra la estructura principal del edificio, abriendo boquetes en las celdas, destruyendo los huertos y destruyendo el único refugio seguro que le quedaba al grupo de Atlanta.
+
+¿Cómo terminó? (La masacre en el patio delantero)
+
+Su destino final ocurre de manera gráfica en el Número 48 del cómic, atrapado por las consecuencias destructivas de sus propias acciones:
+• La invasión de la mega-horda: El ensordecedor ruido de los cañonazos del tanque, las explosiones y las granadas atrajo a miles de caminantes de los bosques colindantes de Georgia. La masa de muertos vivientes entró a toda velocidad al patio delantero usando las mismas brechas masivas que Jared había abierto en los muros con el blindado.
+• El pánico y el atasco: Al notar que miles de zombis rodeaban el tanque y comenzaban a trepar por las orugas metálicas, Jared entró en pánico. Intentó dar marcha atrás para evacuar el patio, pero las ruedas del blindado se atascaron debido a la acumulación de escombros, zombis aplastados y el lodo del terreno.
+• Muerte definitiva: Los caminantes lograron romper una de las escotillas superiores o mirillas debilitadas del vehículo. Jared fue arrastrado parcialmente hacia afuera y devorado vivo por la horda caminante en el asiento del conductor del tanque.
+Su cuerpo quedó atrapado dentro de la cabina del blindado inutilizado, reanimando fuera de viñeta como un zombi en un penal que quedó completamente desolado, en ruinas y consumido por las llamas de la guerra.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

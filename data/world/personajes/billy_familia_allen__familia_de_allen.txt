@@ -10,14 +10,43 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 2 (Octubre, 2003).
+• Última aparición: The Walking Dead Número 61 (Abril, 2009).
+• Familiares directos: Allen y Donna (padres biológicos); Ben (hermano mellizo).
+• Tutores legales: Dale Horvath y Andrea (lo adoptaron formalmente tras la muerte de sus padres).
+
+¿Qué hizo? (Su rol de supervivencia y dependencia)
+
+A lo largo de su recorrido por el cómic, la historia de Billy estuvo marcada por el llanto, el miedo constante y su total dependencia de los adultos para sobrevivir. No poseía la frialdad ni la apatía de Ben, por lo que el entorno hostil lo afectaba de manera directa y visible.
+Sufrió exactamente las mismas pérdidas traumáticas que su hermano:
+1. La muerte de su madre Donna (#9): Presenció el caos cuando su madre fue devorada en la urbanización Wiltshire Estates.
+2. La muerte de su padre Allen (#25): Vivió la agonía de su padre en la prisión tras la amputación fallida de su pierna.
+Tras quedar huérfano, encontró estabilidad emocional gracias al amor de Dale y Andrea, quienes asumieron el rol de padres sustitutos. Mientras el grupo estuvo a salvo dentro de los muros de la prisión, Billy se dedicaba a jugar con los otros niños (Carl y Sophia) e intentaba mantener una infancia relativamente normal.
+Sin embargo, tras la brutal destrucción de la prisión a manos del Gobernador, el grupo se vio obligado a regresar a las carreteras de forma precaria. Durante este viaje rumbo a Washington D.C., Billy se volvió el principal objetivo de la creciente psicopatía de su hermano Ben, quien lo veía no con hermandad, sino como un objeto para experimentar sus retorcidas teorías sobre los caminantes.
+
+¿Cómo terminó? (El trágico fratricidio)
+
+El trágico final de Billy ocurre de forma abrupta en el Número 61 del cómic, sirviendo como el punto de quiebre absoluto para la pérdida de la inocencia de los niños de la saga.
+• La emboscada: Durante una parada del grupo en la carretera para descansar, Ben convenció a Billy de alejarse del campamento y esconderse detrás de un camión abandonado con la excusa de jugar.
+• El asesinato: Aprovechando que estaban solos y fuera de la vista de Andrea, Ben sacó un cuchillo y apuñaló a Billy repetidamente en el torso. Billy gritó e intentó defenderse, pero las heridas fueron letales y murió desangrado en el suelo en cuestión de minutos.
+• El horror del hallazgo: Los gritos agonizantes alertaron al grupo. Al llegar detrás del vehículo, Andrea y los demás encontraron a Billy tendido sobre un charco de sangre, ya sin vida, mientras Ben permanecía sentado a su lado con total indiferencia.
+• La prevención de la reanimación: Aunque Ben había asesinado a su hermano con la loca idea de que "regresaría a la vida y estaría bien" porque deliberadamente no había dañado su cerebro, los adultos actuaron rápido. Para evitar que el pequeño Billy reanimara como un caminante, el cuerpo de Billy fue ejecutado con un disparo en la cabeza antes de que la infección tomara el control de su sistema nervioso.
+• Sepultura: Al día siguiente, tras la posterior ejecución secreta de Ben a manos de Carl, ambos hermanos mellizos fueron enterrados juntos en una fosa doble al costado de la carretera, marcando uno de los momentos más desoladores del viaje del grupo.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

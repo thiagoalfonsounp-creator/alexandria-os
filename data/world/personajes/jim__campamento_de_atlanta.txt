@@ -10,14 +10,33 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Jim era un mecánico de Atlanta y uno de los miembros originales del campamento de sobrevivientes en las afueras de la ciudad. En el cómic, aparece desde el Número 2 y es recordado por su profunda tristeza, pocas palabras y uno de los destinos más memorables y pacíficos del inicio de la saga.
+
+¿Qué hizo?
+
+• Sobrevivió perdiendo a toda su familia: Antes de llegar al campamento, Jim presenció cómo una horda devoró por completo a su esposa, sus hijos y sus hermanos. El trauma de verlos morir provocó que arrastrara una enorme culpa, lo que lo mantenía callado y distante de los demás.
+• Ayudó a Rick y Glenn: Gracias a sus conocimientos de la zona de Atlanta, Jim ayudó a Rick y Glenn a ubicar una tienda de armas en el mapa de la ciudad, facilitándoles la peligrosa misión de ir a reabastecerse.
+• Perdió el control por venganza: Durante el violento ataque de los caminantes al campamento (donde muere Amy), Jim se quedó sin munición en su arma. Lleno de una furia ciega al recordar la masacre de su familia, se abalanzó cuerpo a cuerpo contra un caminante y comenzó a golpearlo salvajemente contra el suelo.
+
+¿Cómo terminó?
+
+• La mordida: Al volver en sí tras su arrebato de ira, el grupo se percató de que Jim había sido gravemente mordido en el antebrazo izquierdo durante el forcejeo.
+• La agonía: En lugar de entrar en pánico, Jim aceptó con tranquilidad su destino. Cayó en una fiebre muy intensa y fue cuidado principalmente por Donna mientras el campamento empacaba para marcharse del lugar.
+• Su última petición: Sabiendo que iba a morir, Jim le suplicó a Rick y al resto del grupo que no le dispararan en la cabeza ni lo enterraran. Les pidió que lo bajaran del vehículo y lo abandonaran en el bosque. Su mayor deseo era reanimar como caminante con la esperanza espiritual de "reunirse" con su familia zombificada.
+• Destino final: El grupo respetó su voluntad. Lo dejaron sentado, apoyado contra un árbol cerca de las afueras de Atlanta, despidiéndose de él mientras moría en paz en el Número 6 del cómic.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 31 (Septiembre, 2006).
+• Última aparición: The Walking Dead Número 47 (Marzo, 2008).
+• Profesión pre-apocalipsis: Albañil y apuntador de ladrillos (tuck-pointer).
+• Filiación: Centinela de los muros de Woodbury y soldado de infantería.
+
+¿Qué hizo? (La búsqueda de la prisión y la guardia)
+
+Antes de que el mundo se derrumbara, Rudy se dedicaba a la restauración de estructuras y chimeneas en Savannah, Georgia. Al llegar a Woodbury, el Gobernador (Brian Blake) explotó su enorme fuerza física y disciplina para asignarlo de forma permanente a los equipos de patrullaje pesado y a la vigilancia armada desde los techos y muros perimetrales.
+Su participación activa más relevante en la trama ocurre durante la fase de reconocimiento de la guerra:
+• El rastreo del penal (#43): Tras el escape de Rick, Glenn y Michonne, el Gobernador cayó en un estado de paranoia rabiosa. El líder organizó una escuadra de exploración de élite integrada por Gabe Harris, Wes y el propio Rudy Warburton, ordenándoles adentrarse en los bosques con la instrucción estricta de no regresar hasta localizar el paradero de los fugitivos.
+• El hallazgo: Rudy y su equipo rastrearon con éxito la zona y localizaron formalmente las coordenadas de la prisión. Tras reportar el hallazgo, el Gobernador decidió retrasar el ataque unas semanas para militarizar por completo al pueblo civil. Durante el asalto definitivo, Rudy tomó un rifle y avanzó en la caravana de camiones, convencido por la propaganda de que iba a eliminar a una banda de delincuentes peligrosos.
+
+¿Cómo terminó? (La explosión de metralla en el patio)
+
+A diferencia de los soldados menores que cayeron en el número final devorados por la mega-horda, el destino final de Rudy ocurre un número antes, en el Número 47 del cómic, cayendo en combate debido al uso de armamento pesado táctico:
+• El asalto al patio: Una vez que el tanque de Woodbury abrió brechas en las vallas metálicas, Rudy avanzó a pie junto a la infantería utilizando camiones y autos abandonados como trincheras móviles.
+• La granada de Billy Greene: Mientras Rudy disparaba su fusil cubriendo el avance de sus compañeros, el joven Billy Greene arrojó una granada militar desde las líneas defensivas de la prisión para intentar contener la invasión.
+• Muerte definitiva: La granada rodó e impactó directamente contra un automóvil estacionado justo al lado de donde Rudy estaba parapetado. La detonación hizo estallar el vehículo, y la brutal onda expansiva envió ráfagas de metralla y metal retorcido directamente hacia el torso y cuello de Rudy. Murió desangrado de forma casi inmediata en el césped del patio delantero a causa de los impactos traumáticos.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

@@ -10,14 +10,40 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 43 (Noviembre, 2007).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008 - en la saga principal de viñetas).
+• Filiación: Soldado de Woodbury; posterior líder de la comunidad.
+• Relaciones sentimentales: Austin Ballard (su novio, fallecido).
+
+¿Qué hizo? (La tragedia de la prisión y el tiranicidio)
+
+Antes del fin del mundo, Lilly era una mujer sumamente inestable, con problemas de ira, adicciones y una relación abusiva con su padre enfermo. Al llegar a Woodbury, el Gobernador la manipuló psicológicamente, adoctrinándola bajo la mentira de que el grupo de Rick Grimes estaba compuesto por monstruos salvajes que querían violar y saquear su pueblo.
+Su participación en el Número 48 del cómic definió el destino de la serie:
+• El asesinato de Lori y Judith: Durante el asalto final a la prisión, el Gobernador ordenó avanzar a pie y no dejar a nadie con vida. Lilly Caul vio a una mujer corriendo de espaldas a través del patio y abrió fuego con su rifle de asalto. El disparo de Lilly atravesó la espalda de Lori Grimes, matándola al instante. Al caer muerta, Lori aplastó con su peso a la recién nacida Judith.
+• El shock psicológico: Tras el disparo, Lilly corrió a revisar el cuerpo de su víctima para confirmar la baja. Al voltear el cadáver nevado de Lori y descubrir que acababa de asesinar a una madre inocente y que una bebé recién nacida yacía aplastada y asfixiada por su culpa, la mente de Lilly se rompió por completo. Entró en un estado de histeria, llanto y un profundo asco hacia ella misma y hacia el ejército al que pertenecía.
+• La ejecución del Gobernador: En medio de su crisis nerviosa, el Gobernador se le acercó caminando con frialdad y le ordenó de mala manera que se calmara y siguiera disparando. Llena de una furia ciega al comprender que el Gobernador la había convertido en un monstruo, Lilly levantó su pistola, le apuntó directamente a la cabeza al Gobernador y le ejecutó un disparo a quemarropa, matando al tirano en el acto. Acto seguido, pateó su cadáver hacia la horda zombi que invadía el patio para que fuera despedazado.
+
+¿Cómo terminó? (El nuevo liderazgo y el destino final de Woodbury)
+
+Tras matar al Gobernador, la batalla colapsó. El destino final de Lilly se narra detalladamente a través del canon literario de las novelas del universo expandido:
+• El escape y el sacrificio de Austin: Rodeada por miles de caminantes en el patio delantero, Lilly huyó hacia el interior de los bloques de celdas junto a otros seis soldados sobrevivientes. Allí, su novio Austin Ballard le confesó que lo habían mordido y se sacrificó sirviendo de carnada viviente para que Lilly y el resto pudieran escapar por los túneles subterráneos de la prisión.
+• La Líder de Woodbury: Lilly regresó rota de dolor al pueblo de Woodbury, donde le reveló a la población civil la verdad sobre las atrocidades del Gobernador. Al ser la mujer que lo mató, los veintinueve civiles sobrevivientes la nombraron la líder absoluta del pueblo. Lilly juró limpiar su nombre e intentar reconstruir la comunidad bajo un régimen de paz y verdadera humanidad.
+• La caída del pueblo y muerte definitiva: Meses después, la precaria seguridad de Woodbury cedió ante una mega-horda zombi. Tras una evacuación desesperada por las alcantarillas, el grupo de sobrevivientes se desmanteló. Tiempo después, Lilly Caul lideró a los últimos remanentes humanos hacia una instalación subterránea. Al verse rodeada de caminantes en una última misión defensiva, Lilly Caul fue mordida e infectada, falleciendo y reanimando fuera de escena en el estado de Georgia, dejando a Woodbury convertido de forma permanente en un pueblo fantasma infestado de muertos.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

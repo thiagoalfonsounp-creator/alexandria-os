@@ -10,14 +10,36 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera y única aparición: The Walking Dead Número 43 (Noviembre, 2007).
+• Edad aproximada: Alrededor de los 25 años.
+• Filiación: Residente de Woodbury y miliciano de las fuerzas del Gobernador.
+
+¿Qué hizo? (Su única orden en las viñetas)
+
+Lou era un chico caucásico, de cabello rubio sucio y complexión delgada que vestía una sudadera gris con capucha. Formaba parte de la población joven y físicamente apta que el Gobernador (Brian Blake) reclutó para estructurar su milicia privada antes del asalto final al penal.
+• La guardia previa al ataque: En el Número 43, mientras el Gobernador ultimaba los detalles de logística para movilizar los camiones y el tanque hacia la prisión, Lou fue asignado a vigilar uno de los puestos de control perimetrales de los muros de Woodbury.
+• La orden de resguardo: Cuando el contingente militar estuvo listo para partir, el Gobernador se le acercó directamente. Debido a su juventud y a que Woodbury no podía quedarse completamente desprotegido, el Gobernador le ordenó a Lou permanecer en el pueblo junto a Bob Stookey. Su misión explícita fue quedarse a resguardar los departamentos y vigilar los muros interiores de la comunidad mientras el grueso del ejército salía a combatir en la prisión.
+
+¿Cómo terminó?
+
+Al igual que sucedió con Bob Stookey, Lou sobrevivió al marco temporal del ataque a la prisión simplemente porque no viajó en los camiones. Sin embargo, su destino final se detalla en el canon oficial de las novelas escritas por Robert Kirkman (The Fall of the Governor - Part 2):
+• La invasión del pueblo: Tras la estrepitosa derrota y muerte del Gobernador en el penal, el ensordecedor ruido de la batalla atrajo masas de zombis hacia la zona. Una mega-horda terminó colándose a través de las barricadas de Woodbury que Lou debía vigilar.
+• Muerte definitiva: Superado en número por los caminantes que fracturaron las defensas del sector norte del pueblo, Lou fue arrinconado y devorado vivo por los zombis dentro del perímetro de Woodbury. Su cadáver reanimó como un caminante más vagando por las calles de una comunidad completamente fantasma y en ruinas.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

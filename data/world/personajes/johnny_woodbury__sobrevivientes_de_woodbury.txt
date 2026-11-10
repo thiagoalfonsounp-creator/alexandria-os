@@ -10,14 +10,38 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 27 (Abril, 2006).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Filiación: Residente y miliciano de Woodbury.
+
+¿Qué hizo? (Las peleas en la arena y la invasión)
+
+A pesar de su adicción y pereza, Johnny fue reclutado para la milicia debido a la necesidad del Gobernador de contar con hombres aptos para defender el pueblo.
+• El origen de las arenas de gladiadores: Johnny es históricamente importante para la cultura de Woodbury debido a una riña. Un día, Johnny insultó abiertamente al equipo de fútbol americano de la universidad estatal (Augusta State Jaguars), lo que ofendió profundamente al guardia Dean Gorman. Ambos se enzarzaron en una pelea a puñetazos sumamente violenta que atrajo a una gran multitud de residentes aburridos. Al ver el salvajismo de la riña y cómo entretenía a las masas, el Gobernador ideó los combates de gladiadores rodeados de zombis en el anfiteatro de carreras del pueblo.
+• La campaña militar contra el penal: Johnny fue adoctrinado bajo la falsa premisa de que los habitantes de la prisión eran salvajes peligrosos que ponían en riesgo a la comunidad de Woodbury. Tomó su rifle de asalto y se alistó en el contingente de camiones para destruir el refugio del grupo de Rick Grimes.
+
+¿Cómo terminó? (El tiroteo en el patio trasero)
+
+Su destino final ocurre de manera violenta en el Número 48 del cómic, durante el clímax del asalto total contra el penal:
+• El avance de infantería: Una vez que el tanque de guerra derribó las vallas metálicas, Johnny avanzó a pie junto al grueso de la infantería por el patio delantero disparando contra los defensores.
+• El disparo letal: En medio del caótico intercambio de fuego cruzado, Johnny intentó flanquear una de las posiciones de cobertura de los sobrevivientes de Atlanta. Sin embargo, no fue lo suficientemente rápido: un miembro del grupo de Rick Grimes le ejecutó un disparo directo en el estómago.
+• Muerte definitiva: Johnny cayó desplomado en el suelo del patio desangrándose dolorosamente debido a la herida de bala. Incapaz de moverse o replegarse hacia los camiones de escape, fue alcanzado por la mega-horda zombi que invadió el penal minutos después, siendo devorado vivo en el césped.
+Su cuerpo quedó abandonado e irreconocible en el campo de batalla, reanimando fuera de viñeta como un caminante más dentro de una prisión destruida, desierta y consumida por el fuego.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

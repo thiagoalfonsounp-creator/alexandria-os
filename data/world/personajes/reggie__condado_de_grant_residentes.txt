@@ -10,14 +10,36 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+1. ¿Quién es exactamente?
+
+Reggie era un peligroso criminal convicto que se encontraba cumpliendo condena en la prisión del Condado de Grant. Poco antes de que el mundo se fuera al demonio, Reggie logró organizar una fuga junto a otro recluso. Tras escapar con éxito, la policía local desplegó un operativo de búsqueda en las carreteras colindantes, siendo interceptado por los oficiales del sheriff Rick Grimes y Shane Walsh.
+
+2. ¿Qué hizo? (El tiroteo del Número 1)
+
+Cuando Rick y Shane lo arrinconaron en medio de una carretera desierta, Reggie se atrincheró detrás de un automóvil, empuñando una pistola. Al grito de "¡Prefiero morir antes que regresar a la prisión del Condado de Grant!", comenzó un violento intercambio de disparos.
+• El error táctico: Rick le comentó a Shane que quedarse detrás de la patrulla los convertía en "blancos fáciles". Creyendo falsamente que el prófugo se había quedado sin munición, Rick tomó la iniciativa y corrió a descubierto para intentar flanquearlo por un costado.
+• Los disparos: Reggie reaccionó rápido. Primero le disparó a Shane en la mano, neutralizándolo e impidiendo que este pudiera darle fuego de cobertura a su compañero. Inmediatamente después, Reggie apuntó a Rick y le propinó un disparo directo en el pecho.
+• El escape: Shane, herido y en pánico, recibió otro impacto en el brazo mientras intentaba arrastrar el cuerpo herido de su mejor amigo. Aprovechando el caos y la sangre, Reggie logró huir a pie de la escena del crimen antes de que llegaran los refuerzos.
+
+3. ¿Cómo terminó? (Giro y destino final)
+
+A diferencia de la serie de televisión (donde el tirador muere en esa misma carretera), el cómic original de Robert Kirkman le dio a Reggie un destino mucho más irónico y oscuro que se conecta directamente con el grupo de sobrevivientes:
+• Su muerte inicial: Tras huir, Reggie se adentró en los bosques o zonas urbanas periféricas de Atlanta mientras el apocalipsis zombi estallaba. Aunque los detalles exactos no se muestran en papel, murió por causas desconocidas en medio del colapso social.
+• La reanimación: Al estar infectado de forma latente (como todos los humanos), Reggie se levantó como caminante. Vagando sin rumbo, terminó uniéndose a la horda que eventualmente atacó el campamento de sobrevivientes en las afueras de Atlanta (donde se refugiaban Lori, Carl y Shane).
+• El ataque a Amy y venganza de Shane: Durante la fatídica noche en la que los zombis invaden el campamento, Reggie zombificado es el causante directo de morder y matar a Amy, la hermana menor de Andrea. En medio de la masacre, Shane Walsh cruzó miradas con el caminante y lo reconoció al instante a pesar de su estado de putrefacción. Lleno de furia acumulada por lo que le había hecho a Rick semanas atrás, Shane le disparó directamente en la cabeza, ejecutando al hombre que apretó el gatillo que cambió el destino de la humanidad.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

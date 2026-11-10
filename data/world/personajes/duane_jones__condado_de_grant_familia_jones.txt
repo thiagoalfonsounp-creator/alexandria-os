@@ -10,14 +10,38 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Duane Jones es el hijo de Morgan Jones. Es un niño de aproximadamente 12 años y se convierte en el primer personaje vivo con el que Rick Grimes interactúa tras despertar de su coma en el Número 1 del cómic.
+Al igual que con Reggie, su historia es trágica y tiene un desarrollo brutal dentro de la obra original de Robert Kirkman:
+
+¿Qué hizo?
+
+• Rescató a Rick (a su manera): Al inicio del brote, mientras un confundido Rick deambulaba debilitado por su antiguo vecindario en Cynthiana, Kentucky, Duane lo confundió con un caminante y lo golpeó fuertemente en la cabeza con una pala de nieve, dejándolo inconsciente.
+• Lealtad a su padre: Tras notar que Rick era un humano vivo, él y su padre Morgan lo llevaron al refugio donde se escondían, lo alimentaron y lo cuidaron. Duane estuvo presente mientras Morgan le explicaba a Rick la aterradora realidad de que los muertos estaban regresando a la vida.
+• El adiós temporal: Después de abastecerse de armas en la comisaría local, Rick se marchó hacia Atlanta en busca de su familia, mientras que Duane y Morgan decidieron quedarse refugiados en el pueblo esperando a que la situación mejorara.
+
+¿Cómo terminó?
+
+El destino de Duane en los cómics es uno de los golpes emocionales más oscuros de la saga, marcando el descenso a la locura de su padre:
+• La mordida fuera de escena: Tiempo después de la partida de Rick, Duane fue emboscado y mordido por un caminante. Sucumbió rápidamente a la infección y reanimó como un zombi.
+• El macabro secreto de Morgan: Destrozado por el dolor, Morgan fue incapaz de sacrificar a su hijo. En su lugar, lo encerró y lo mantuvo encadenado dentro de la casa. Para mantener el "cuerpo" de Duane activo, Morgan comenzó a cazar perros callejeros e incluso personas vivas inocentes para dárselas de comer.
+• La liberación: Mucho tiempo después (en el volumen What We Become), Rick regresó al pueblo y descubrió con horror la situación. Rick intentó convencer a Morgan de que dispararle al zombi de Duane era lo único correcto. Morgan aceptó unirse al grupo de Rick, pero en el último segundo mintió: en lugar de dispararle a Duane, cortó sus cadenas y lo dejó libre para que deambulara por la casa. Su destino final como caminante libre quedó en el misterio absoluto en el papel.
+
+Dato curioso de su creación
+
+El nombre "Duane Jones" fue elegido por Robert Kirkman como un homenaje directo al actor afroamericano Duane Jones, quien protagonizó a Ben en la mítica película de terror La noche de los muertos vivientes (1968) de George A. Romero, la obra que definió el género zombi moderno.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

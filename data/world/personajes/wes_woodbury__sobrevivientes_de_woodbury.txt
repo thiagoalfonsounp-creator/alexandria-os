@@ -10,14 +10,40 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 27 (Abril, 2006).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Ubicación: Pueblo fortificado de Woodbury.
+• Filiación: Miembro del Ejército de Woodbury (fiel a las órdenes del Gobernador).
+
+¿Qué hizo? (Su rol como soldado de Woodbury)
+
+Wes es el típico ciudadano promedio de Woodbury que fue adoctrinado y militarizado por el Gobernador (Brian Blake) bajo la narrativa de que cualquier grupo externo representaba una amenaza de muerte para su pueblo.
+• Guardia del perímetro (#27): Su labor principal consistía en patrullar las barricadas de Woodbury y vigilar desde los techos para evitar incursiones zombis o ataques de extraños.
+• Logística de suministros: Debido a su fuerza física, el Gobernador lo asignó a los equipos de construcción para expandir los muros hacia el norte del pueblo y a las cuadrillas encargadas de salir al exterior a saquear comida y armamento.
+• La campaña contra la prisión (#43): Cuando el Gobernador descubrió la ubicación de Rick Grimes, Wes formó parte del contingente de soldados que se subió a los camiones militares. Convencido de que la prisión albergaba a un grupo de "asesinos y violadores", Wes tomó su fusil y se dispuso a erradicarlos.
+
+¿Cómo terminó? (El asalto definitivo a la prisión)
+
+Su destino final ocurre de manera sangrienta en el Número 48 del cómic, durante los brutales minutos en los que el tanque de Woodbury derriba las vallas e invade los patios interiores del penal.
+• La invasión a pie: Tras abrir una brecha en la cerca perimetral usando el vehículo pesado, el Gobernador ordenó a sus soldados avanzar a pie por el patio para masacrar a los sobrevivientes restantes y ejecutar la orden de "no dejar a nadie con vida". Wes avanzó en la primera línea de infantería disparando hacia las barricadas del grupo de Atlanta.
+• Emboscado por la horda: El ensordecedor ruido de los disparos del tanque, los gritos de la batalla y las explosiones atrajeron a miles de caminantes de los bosques circundantes, los cuales comenzaron a colarse masivamente a través de las vallas destruidas por el mismo ejército de Woodbury.
+• Muerte definitiva: Mientras Wes intentaba avanzar hacia los bloques de celdas persiguiendo a los sobrevivientes, quedó atrapado en el fuego cruzado y fue rodeado rápidamente por la horda zombi invasora. Incapaz de recargar su arma a tiempo, Wes fue derribado y devorado vivo por los caminantes en el patio delantero de la prisión.
+Su cadáver ensangrentado quedó abandonado en el césped del recinto, reanimando como zombi minutos después en el patio de una prisión completamente destruida y en ruinas.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 10 (Julio, 2004).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Familiares directos: Hershel (padre, fallecido); Maggie, Lacey, Arnold, Rachel y Susie (hermanos, todos fallecidos).
+
+¿Qué hizo? (Su rol de soporte en la granja y la prisión)
+
+A diferencia de su contraparte en la serie de televisión (donde el personaje de Billy no existe y sus rasgos se fusionaron con Beth Greene), en el cómic original Billy es un varón adolescente de unos 16 o 17 años que sirve como el principal apoyo de Hershel en las tareas del campo:
+• La tragedia del granero (#11): Billy ayudaba a su padre a capturar caminantes locales y encerrarlos en el granero de la granja, compartiendo la creencia errónea de Hershel de que solo estaban "enfermos". Durante el caos en el que los zombis escaparon del granero, Billy presenció cómo sus hermanos Arnold y Lacey fueron devorados vivos.
+• Mudanza a la prisión: Tras ser expulsados de la granja por un devastado Hershel, Billy se mudó con los sobrevivientes a la prisión. Allí se adaptó rápido y se volvió una pieza clave para la subsistencia, encargándose de arar la tierra dentro de los patios del recinto para sembrar cultivos y asegurar comida.
+• El trauma de las gemelas (#17): Billy sufrió un golpe psicológico terrible en la prisión cuando el asesino convicto Thomas Richards decapitó a sus hermanas menores, las gemelas Rachel y Susie. A partir de ese momento, el carácter de Billy se endureció drásticamente, abandonando su rol pacífico y uniéndose a los entrenamientos con armas de fuego organizados por Rick para defender el perímetro.
+
+¿Cómo terminó? (El sangriento asalto a la prisión)
+
+El final de Billy ocurre en el Número 48 del cómic, durante la icónica y brutal masacre final perpetrada por el Gobernador y las fuerzas de Woodbury.
+• El escape frustrado: Cuando el tanque de Woodbury derribó las cercas de la prisión, Rick Grimes ordenó la retirada general. Billy, junto a su padre Hershel, intentó correr a descubierto a través del patio hacia la salida mientras las balas volaban por todas partes.
+• El disparo fatal: Mientras corría al lado de su padre, una bala perdida disparada por los soldados de Woodbury le impactó directamente en la cabeza. Billy murió de forma instantánea, cayendo desplomado sobre el césped del patio delantero con el cráneo destrozado.
+• El shock de Hershel: Ver los sesos de su último hijo varón en el suelo rompió por completo el espíritu de Hershel Greene. El anciano se arrodilló junto al cadáver de Billy, levantó las manos al cielo y se rindió por completo ante el Gobernador, gritando: "Dios mío, por favor, mátame". Segundos después, el Gobernador le ejecutó un disparo en la cabeza a Hershel al lado del cuerpo de su hijo.
+Debido a que la prisión cayó bajo el control de las hordas zombis inmediatamente después del ataque y el grupo tuvo que dispersarse, el cuerpo de Billy nunca pudo recibir sepultura y reanimó como caminante en los patios abandonados del recinto.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

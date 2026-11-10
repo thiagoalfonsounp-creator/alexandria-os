@@ -10,14 +10,37 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 10 (Julio, 2004).
+• Última aparición: The Walking Dead Número 16 (Febrero, 2005).
+• Familiares directos: Hershel (padre, fallecido); Rachel (hermana gemela, fallecida); Maggie, Billy, Lacey y Arnold (hermanos, todos fallecidos).
+
+¿Qué hizo?
+
+Debido a su corta edad, el rol de Susie fue idéntico al de su hermana Rachel. Tras dejar atrás la granja familiar por el incidente del granero, pasó a vivir en la prisión. Allí formaba parte del pequeño grupo de niños (junto a Carl y Sophia) que los adultos intentaban mantener al margen de las atrocidades del mundo exterior. Era una niña inocente que dependía por completo de la protección de su padre y de su hermano Billy.
+
+¿Cómo terminó?
+
+El destino final de Susie se selló en el Número 15 del cómic, en el mismo ataque perpetrado por el recluso encubierto Thomas Richards:
+• El ataque en la barbería: Mientras el grupo de Rick y Hershel estaba completamente distraído en otro bloque lidiando con el pacto de suicidio de Julie y Chris, Susie y Rachel se alejaron a explorar. Entraron a la antigua barbería de la prisión, donde Thomas Richards las arrinconó.
+• La decapitación: Richards, quien sufría de impulsos psicópatas homicidas, utilizó un arma blanca pesada para decapitar brutalmente a Susie y a su hermana Rachel, dejando los cuerpos en el suelo de la barbería.
+• El hallazgo y la reanimación (#16): Hershel Greene encontró los cuerpos mutilados horas después. Las cabezas cortadas de las gemelas habían sido colocadas sobre un estante. Debido a que la regla de la infección latente ya era conocida por el grupo, Rick Grimes intervino de inmediato antes de que las cabezas causaran algún daño: Rick destruyó el cerebro de la cabeza reanimada de Susie de un disparo.
+• Sepultura (#17): Susie fue enterrada al día siguiente en los terrenos del patio de la prisión, en una tumba adyacente a la de su hermana gemela Rachel.
+El asesinato de Susie y Rachel provocó que el grupo eliminara por completo la confianza ciega en los extraños vivos y llevó a Rick Grimes a romper sus propios límites éticos al propinarle una golpiza brutal al asesino, desfigurándole el rostro.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

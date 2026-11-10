@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 10 (Julio, 2004).
+• Última aparición: The Walking Dead Número 11 (Septiembre, 2004).
+• Familiares directos: Hershel (padre, fallecido); Lacey, Maggie, Billy, Rachel y Susie (hermanos, todos fallecidos).
+
+¿Qué hizo? (El cuidador del granero)
+
+Al ser el hijo varón mayor (tenía alrededor de 21 o 22 años), Arnold era la mano derecha de Hershel en el mantenimiento de la granja y el manejo del ganado.
+• Fiel seguidor de su padre: Arnold creía ciegamente en la postura religiosa y médica de Hershel, quien sostenía que los muertos vivientes estaban simplemente sufriendo una enfermedad mental o física grave que eventualmente tendría cura.
+• Captura de caminantes: Debido a esta ideología, Arnold asumió la peligrosa tarea física de buscar caminantes rezagados en los alrededores de la propiedad, lazar de los brazos y meterlos a la fuerza dentro del granero familiar para "protegerlos" y mantenerlos alimentados hasta que la sociedad se recuperara.
+
+¿Cómo terminó? (La tragedia del granero)
+
+El trágico y sangriento final de Arnold ocurre en el Número 11 del cómic, desatando el caos absoluto en la granja Greene:
+• El desastre de la fuga: Mientras Hershel y Arnold intentaban meter a un nuevo caminante recién capturado al granero, la acumulación de zombis en el interior empujó las puertas de madera con tanta fuerza que rompieron los candados y las cadenas.
+• La mordida mortal: En medio del pánico de la estampida, el caminante que Arnold sostenía con la cuerda se abalanzó sobre él. Arnold cayó al suelo y el zombi le propinó una mordida profunda en el cuello, desgarrándole los vasos sanguíneos principales.
+• El intento de rescate y la masacre: Al ver a su hijo desangrándose, Hershel intentó desesperadamente jalarlo hacia atrás, pero la horda comenzó a salir en masa, desviándose también hacia su hermana Lacey, quien fue devorada viva a pocos metros. Arnold murió en el suelo en cuestión de minutos debido al shock hipovolémico por la pérdida de sangre.
+• Prevención de la reanimación: Rick Grimes y los suyos llegaron armados al patio de la granja tras escuchar el escándalo. Dispararon contra los caminantes en fuga y aseguraron el perímetro. Una vez controlada la situación, comprobaron que Arnold ya no tenía signos vitales. Para cumplir con el protocolo de seguridad y evitar que se levantara, el cerebro de Arnold fue destruido en el acto.
+Arnold fue sepultado al lado de Lacey en el cementerio de la granja en el Número 12. Su muerte, provocada directamente por su propio intento de "salvar" a los monstruos, dejó a Hershel sumido en una culpa devastadora que cambió su mentalidad para siempre.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

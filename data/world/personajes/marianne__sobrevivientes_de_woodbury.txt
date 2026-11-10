@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 32 (Octubre, 2006).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008 - dentro del canon principal de las viñetas).
+• Familia: Matthew Williams (su hijo de corta edad).
+• Filiación: Civil de Woodbury.
+
+¿Qué hizo? (La madre protectora de Woodbury)
+
+Antes de la plaga, se le describe como una hermosa mujer de ascendencia franco-canadiense que vio cómo los años de arduo trabajo doméstico, la maternidad soltera y el apocalipsis desgastaron su físico y profundizaron las líneas de luto en su rostro.
+• El desespero por su hijo (#32): Su única interacción hablada y de peso dentro de las viñetas ocurre cuando acude de urgencia a la enfermería comunitaria. Su hijo, Matthew, había caído enfermo con una fiebre repentina. Marianne intercepta con suma timidez al Dr. Stevens para suplicarle que lo atienda, temerosa de perder a su único motor de vida.
+• La partida de Stevens: El doctor (quien ya estaba planeando en secreto huir de Woodbury con Glenn, Rick y Michonne) le pide programar una cita para el día siguiente sabiendo que nunca regresará. Tras la huida del doctor, Marianne se ve obligada a recurrir a Bob Stookey para tratar médicamente a su hijo.
+• El despertar de la verdad: Tras el catastrófico asalto a la prisión y el posterior regreso de los seis soldados supervivientes liderados por Lilly Caul, Marianne se entera con horror de la masacre de inocentes y de la verdadera naturaleza psicópata y tiránica del Gobernador, a quien todo el pueblo civil idolatraba ciegamente.
+
+¿Cómo terminó? (La caída del refugio de Woodbury)
+
+Al igual que con otros ciudadanos secundarios, la culminación de su historia se detalla formalmente en la trilogía de novelas canónicas que expanden el final de esa etapa (The Walking Dead: The Fall of the Governor):
+• El nuevo régimen: Bajo el nuevo mandato pacífico de Lilly Caul, Marianne Williams permaneció en el pueblo, figurando como una de las últimas veintinueve almas y siete mujeres sobrevivientes que restaban en la mermada comunidad.
+• La masiva brecha zombi: El estruendo provocado por la guerra y la precaria defensa en la que quedó Woodbury atrajo una mega-horda masiva hacia el perímetro. Los zombis fracturaron violentamente las barricadas perimetrales del sector norte del pueblo.
+• Muerte definitiva: Sin milicias capacitadas suficientes para contener la invasión, el caos inundó las calles habitacionales. Marianne Williams fue acorralada y presuntamente devorada viva por los caminantes al intentar resguardarse con su hijo dentro del poblado. Woodbury quedó convertido de forma permanente en un pueblo fantasma infestado por los muertos vivientes.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 43 (Noviembre, 2007).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Profesión pre-apocalipsis: Profesor de matemáticas de secundaria (high school math teacher).
+• Filiación: Residente de Woodbury y miliciano.
+
+¿Qué hizo? (Su rol de combate en la invasión)
+
+Antes del fin del mundo, Red llevaba una vida completamente pacífica enseñando álgebra y geometría a adolescentes. Sin embargo, la manipulación psicológica y el adoctrinamiento del Gobernador (Brian Blake) lo transformaron en un soldado dispuesto a marchar hacia la prisión portando un rifle de asalto militar.
+• La campaña contra el penal (#43): Red creía fervientemente en la mentira de que el grupo de Rick Grimes estaba compuesto por criminales peligrosos y salvajes que ponían en riesgo el futuro de las familias de Woodbury.
+• El reporte sobre Hershel Greene (#46): Su intervención hablada más relevante en los paneles del cómic ocurre cuando las tropas del Gobernador capturan a un indefenso Hershel Greene en los patios exteriores del penal. Red se acerca directamente al Gobernador para reportar la situación de la captura, describiendo de forma fría e indiferente los últimos segundos de resistencia del anciano: "No se estaba moviendo, soltó su arma, parecía que se estaba rindiendo". Este informe facilitó que el Gobernador decidiera mantener a Hershel como un rehén político antes de ejecutarlo.
+
+¿Cómo terminó? (Su caída fuera de viñeta)
+
+A diferencia de los guardias principales que mueren bajo las orugas del tanque blindado, el destino final de Red ocurre de manera trágica en el patio delantero durante los caóticos minutos del Número 48 del cómic:
+• La invasión a pie: Tras derribar los muros de protección metálicos, Red avanzó junto al grueso de la infantería disparando hacia las barricadas interiores del penal.
+• El colapso por la mega-horda: El ensordecedor ruido de las granadas, el tiroteo masivo y los cañonazos del vehículo pesado atrajeron a miles de caminantes de los bosques circundantes. Los muertos vivientes inundaron rápidamente el patio, entrando en masa por las mismas brechas que el ejército de Woodbury había destruido en las vallas perimetrales.
+• Muerte definitiva: Mientras Red intentaba replegarse hacia los camiones de asalto o ganar terreno disparando a descubierto, fue flanqueado por los zombis. Red fue rodeado, derribado y devorado vivo por la horda caminante fuera de viñeta (off-panel) sobre el césped del patio delantero de la prisión.
+Su cuerpo quedó abandonado e irreconocible en el campo de batalla, reanimando minutos después como un caminante más dentro de una prisión completamente destruida, desierta y consumida por las llamas.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

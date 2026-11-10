@@ -10,14 +10,38 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 29 (Agosto, 2006).
+• Última aparición: The Walking Dead Número 43 (Noviembre, 2007 - dentro del canon principal del cómic).
+• Filiación: Residente y paramédico de Woodbury.
+• Familia: Brenda Stookey (esposa).
+
+¿Qué hizo? (El salvador del Gobernador)
+
+Bob era un veterano de los Marines que había servido como paramédico en el campo de batalla, pero que tras el fin del mundo vivía sumergido en el alcohol debido a un fuerte trastorno de estrés postraumático (TEPT). El Gobernador (Brian Blake) lo toleraba en el pueblo únicamente porque poseía los únicos conocimientos de medicina real en la comunidad.
+• Salvar la vida del Gobernador (#33): Su acción más trascendental ocurre tras la sangrienta tortura que Michonne le inflige al Gobernador en Woodbury. Con el villano al borde de la muerte (mutilado, sin un ojo y sin un brazo), Bob fue llamado de urgencia en estado de ebriedad extrema. A pesar de sus temblores y su adicción, sus conocimientos militares salieron a flote y logró estabilizar y salvar la vida del Gobernador, permitiendo que este se recuperara para ejecutar su venganza contra la prisión.
+• El cuidador de Penny (#43): Durante la masacre final de la prisión, el Gobernador dejó a Bob Stookey en Woodbury con una misión específica: quedarse a cargo de la seguridad y el cuidado de su hija zombificada, Penny Blake, dentro de su departamento.
+
+¿Cómo terminó?
+
+El destino final de Bob en el cómic principal es sutil (deja de aparecer tras el Número 43 cuando Woodbury colapsa), pero su muerte definitiva y oficial está completamente detallada en la trilogía de novelas canónicas escritas por Robert Kirkman y Jay Bonansinga (The Fall of the Governor / Invasion):
+• La huida tras la masacre: Tras enterarse de la muerte del Gobernador en la prisión y la subsiguiente llegada de las hordas zombis que invadieron el desprotegido pueblo de Woodbury, Bob se alió con Lilly Caul y un pequeño grupo de sobrevivientes para refugiarse en los túneles y alcantarillas subterráneas del lugar.
+• Muerte definitiva (Paro cardíaco): Meses después de vivir oculto en condiciones deplorables, el cuerpo debilitado de Bob por décadas de alcoholismo crónico y el estrés del apocalipsis cobró factura. Durante una escaramuza para salvar a Lilly de una emboscada de caminantes, Bob Stookey sufrió un infarto masivo al corazón y cayó desplomado muerto.
+• Prevención de la reanimación: Al morir por causas naturales y siguiendo la ley de la infección latente, su cuerpo iba a reanimar como zombi. Su gran amiga Lilly Caul sacó su arma y le disparó directamente en la cabeza a su cadáver para evitar que se levantara, dándole fin definitivo a su trágica vida.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

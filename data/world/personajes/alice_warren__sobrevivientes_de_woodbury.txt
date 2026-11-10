@@ -10,14 +10,42 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 29 (Junio, 2006).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Profesión pre-apocalipsis: Estudiante universitaria de diseño de interiores.
+• Filiación: Exresidente de Woodbury; posterior médica principal de la prisión.
+
+¿Qué hizo? (De Woodbury al corazón de la prisión)
+
+Alice era una joven caucásica de veintitantos años y cabello castaño rojizo. Al iniciar la plaga zombi, su dormitorio universitario sirvió brevemente como refugio antes de terminar en Woodbury. Allí, debido a la escasez de personal, se convirtió en la aprendiz del Dr. Stevens, absorbiendo con rapidez amplios conocimientos de cirugía, obstetricia y medicina de emergencia.
+Su desarrollo en la historia se divide en tres fases fundamentales:
+• El escape coordinado (#32): Cuando Rick, Glenn y Michonne planearon su huida de Woodbury, el Dr. Stevens decidió escapar con ellos y se llevó a Alice. No obstante, al cruzar el perímetro del pueblo, Stevens fue mordido por un caminante. Antes de morir, el doctor obligó al grupo a llevarse a Alice a la prisión, asegurándoles que ella ya era una profesional capaz.
+• La ginecóloga de Lori (#39): Una vez establecida en la prisión, Alice se ganó rápidamente el afecto y la confianza absoluta de la familia Grimes. Su mayor logro logístico ocurrió cuando dirigió con total éxito el precario parto de Lori Grimes, trayendo al mundo a la pequeña Judith dentro de la enfermería del penal.
+• La investigación del virus (#42): Alice poseía una mentalidad científica muy aguda. Curiosa por el fenómeno zombi, le pidió permiso a Rick para encadenar a un caminante recién capturado en los patios interiores. Alice realizó autopsias, disecciones y experimentos directamente sobre el zombi para comprender las reglas de la infección latente, concluyendo con horror que el virus destruía las partes racionales del cerebro dejando intacto el tronco encefálico.
+
+¿Cómo terminó? (El heroico sacrificio en el laboratorio)
+
+Su trágico final ocurre en el Número 48 del cómic, durante los minutos más sangrientos de la invasión destructiva del Gobernador contra la prisión.
+• El repliegue a la enfermería: Cuando el tanque blindado destruyó las vallas del patio, el ejército de Woodbury avanzó fusilando civiles. Alice se atrincheró dentro de la enfermería de la prisión para proteger el laboratorio, los suministros médicos y guiar la evacuación de los heridos.
+• El disparo en la rodilla: Mientras intentaba asegurar una de las puertas de escape sosteniendo un arma para defender el área, las tropas de Woodbury irrumpieron en el pasillo. Un soldado de infantería le propinó un disparo directo en la rodilla, derribándola al suelo e inmovilizándola por completo sobre un charco de sangre.
+• La confrontación con el Gobernador: Segundos después, el mismísimo Gobernador (Brian Blake) entró a la habitación empuñando su pistola. Al verla en el suelo, el tirano la reconoció de inmediato como una de las ciudadanas que lo había "traicionado" al huir de Woodbury con Rick Grimes.
+• Muerte definitiva: Alice miró fijamente al Gobernador a los ojos, sin mostrar cobardía ni suplicar por su vida. El Gobernador levantó su arma y le ejecutó un disparo a quemarropa en la cabeza, matándola de forma instantánea.
+Inmediatamente después de asesinarla, el Gobernador ordenó abrir las puertas de esa sección, permitiendo que la horda zombi invasora inundara el laboratorio. El cuerpo inerte de Alice quedó abandonado en la destruida enfermería, reanimando fuera de viñeta como un caminante más atrapado en un penal completamente en ruinas.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

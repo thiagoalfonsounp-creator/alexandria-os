@@ -10,14 +10,40 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 10 (Julio, 2004).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Relaciones sentimentales: Otis (exnovio, fallecido); Axel (novio en la prisión, fallecido).
+
+¿Qué hizo? (La ingenuidad y las malas alianzas)
+
+Tras la masacre del granero y la posterior mudanza del grupo de la granja hacia la prisión, Patricia demostró ser una mujer sumamente maleable y crédula, lo que la llevó a involucrarse involuntariamente en los conflictos internos más peligrosos del recinto:
+• El rescate fallido del asesino (#16): Después de que el recluso Thomas Richards decapitara brutalmente a las gemelas Rachel y Susie Greene, el grupo lo encadenó esperando ejecutarlo. Patricia, impulsada por una fe ciega y creyendo falsamente en los lamentos y la supuesta "inocencia" de Thomas, se coló en su celda e intentó liberarlo de sus cadenas.
+• El ataque de Thomas (#17): Al verse libre, el psicópata Thomas Richards no le agradeció el gesto; en su lugar, la atacó con saña e intentó asesinarla. Patricia logró forcejear y defenderse el tiempo suficiente hasta que Maggie Greene llegó a la celda y ejecutó al asesino de múltiples disparos.
+• La traición de los reclusos (#18 - #19): A pesar de la mala experiencia con Thomas, su inmadurez la hizo caer de nuevo en una trampa de manipulación. Los reclusos Dexter y Andrew la convencieron de ayudarlos en un complot armado para expulsar a Rick Grimes y al grupo original de la prisión. La rebelión fracasó por completo tras la sorpresiva muerte de Dexter durante una invasión zombi en los patios. Debido a esto, Patricia fue condenada al ostracismo y al rechazo absoluto por parte de Hershel y Maggie.
+• La redención por amor y medicina: Tras la muerte de Otis (quien fue devorado en una misión), Patricia comenzó una relación sentimental con Axel, el último prisionero pacífico. Decidida a limpiar su nombre, comenzó a entrenar duro con las armas bajo el mando de Rick y se formó como asistente médica de Alice Warren. Su mayor acto de redención ocurrió cuando donó su propia sangre (tipo O negativo) para salvarle la vida a Rick Grimes, quien había quedado al borde de la muerte tras ser herido.
+
+¿Cómo terminó? (El brutal asalto definitivo a la prisión)
+
+Su destino final se desarrolla en el Número 48 del cómic, durante la invasión destructiva perpetrada por el ejército de Woodbury:
+• El luto en plena batalla: En los primeros minutos del asalto, su novio Axel recibió un disparo directo en la cabeza justo al lado de ella. Destrozada por el dolor, Patricia tuvo que dejar el cuerpo atrás y correr junto a los demás para repeler el ataque con rifles de asalto.
+• El intento de escape: Cuando el Gobernador ordenó al tanque derribar las cercas e invadir los patios, Rick Grimes dio la orden de evacuación masiva. Patricia corrió a descubierto junto a Lori Grimes (quien cargaba a la bebé Judith) y Carl, intentando huir a pie a través del caótico fuego cruzado.
+• La ejecución del Gobernador: Mientras corría de espaldas hacia la salida, el propio Gobernador (Brian Blake) la divisó y le disparó directamente en la nuca con su arma de fuego. Patricia murió instantáneamente, cayendo desplomada boca abajo en el suelo del patio de la prisión.
+Su cuerpo inerte quedó abandonado en el campo de batalla, siendo pisoteado por los soldados de Woodbury y la horda zombi que tomó el control del lugar minutos después.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

@@ -10,14 +10,42 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 39 (Julio, 2007).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Familiares directos: Lori Grimes (madre, fallecida); Rick Grimes (padre adoptivo, fallecido); Carl Grimes (hermano mayor); Shane Walsh (padre biológico probable, fallecido).
+
+¿Qué hizo? (Su corta vida en la prisión)
+
+Al ser una bebé recién nacida, Judith no tuvo un rol activo en la toma de decisiones ni en las misiones de supervivencia del grupo. Su existencia giraba completamente en torno al cuidado intensivo de los adultos en un mundo colapsado:
+• El nacimiento en la oscuridad: Nació en la enfermería de la prisión gracias a la asistencia médica de Alice Warren y Hershel Greene. Su nacimiento trajo una breve ráfaga de esperanza y alegría a un grupo severamente mermado por las tragedias previas.
+• El dilema de los recursos: Su cuidado representó un enorme desafío logístico para el grupo. Rick, Glenn y otros miembros tuvieron que organizar peligrosas misiones de exploración hacia los pueblos cercanos con el único objetivo de saquear tiendas de bebés para conseguir pañales y, sobre todo, fórmula de leche maternizada, ya que los recursos alimenticios escaseaban.
+• Símbolo de inocencia: Durante sus pocas semanas de vida, fue protegida celosamente por Lori y Carl, convirtiéndose en el motor que impulsaba a Rick a seguir peleando por defender la prisión de las amenazas externas.
+
+¿Cómo terminó? (La masacre definitiva de la prisión)
+
+El trágico e impactante destino final de Judith ocurre en el Número 48 del cómic, durante el clímax del asalto definitivo perpetrado por el Gobernador y las fuerzas militares de Woodbury.
+• La orden de retirada: Cuando el tanque de Woodbury derribó los muros perimetrales e invadió los patios de la prisión, la defensa del grupo colapsó. Rick Grimes, herido en el abdomen, le ordenó a Lori que tomara a la bebé y huyera hacia las afueras junto a Carl.
+• El intento de escape: Lori corrió desesperada por el patio delantero de la prisión, cargando firmemente a la pequeña Judith entre sus brazos y protegiéndola contra su pecho, mientras Carl avanzaba unos metros más adelante.
+• El disparo de Lilly Caul: Por órdenes directas del Gobernador de no dejar a nadie con vida, la soldado de Woodbury, Lilly Caul, apuntó con su rifle de asalto a la espalda de Lori y apretó el gatillo. La bala de alto calibre atravesó limpiamente el torso de Lori, matándola de forma instantánea.
+• Muerte por aplastamiento: Al morir en plena carrera, el cuerpo inerte de Lori Grimes cayó desplomado hacia adelante con un peso muerto absoluto. Al impactar contra el suelo del patio, Lori cayó con todo su peso directamente encima de la bebé Judith, aplastándola y asfixiándola en el acto. Cuando Rick volteó a ver la escena en medio de su huida, Judith ya había fallecido bajo el cuerpo de su madre.
+• Consecuencias inmediatas: Al percatarse de que acababa de asesinar a una mujer inocente y a una bebé recién nacida, Lilly Caul entró en un estado de shock y horror psicológico absoluto. Llena de asco y furia contra el monstruo que la había obligado a cometer esa atrocidad, Lilly se dio la vuelta y le ejecutó un disparo en la cabeza al Gobernador, terminando con su tiranía antes de ser devorada por la horda zombi que inundaba el patio.
+Debido a que la prisión fue completamente arrasada y abandonada a su suerte bajo el control de miles de caminantes, los cuerpos de Judith y Lori quedaron en el césped del patio, reanimando fuera de viñeta y sellando una de las viñetas más oscuras e icónicas de toda la saga literaria.
+La brutal pérdida de Judith y Lori transformó por completo a los sobrevivientes restantes.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

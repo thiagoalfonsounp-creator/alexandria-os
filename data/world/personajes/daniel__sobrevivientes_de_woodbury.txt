@@ -10,14 +10,37 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 27 (Abril, 2006).
+• Última aparición: The Walking Dead Número 48 (Abril, 2008).
+• Filiación: Soldado de infantería de Woodbury.
+
+¿Qué hizo? (La sospecha de deserción y el asalto masivo)
+
+A pesar de su evidente miedo por la brutalidad del Gobernador (Brian Blake), Daniel cumplía con su rol de centinela para asegurar su propia ración de recursos dentro del pueblo fortificado.
+• El reporte de baja falsa (#33): Su nombre cobró una sutil relevancia durante el escape de Rick, Glenn y Michonne de Woodbury. Tras el contraataque donde Michonne mutiló al Gobernador, el teniente Gabe implicó que Daniel había muerto en medio del caos. Sin embargo, esto fue solo una confusión o una suposición errónea en las viñetas, ya que el chico seguía con vida oculto en los barracones.
+• La campaña del miedo: Daniel fue manipulado psicológicamente bajo la narrativa oficial de la comunidad, la cual afirmaba que el grupo que residía en el penal estaba compuesto por saqueadores despiadados que amenazaban la vida de las mujeres de Woodbury. Presionado por el entorno, tomó un rifle y se enlistó en la caravana militar de asalto definitivo contra la prisión.
+
+¿Cómo terminó? (La explosión de metralla en el patio)
+
+A diferencia de los soldados que murieron devorados en masa por la horda caminante en el césped, el destino final de Daniel ocurre de una manera puramente bélica y accidental durante los minutos más caóticos del Número 48 del cómic:
+• El fuego cruzado en los camiones: Una vez que el tanque blindado derribó las vallas metálicas, la infantería avanzó a pie utilizando los vehículos de Woodbury como cobertura para repeler los disparos que provenían de las barricadas del grupo de Atlanta.
+• Muerte definitiva (Metralla voladora): En medio del violento intercambio de balas y granadas, un proyectil impactó directamente contra el motor o el tanque de gasolina de uno de los camiones de asalto pesados de Woodbury que estaba cerca de su posición. El vehículo explotó de forma masiva, y Daniel fue atravesado e empalado de gravedad en el torso por la metralla y los fragmentos de metal que salieron volando por el aire. Murió desangrado en el patio de la prisión debido al impacto traumático.
+Su cuerpo quedó abandonado en el campo de batalla, siendo calcinado por los incendios de la guerra y reanimando fuera de viñeta como un caminante más atrapado en un penal destruido y en ruinas.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

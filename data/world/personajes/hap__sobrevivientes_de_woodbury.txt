@@ -10,14 +10,38 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 48 (Abril, 2008).
+• Última aparición: The Walking Dead Número 48 (Dentro del canon principal de las viñetas).
+• Edad: 75 años.
+• Filiación: Residente veterano de Woodbury y miliciano.
+
+¿Qué hizo? (El asalto definitivo al penal)
+
+A pesar de su avanzada edad, Hap Abernathy poseía un rígido sentido de la disciplina militar clásica debido a su pasado en la Marina. Completamente convencido por los discursos y la manipulación psicológica del Gobernador (Brian Blake), quien afirmaba que el grupo de la prisión estaba repleto de criminales despiadados, Hap tomó su rifle de asalto y se enlistó en la caravana de camiones para participar en el asalto final contra el penal.
+Durante la caótica batalla, Hap avanzó a pie junto al grueso de la infantería por el patio delantero de la prisión. No obstante, debido a su falta de agilidad por la vejez, sufrió una grave lesión en la pierna en pleno campo de batalla. A pesar de los disparos y de quedar rezagado, logró mantenerse con vida en los patios interiores cuando la defensa de Rick Grimes colapsó.
+
+¿Cómo terminó? (El suicidio preventivo en el patio)
+
+Su destino final ocurre de manera trágica durante el clímax del Número 48 del cómic, cuando el ataque de Woodbury se desmoronó debido a la invasión de una mega-horda zombi provocada por el estruendo de los disparos del tanque.
+• Acorralado por los muertos: Mientras el Gobernador era ejecutado por Lilly Caul y las tropas de Woodbury huían en pánico absoluto del patio, Hap Abernathy quedó atrapado y completamente inmovilizado debido a su lesión en la pierna.
+• La mordida fatídica: Incapaz de correr o replegarse a pie hacia los camiones de escape, la horda de caminantes lo flanqueó rápidamente. Antes de poder defenderse, un zombi se abalanzó sobre él y le propinó una profunda mordida en el cuerpo.
+• Muerte definitiva (Suicidio): Sabiendo que la herida era letal y consciente por completo del horror de la reanimación zombi, Hap decidió usar su última bala para mantener el control sobre su propio destino. En un acto de desesperación final antes de ser devorado por completo, Hap colocó su propia arma en la cabeza y apretó el gatillo, suicidándose de un disparo para otorgarse el descanso definitivo y evitar levantarse como un caminante.
+Su cadáver quedó abandonado sobre el césped del patio delantero junto al resto de los caídos de Woodbury y del grupo de Atlanta, en una prisión completamente arrasada, desierta y destruida por el fuego.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

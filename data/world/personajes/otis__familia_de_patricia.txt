@@ -10,14 +10,40 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 9 (Junio, 2004).
+• Última aparición: The Walking Dead Número 35 (Febrero, 2007).
+• Relaciones sentimentales: Patricia (exnovia, con quien termina dentro de la prisión).
+
+¿Qué hizo? (El disparo a Carl y la vida en la prisión)
+
+Otis era un hombre de mediana edad, un tanto tosco y el único en la granja Greene que portaba y sabía usar un arma de fuego antes de la llegada de los sobrevivientes. Su desarrollo en las viñetas se desglosa en varios eventos clave:
+• El accidente que cambió la historia (#9): Mientras cazaba un ciervo en los bosques cercanos a la autopista, Otis disparó su rifle sin notar que, justo detrás del animal, se encontraba el pequeño Carl Grimes. La bala atravesó al ciervo e hirió gravemente a Carl en el abdomen. Desesperado y lleno de culpa, Otis ayudó a Rick a cargar al niño herido y los guio directamente hasta la granja para que Hershel Greene lo operara.
+• El descubrimiento de Sophia: Durante sus patrullajes previos en los bosques, Otis había encontrado a una zombificada Sophia vagando sola. Siguiendo las directrices religiosas de Hershel, Otis la metió discretamente al granero para protegerla, sin saber en ese momento que el grupo de Atlanta la estaba buscando.
+• El nexo con Michonne (#19): Tras la masacre del granero y el posterior éxodo a la prisión, Otis se quedó unos días atrás en la granja para asegurar las últimas provisiones. Al intentar unirse al grupo en la prisión, fue rodeado por una horda en el camino. Fue rescatada de manera espectacular por Michonne, quien hacía su primera aparición en el cómic usando su katana y sus dos zombis mascotas para abrirse paso. Otis la llevó sana y salva ante Rick, introduciéndola formalmente al grupo.
+• Prejuicios y ruptura con Patricia (#19 - #21): En la prisión, Otis mostró una faceta compleja al exhibir ciertos prejuicios raciales hacia el recluso Dexter. Cuando Dexter intentó un golpe armado contra Rick, Patricia (influenciada por los reclusos) apoyó la rebelión. Otis se opuso firmemente a las acciones de su novia, lo que provocó una severa discusión que terminó con la ruptura definitiva de su noviazgo. Más adelante se disculparon y mantuvieron una relación de amistad madura antes de su trágico final.
+
+¿Cómo terminó? (La invasión a la prisión y su reanimación)
+
+El destino final de Otis ocurre durante una de las primeras y más caóticas brechas de seguridad dentro de los muros de la prisión, específicamente en el Número 34 del cómic:
+• La emboscada de la horda: Mientras el grupo intentaba limpiar una de las áreas exteriores del bloque de celdas para expandir los huertos, una horda masiva de caminantes logró colarse a través de una de las cercas perimetrales debilitadas.
+• Devorado vivo: Al no tener suficiente fuego de cobertura y verse acorralado contra los muros del patio, Otis fue flanqueado por los zombis. A pesar de intentar defenderse con su arma, la superioridad numérica lo derribó. Otis fue brutalmente devorado vivo por la horda en el patio de la prisión ante la impotencia de sus compañeros.
+• La ejecución definitiva (#35): Poco después de que el grupo logró contener la invasión y repeler a los zombis restantes, Rick Grimes regresó al patio para evaluar los daños y buscar sobrevivientes. En medio de los cadáveres, Rick encontró el cuerpo mutilado de Otis, el cual ya había sucumbido a las heridas y reanimado como un caminante. Para otorgarle el descanso definitivo y en señal de respeto por haber salvado indirectamente a Carl en el pasado, Rick le disparó a Otis directamente en la cabeza.
+Su muerte dejó el camino libre para que Patricia buscara consuelo en el recluso Axel y dejó una profunda marca de luto en Hershel Greene, quien lo consideraba parte fundamental de su extendida familia.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

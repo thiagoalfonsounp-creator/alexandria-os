@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 7 (Abril, 2004).
+• Última aparición: The Walking Dead Número 15 (Diciembre, 2004).
+• Relaciones: Julie (novia, fallecida); Tyreese (suegro y ejecutor).
+
+¿Qué hizo? (El pacto suicida)
+
+Antes del apocalipsis, Chris se había mudado a vivir con Julie y Tyreese debido a problemas en su propio hogar. Al estallar el brote, los tres huyeron juntos. Chris era un chico asustadizo, cobarde y codependiente; se negaba a ayudar a limpiar casas y prefería quedarse atrás delegando el peligro en los adultos.
+Superado por el nihilismo y el horror del nuevo mundo, Chris ideó un plan macabro: convenció a Julie de que la única forma de estar juntos para siempre, sin sufrir ni ser separados por los zombis, era realizar un pacto de suicidio mutuo.
+• La traición del gatillo (#14): Tras llegar a la prisión y asegurar un bloque de celdas, los dos adolescentes decidieron tener relaciones sexuales por primera vez. Inmediatamente después, se apuntaron el uno al otro a la cuenta de tres. Sin embargo, Chris se puso nervioso y apretó el gatillo antes de tiempo, disparándole a Julie en el torso y matándola al instante.
+• El pánico: Chris se acobardó completamente y no fue capaz de dispararse a sí mismo como habían acordado, quedando atrapado en la celda junto al cadáver de su novia.
+
+¿Cómo terminó? (La furia de Tyreese y el descubrimiento del virus)
+
+Su final se desarrolla de forma brutal en el Número 15 del cómic, marcando una de las escenas más sangrientas de la etapa de la prisión:
+• La reanimación sin mordida: Tyreese escuchó el disparo y corrió a la celda, encontrando a Chris llorando junto al cuerpo de Julie. Mientras Tyreese sostenía el cadáver de su hija en brazos, el cuerpo de Julie abrió los ojos y reanimó como caminante intentando morder a su padre.
+• La revelación: Chris, asustado, le disparó a Julie zombificada en la cabeza para "salvar" a Tyreese. En ese momento, Rick y el grupo presenciaron la escena en shock: Julie había regresado como zombi a pesar de haber muerto por un disparo y no tener ninguna mordida previa. Fue aquí donde Rick entendió que el virus ya los infectaba a todos.
+• La estrangulación: Consumido por una furia ciega al ver que el chico había matado a su hija, Tyreese se abalanzó sobre Chris. Con una fuerza descomunal, Tyreese estranguló a Chris con sus propias manos, rompiéndole el cuello mientras el resto del grupo observaba paralizado.
+• El destino de su cadáver: Rick Grimes dejó a Tyreese a solas en la celda con el cadáver de Chris para que procesara su luto. Horas más tarde, Rick regresó y descubrió con horror que Tyreese no se había movido; se había quedado sentado esperando a que el cadáver de Chris reanimara como caminante. Una vez zombificado, Tyreese comenzó a mutilar y despedazar el cuerpo del chico una y otra vez como un perturbador acto de venganza. Finalmente, Rick tuvo que intervenir y destruir el cerebro del zombi de Chris para dar por cerrado el macabro episodio.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

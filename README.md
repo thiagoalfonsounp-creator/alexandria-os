@@ -1,6 +1,6 @@
 # Alexandria OS
 
-**Versión del proyecto: 0.3 (desarrollo).** Sistema base: Debian 13.
+**Versión del proyecto: 0.4 (desarrollo).** Sistema base: Debian 13.
 
 Alexandria OS es un entorno de archivo y consulta basado en Debian 13 para el cómic principal de *The Walking Dead*, una biblioteca personal y módulos de supervivencia.
 
@@ -8,14 +8,14 @@ Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os]
 
 ## Estado del proyecto — 10 de noviembre de 2026
 
-- El código y la documentación están sincronizados en la rama `main`. La versión de desarrollo del proyecto es `0.3`; Debian 13 sigue siendo el sistema base.
+- El código y la documentación están sincronizados en la rama `main`. La versión de desarrollo del proyecto es `0.4`; Debian 13 sigue siendo el sistema base.
 - El archivo reúne 248 entradas: 225 personajes, 5 antagonistas principales, 14 caminantes identificados y 4 animales. Incluye 31 expedientes ampliados, 199 fichas breves y 18 identificaciones. Cada categoría tiene su selector y la lista se desplaza con el teclado.
 - `THE WORLD` también conecta Comunidades (13 fichas), Ubicaciones (19), Glosario (40 términos y una guía de método) y Cronología (33 etapas y una guía de método). Sus menús vuelven a la categoría anterior con Escape.
 - La entrega académica final sigue pendiente: imagen virtual Debian `.ova` e informe exclusivamente en PDF, según los requisitos registrados en `AGENTS.md`.
 - `Recorrido de Rick` está conectado al menú de `THE WORLD` mediante `src/world/menu.sh` y `src/world/recorrido_rick.sh`. Su índice `data/world/recorrido_rick_index.tsv` reúne 14 entradas: tres mapas esquemáticos, una guía de método y diez etapas (R01–R10), desde Cynthiana hasta el epílogo. No fija distancias ni coordenadas; los datos sin cotejo directo permanecen `UNCONFIRMED`.
 - La propuesta de identidad visual está documentada en [`IDENTIDAD_VISUAL.md`](IDENTIDAD_VISUAL.md); es una guía de diseño, todavía no implementada en la interfaz.
 - El selector agrega el arco y el número de primera aparición entre paréntesis cuando se confirmaron. Si falta esa verificación, muestra `Arco no confirmado`; el índice conserva `UNCONFIRMED`.
-- Las fichas breves registran nombres y grupos de referencia sin inventar escenas, parentescos o destinos. Cuando falta comprobación directa del número del cómic, usan `UNCONFIRMED`.
+- Las fichas breves registran nombres y grupos de referencia; cuando falta comprobación directa del cómic, usan `UNCONFIRMED`. La versión 0.4 incorpora descripciones de trabajo a 46 fichas desde el RAR aportado por el usuario. Sus escenas, relaciones, destinos y números siguen `UNCONFIRMED` hasta cotejarlos directamente con el cómic.
 - Se corrigieron nombres que provenían de la adaptación televisiva: el archivo usa Maggie Greene, Carol y Sophia Grimes en el epílogo. El cómic no establece para Carol el apellido Peletier.
 - El usuario confirmó en Debian que la versión anterior de `WALKER DATABASE` y `FIELD OBSERVATIONS` funciona. La ampliación del archivo de personajes se incorporó al código, pero todavía no se ha probado en la VM.
 - No se incluyen páginas, paneles ni archivos de cómics protegidos.
@@ -274,8 +274,16 @@ Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borr
 
 ### 2026-11-10 — Versión de desarrollo 0.3
 
-- El lanzador `bin/alexandria` ahora muestra `ALEXANDRIA OS 0.3); se centralizó el número de versión en una variable para facilitar futuros cambios.
+- El lanzador `bin/alexandria` ahora muestra `ALEXANDRIA OS 0.3`; se centralizó el número de versión en una variable para facilitar futuros cambios.
 - Se añadió la categoría **¿Qué es THE REFUGE?**. Todas las opciones de campaña y las tres decisiones finales muestran su probabilidad de éxito/fallo y las estadísticas relacionadas. Los fracasos no conceden los beneficios de la opción y conservan costes o penalizaciones.
 - La arena pasó de 28 × 9 a 40 × 14, incorporó cobertura adicional, tres enemigos iniciales y cuatro refuerzos (hasta siete en total), cuatro oleadas de 22 segundos y una velocidad enemiga aproximadamente 10 % mayor.
 - **Validación:** el cambio quedó registrado en GitHub `main`; la versión 0.3 aún no se ejecutó en Debian. La confirmación previa corresponde al arranque directo de una versión anterior.
 - **Pendiente:** sincronizar el lanzador y el módulo en la VM; comprobar el acceso desde el menú principal, las probabilidades y consecuencias, la arena y una campaña completa.
+
+### 2026-11-10 — Versión de desarrollo 0.4
+
+- Se incorporaron descripciones de trabajo del archivo aportado `twd fichas pag 1-2.rar` a 46 fichas existentes en `data/world/personajes/`. No se cambiaron las categorías ni el nivel del índice común.
+- Las fichas conservan `UNCONFIRMED`: el material contiene números, escenas, relaciones y destinos que no se cotejaron con el cómic. La verificación primaria queda pendiente.
+- `bin/alexandria` y este README ahora indican la versión de desarrollo 0.4.
+- **Validación:** se comprobó la correspondencia de las 46 fichas con sus entradas existentes y se registró el cambio en GitHub `main`. No se ejecutó esta versión en Debian ni se verificaron todas las escenas en el cómic.
+- **Pendiente:** cotejar cada afirmación con los números primarios y sincronizar/probar la versión 0.4 en la VM Debian.

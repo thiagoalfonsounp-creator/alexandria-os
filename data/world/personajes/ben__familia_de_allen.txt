@@ -10,14 +10,36 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje
+
+• Nombre: Ben
+• Primera aparición: The Walking Dead #2
+• Última aparición: The Walking Dead #62
+• Familia: Allen y Donna (padres biológicos, fallecidos); Billy (hermano mellizo); Dale y Andrea (padres adoptivos).
+
+¿Qué hizo?
+
+• Desarrollo psicópata: Tras quedar huérfano por la muerte de sus padres en Wiltshire Estates y la prisión, desarrolló una preocupante falta de empatía. Andrea lo descubrió mutilando animales en secreto (#55).
+• El fratricidio: En el trayecto hacia Washington, Ben asesinó a puñaladas a su hermano mellizo Billy. Fue descubierto junto al cadáver con total frialdad, afirmando que "no dañó su cerebro" y que Billy regresaría para demostrar que la muerte no era algo malo (#61).
+
+¿Cómo terminó?
+
+• El dilema moral: El grupo encerró a Ben en una camioneta mientras los adultos debatían en secreto si debían ejecutarlo o perdonarle la vida por ser un niño (#62).
+• La ejecución: Esa misma noche, Carl Grimes se coló en el vehículo y le disparó a Ben en la cabeza con una pistola con silenciador para eliminar la amenaza que representaba para el grupo (#62).
+• Sepultura: Fue enterrado a la mañana siguiente junto a Billy en una fosa doble al costado de la carretera.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

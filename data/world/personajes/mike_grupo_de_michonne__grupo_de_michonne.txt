@@ -10,14 +10,38 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 19 (Junio, 2005 - como caminante) y en el Especial de Michonne (Marzo, 2012 - vivo).
+• Última aparición: The Walking Dead Número 19 (Fallece definitivamente en el mismo número).
+• Relaciones: Michonne (novia y captora); Terry (mejor amigo, fallecido).
+
+¿Qué hizo? (La infección y el colapso del departamento)
+
+Antes del fin del mundo, Mike y Michonne vivían juntos en un departamento en Atlanta. La relación pasaba por un momento tenso, en parte porque a Michonne no le agradaba que Terry (el mejor amigo de Mike) se la pasara metido en la casa. Sin embargo, al estallar el apocalipsis, los tres quedaron atrapados en el edificio.
+• La mordida inicial: Durante los primeros días del caos global, mientras el grupo intentaba asegurar las ventanas y accesos del departamento frente a una incursión zombi, Mike cometió un error táctico. Fue tomado por sorpresa por un caminante y sufrió una profunda mordida en el brazo.
+• La amputación fallida: Desesperados por salvarlo, Terry y Michonne usaron un machete para cortarle el brazo infectado e intentaron cauterizar la herida. Michonne, quien en ese entonces aún mantenía su antiguo trabajo como abogada y no sabía nada de medicina o combate, decidió dejar a Mike al cuidado de Terry mientras ella salía a las calles de Atlanta para buscar suministros médicos y comida.
+• La muerte en el aislamiento: El plan fracasó de forma catastrófica. La pérdida de sangre y la infección generalizada debilitaron rápidamente el sistema de Mike. Mientras su novia estaba fuera, Mike murió en la cama del departamento debido a las heridas y reanimó como un caminante. Totalmente desprovisto de su antigua conciencia, lo primero que hizo el zombi de Mike fue abalanzarse sobre su mejor amigo Terry, mordiéndolo repetidamente en el cuello hasta matarlo.
+
+¿Cómo terminó? (La "mascota" principal y su ejecución)
+
+El destino final de Mike es el pilar central que define la estética y el camuflaje de Michonne a lo largo de sus primeras etapas en el cómic:
+• La mutilación psicológica: Cuando Michonne regresó al departamento días después (tras haber quedado atrapada por hordas en casas vecinas), se topó con una escena dantesca: Mike y Terry, ahora convertidos en zombis, deambulaban por la sala sobre los restos ensangrentados del lugar. Destrozada por la culpa de haberlos dejado solos, Michonne no pudo obligarse a destruirlos. En su lugar, tomó la katana que le había robado a un vecino y les cortó los brazos y les rebanó las mandíbulas por completo.
+• La herramienta de camuflaje: Al dejarlos sin mandíbula ni garras, Mike perdió el impulso de atacar. Michonne descubrió que al encadenarlos del cuello y caminar junto a ellos, los zombis salvajes del exterior la ignoraban por completo debido al penetrante olor a putrefacción de Mike y Terry. Mike pasó meses siendo arrastrado por los bosques, actuando como un escudo biológico y como un macabro confesionario ambulante con el que Michonne hablaba a solas en voz alta para no perder la cordura.
+• Muerte definitiva (#19): Tras usar a Mike para rescatar al capataz Otis en las afueras de la prisión, Rick Grimes le prohibió terminantemente a Michonne ingresar al recinto con sus mascotas zombificadas. Michonne, entendiendo que ya no necesitaba cargar con los fantasmas de su pasado para sobrevivir, aceptó las condiciones. Desenvainó su espada en el patio delantero y le cercenó limpiamente la cabeza al zombi de Mike, destruyendo su cerebro de forma permanente y otorgándole el descanso definitivo.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.

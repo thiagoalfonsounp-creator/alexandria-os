@@ -10,14 +10,39 @@ ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
 ESTADO DE EVIDENCIA: UNCONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
+Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
+
+Registro y Datos del Personaje en el Cómic
+
+• Primera aparición: The Walking Dead Número 10 (Julio, 2004).
+• Última aparición: The Walking Dead Número 16 (Febrero, 2005).
+• Familiares directos: Hershel (padre, fallecido); Susie (hermana gemela, fallecida); Maggie, Billy, Lacey y Arnold (hermanos, todos fallecidos).
+
+¿Qué hizo? (Su corta estadía en la prisión)
+
+Al ser una niña muy pequeña, Rachel no participaba en las misiones de combate ni en las tareas pesadas de agricultura. Su vida consistía en mantenerse al cuidado de su padre y jugar en las zonas seguras del campamento:
+• Sobreviviente de la granja: Presenció la tragedia en el granero de su padre donde murieron sus hermanos Arnold y Lacey, y posteriormente fue evacuada hacia la prisión junto al resto de la familia Greene.
+• La vida en el nuevo hogar: Una vez establecidos en la prisión, ella y su hermana Susie pasaban el tiempo explorando los pasillos limpios y jugando con Carl Grimes y Sophia. Los adultos la veían como un símbolo de la inocencia que aún se podía preservar en el fin del mundo.
+
+¿Cómo terminó? (El brutal asesinato en la barbería)
+
+El trágico final de Rachel ocurre de forma abrupta e impactante en el Número 15 del cómic, desatando una ola de paranoia colectiva dentro de los muros de la prisión:
+• La desaparición: Mientras los adultos estaban distraídos lidiando con la muerte de Julie y el posterior asesinato de Chris a manos de Tyreese, Rachel y su gemela Susie se alejaron del grupo principal para ir a explorar una de las habitaciones del Bloque A.
+• La decapitación: Las gemelas entraron a la antigua barbería de la prisión, donde se toparon con Thomas Richards, uno de los cuatro reclusos sobrevivientes que el grupo de Rick había encontrado encerrados en la cafetería. Thomas, quien fingía ser un pacífico criminal de cuello blanco pero en realidad era un psicópata y asesino serial de mujeres, las atacó en la oscuridad. Usando un machete de cocina, Thomas decapitó brutalmente a Rachel y a su hermana Susie.
+• El macabro hallazgo (#16): Horas más tarde, un preocupado Hershel Greene comenzó a buscar a sus hijas menores. Al entrar a la barbería, descubrió la sangrienta escena: los cuerpos decapitados de Rachel y Susie tirados en el suelo, y sus cabezas cortadas colocadas de forma grotesca sobre los estantes de la habitación.
+• Prevención de la reanimación: Siguiendo la regla descubierta apenas un número atrás (con la muerte de Julie), el grupo sabía que las niñas reanimarían como caminantes a pesar de no haber sido mordidas. Para otorgarles el descanso definitivo, Rick Grimes utilizó su arma para destruir el cerebro de la cabeza reanimada de Rachel y de su hermana.
+Rachel fue enterrada junto a Susie en los jardines de la prisión en el Número 17. Su asesinato provocó que Rick Grimes perdiera el control y le propinara una golpiza casi mortal a Thomas Richards, cambiando para siempre las leyes de convivencia y castigo dentro de la comunidad de sobrevivientes.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
 SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
 
 FUENTE DE LOCALIZACIÓN
 Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
 https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+
+FUENTE DE TRABAJO
+Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.
