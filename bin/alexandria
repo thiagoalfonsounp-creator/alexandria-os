@@ -2,8 +2,9 @@
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd -- "$SCRIPT_DIR/.." && pwd)"
+APP_VERSION="0.3"
 while true; do
-opcion=$(dialog --title "ALEXANDIRA OS 0.1" \
+opcion=$(dialog --title "ALEXANDRIA OS $APP_VERSION" \
   --menu "Elegí una sección" 17 64 6 \
   1 "THE WORLD" \
   2 "THE COMIC ARCHIVE" \
