@@ -10,6 +10,7 @@ Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os]
 - El archivo reúne 248 entradas: 225 personajes, 5 antagonistas principales, 14 caminantes identificados y 4 animales. Incluye 31 expedientes ampliados, 199 fichas breves y 18 identificaciones. Cada categoría tiene su selector y la lista se desplaza con el teclado.
 - `THE WORLD` también conecta Comunidades (13 fichas), Ubicaciones (19), Glosario (40 términos y una guía de método) y Cronología (33 etapas y una guía de método). Sus menús vuelven a la categoría anterior con Escape.
 - `Recorrido de Rick` cuenta con tres mapas esquemáticos de texto y diez etapas, desde Cynthiana hasta el epílogo. No fija distancias ni coordenadas; las rutas permanecen `UNCONFIRMED` hasta cotejar los ejemplares.
+- La entrega académica final sigue pendiente: imagen virtual Debian `.ova` e informe exclusivamente en PDF, según los requisitos registrados en `AGENTS.md`.
 - La propuesta de identidad visual está documentada en [`IDENTIDAD_VISUAL.md`](IDENTIDAD_VISUAL.md); es una guía de diseño, todavía no implementada en la interfaz.
 - El selector agrega el arco y el número de primera aparición entre paréntesis cuando se confirmaron. Si falta esa verificación, muestra `Arco no confirmado`; el índice conserva `UNCONFIRMED`.
 - Las fichas breves registran nombres y grupos de referencia sin inventar escenas, parentescos o destinos. Cuando falta comprobación directa del número del cómic, usan `UNCONFIRMED`.
@@ -199,6 +200,13 @@ docs/                   Documentación del proyecto
 - Los diagramas separan el origen y los refugios del sur, la red de comunidades y el tramo final. No representan carreteras, escalas, distancias ni coordenadas que el proyecto no haya cotejado.
 - Las fichas usan rangos de números como localizadores y mantienen `UNCONFIRMED` hasta revisar directamente los ejemplares. Se dejó Pittsburgh sin conexión geográfica afirmada y Oceanside fuera del mapa mientras siga pendiente su confirmación en el canon del cómic.
 - **Pendiente:** probar el selector y los textos en la VM Debian; cotejar las etapas con los cómics. La revisión de esta tarea fue estática y no valida la ejecución en la VM.
+
+### 2026-11-09 22:38 ART — Reglas de entrega académica
+
+- Se actualizó `AGENTS.md` con las consignas del proyecto final: imagen `.ova` de Debian usable y sin entorno gráfico, e informe final exclusivamente en PDF.
+- Se añadió una lista de contenidos del informe, documentación de archivos de sistema editados, aplicaciones propias, tecnologías, manual, comandos y alias, y evidencia para que el docente pueda acceder y probar el sistema.
+- Las reglas exigen informar las credenciales en el PDF privado de entrega, pero prohíben guardar o pedir contraseñas reales en chats, Git o capturas; los borradores usan campos para que el propietario los complete localmente.
+- **Validación:** se cotejó `AGENTS.md` con las consignas recibidas. No se generó ni se validó todavía el `.ova` o el informe final.
 
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
