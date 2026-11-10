@@ -411,55 +411,301 @@ def ending_score(state):
     )
 
 
+ARENA_WIDTH = 28
+ARENA_HEIGHT = 9
+ARENA_WALLS = {
+    (7, 2), (8, 2), (7, 3), (8, 3),
+    (13, 1), (14, 1), (13, 7), (14, 7),
+    (19, 5), (20, 5), (19, 6), (20, 6),
+}
+ARENA_SPAWNS = (
+    (1, 1), (ARENA_WIDTH - 2, ARENA_HEIGHT - 2),
+    (1, ARENA_HEIGHT - 2), (ARENA_WIDTH - 2, 1),
+    (ARENA_WIDTH // 2, 0), (ARENA_WIDTH // 2, ARENA_HEIGHT - 1),
+)
+ARENA_MOVES = {
+    "w": (0, -1),
+    "a": (-1, 0),
+    "s": (0, 1),
+    "d": (1, 0),
+}
+
+
+def _arena_walkable(position):
+    x, y = position
+    return (
+        0 <= x < ARENA_WIDTH
+        and 0 <= y < ARENA_HEIGHT
+        and position not in ARENA_WALLS
+    )
+
+
+def _arena_distances(target, blocked):
+    distances = {target: 0}
+    queue = [target]
+    index = 0
+    while index < len(queue):
+        x, y = queue[index]
+        index += 1
+        for dx, dy in ARENA_MOVES.values():
+            neighbor = (x + dx, y + dy)
+            if (
+                neighbor in distances
+                or not _arena_walkable(neighbor)
+                or (neighbor in blocked and neighbor != target)
+            ):
+                continue
+            distances[neighbor] = distances[(x, y)] + 1
+            queue.append(neighbor)
+    return distances
+
+
+def _arena_far_spawn(player, enemies, skip=None):
+    occupied = {
+        enemy["position"] for enemy in enemies if enemy is not skip
+    }
+    distances = _arena_distances(player, occupied)
+    candidates = [
+        position for position in ARENA_SPAWNS
+        if position not in occupied and position in distances
+    ]
+    if not candidates:
+        candidates = [
+            (x, y)
+            for y in range(ARENA_HEIGHT)
+            for x in range(ARENA_WIDTH)
+            if _arena_walkable((x, y))
+            and (x, y) not in occupied
+            and (x, y) in distances
+        ]
+    farthest = max(distances[position] for position in candidates)
+    return random.choice(
+        [position for position in candidates if distances[position] == farthest]
+    )
+
+
+def _arena_spawn_enemy(symbol, player, enemies, now):
+    interval = {"S": 0.62, "N": 0.78, "Z": 0.86}[symbol]
+    return {
+        "symbol": symbol,
+        "position": _arena_far_spawn(player, enemies),
+        "warning": None,
+        "interval": interval,
+        "next_move": now + random.uniform(0.25, interval),
+    }
+
+
+def _arena_update_enemies(player, enemies, now):
+    hits = 0
+    for enemy in enemies:
+        if now < enemy["next_move"]:
+            continue
+        enemy["next_move"] = now + enemy["interval"]
+
+        if enemy["warning"] == player:
+            hits += 1
+            enemy["warning"] = None
+            enemy["position"] = _arena_far_spawn(player, enemies, skip=enemy)
+            continue
+
+        enemy["warning"] = None
+        occupied = {
+            other["position"] for other in enemies if other is not enemy
+        }
+        distances = _arena_distances(player, occupied)
+        distance = distances.get(enemy["position"])
+        if distance is None:
+            continue
+        if distance <= 1:
+            enemy["warning"] = player
+            continue
+
+        x, y = enemy["position"]
+        options = [
+            (x + dx, y + dy)
+            for dx, dy in ARENA_MOVES.values()
+            if _arena_walkable((x + dx, y + dy))
+            and (x + dx, y + dy) not in occupied
+            and (x + dx, y + dy) in distances
+        ]
+        if options:
+            best_distance = min(distances[position] for position in options)
+            enemy["position"] = random.choice(
+                [
+                    position for position in options
+                    if distances[position] == best_distance
+                ]
+            )
+    return hits
+
+
+def _arena_draw(player, enemies, seconds_left, lives, dodges, wave, event):
+    enemy_tiles = {
+        enemy["position"]: (
+            "!" if enemy["warning"] == player else enemy["symbol"]
+        )
+        for enemy in enemies
+    }
+    border = "+" + "-" * ARENA_WIDTH + "+"
+    lines = [
+        "THE REFUGE // PRUEBA DE ESQUIVA",
+        (
+            f"OLEADA {wave}/3  TIEMPO {seconds_left:04.1f}s  "
+            f"VIDAS {lives}/3  ESQUIVAS {dodges}  "
+            f"BONUS +{min(6, dodges * 2)}"
+        ),
+        "@ jugador | S Salvador | N Negan | Z caminante | ! ataque anunciado | # cobertura",
+        border,
+    ]
+    for y in range(ARENA_HEIGHT):
+        row = []
+        for x in range(ARENA_WIDTH):
+            position = (x, y)
+            if position == player:
+                row.append("@")
+            elif position in enemy_tiles:
+                row.append(enemy_tiles[position])
+            elif position in ARENA_WALLS:
+                row.append("#")
+            else:
+                row.append(".")
+        lines.append("|" + "".join(row) + "|")
+    lines.extend(
+        [
+            border,
+            event,
+            "W A S D mover | Q terminar la prueba | No hace falta presionar Enter",
+        ]
+    )
+    sys.stdout.write("\x1b[H\x1b[J" + "\n".join(lines) + "\n")
+    sys.stdout.flush()
+
+
 def quick_time_event():
-    rounds = 3
-    time_limit = 2.5
+    duration = 18.0
     if not sys.stdin.isatty():
         return 0
 
-    message(
-        "PRUEBA DE REFLEJOS",
-        "Se mostrarán tres señales con W, A, S o D. Presioná solo la tecla indicada, sin Enter, antes de que termine el tiempo. Cada acierto suma 2 puntos al desenlace.",
-        10,
-        74,
-    )
-
     fd = sys.stdin.fileno()
     previous_settings = termios.tcgetattr(fd)
-    successes = 0
+    player = (ARENA_WIDTH // 2, ARENA_HEIGHT // 2)
+    enemies = []
+    started = time.monotonic()
+    for symbol in ("S", "S"):
+        enemies.append(_arena_spawn_enemy(symbol, player, enemies, started))
+
+    spawn_schedule = ((6.0, "N"), (12.0, "Z"))
+    next_spawn = 0
+    lives = 3
+    dodges = 0
+    last_move = 0.0
+    next_frame = 0.0
+    event = "Esquiva los ataques. Cuando aparezca !, movete antes de que impacte."
+    finished_by_player = False
+
     try:
         tty.setcbreak(fd)
-        for number in range(1, rounds + 1):
-            while select.select([fd], [], [], 0)[0]:
-                os.read(fd, 1)
+        quiet_settings = termios.tcgetattr(fd)
+        quiet_settings[3] &= ~termios.ECHO
+        termios.tcsetattr(fd, termios.TCSADRAIN, quiet_settings)
 
-            target = random.choice(("W", "A", "S", "D"))
-            sys.stdout.write(f"\r\nSEÑAL {number}/{rounds}: {target}\r\n")
-            sys.stdout.write(f"Presioná {target} ahora ({time_limit:.1f} s): ")
-            sys.stdout.flush()
+        while select.select([fd], [], [], 0)[0]:
+            os.read(fd, 1)
 
-            ready, _, _ = select.select([fd], [], [], time_limit)
+        while lives > 0:
+            now = time.monotonic()
+            elapsed = now - started
+            if elapsed >= duration:
+                break
+
+            while next_spawn < len(spawn_schedule) and elapsed >= spawn_schedule[next_spawn][0]:
+                symbol = spawn_schedule[next_spawn][1]
+                enemies.append(_arena_spawn_enemy(symbol, player, enemies, now))
+                event = f"¡Oleada nueva! Se acerca {'Negan' if symbol == 'N' else 'un caminante'}."
+                next_spawn += 1
+
+            wave = min(3, int(elapsed // 6) + 1)
+            if now >= next_frame:
+                _arena_draw(
+                    player, enemies, max(0.0, duration - elapsed),
+                    lives, dodges, wave, event,
+                )
+                next_frame = now + 0.10
+
+            wake_at = min(
+                started + duration,
+                next_frame,
+                min(enemy["next_move"] for enemy in enemies),
+            )
+            timeout = max(0.0, wake_at - time.monotonic())
+            ready, _, _ = select.select([fd], [], [], timeout)
             if ready:
-                pressed = os.read(fd, 1).decode("ascii", errors="ignore").upper()
-                if pressed == target:
-                    successes += 1
-                    sys.stdout.write("¡Acierto!\r\n")
-                else:
-                    sys.stdout.write("No coincide.\r\n")
-            else:
-                sys.stdout.write("Se acabó el tiempo.\r\n")
-            sys.stdout.flush()
-            time.sleep(0.35)
+                pressed = os.read(fd, 1).decode("ascii", errors="ignore").lower()
+                now = time.monotonic()
+                if pressed == "q":
+                    finished_by_player = True
+                    break
+                if pressed in ARENA_MOVES and now - last_move >= 0.10:
+                    dx, dy = ARENA_MOVES[pressed]
+                    destination = (player[0] + dx, player[1] + dy)
+                    occupied = {enemy["position"] for enemy in enemies}
+                    if not _arena_walkable(destination):
+                        event = "La cobertura bloquea el paso."
+                    elif destination in occupied:
+                        event = "Un enemigo te cierra el paso."
+                    else:
+                        old_position = player
+                        player = destination
+                        escaped = 0
+                        for enemy in enemies:
+                            if enemy["warning"] == old_position:
+                                enemy["warning"] = None
+                                escaped += 1
+                        if escaped:
+                            dodges += escaped
+                            event = f"¡Esquiva! Evitaste {escaped} ataque(s)."
+                        else:
+                            event = "Seguí moviéndote; los enemigos se acercan."
+                    last_move = now
+
+            now = time.monotonic()
+            elapsed = now - started
+            while next_spawn < len(spawn_schedule) and elapsed >= spawn_schedule[next_spawn][0]:
+                symbol = spawn_schedule[next_spawn][1]
+                enemies.append(_arena_spawn_enemy(symbol, player, enemies, now))
+                event = f"¡Oleada nueva! Se acerca {'Negan' if symbol == 'N' else 'un caminante'}."
+                next_spawn += 1
+
+            hits = _arena_update_enemies(player, enemies, now)
+            if hits:
+                lives = max(0, lives - hits)
+                event = f"¡Te alcanzaron {hits} vez/veces! Perdés vida y el enemigo vuelve a aparecer."
+
+        elapsed = min(duration, time.monotonic() - started)
+        wave = min(3, int(elapsed // 6) + 1)
+        if lives <= 0:
+            event = "La horda te alcanzó. El desenlace continúa con las esquivas logradas."
+        elif finished_by_player:
+            event = "Terminaste la prueba; el desenlace continúa con las esquivas logradas."
+        else:
+            event = "¡Resististe las tres oleadas!"
+        _arena_draw(
+            player, enemies, max(0.0, duration - elapsed),
+            lives, dodges, wave, event,
+        )
+        time.sleep(0.65)
     finally:
-        termios.tcsetattr(fd, termios.TCSADRAIN, previous_settings)
-        sys.stdout.write("\r\n")
-        sys.stdout.flush()
+        try:
+            termios.tcsetattr(fd, termios.TCSADRAIN, previous_settings)
+        finally:
+            sys.stdout.write("\x1b[?25h\x1b[2J\x1b[H")
+            sys.stdout.flush()
 
-    return successes
+    return dodges
 
 
-def decide_ending(state, final_choice, reflex_hits=0):
-    bonus = reflex_hits * 2
+def decide_ending(state, final_choice, reflex_dodges=0):
+    bonus = min(6, max(0, reflex_dodges) * 2)
     if final_choice == "evacuate":
         state["ending"] = {
             "title": "RETIRADA DEL REFUGIO",
@@ -516,19 +762,21 @@ def final_decision(state):
     if selected is None:
         return False
 
-    reflex_hits = quick_time_event()
+    reflex_dodges = quick_time_event()
+    reflex_bonus = min(6, reflex_dodges * 2)
     state["status"] = "complete"
-    decide_ending(state, selected, reflex_hits)
+    decide_ending(state, selected, reflex_dodges)
     record_decision(
         state,
         "Confrontación final",
         selected,
-        f"{state['ending']['title']} — reflejos {reflex_hits}/3",
+        f"{state['ending']['title']} — esquivas {reflex_dodges}, reflejos +{reflex_bonus}",
     )
     save_campaign(state)
     message(
         state["ending"]["title"],
-        f"{state['ending']['text']}\n\nReflejos: {reflex_hits}/3 (+{reflex_hits * 2} puntos)\n"
+        f"{state['ending']['text']}\n\nEsquivas exitosas: {reflex_dodges}\n"
+        f"Bonus de reflejos: +{reflex_bonus} puntos\n"
         f"Puntaje estratégico: {state['ending']['score']}\n\n"
         "Este cierre es una variación de juego; no modifica el canon del cómic.",
         16,
