@@ -9,8 +9,8 @@ Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os]
 - El código de la copia de trabajo y la documentación están sincronizados en la rama `main`.
 - El archivo reúne 248 entradas: 225 personajes, 5 antagonistas principales, 14 caminantes identificados y 4 animales. Incluye 31 expedientes ampliados, 199 fichas breves y 18 identificaciones. Cada categoría tiene su selector y la lista se desplaza con el teclado.
 - `THE WORLD` también conecta Comunidades (13 fichas), Ubicaciones (19), Glosario (40 términos y una guía de método) y Cronología (33 etapas y una guía de método). Sus menús vuelven a la categoría anterior con Escape.
-- `Recorrido de Rick` cuenta con tres mapas esquemáticos de texto y diez etapas, desde Cynthiana hasta el epílogo. No fija distancias ni coordenadas; las rutas permanecen `UNCONFIRMED` hasta cotejar los ejemplares.
 - La entrega académica final sigue pendiente: imagen virtual Debian `.ova` e informe exclusivamente en PDF, según los requisitos registrados en `AGENTS.md`.
+- `Recorrido de Rick` está conectado al menú de `THE WORLD` mediante `src/world/menu.sh` y `src/world/recorrido_rick.sh`. Su índice `data/world/recorrido_rick_index.tsv` reúne 14 entradas: tres mapas esquemáticos, una guía de método y diez etapas (R01–R10), desde Cynthiana hasta el epílogo. No fija distancias ni coordenadas; los datos sin cotejo directo permanecen `UNCONFIRMED`.
 - La propuesta de identidad visual está documentada en [`IDENTIDAD_VISUAL.md`](IDENTIDAD_VISUAL.md); es una guía de diseño, todavía no implementada en la interfaz.
 - El selector agrega el arco y el número de primera aparición entre paréntesis cuando se confirmaron. Si falta esa verificación, muestra `Arco no confirmado`; el índice conserva `UNCONFIRMED`.
 - Las fichas breves registran nombres y grupos de referencia sin inventar escenas, parentescos o destinos. Cuando falta comprobación directa del número del cómic, usan `UNCONFIRMED`.
@@ -39,13 +39,15 @@ Algunos módulos del paquete todavía usan `/home/walker/alexandria-os` o `$HOME
 
 ## THE REFUGE
 
-El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. La primera versión jugable es una campaña breve de terminal con consejo, expedición, crisis, tres turnos de guerra y una decisión final. Las elecciones alteran suministros, supervivientes, moral, defensas, inteligencia, alianzas y el desenlace.
+El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. La campaña de terminal incluye consejo, expedición, crisis, tres turnos de guerra y una decisión final. Las elecciones alteran suministros, supervivientes, moral, defensas, inteligencia, alianzas y el desenlace.
+
+En la confrontación final hay una prueba de reflejos textual: aparecen tres señales aleatorias con las teclas W, A, S o D. Hay 2,5 segundos para responder a cada señal, sin presionar Enter; cada acierto suma 2 puntos al puntaje del desenlace.
 
 La campaña se guarda localmente como JSON en `$XDG_STATE_HOME/alexandria-os/the-refuge.json`; si `XDG_STATE_HOME` no está definido, usa `~/.local/state/alexandria-os/the-refuge.json`. Los datos guardados no se escriben en el repositorio.
 
 La historia presenta una variación original inspirada en el arco *All-Out War*. Image Comics identifica el número [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) como su inicio y el [#126](https://imagecomics.com/comics/releases/the-walking-dead-126) como su conclusión. Los valores, decisiones y finales de la campaña son mecánicas de juego y no alteran el canon.
 
-**Validación:** el código está conectado al lanzador en `main`; todavía no se ejecutó en la VM Debian. La próxima comprobación debe hacerse desde el menú de Alexandria y confirmar guardado, reanudación y un desenlace.
+**Validación:** el usuario confirmó que THE REFUGE ya llega a un desenlace en Debian. El QTE se revisó estáticamente en `main`, pero todavía no se ha ejecutado en la VM. Queda pendiente sincronizar la versión actual y comprobar las teclas, el tiempo, el puntaje y la continuidad del terminal al salir de la prueba.
 
 ## Archivo de personajes
 
@@ -196,10 +198,10 @@ docs/                   Documentación del proyecto
 
 ### 2026-11-09 16:53 ART — Recorrido de Rick
 
-- Se conectó `Recorrido de Rick` al menú de `THE WORLD` mediante un módulo propio y un índice TSV. Incluye tres mapas esquemáticos de texto, diez etapas y una guía de criterio.
-- Los diagramas separan el origen y los refugios del sur, la red de comunidades y el tramo final. No representan carreteras, escalas, distancias ni coordenadas que el proyecto no haya cotejado.
-- Las fichas usan rangos de números como localizadores y mantienen `UNCONFIRMED` hasta revisar directamente los ejemplares. Se dejó Pittsburgh sin conexión geográfica afirmada y Oceanside fuera del mapa mientras siga pendiente su confirmación en el canon del cómic.
-- **Pendiente:** probar el selector y los textos en la VM Debian; cotejar las etapas con los cómics. La revisión de esta tarea fue estática y no valida la ejecución en la VM.
+- Se conectó `Recorrido de Rick` al menú de `THE WORLD` mediante `src/world/menu.sh` y el selector `src/world/recorrido_rick.sh`. El índice `data/world/recorrido_rick_index.tsv` reúne 14 entradas: tres mapas esquemáticos, una guía de método y diez etapas (R01–R10).
+- Los mapas cubren el origen y los refugios del sur, la red de comunidades y el tramo final. Las diez etapas recorren los números #1–193 y el epílogo.
+- Los mapas no asignan escalas, carreteras, distancias ni coordenadas. Las fichas usan rangos como localizadores y conservan `UNCONFIRMED` hasta el cotejo directo de números y escenas. Pittsburgh permanece sin conexión geográfica afirmada; Oceanside sigue fuera del mapa mientras falte confirmación en el canon del cómic, y la ubicación de la granja del epílogo queda abierta.
+- **Pendiente:** probar el selector y los textos en la VM Debian y cotejar las etapas con los ejemplares. La revisión de esta tarea fue estática y no valida la ejecución en la VM.
 
 ### 2026-11-09 22:38 ART — Reglas de entrega académica
 
@@ -208,5 +210,19 @@ docs/                   Documentación del proyecto
 - Las reglas exigen informar las credenciales en el PDF privado de entrega, pero prohíben guardar o pedir contraseñas reales en chats, Git o capturas; los borradores usan campos para que el propietario los complete localmente.
 - **Validación:** se cotejó `AGENTS.md` con las consignas recibidas. No se generó ni se validó todavía el `.ova` o el informe final.
 
+
+### 2026-11-09 17:24 ART — Corrección de la continuación en THE REFUGE
+
+- El reporte indicó que la aplicación se cerraba al continuar la partida en la confrontación final. La revisión de `src/refuge/refuge.py` localizó la causa: `final_decision()` entregaba opciones de tres valores, pero `choose()` esperaba pares de etiqueta y descripción. El desempaquetado fallaba al construir el menú.
+- Se corrigió el formato de las opciones y se conservaron sus ayudas dentro de las descripciones. La lógica de desenlaces y el guardado no se modificaron.
+- **Validación:** revisión estática del código en `main`; todavía no ejecutado en la VM Debian.
+- **Pendiente:** sincronizar `src/refuge/refuge.py` con Debian y reanudar la partida guardada en `CONFRONTACIÓN FINAL` para elegir un desenlace y confirmar que queda guardado como finalizado.
+
+### 2026-11-09 18:06 ART — Prueba de reflejos en THE REFUGE
+
+- Se incorporó a la confrontación final una secuencia textual de tres señales aleatorias (W, A, S o D), con 2,5 segundos por señal y respuesta directa de tecla, sin Enter. Cada acierto añade 2 puntos al puntaje del desenlace.
+- El resultado registra los aciertos de reflejos y el puntaje junto con el desenlace. El modo de terminal se restaura al terminar la secuencia.
+- **Validación:** revisión estática del código en `main`; no se ejecutó el QTE en Debian. El usuario confirmó que la campaña alcanza un desenlace.
+- **Pendiente:** sincronizar la actualización en la VM Debian y comprobar aciertos, errores, tiempo agotado, puntaje final y que el terminal queda usable al salir.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.

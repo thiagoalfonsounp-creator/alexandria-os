@@ -3,10 +3,15 @@
 
 import json
 import os
+import random
+import select
 import shutil
 import subprocess
 import sys
 import tempfile
+import termios
+import time
+import tty
 from pathlib import Path
 
 DIALOG = shutil.which("dialog")
@@ -406,16 +411,64 @@ def ending_score(state):
     )
 
 
-def decide_ending(state, final_choice):
+def quick_time_event():
+    rounds = 3
+    time_limit = 2.5
+    if not sys.stdin.isatty():
+        return 0
+
+    message(
+        "PRUEBA DE REFLEJOS",
+        "Se mostrarán tres señales con W, A, S o D. Presioná solo la tecla indicada, sin Enter, antes de que termine el tiempo. Cada acierto suma 2 puntos al desenlace.",
+        10,
+        74,
+    )
+
+    fd = sys.stdin.fileno()
+    previous_settings = termios.tcgetattr(fd)
+    successes = 0
+    try:
+        tty.setcbreak(fd)
+        for number in range(1, rounds + 1):
+            while select.select([fd], [], [], 0)[0]:
+                os.read(fd, 1)
+
+            target = random.choice(("W", "A", "S", "D"))
+            sys.stdout.write(f"\r\nSEÑAL {number}/{rounds}: {target}\r\n")
+            sys.stdout.write(f"Presioná {target} ahora ({time_limit:.1f} s): ")
+            sys.stdout.flush()
+
+            ready, _, _ = select.select([fd], [], [], time_limit)
+            if ready:
+                pressed = os.read(fd, 1).decode("ascii", errors="ignore").upper()
+                if pressed == target:
+                    successes += 1
+                    sys.stdout.write("¡Acierto!\r\n")
+                else:
+                    sys.stdout.write("No coincide.\r\n")
+            else:
+                sys.stdout.write("Se acabó el tiempo.\r\n")
+            sys.stdout.flush()
+            time.sleep(0.35)
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, previous_settings)
+        sys.stdout.write("\r\n")
+        sys.stdout.flush()
+
+    return successes
+
+
+def decide_ending(state, final_choice, reflex_hits=0):
+    bonus = reflex_hits * 2
     if final_choice == "evacuate":
         state["ending"] = {
             "title": "RETIRADA DEL REFUGIO",
-            "score": ending_score(state),
+            "score": ending_score(state) + bonus,
             "text": "La comunidad abre una ruta de salida antes de quedar cercada. Se pierde el asentamiento, pero los supervivientes conservan la posibilidad de empezar de nuevo.",
         }
         return
 
-    score = ending_score(state)
+    score = ending_score(state) + bonus
     if final_choice == "hold":
         if state["defense"] >= 4:
             score += 2
@@ -448,9 +501,9 @@ def decide_ending(state, final_choice):
 
 def final_decision(state):
     options = [
-        ("hold", "Sostener el frente", "Aprovecha las defensas acumuladas"),
-        ("talk", "Negociar con Negan", "Depende de inteligencia y alianzas"),
-        ("evacuate", "Abrir una ruta de evacuación", "Prioriza salvar a la comunidad"),
+        ("hold", "Sostener el frente — Aprovecha las defensas acumuladas"),
+        ("talk", "Negociar con Negan — Depende de inteligencia y alianzas"),
+        ("evacuate", "Abrir una ruta de evacuación — Prioriza salvar a la comunidad"),
     ]
     selected = choose(
         "CONFRONTACIÓN FINAL",
@@ -463,14 +516,22 @@ def final_decision(state):
     if selected is None:
         return False
 
+    reflex_hits = quick_time_event()
     state["status"] = "complete"
-    decide_ending(state, selected)
-    record_decision(state, "Confrontación final", selected, state["ending"]["title"])
+    decide_ending(state, selected, reflex_hits)
+    record_decision(
+        state,
+        "Confrontación final",
+        selected,
+        f"{state['ending']['title']} — reflejos {reflex_hits}/3",
+    )
     save_campaign(state)
     message(
         state["ending"]["title"],
-        f"{state['ending']['text']}\n\nPuntaje estratégico: {state['ending']['score']}\n\nEste cierre es una variación de juego; no modifica el canon del cómic.",
-        14,
+        f"{state['ending']['text']}\n\nReflejos: {reflex_hits}/3 (+{reflex_hits * 2} puntos)\n"
+        f"Puntaje estratégico: {state['ending']['score']}\n\n"
+        "Este cierre es una variación de juego; no modifica el canon del cómic.",
+        16,
         76,
     )
     return True
