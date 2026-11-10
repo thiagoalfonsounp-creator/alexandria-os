@@ -40,13 +40,13 @@ Algunos módulos del paquete todavía usan `/home/walker/alexandria-os` o `$HOME
 
 El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. La campaña de terminal incluye consejo, expedición, crisis, tres turnos de guerra y una decisión final. Las elecciones alteran suministros, supervivientes, moral, defensas, inteligencia, alianzas y el desenlace.
 
-En la confrontación final hay una prueba de reflejos textual: aparecen tres señales aleatorias con las teclas W, A, S o D. Hay 2,5 segundos para responder a cada señal, sin presionar Enter; cada acierto suma 2 puntos al puntaje del desenlace.
+En la confrontación final, la prueba de reflejos se juega en una arena ASCII de tres oleadas y 18 segundos. El jugador es `@`; los enemigos son `S` (Salvador), `N` (Negan) y `Z` (caminante). `#` marca obstáculos y `!` avisa un ataque inminente. Movete con W, A, S o D; hay tres vidas y Q termina la prueba. Cada ataque esquivado suma 2 puntos, hasta un máximo de 6. La pantalla usa texto en la terminal, sin interfaz gráfica.
 
 La campaña se guarda localmente como JSON en `$XDG_STATE_HOME/alexandria-os/the-refuge.json`; si `XDG_STATE_HOME` no está definido, usa `~/.local/state/alexandria-os/the-refuge.json`. Los datos guardados no se escriben en el repositorio.
 
 La historia presenta una variación original inspirada en el arco *All-Out War*. Image Comics identifica el número [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) como su inicio y el [#126](https://imagecomics.com/comics/releases/the-walking-dead-126) como su conclusión. Los valores, decisiones y finales de la campaña son mecánicas de juego y no alteran el canon.
 
-**Validación:** el usuario confirmó que THE REFUGE ya llega a un desenlace en Debian. El QTE se revisó estáticamente en `main`, pero todavía no se ha ejecutado en la VM. Queda pendiente sincronizar la versión actual y comprobar las teclas, el tiempo, el puntaje y la continuidad del terminal al salir de la prueba.
+**Validación:** el usuario confirmó que la campaña llegó a un desenlace antes de este cambio. La arena nueva se revisó estáticamente en `main`, pero no se ejecutó en la VM Debian. Queda pendiente sincronizarla y comprobar movimiento, ataques, vidas, puntaje y restauración de la terminal.
 
 ## Archivo de personajes
 
@@ -216,5 +216,12 @@ docs/                   Documentación del proyecto
 - El resultado registra los aciertos de reflejos y el puntaje junto con el desenlace. El modo de terminal se restaura al terminar la secuencia.
 - **Validación:** revisión estática del código en `main`; no se ejecutó el QTE en Debian. El usuario confirmó que la campaña alcanza un desenlace.
 - **Pendiente:** sincronizar la actualización en la VM Debian y comprobar aciertos, errores, tiempo agotado, puntaje final y que el terminal queda usable al salir.
+
+### 2026-11-09 22:42 ART — Arena de esquiva de THE REFUGE
+
+- La prueba de reflejos pasó de tres señales aisladas a una arena ASCII de tres oleadas durante 18 segundos. El jugador se mueve con WASD; aparecen Salvadores, Negan y caminantes, con obstáculos y avisos de ataque.
+- La arena tiene tres vidas; Q permite terminarla. Cada ataque anunciado que se esquiva añade 2 puntos al desenlace, con un máximo de 6. La lógica restaura el modo previo de la terminal al salir.
+- **Validación:** revisión estática del código en `main`; la arena no se ejecutó en Debian. El usuario había confirmado el desenlace de la campaña antes de este cambio.
+- **Pendiente:** sincronizar la actualización en la VM Debian y comprobar movimiento, avisos, daño, puntaje, desenlace guardado y estado de la terminal al salir.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
