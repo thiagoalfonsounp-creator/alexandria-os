@@ -9,6 +9,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import textwrap
 import termios
 import time
 import tty
@@ -592,6 +593,158 @@ def failure_reason(state):
     return ""
 
 
+def campaign_epilogue(state, title, final_choice=None, failure=""):
+    survivors = state.get("survivors", 0)
+    alliances = state.get("alliances", 0)
+    if alliances >= 2:
+        alliance_preparation = "comunidades dispuestas a sostenerse entre sí"
+        route_support = "Las comunidades aliadas cerraron las rutas de retirada."
+    elif alliances == 1:
+        alliance_preparation = "un asentamiento vecino dispuesto a cooperar"
+        route_support = "El asentamiento aliado cerró una de las rutas de retirada."
+    else:
+        alliance_preparation = "una defensa preparada para sostenerse sin apoyo externo"
+        route_support = "Los defensores locales cubrieron las rutas de retirada."
+
+    if failure:
+        if survivors <= 0:
+            return (
+                "El último registro termina cuando la comunidad perdió a todos sus "
+                "supervivientes. Las reservas y las rutas de salida no alcanzaron para "
+                "organizar otra retirada. El refugio quedó en silencio, y no hubo un "
+                "grupo que pudiera reclamarlo ni volver a abrir sus puertas.\n\n"
+                "Esta línea alternativa no continúa con una reconstrucción: la campaña "
+                "se corta acá. El archivo conserva la causa de la caída para que la "
+                "siguiente partida pueda tomar otro camino."
+            )
+        return (
+            "El refugio no se desarmó por un único ataque. La moral y las defensas "
+            "habían caído al mismo tiempo; las órdenes dejaron de coordinarse y cada "
+            "familia buscó una salida distinta. El asentamiento se vació antes de que "
+            "Rick pudiera reunir a todos para una retirada común.\n\n"
+            f"Al cerrarse el registro quedaban {survivors} supervivientes, pero ya no "
+            "había una comunidad capaz de sostener el refugio. Algunos tomaron caminos "
+            "separados y otros siguieron a Rick hacia terreno abierto. La campaña termina "
+            "con esa dispersión, no con una victoria que el grupo todavía no podía "
+            "alcanzar."
+        )
+
+    if title == "RETIRADA DEL REFUGIO":
+        return (
+            "La orden de evacuación llegó antes de que el cerco se cerrara. Rick hizo "
+            "dejar atrás las paredes y cargar lo que podía acompañar a la comunidad: "
+            "medicinas, herramientas, agua y el registro de quienes habían vivido allí. "
+            "La retirada no fue una derrota limpia; hubo demoras, discusiones y gente que "
+            "tuvo que volver sobre sus pasos para ayudar a los demás.\n\n"
+            "El grupo salió unido. Durante las semanas siguientes avanzó por rutas "
+            "secundarias y armó campamentos breves, sin volver a depender de una sola "
+            "entrada o de un muro. La primera noche segura no trajo festejos: trajo una "
+            "lista de tareas y un lugar para descansar.\n\n"
+            f"Al terminar la campaña quedaban {survivors} supervivientes. La historia "
+            "de Alexandria, en esta versión, no acaba con la caída de sus edificios: "
+            "continúa como una comunidad que aprende a moverse y a elegir dónde volver "
+            "a echar raíces."
+        )
+
+    if title == "VICTORIA ESTRATÉGICA":
+        if final_choice == "talk":
+            return (
+                "Rick llegó a la mesa con algo que Negan no esperaba: rutas vigiladas, "
+                "reservas suficientes para no aceptar cualquier condición y "
+                f"{alliance_preparation}. La negociación no fue una rendición. "
+                "Las condiciones pusieron fin a los tributos y a las incursiones; Negan "
+                "entregó sus armas y quedó bajo custodia, mientras los Salvadores "
+                "aceptaban retirarse de los asentamientos.\n\n"
+                "El acuerdo no convirtió a los enemigos en amigos. Cada comunidad "
+                "mantuvo sus propias decisiones y se estableció una mesa común para "
+                "resolver disputas antes de que volvieran a convertirse en una guerra. "
+                "Las primeras semanas se ocuparon de reparar casas, repartir suministros "
+                "y buscar a quienes habían quedado aislados.\n\n"
+                f"Años después, los caminos entre los asentamientos volvieron a tener "
+                f"intercambio y vigilancia compartida. Con {survivors} personas en el "
+                "refugio al cierre de la campaña, Rick pudo imaginar un futuro en el que "
+                "la seguridad dependía de acuerdos sostenidos, no de un solo líder."
+            )
+        return (
+            "La última ofensiva encontró un perímetro preparado. Los observadores "
+            "anticiparon los accesos y las defensas frenaron el avance. "
+            f"{route_support} Rick evitó convertir la victoria en "
+            "una persecución sin fin: pidió que los Salvadores dejaran las armas y "
+            "aceptaran el fin de los ataques. Negan quedó bajo custodia, con vigilancia "
+            "acordada entre las comunidades.\n\n"
+            "La victoria no devolvió lo perdido, pero impidió que la guerra siguiera "
+            "decidiendo quién podía vivir detrás de un muro. Alexandria, Hilltop y los "
+            "demás refugios comenzaron a reparar caminos y a compartir alimentos y "
+            "medicinas. Rick tuvo que aprender que sostener la paz exigía tantas "
+            "decisiones como sostener una defensa.\n\n"
+            f"Años después, los asentamientos seguían siendo distintos, pero ya no "
+            f"estaban aislados. {survivors} supervivientes cerraron esta campaña con "
+            "una victoria construida en equipo; en esta línea alternativa, esa alianza "
+            "fue el comienzo de una etapa nueva."
+        )
+
+    if title == "VICTORIA CON PÉRDIDAS":
+        return (
+            "El refugio resistió, pero el costo se hizo visible cuando terminó el ruido. "
+            "Faltaban personas en los puestos, varias viviendas quedaron inutilizables "
+            "y las reservas tuvieron que repartirse con cuidado. Rick ordenó atender a "
+            "los heridos y registrar cada nombre antes de discutir qué hacer con Negan "
+            "y con los Salvadores que seguían en pie.\n\n"
+            "La comunidad obtuvo una victoria, aunque nadie la confundió con volver a "
+            "la vida anterior. Los supervivientes retiraron escombros y vigilaron las "
+            "rutas; quienes habían llegado a cooperar también aportaron lo que podían. "
+            "La respuesta de Rick fue reconstruir con reglas compartidas y no perseguir "
+            "a todos los que habían combatido del otro lado.\n\n"
+            f"Con {survivors} supervivientes al final de la campaña, la victoria abrió "
+            "un futuro posible, pero dejó una obligación: recordar el precio y evitar "
+            "que la reconstrucción preparara la próxima guerra."
+        )
+
+    if title == "RETIRADA NEGOCIADA":
+        if final_choice == "talk":
+            return (
+                "La negociación consiguió una pausa, no una solución completa. Rick "
+                "obtuvo una salida para el grupo y el cese de los ataques mientras los "
+                "supervivientes abandonaban el terreno que ya no podían defender. Las "
+                "condiciones quedaron débiles: ninguno de los dos bandos confiaba en que "
+                "la otra parte las respetara para siempre.\n\n"
+                "En lugar de volver a ocupar el mismo lugar, la comunidad avanzó hacia "
+                "refugios más pequeños y mantuvo contacto por radio con los asentamientos cercanos. "
+                "Rick dejó claro que esa retirada era una decisión para salvar vidas, "
+                "no una promesa de obediencia.\n\n"
+                f"Al cierre, {survivors} personas seguían juntas. La paz de esta línea "
+                "alternativa era frágil, pero alcanzó para que pudieran elegir el "
+                "próximo paso."
+            )
+        return (
+            "La defensa ganó tiempo, pero no podía sostener otra ofensiva. Rick entendió "
+            "que insistir en cada pared iba a convertir una retirada difícil en una "
+            "pérdida mayor. Aceptó una pausa negociada y organizó la salida mientras "
+            "quedaba una ruta abierta; parte de los suministros y del terreno quedó atrás.\n\n"
+            "La comunidad tardó en decidir si aquello había sido una retirada o una "
+            "derrota. Con el paso de los días, la discusión cedió ante tareas concretas: "
+            "encontrar agua, reparar el equipo y volver a contactar a los grupos aliados. "
+            "El conflicto no quedó resuelto, pero dejó de ocupar cada hora del día.\n\n"
+            f"{survivors} supervivientes siguieron adelante. En esta versión de la "
+            "historia, el refugio perdió su territorio y conservó la posibilidad de "
+            "construir otro."
+        )
+
+    return (
+        "La última defensa no alcanzó para sostener el asentamiento. Cuando se abrió "
+        "una brecha, las órdenes llegaron tarde y los grupos empezaron a separarse. "
+        "Rick condujo a quienes todavía podía reunir por una salida secundaria; detrás "
+        "quedaron las reservas, los puestos y el lugar que habían intentado proteger.\n\n"
+        "La dispersión volvió más difícil encontrarse y dejó a cada grupo expuesto a "
+        "sus propios riesgos. No hubo una marcha triunfal ni un acuerdo que cerrara la "
+        "guerra. Hubo decisiones pequeñas: compartir agua, esperar a quien se había "
+        "quedado atrás y seguir avanzando antes de que la ruta volviera a quedar bloqueada.\n\n"
+        f"El registro termina con {survivors} supervivientes y el refugio perdido. "
+        "La campaña queda marcada como una derrota; si la historia continúa, tendrá "
+        "que empezar desde los caminos y no desde las murallas."
+    )
+
+
 def finish_if_failed(state):
     reason = failure_reason(state)
     if not reason:
@@ -601,6 +754,7 @@ def finish_if_failed(state):
         "title": "EL REFUGIO CAE",
         "score": 0,
         "text": reason,
+        "epilogue": campaign_epilogue(state, "EL REFUGIO CAE", failure=reason),
     }
     return reason
 
@@ -976,10 +1130,12 @@ def quick_time_event():
 def decide_ending(state, final_choice, reflex_dodges=0):
     bonus = min(6, max(0, reflex_dodges) * 2)
     if final_choice == "evacuate":
+        title = "RETIRADA DEL REFUGIO"
         state["ending"] = {
-            "title": "RETIRADA DEL REFUGIO",
+            "title": title,
             "score": ending_score(state) + bonus,
             "text": "La comunidad abre una ruta de salida antes de quedar cercada. Se pierde el asentamiento, pero los supervivientes conservan la posibilidad de empezar de nuevo.",
+            "epilogue": campaign_epilogue(state, title, final_choice),
         }
         return
 
@@ -1011,10 +1167,66 @@ def decide_ending(state, final_choice, reflex_dodges=0):
     else:
         title = "EL REFUGIO CAE"
         text = "La defensa no alcanza para sostener el asentamiento. Los supervivientes se dispersan y la campaña termina con la comunidad obligada a empezar de nuevo."
-    state["ending"] = {"title": title, "score": score, "text": result + "\n\n" + text}
+    state["ending"] = {
+        "title": title,
+        "score": score,
+        "text": result + "\n\n" + text,
+        "epilogue": campaign_epilogue(state, title, final_choice),
+    }
 
 
-def final_decision(state):
+def show_ending(state):
+    ending = state.get("ending") if state else None
+    if not ending:
+        message("DESENLACE", "Todavía no hay un desenlace guardado.")
+        return
+
+    title = ending.get("title", "CAMPAÑA FINALIZADA")
+    lines = [
+        "THE REFUGE — LÍNEA ALTERNATIVA",
+        f"DESENLACE: {title}",
+        f"Puntaje estratégico: {ending.get('score', 0)}",
+    ]
+    if "reflex_dodges" in ending:
+        lines.extend([
+            f"Esquivas exitosas: {ending['reflex_dodges']}",
+            f"Bonus de reflejos: +{ending.get('reflex_bonus', 0)} puntos",
+        ])
+    lines.append("")
+
+    def append_wrapped(text):
+        for paragraph in text.split("\n\n"):
+            if paragraph.strip():
+                lines.extend(textwrap.fill(paragraph, width=72).splitlines())
+            lines.append("")
+
+    lines.append("RESULTADO")
+    append_wrapped(ending.get("text", ""))
+    lines.append("CRÓNICA DE ESTA PARTIDA")
+    epilogue = ending.get("epilogue") or (
+        "Esta partida se guardó con una versión anterior del módulo y no incluye "
+        "una crónica ampliada. Iniciá una campaña nueva para generar un epílogo."
+    )
+    append_wrapped(epilogue)
+    lines.append("Esta narración es una variación original del cómic y no modifica su canon.")
+
+    with tempfile.NamedTemporaryFile(
+        mode="w",
+        encoding="utf-8",
+        prefix="alexandria-ending-",
+        suffix=".txt",
+        delete=False,
+    ) as temporary:
+        temporary.write("\n".join(lines))
+        file_name = temporary.name
+    try:
+        call_dialog(["--title", f"EPÍLOGO — {title}", "--textbox", file_name, "22", "78"])
+    finally:
+        Path(file_name).unlink(missing_ok=True)
+
+
+
+def final_decision(state)
     options = [
         ("hold", "Sostener el frente — Aprovecha las defensas acumuladas"),
         ("talk", "Negociar con Negan — Depende de inteligencia y alianzas"),
@@ -1041,16 +1253,10 @@ def final_decision(state):
         selected,
         f"{state['ending']['title']} — esquivas {reflex_dodges}, reflejos +{reflex_bonus}",
     )
+    state["ending"]["reflex_dodges"] = reflex_dodges
+    state["ending"]["reflex_bonus"] = reflex_bonus
     save_campaign(state)
-    message(
-        state["ending"]["title"],
-        f"{state['ending']['text']}\n\nEsquivas exitosas: {reflex_dodges}\n"
-        f"Bonus de reflejos: +{reflex_bonus} puntos\n"
-        f"Puntaje estratégico: {state['ending']['score']}\n\n"
-        "Este cierre es una variación de juego; no modifica el canon del cómic.",
-        16,
-        76,
-    )
+    show_ending(state)
     return True
 
 
@@ -1098,11 +1304,11 @@ def play_campaign(state):
         if state["status"] == "failed":
             message(
                 "FIN DE CAMPAÑA",
-                f"{outcome}\n\n{state['ending']['text']}\n\n"
-                "Iniciá una nueva campaña para volver a intentarlo.",
+                f"{outcome}\n\nIniciá una nueva campaña para volver a intentarlo.",
                 18,
                 76,
             )
+            show_ending(state)
             return
         message(
             "DECISIÓN REGISTRADA",
@@ -1199,6 +1405,7 @@ def main():
         options = [
             ("new", "Iniciar una campaña"),
             ("continue", "Continuar la campaña guardada"),
+            ("ending", "Leer desenlace y epílogo"),
             ("status", "Estado del refugio"),
             ("archive", "Archivo de decisiones"),
             ("rules", "Reglas y marco"),
@@ -1208,9 +1415,9 @@ def main():
             "THE REFUGE",
             "Una campaña de supervivencia, decisiones y reconstrucción.",
             options,
-            18,
-            72,
-            7,
+            20,
+            76,
+            8,
         )
 
         if selected in (None, "back"):
@@ -1221,9 +1428,11 @@ def main():
             if state and state.get("status") == "active":
                 play_campaign(state)
             elif state and state.get("status") in ("complete", "failed"):
-                message("CAMPAÑA FINALIZADA", "La partida guardada ya tiene un desenlace. Iniciá una nueva campaña para volver a jugar.")
+                show_ending(state)
             else:
                 message("SIN PARTIDA", "Todavía no hay una campaña para continuar.")
+        elif selected == "ending":
+            show_ending(state)
         elif selected == "status":
             show_status(state)
         elif selected == "archive":
