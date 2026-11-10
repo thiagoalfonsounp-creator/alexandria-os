@@ -572,14 +572,15 @@ def resolve_random_incident(state):
         apply_changes(state, {"intel": 1})
         return "Incidente aleatorio: se intercepta una transmisión con datos parciales."
 
+    if state["intel"] >= 4:
+        apply_changes(state, {"intel": -1})
+        return "Incidente aleatorio: se detectó un intento de sabotaje a tiempo y la reserva quedó intacta."
+
     resource = random.choice(("food", "water"))
     amount = random.randint(1, 2)
     before = state["resources"][resource]
     apply_changes(state, {"resources": {resource: -amount}})
     lost = before - state["resources"][resource]
-    if state["intel"] >= 4:
-        apply_changes(state, {"intel": -1})
-        return "Incidente aleatorio: se detectó un intento de sabotaje a tiempo, pero el esfuerzo costó inteligencia."
     return f"Incidente aleatorio: alguien contaminó una reserva; se perdió {lost} de {RESOURCE_NAMES[resource].lower()}."
 
 
