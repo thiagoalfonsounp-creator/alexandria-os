@@ -51,7 +51,7 @@ La campaña se guarda localmente como JSON en `$XDG_STATE_HOME/alexandria-os/the
 
 La historia presenta una variación original inspirada en el arco *All-Out War*. Image Comics identifica el número [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) como su inicio y el [#126](https://imagecomics.com/comics/releases/the-walking-dead-126) como su conclusión. Los valores, decisiones y finales de la campaña son mecánicas de juego y no alteran el canon.
 
-**Validación:** Debian mostró un error de sintaxis porque faltaban los dos puntos en `def final_decision(state):`; se corrigió la definición en `main`. La versión corregida todavía debe sincronizarse y comprobarse en la VM.
+**Validación:** tras corregir los dos puntos en `def final_decision(state):`, el usuario confirmó que THE REFUGE abre al ejecutar el módulo directamente en Debian. La entrada desde el menú principal aún no quedó confirmada.
 
 ## Archivo de personajes
 
@@ -259,5 +259,11 @@ docs/                   Documentación del proyecto
 - Se corrigió la definición en src/refuge/refuge.py. La opción del lanzador sigue conectada al módulo.
 - **Validación:** el error reportado queda corregido en GitHub main; la versión corregida todavía no se ejecutó en Debian.
 - **Pendiente:** sincronizar el módulo corregido en la VM y confirmar que THE REFUGE abre desde el menú y desde la ejecución directa.
+
+### 2026-11-09 23:45 ART — Confirmación de apertura en Debian
+
+- El usuario confirmó que THE REFUGE abre al ejecutar directamente el módulo corregido desde Debian, después de agregar los dos puntos que faltaban en final_decision.
+- **Alcance:** queda confirmada la ejecución directa del módulo. No se registra todavía la entrada desde el menú principal ni la prueba completa de la campaña.
+- **Pendiente:** confirmar la apertura desde bin/alexandria y recorrer los desenlaces en Debian.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
