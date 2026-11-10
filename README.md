@@ -1,6 +1,5 @@
 # Alexandria OS
 
-
 Alexandria OS es un entorno de archivo y consulta basado en Debian 13 para el cómic principal de *The Walking Dead*, una biblioteca personal y módulos de supervivencia.
 
 Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os](https://github.com/thiagoalfonsounp-creator/alexandria-os).
@@ -46,13 +45,13 @@ En algunas jornadas ocurre un incidente aleatorio, como un hallazgo, una horda, 
 
 En la confrontación final, la prueba de reflejos se juega en una arena ASCII de tres oleadas y 18 segundos. El jugador es `@`; los enemigos son `S` (Salvador), `N` (Negan) y `Z` (caminante). `#` marca obstáculos y `!` avisa un ataque inminente. Movete con W, A, S o D; hay tres vidas y Q termina la prueba. Cada ataque esquivado suma 2 puntos, hasta un máximo de 6. La pantalla usa texto en la terminal, sin interfaz gráfica.
 
-Al finalizar la campaña, el juego muestra una crónica desplazable según el resultado: victoria estratégica, victoria con pérdidas, retirada negociada, evacuación, caída del refugio o derrota anticipada. El epílogo incorpora la decisión final y la preparación acumulada para imaginar cómo podría seguir esta línea alternativa. También se puede volver a leer desde la opción **Leer desenlace y epílogo** del menú. Las narraciones son originales y no cambian el canon del cómic.
+Al finalizar la campaña, el juego muestra una crónica desplazable según el resultado: victoria estratégica, victoria con pérdidas, retirada negociada, evacuación, caída del refugio o derrota anticipada. El epílogo depende del tipo de desenlace; en la victoria estratégica, además, cambia según Rick sostenga el frente o negocie. También se puede volver a leer desde la opción **Leer desenlace y epílogo** del menú. Las narraciones son originales y no cambian el canon del cómic.
 
 La campaña se guarda localmente como JSON en `$XDG_STATE_HOME/alexandria-os/the-refuge.json`; si `XDG_STATE_HOME` no está definido, usa `~/.local/state/alexandria-os/the-refuge.json`. Los datos guardados no se escriben en el repositorio.
 
 La historia presenta una variación original inspirada en el arco *All-Out War*. Image Comics identifica el número [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) como su inicio y el [#126](https://imagecomics.com/comics/releases/the-walking-dead-126) como su conclusión. Los valores, decisiones y finales de la campaña son mecánicas de juego y no alteran el canon.
 
-**Validación:** el usuario confirmó el desenlace de la versión anterior. Los epílogos y la pantalla desplazable se revisaron estáticamente en main; todavía no se ejecutaron en la VM Debian. Queda pendiente sincronizar y comprobar las rutas narrativas, las derrotas, la relectura del desenlace, el guardado y la arena final.
+**Validación:** el usuario confirmó el desenlace de la versión anterior. Los epílogos y la pantalla desplazable se revisaron estáticamente en `main`; todavía no se ejecutaron en la VM Debian. Queda pendiente sincronizar y comprobar las rutas narrativas, las derrotas, la relectura del desenlace, el guardado y la arena final.
 
 ## Archivo de personajes
 
@@ -250,8 +249,8 @@ docs/                   Documentación del proyecto
 
 - Al terminar una campaña, THE REFUGE presenta una crónica desplazable que cambia según el desenlace: victoria estratégica, victoria con pérdidas, retirada negociada, evacuación, derrota en la confrontación o derrota anticipada por colapso del refugio.
 - La decisión final distingue la ruta de sostener el frente, negociar o evacuar; el puntaje estratégico determina la resolución y la narración describe una posible continuación de esa línea alternativa. Los epílogos quedan guardados y pueden volver a leerse desde el menú.
-- La narración se identifica como una variación original del cómic; no modifica el canon. La interfaz sigue en terminal y usa el cuadro de texto desplazable de dialog.
-- **Validación:** revisión estática del código y del README en main; no ejecutado en Debian.
+- La narración se identifica como una variación original del cómic; no modifica el canon. La interfaz sigue en terminal y usa el cuadro de texto desplazable de `dialog`.
+- **Validación:** revisión estática del código y del README en `main`; no ejecutado en Debian.
 - **Pendiente:** sincronizar el módulo y jugar cada ruta de desenlace y derrota, verificando que el epílogo aparezca al terminar y quede accesible al volver al menú.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
