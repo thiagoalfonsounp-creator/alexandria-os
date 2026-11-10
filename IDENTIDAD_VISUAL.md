@@ -1,6 +1,6 @@
 # Alexandria OS — Identidad visual
 
-**Estado:** dirección monocromática definida como propuesta. El tema global todavía no está aplicado ni comprobado en Debian. El visor ya puede mostrar retratos seleccionados mediante caracteres de terminal; esta guía define cómo integrarlos en el lenguaje visual.
+**Estado:** primera aplicación en GitHub main: paleta monocromática compartida desde el lanzador, franja de archivo en el menú principal y rayas diagonales en los marcos de retrato. El cambio aún no se ejecutó ni se comprobó en Debian.
 
 ## Dirección
 
@@ -19,7 +19,7 @@ La estética del cómic debe aparecer en el marco, los márgenes, los encabezado
 - Usar la fuente monoespaciada disponible en la terminal. La jerarquía se construye con mayúsculas, espaciado, marcos y selección inversa; no se reemplaza la fuente del sistema.
 - Mantener navegación por teclado y evitar el desplazamiento horizontal.
 
-## Sistema visual propuesto
+## Sistema visual
 
 | Uso | Tratamiento |
 | --- | --- |
@@ -91,6 +91,6 @@ El retrato queda subordinado al expediente y la trama se mantiene dentro de su m
 
 ## Estado y próximos pasos
 
-La guía registra una dirección de diseño, no un cambio de interfaz. El visor de personajes ya representa retratos seleccionados mediante chafa; la propuesta de paleta monocromática, marcos y tramas aún requiere implementación y revisión en la VM Debian.
+La primera aplicación de la propuesta ya está en el repositorio: config/dialogrc define la paleta, bin/alexandria la carga desde el lanzador y el visor de personajes añade rayas al marco de los retratos. El visor ya representa retratos seleccionados mediante chafa. La nueva presentación todavía no se ha ejecutado ni comprobado en la VM Debian.
 
-El siguiente paso será aplicar la paleta al menú y a una ficha representativa, comprobando legibilidad, navegación y retrato en terminales de distintos anchos. Después se podrá extender el mismo tratamiento a los demás módulos. No se considera validada una pantalla hasta verla ejecutada en Debian.
+El siguiente paso es copiar la actualización a Debian y revisar el menú principal y una ficha representativa con retrato, comprobando contraste, lectura y navegación. No se considera validada una pantalla hasta verla ejecutada en Debian.
