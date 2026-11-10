@@ -1,12 +1,14 @@
 # Alexandria OS
 
+**Versión del proyecto: 0.3 (desarrollo).** Sistema base: Debian 13.
+
 Alexandria OS es un entorno de archivo y consulta basado en Debian 13 para el cómic principal de *The Walking Dead*, una biblioteca personal y módulos de supervivencia.
 
 Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os](https://github.com/thiagoalfonsounp-creator/alexandria-os).
 
-## Estado del proyecto — 9 de noviembre de 2026
+## Estado del proyecto — 10 de noviembre de 2026
 
-- El código de la copia de trabajo y la documentación están sincronizados en la rama `main`.
+- El código y la documentación están sincronizados en la rama `main`. La versión de desarrollo del proyecto es `0.3`; Debian 13 sigue siendo el sistema base.
 - El archivo reúne 248 entradas: 225 personajes, 5 antagonistas principales, 14 caminantes identificados y 4 animales. Incluye 31 expedientes ampliados, 199 fichas breves y 18 identificaciones. Cada categoría tiene su selector y la lista se desplaza con el teclado.
 - `THE WORLD` también conecta Comunidades (13 fichas), Ubicaciones (19), Glosario (40 términos y una guía de método) y Cronología (33 etapas y una guía de método). Sus menús vuelven a la categoría anterior con Escape.
 - La entrega académica final sigue pendiente: imagen virtual Debian `.ova` e informe exclusivamente en PDF, según los requisitos registrados en `AGENTS.md`.
@@ -39,19 +41,21 @@ Algunos módulos del paquete todavía usan `/home/walker/alexandria-os` o `$HOME
 
 ## THE REFUGE
 
-El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. La campaña tiene diez jornadas de decisiones antes de la confrontación final: consejo, expedición, crisis, reconstrucción, recepción de refugiados y cinco turnos de guerra contra los Salvadores. Las decisiones afectan suministros, supervivientes, moral, defensas, inteligencia y alianzas.
+El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. El menú del módulo incluye **¿Qué es THE REFUGE?**, una introducción breve a la campaña y a sus desenlaces alternativos.
 
-En algunas jornadas ocurre un incidente aleatorio, como un hallazgo, una horda, una lesión, una transmisión o sabotaje a las reservas. Algunas acciones también son arriesgadas: su probabilidad de éxito mejora con inteligencia y defensas. Dos jornadas consecutivas con faltantes de comida o agua causan una baja. La campaña termina antes del final si no quedan supervivientes o si la moral y las defensas llegan a cero; la opción de mayor riesgo indica en el menú que puede acabar la partida.
+La campaña tiene diez jornadas de decisiones antes de la confrontación final: consejo, expedición, crisis, reconstrucción, recepción de refugiados y cinco turnos de guerra contra los Salvadores. Las decisiones afectan suministros, supervivientes, moral, defensas, inteligencia y alianzas.
 
-En la confrontación final, la prueba de reflejos se juega en una arena ASCII de tres oleadas y 18 segundos. El jugador es `@`; los enemigos son `S` (Salvador), `N` (Negan) y `Z` (caminante). `#` marca obstáculos y `!` avisa un ataque inminente. Movete con W, A, S o D; hay tres vidas y Q termina la prueba. Cada ataque esquivado suma 2 puntos, hasta un máximo de 6. La pantalla usa texto en la terminal, sin interfaz gráfica.
+Todas las decisiones muestran probabilidades de éxito y fallo junto con las estadísticas que influyen. Las acciones comunes calculan el éxito entre 70 % y 90 % según la estadística relacionada; las maniobras arriesgadas usan su probabilidad base y bonificaciones de inteligencia y defensas, hasta un máximo de 95 %. Si una acción falla, no entrega sus beneficios y puede consumir sus costes o aplicar penalizaciones. Los incidentes aleatorios pueden ayudar o perjudicar la campaña. Dos jornadas consecutivas con faltantes de comida o agua causan una baja; la campaña termina antes del final si no quedan supervivientes o si la moral y las defensas llegan a cero.
 
-Al finalizar la campaña, el juego muestra una crónica desplazable según el resultado: victoria estratégica, victoria con pérdidas, retirada negociada, evacuación, caída del refugio o derrota anticipada. El epílogo depende del tipo de desenlace; en la victoria estratégica, además, cambia según Rick sostenga el frente o negocie. También se puede volver a leer desde la opción **Leer desenlace y epílogo** del menú. Las narraciones son originales y no cambian el canon del cómic.
+En la confrontación final, las tres respuestas estratégicas también tienen probabilidades basadas en las estadísticas del refugio. La prueba de reflejos ocurre en una arena ASCII de 40 × 14, con cuatro oleadas durante 22 segundos, hasta siete enemigos y bloques de cobertura. Los enemigos se mueven aproximadamente un 10 % más rápido que en la versión anterior. El jugador es `@`; los enemigos son `S` (Salvador), `N` (Negan) y `Z` (caminante). `#` marca obstáculos y `!` avisa un ataque inminente. Movete con W, A, S o D; hay tres vidas y Q termina la prueba. Cada ataque esquivado suma 2 puntos, hasta un máximo de 6. La pantalla usa texto en la terminal, sin interfaz gráfica.
+
+Al finalizar la campaña, el juego muestra una crónica desplazable según el resultado: victoria estratégica, victoria con pérdidas, retirada negociada, evacuación, caída del refugio o derrota anticipada. Los epílogos son variaciones originales y no cambian el canon del cómic; también se pueden volver a leer desde el menú.
 
 La campaña se guarda localmente como JSON en `$XDG_STATE_HOME/alexandria-os/the-refuge.json`; si `XDG_STATE_HOME` no está definido, usa `~/.local/state/alexandria-os/the-refuge.json`. Los datos guardados no se escriben en el repositorio.
 
 La historia presenta una variación original inspirada en el arco *All-Out War*. Image Comics identifica el número [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) como su inicio y el [#126](https://imagecomics.com/comics/releases/the-walking-dead-126) como su conclusión. Los valores, decisiones y finales de la campaña son mecánicas de juego y no alteran el canon.
 
-**Validación:** tras corregir los dos puntos en `def final_decision(state):`, el usuario confirmó que THE REFUGE abre al ejecutar el módulo directamente en Debian. La entrada desde el menú principal aún no quedó confirmada.
+**Validación:** el usuario confirmó que la versión anterior abre al ejecutar el módulo directamente en Debian. La versión 0.3 todavía no se ha probado en la VM; tampoco se ha confirmado su entrada desde el menú principal.
 
 ## Archivo de personajes
 
@@ -267,3 +271,11 @@ docs/                   Documentación del proyecto
 - **Pendiente:** confirmar la apertura desde bin/alexandria y recorrer los desenlaces en Debian.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
+
+### 2026-11-10 — Versión de desarrollo 0.3
+
+- El lanzador `bin/alexandria` ahora muestra `ALEXANDRIA OS 0.3); se centralizó el número de versión en una variable para facilitar futuros cambios.
+- Se añadió la categoría **¿Qué es THE REFUGE?**. Todas las opciones de campaña y las tres decisiones finales muestran su probabilidad de éxito/fallo y las estadísticas relacionadas. Los fracasos no conceden los beneficios de la opción y conservan costes o penalizaciones.
+- La arena pasó de 28 × 9 a 40 × 14, incorporó cobertura adicional, tres enemigos iniciales y cuatro refuerzos (hasta siete en total), cuatro oleadas de 22 segundos y una velocidad enemiga aproximadamente 10 % mayor.
+- **Validación:** el cambio quedó registrado en GitHub `main`; la versión 0.3 aún no se ejecutó en Debian. La confirmación previa corresponde al arranque directo de una versión anterior.
+- **Pendiente:** sincronizar el lanzador y el módulo en la VM; comprobar el acceso desde el menú principal, las probabilidades y consecuencias, la arena y una campaña completa.
