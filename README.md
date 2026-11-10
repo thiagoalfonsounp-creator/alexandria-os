@@ -287,3 +287,11 @@ Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borr
 - `bin/alexandria` y este README ahora indican la versión de desarrollo 0.4.
 - **Validación:** se comprobó la correspondencia de las 46 fichas con sus entradas existentes y se registró el cambio en GitHub `main`. No se ejecutó esta versión en Debian ni se verificaron todas las escenas en el cómic.
 - **Pendiente:** cotejar cada afirmación con los números primarios y sincronizar/probar la versión 0.4 en la VM Debian.
+
+### 2026-11-10 — Dirección visual monocromática
+
+- Se revisó IDENTIDAD_VISUAL.md para orientar Alexandria OS hacia blanco, negro, grises y tramas diagonales discretas, manteniendo la seriedad de los expedientes.
+- La propuesta conserva la interfaz exclusivamente textual. El azul intenso deja de ser parte de la dirección visual; la selección se distinguirá con contraste y video inverso.
+- No se cambiaron pantallas ni código en esta tarea. El visor de personajes ya puede representar retratos en la terminal; la paleta y el tratamiento global siguen pendientes de implementación.
+- **Validación:** se actualizó la documentación en main; no se ejecutó ni se verificó una nueva interfaz en Debian.
+- **Pendiente:** aplicar la propuesta a una ficha y al menú, y revisar su legibilidad y navegación en la VM.
