@@ -2,9 +2,11 @@
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd -- "$SCRIPT_DIR/.." && pwd)"
+export DIALOGRC="$PROJECT_ROOT/config/dialogrc"
 APP_VERSION="0.4"
 while true; do
 opcion=$(dialog --title "ALEXANDRIA OS $APP_VERSION" \
+  --backtitle "ALEXANDRIA OS $APP_VERSION  ///  ARCHIVO DOCUMENTAL" \
   --menu "Elegí una sección" 17 64 6 \
   1 "THE WORLD" \
   2 "THE COMIC ARCHIVE" \
