@@ -1226,7 +1226,7 @@ def show_ending(state):
 
 
 
-def final_decision(state)
+def final_decision(state):
     options = [
         ("hold", "Sostener el frente — Aprovecha las defensas acumuladas"),
         ("talk", "Negociar con Negan — Depende de inteligencia y alianzas"),
