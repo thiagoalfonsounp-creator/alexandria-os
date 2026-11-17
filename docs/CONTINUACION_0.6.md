@@ -65,3 +65,12 @@ Se volvió a leer `AGENTS.md` y se comprobaron estáticamente README, guía visu
 La matriz `docs/MATRIZ_PRUEBAS_MANUALES_0.4.md` es idéntica al archivo correspondiente del ZIP recibido (21 363 bytes). No se ejecutaron pruebas en esta revisión y no se modificó la matriz: sus 79 pruebas manuales siguen pendientes. Tampoco se revisó una VM.
 
 El estado leído fue de 314 archivos ya versionados modificados y 20 archivos sin seguimiento, sin cambios staged. No hay archivos OVA/PDF rastreados; `.gitignore` excluye ambas extensiones. No se publicó el entorno ni se hizo commit, push o PR.
+
+
+## Actualización de la matriz manual para 0.6 — 2026-11-16
+
+El propietario confirmó que todas las pruebas manuales de Alexandria OS 0.4 ya estaban aprobadas. La matriz histórica registra esa confirmación como declaración del propietario; no se recibieron la fecha original, el SHA probado, el entorno ni evidencias individuales. Esta actualización documental no repite las pruebas ni cambia etiquetas CONFIRMED, OBSERVED o UNCONFIRMED.
+
+Se creó docs/MATRIZ_PRUEBAS_MANUALES_0.6.md para la regresión en la VM Debian 13. Incluye el logo aprobado con Chafa/curses en 80×24 y 120×40, los conteos actuales del índice, 13 registros FIELD OBSERVATIONS y las expectativas actuales de campaña/arena. Las comprobaciones 0.6 siguen pendientes. La OVA y el PDF requieren verificaciones de entrega separadas y permanecen fuera de Git.
+
+Archivos afectados: README.md, docs/MATRIZ_PRUEBAS_MANUALES_0.4.md, docs/MATRIZ_PRUEBAS_MANUALES_0.6.md y esta bitácora. No se ejecutaron pruebas ni se revisó la VM en esta actualización.
