@@ -4,14 +4,18 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-mike_grupo_de_michonne
 NOMBRE: Mike (grupo de Michonne)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Grupo de Michonne
+AGRUPACIÓN: Grupo de Michonne
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo y datos de aparición.
+ARCO: The Heart's Desire
+PRIMERA APARICIÓN: #19 (caminante)
+ÚLTIMA APARICIÓN: #72 (flashback, caminante)
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #19 (caminante) y última aparición #72 (flashback, caminante). El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #19 (caminante) y #72 (flashback, caminante).
+COTEJO: el propietario verificó el contenido narrativo y las apariciones con el cómic; la wiki individual y videos explicativos se usaron como apoyo de contexto.
 
 REGISTRO
-BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
-Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
 
 Registro y Datos del Personaje en el Cómic
 
@@ -34,14 +38,5 @@ El destino final de Mike es el pilar central que define la estética y el camufl
 • Muerte definitiva (#19): Tras usar a Mike para rescatar al capataz Otis en las afueras de la prisión, Rick Grimes le prohibió terminantemente a Michonne ingresar al recinto con sus mascotas zombificadas. Michonne, entendiendo que ya no necesitaba cargar con los fantasmas de su pasado para sobrevivir, aceptó las condiciones. Desenvainó su espada en el patio delantero y le cercenó limpiamente la cabeza al zombi de Mike, destruyendo su cerebro de forma permanente y otorgándole el descanso definitivo.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
-SIGUIENTE REVISIÓN
-Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
-
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
-
-FUENTE DE TRABAJO
-Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.
+Referencia verificada: The Walking Dead #19 y #72.

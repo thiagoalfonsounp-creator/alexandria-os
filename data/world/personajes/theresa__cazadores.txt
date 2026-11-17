@@ -1,23 +1,30 @@
+----------ARCHIVO DE PERSONAJES | Theresa (Vol. 11: Fear The Hunters)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-theresa
 NOMBRE: Theresa
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Cazadores
+AGRUPACIÓN: Los Cazadores (The Hunters)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #63 (Volumen 11: Fear The Hunters, Parte 3 de 6).
+Apariciones posteriores: Números #64–#66 (Volumen 11: Fear The Hunters).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido; al inicio del apocalipsis formó parte de un grupo de sobrevivientes que recurrió al canibalismo tras agotar sus alimentos, devorando primero a los niños de su propia comunidad).
+- Perfil físico observado: Mujer caucásico-americana adulta (entre 30 y 40 años aproximadamente), complexión delgada, cabello oscuro despeinado y vestimenta civil deteriorada.
+- Rol post-brote: Miembro activo y única mujer dentro de Los Cazadores (The Hunters), banda nómada de seis caníbales liderada por Chris que rastrea y caza seres humanos en las cercanías de Virginia / Washington D.C.
+- Incidente registrado (#63–#64): Participa en el secuestro nocturno de Dale Horvath en el bosque (luego de que este abandonara en secreto el campamento de Rick al haber sido mordido por un caminante). En el escondite del grupo, Theresa participa en la amputación y consumo de la pierna izquierda de Dale hasta que este revela entre risas que fue mordido ("¡Carne contaminada!"), provocando que Theresa vomite horrorizada ante la posibilidad de haberse infectado.
+- Enfrentamiento y captura (#64–#65): Tras arrojar a Dale frente a la iglesia del Padre Gabriel Stokes como carnada, acompaña a Chris y al resto de la banda durante el intento de emboscada al grupo de Rick. Cuando Andrea dispara a Chris desde la distancia y Rick, Abraham y Michonne logran infiltrarse en su guarida y rodearlos, Theresa es desarmada y capturada junto a los demás.
+- Desenlace (#66): Después de que Chris confiese que asesinaron y devoraron a sus propios hijos para sobrevivir, Rick Grimes decreta su ejecución. Theresa es torturada y descuartizada brutalmente fuera de panel dentro del bosque por Rick, Abraham Ford, Michonne y Andrea utilizando armas blancas, siendo sus restos incinerados posteriormente en una hoguera.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Contexto narrativo: A diferencia de Chris y otros miembros que aparecen ocultos entre sombras desde el #61, Theresa hace su debut visual explícito en el Número #63 durante la escena del cautiverio de Dale. Su equivalente directo en la serie televisiva de AMC es Theresa (integrante de los sobrevivientes de Terminus en la temporada 5, episodio 5x03 "Four Walls and a Roof").
+- Nota de desambiguación: No debe confundirse con Theresa (periodista televisiva que viaja en el helicóptero de Fox News junto a Christina Haben y Mike en la novela canónica "The Walking Dead: The Fall of the Governor - Part One"), personaje que nunca aparece en el cómic principal.

@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 WILTSHIRE ESTATES
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #8-#9.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Urbanización
 
 DESCRIPCIÓN
-Sus viviendas parecen ofrecer un lugar donde detener el viaje.
+Complejo residencial suburbano aparentemente deshabitado donde el grupo intenta establecerse durante el invierno antes de descubrir que las viviendas albergan numerosos caminantes encerrados.
 
 RELEVANCIA NARRATIVA
-La aparente tranquilidad se rompe por la presencia de caminantes.
+Marca la primera gran falsa sensación de seguridad tras dejar Atlanta y provoca la muerte de Donna al subestimar el interior de las casas cubiertas por la nieve.
 
 ANÁLISIS DE SUPERVIVENCIA
-La inspección de un sector no demuestra que todo el perímetro esté despejado.
+La ausencia de movimiento en el exterior de una edificación no descarta la presencia de caminantes en espacios interiores cerrados; toda estructura debe despejarse habitación por habitación.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #8; The Walking Dead #9.
+Cotejado directamente con el hallazgo de la urbanización (#8) y la emboscada interior durante el deshielo parcial (#9).

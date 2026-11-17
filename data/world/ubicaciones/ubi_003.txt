@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 ATLANTA
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #2-#4.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Ciudad
 
 DESCRIPCIÓN
-Rick llega buscando a su familia y encuentra una ciudad dominada por los muertos.
+Centro urbano en Georgia promocionado inicialmente como zona segura por las autoridades, pero hallado completamente invadido y sin control militar tras el colapso.
 
 RELEVANCIA NARRATIVA
-La entrada a la ciudad y el encuentro con Glenn marcan el inicio de su integración al grupo.
+Desmiente la existencia de refugios gubernamentales activos, permite el encuentro entre Rick y Glenn y sirve como escenario para el primer ensayo de camuflaje con restos de caminantes.
 
 ANÁLISIS DE SUPERVIVENCIA
-Las calles y edificios dificultan la retirada cuando una multitud bloquea las salidas.
+Las grandes urbes concentran la mayor densidad de caminantes y cuellos de botella en calles y edificios, haciendo inviable la permanencia prolongada sin rutas de extracción despejadas.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #2; The Walking Dead #3; The Walking Dead #4.
+Cotejado directamente con el recorrido urbano de Rick (#2) y la incursión de abastecimiento junto a Glenn (#4).

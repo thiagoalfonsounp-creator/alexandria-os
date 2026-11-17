@@ -1,23 +1,31 @@
+----------ARCHIVO DE PERSONAJES | Barbara (Alexandria) (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-barbara_alexandria
 NOMBRE: Barbara (Alexandria)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #72 (Volumen 12: Life Among Them, Parte 6 de 6).
+Apariciones posteriores: Número #76 (Vol. 13: Too Far Gone), Números #89–#90
+(Vol. 15: We Find Ourselves), Número #97 (Vol. 17: Something To Fear) y
+última aparición en Número #115 (Volumen 20: All Out War - Part One, Parte 1 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Mujer caucásico-americana de entre principios y mediados de los 30 años, complexión media, cabello rubio corto y gafas/lentes graduados.
+- Rol post-brote: Residente original de la Zona Segura de Alexandria, amiga cercana de Olivia y encargada de labores de cocina y preparación de alimentos para la comunidad.
+- Incidente registrado (#72–#97): Aparece por primera vez durante la fiesta de bienvenida organizada por Douglas Monroe en honor a la llegada de Rick Grimes y su grupo (#72), donde conversa sobre la comida con Olivia. Posteriormente asiste al funeral de Scott (#76) y sobrevive tanto al ataque de Los Carroñeros como a la invasión de la gran horda de caminantes (#80–#83), reapareciendo en las reuniones comunitarias y tareas cotidianas de reconstrucción (#89–#90 y #97).
+- Guerra contra Los Salvadores y desenlace (#115): Tras el estallido del conflicto abierto contra Negan y Los Salvadores, Barbara sobrevive a la primera invasión sobre Alexandria y es evacuada junto a otros civiles hacia la Colonia Hilltop en el número #115. Después de la batalla en Hilltop (Volumen 21: All Out War - Part Two) y el salto temporal posterior, no vuelve a aparecer en viñeta ni se menciona su paradero, por lo que su estado final se clasifica oficialmente como desconocido.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto editorial y curiosidades: Su nombre es un homenaje directo a Barbara, la protagonista femenina de la película clásica "Night of the Living Dead" (1968) de George A. Romero.
+- Dato de producción: Es uno de los dos únicos personajes con nombre de la era de Alexandria cuyo destino tras el salto temporal de varios años nunca fue aclarado (el creador Robert Kirkman admitió posteriormente en entrevistas y cartas de lectores que simplemente olvidó al personaje).

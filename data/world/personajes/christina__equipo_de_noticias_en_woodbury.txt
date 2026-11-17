@@ -1,23 +1,28 @@
+----------ARCHIVO DE PERSONAJES | Christina (Vol. 5: The Best Defense)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-christina
-NOMBRE: Christina
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Equipo de noticias en Woodbury
+NOMBRE: Christina [Nombre completo: Christina Meredith Haben]
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición en cómic principal (cadáver): Número #28 (Volumen 5: The Best Defense, Parte 4 de 6).
+Aparición posterior (cabeza reanimada): Número #29 (Volumen 5: The Best Defense, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL Y NOVELAS)
+- Antecedentes previos al brote: Productora de noticias televisiva (Fox News) en Georgia, compañera de trabajo y amiga del camarógrafo Mike.
+- Perfil físico observado: Mujer caucásico-americana de piel clara y cabello rubio cenizo (dishwater-blonde).
+- Incidente previo (The Fall of the Governor - Part One): Sobrevive junto a su compañero Mike y a la periodista Theresa al accidente de un helicóptero de noticias cerca de Woodbury. Tras ser rescatada y atendida inicialmente en la clínica por el Dr. Stevens y Alice Warren, es interrogada por Brian Blake (El Gobernador). Habiendo sido advertida por el Dr. Stevens sobre la verdadera naturaleza tiránica del líder, Christina se niega a quedarse en el pueblo y lo confronta llamándolo un "matón de patio de escuela"; en respuesta, el Gobernador la estrangula hasta matarla en el acto.
+- Apariciones en el cómic principal (#28–#29): Tras asesinarla, el Gobernador decapita su cuerpo y arroja sus restos a la arena de combate de Woodbury (donde se observa su cadáver siendo devorado por caminantes en el número #28 mientras Rick, Glenn y Michonne presencian la pelea entre Harold y Eugene Cooney). En el número #29, su cabeza reanimada aparece sumergida en una de las peceras de trofeos dentro del departamento privado del Gobernador.
+- Desenlace (Novelas canónicas): Tras la derrota del Gobernador en la prisión y el regreso de los sobrevivientes a Woodbury, Lilly Caul entra en el departamento privado y dispara a cada una de las cabezas zombificadas en las peceras, incluida la de Christina, acabando definitivamente con ella.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (UNIVERSO COMIC-NOVELAS)
+- Continuidad con novelas: Su nombre completo (Christina Meredith Haben), su rescate tras el accidente del helicóptero de noticias junto a Mike y Theresa, y su asesinato a manos del Gobernador se desarrollan íntegramente en la novela canónica "The Walking Dead: The Fall of the Governor - Part One" (Capítulos 5 al 7), conectando directamente con las escenas visuales de los números #28 y #29 del cómic.

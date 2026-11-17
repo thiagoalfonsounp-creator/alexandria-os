@@ -1,23 +1,31 @@
+Eddie (caminante) es uno de los zombis que merodean las afueras de la prisión en el Número 30 del cómic principal, siendo eliminado fuera de panel por el grupo de Rick durante la limpieza del recinto en el Número 35. Su nombre proviene del mismo relato paródico y no canónico de The Walking Dead: The Official Magazine en el que aparece Justin.
+
+----------CAMINANTES IDENTIFICADOS | Eddie (caminante) (Vol. 5: The Best Defense)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-eddie_caminante
 NOMBRE: Eddie (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #30 (Volumen 5: The Best Defense, Parte 6 de 6).
+Mención de desenlace: Número #35 (Volumen 6: This Sorrowful Life, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Reanimación: Falleció por causas desconocidas durante el inicio del brote y reanimó como caminante en Georgia.
+- Incidente registrado (#30): Forma parte del grupo de caminantes que rodea el perímetro exterior de la prisión mientras Tyreese regresa corriendo hacia el recinto tras una salida.
+- Desenlace (#35): Durante los cuatro días que el grupo de Rick dedica a despejar completamente la prisión y sus alrededores, Eddie es eliminado definitivamente fuera de panel.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (NO CANÓNICO)
+- En el cómic principal nunca se pronuncia su nombre. Fue bautizado posteriormente en la historia corta humorística "The Secret Diary of a Walker" (publicada en The Walking Dead: The Official Magazine, número #15), compartiendo relato con Justin.
+- En dicha versión paródica (NO CANÓNICA), su destino difiere ligeramente del canon principal, ya que allí es abatido por un disparo en la cabeza efectuado por Andrea.

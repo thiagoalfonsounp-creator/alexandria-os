@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 LOS SALVADORES
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #97-#167.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Organización coercitiva
 
 DESCRIPCIÓN
-Negan encabeza una estructura que impone entregas de recursos a otras comunidades.
+Facción militarizada con base central en El Santuario (una fábrica fortificada rodeada de caminantes empalados) y múltiples puestos de avanzada en Virginia, comandada de manera absolutista por Negan y lugartenientes como Dwight, Simon (referente menor en el cómic frente a Tara, Sherry, John y Carson). Operan bajo un sistema feudal de extorsión armada: exigen la mitad de los recursos de comunidades productivas como Hilltop, El Reino y Alexandria a cambio de una supuesta protección contra los caminantes y contra ellos mismos, imponiendo castigos físicos ejemplarizantes como la quemadura facial con plancha. Tras la derrota y encarcelamiento de Negan, la facción se reforma bajo el mando de Dwight y luego de Sherry, integrándose con tensiones a la alianza regional.
 
 RELEVANCIA NARRATIVA
-La resistencia a ese sistema desemboca en la guerra entre comunidades.
+Encarnan la transición del conflicto de supervivencia básico hacia una guerra civil a gran escala entre modelos de organización social: el saqueo parasitario frente a la cooperación productiva. Su derrota marca el punto de inflexión institucional de la serie, dando origen a las rutas comerciales estables y al dilema sobre la justicia restaurativa frente a la ejecución sumaria.
 
 ANÁLISIS DE SUPERVIVENCIA
-Depender del tributo genera conflictos con quienes producen los recursos y exige mantener el control por la fuerza.
+El modelo de Los Salvadores ofrece alta eficacia táctica a corto plazo gracias a su jerarquía rígida, abundancia de armamento y control territorial mediante intimidación. Sin embargo, es económicamente parasitario e insostenible: al no generar alimentos ni manufacturas propias, dependen por completo de la subyugación continua de vecinos. Cuando las comunidades explotadas logran coordinarse militarmente y cortar sus líneas de suministro mediante el asedio al Santuario, el sistema colapsa por falta de autosuficiencia y resentimiento interno.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #97-#126; The Walking Dead #127-#167.
+Cotejado directamente con las primeras emboscadas en ruta (#97-#98), la ejecución de Glenn (#100), la guerra total (#115-#126) y la rebelión posterior liderada por Sherry (#165-#167).

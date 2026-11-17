@@ -1,23 +1,33 @@
+----------ARCHIVO DE PERSONAJES | David (Alexandria) (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-david_alexandria
 NOMBRE: David (Alexandria)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #72 (Volumen 12: Life Among Them, Parte 6 de 6).
+Apariciones posteriores: Números #77 (Vol. 13: Too Far Gone), #81–#83
+(Vol. 14: No Way Out), #90 (Vol. 15: We Find Ourselves), #115–#125
+(Volúmenes 20 y 21: All Out War) y última aparición en Número #161
+(Volumen 27: The Whisperer War, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón caucásico-americano adulto (entre 35 y 45 años aproximadamente), complexión media, cabello oscuro corto y barba recortada.
+- Rol post-brote: Residente original de la Zona Segura de Alexandria, guardia de vigilancia, soldado de la milicia comunitaria y posteriormente escolta asignado a la fábrica de municiones dirigida por Eugene Porter.
+- Incidente registrado (#72–#83): Aparece por primera vez durante la fiesta de bienvenida organizada por Douglas Monroe para el grupo de Rick Grimes (#72), conversando junto a la parrilla con Regina Monroe. Sobrevive a la crisis provocada por Pete Anderson (#77) y participa activamente en la defensa armada de las calles de Alexandria durante la invasión de la gran horda de caminantes (#81–#83).
+- Guerra contra Los Salvadores (#115–#125): Integra las filas de la milicia de Alexandria durante la Guerra Total contra Negan, participando en las ofensivas contra El Santuario y en la defensa de la Colonia Hilltop hasta el desenlace del conflicto.
+- Guerra contra Los Susurradores y desenlace (#161): Tras el salto temporal, es asignado como guardia de seguridad en la fábrica de municiones de Eugene Porter fuera de Alexandria. En el número #161 (en plena Guerra contra Los Susurradores), intenta persuadir sin éxito a Eugene para que espere hasta el amanecer antes de trasladar un cargamento de balas recién fabricadas hacia Alexandria. Después de dicho episodio no vuelve a mostrarse en viñeta ni se registra su fallecimiento, clasificándose su estado final como vivo (o desconocido sin baja confirmada).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Contexto narrativo: Es uno de los pocos habitantes originales de Alexandria presentados en la fiesta del Volumen 12 que sobrevive tanto a la gran horda como a la guerra contra Negan.
+- Nota de desambiguación: No debe confundirse con David (miembro de Los Cazadores ejecutado en el Número #66), con David (soldado de Los Salvadores ejecutado por Negan en el Número #117 por intentar abusar de Holly), ni con el personaje homónimo de la serie televisiva de AMC (temporada 6, pareja de Betsy, quien es un personaje exclusivo de televisión).

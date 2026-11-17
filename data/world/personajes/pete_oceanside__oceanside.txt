@@ -1,23 +1,37 @@
+----------ARCHIVO DE PERSONAJES | Pete (Oceanside) (Vol. 24: Life and Death)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-pete_oceanside
 NOMBRE: Pete (Oceanside)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Oceanside
+AGRUPACIÓN: Comunidad de Oceanside
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: Life and Death
+PRIMERA APARICIÓN: #139
+ÚLTIMA APARICIÓN: #188
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #139 y última aparición #188. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #139 y #188.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición en cómic principal: Número #139 (Volumen 24: Life and Death, Parte 1 de 6).
+Apariciones posteriores: Números #140–#174 (Volúmenes 24 al 29) y última aparición
+en Número #188 (Volumen 31: The Rotten Core, Parte 2 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Marinero y capitán de embarcaciones pesqueras en la costa este de Estados Unidos (apellido desconocido).
+- Perfil físico observado: Varón afroamericano adulto (entre 40 y 50 años aproximadamente), complexión robusta, cabello negro corto con canas, barba recortada canosa y vestimenta marinera o civil.
+- Rol post-brote: Capitán del barco "The Companion", líder/representante de la comunidad pesquera de Oceanside y aliado comercial de la Zona Segura de Alexandria.
+- Incidente registrado (#139–#144): Tras haber rescatado y navegado junto a Michonne Hawthorne y Siddiq durante el salto temporal de dos años, Pete se integra a la red comercial de las comunidades y llega en su barco hasta Alexandria en el número #139 para participar en la gran feria inter-comunitaria, trayendo cargamentos de pescado fresco y reencontrándose amigablemente con Michonne y Rick Grimes.
+- Guerra contra Los Susurradores y La Mancomunidad (#158–#188): Cuando estalla la Guerra contra Los Susurradores, Siddiq viaja a Oceanside para solicitar refuerzos (#158), y Pete acude al frente de los combatientes de su comunidad para auxiliar a Alexandria durante la defensa contra la megahorda de Beta (#163–#174). Posteriormente acompaña a las delegaciones diplomáticas de la alianza hacia La Mancomunidad (#177–#188); su última aparición ocurre en el Número #188 (Volumen 31: The Rotten Core), confirmándose vivo al cierre de la serie regular (su destino posterior tras el salto temporal del epílogo #193 permanece sin mostrar).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Continuidad con videojuegos canónicos: Su historia previa a debutar en el cómic principal (navegando en "The Companion" junto a Siddiq, Berto y Oak, y rescatando a Michonne Hawthorne) se desarrolla íntegramente como coprotagonista del videojuego canónico de Telltale "The Walking Dead: Michonne" (2016), ambientado cronológicamente entre los números #126 y #127.
+- Nota de desambiguación: No debe confundirse con Peter Anderson ("Pete"), cirujano abusivo de la Zona Segura de Alexandria ejecutado por Rick Grimes en el Número #77.

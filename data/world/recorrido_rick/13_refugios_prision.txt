@@ -1,20 +1,24 @@
 THE WORLD / RECORRIDO DE RICK
-ETAPA 03 — REFUGIOS DEL SUR Y PRISIÓN
+ETAPA 03 — DE LA GRANJA A LA PRISIÓN
 ============================================================
-REFERENCIA DE LECTURA: #13-24.
-PUNTOS: Wiltshire Estates y la prisión.
+REFERENCIA DE LECTURA: #12–#26.
+PUNTOS: carretera rural y prisión estatal de Georgia.
 
 RECORRIDO
-El grupo busca una base más defendible. Wiltshire Estates queda registrada
-como refugio intermedio en el catálogo del proyecto; la prisión se convierte
-en el siguiente intento de asentamiento. La sinopsis editorial de #13
-confirma la búsqueda de un nuevo refugio, pero el nombre y el orden exacto
-de cada parada deben comprobarse en las páginas del cómic.
+Tras salir de la granja y quedarse sin reservas de combustible, el grupo
+encuentra un complejo penitenciario rodeado por alambradas (#12). Despeja
+los patios y asegura un bloque de celdas (#13–#14). La prisión se convierte
+en su primer asentamiento fortificado de larga duración; allí se reúnen con
+Hershel y enfrentan las crisis internas relacionadas con Thomas y Dexter
+(#15–#26).
 
 LECTURA DEL MAPA
-Se agrupan los refugios del sur en vez de dibujar un camino continuo. No se
-deducen distancias ni una ruta exacta entre Atlanta, Wiltshire y la prisión.
+Granja Greene -> prisión marca el cambio desde el desplazamiento nómada a
+un asentamiento. Se omiten los movimientos menores dentro del complejo y
+sus alrededores; no se calcula una ruta exacta.
 
 EVIDENCIA
-Evidence Level: UNCONFIRMED hasta cotejar los números directamente.
-Comic Reference: #13-24; sinopsis editorial de #13 como localizador.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #12–#26. Cotejado con el avistamiento
+(#12), la limpieza y ocupación inicial (#13–#14), el regreso de Hershel (#13)
+y las crisis con los reclusos (#15–#26).

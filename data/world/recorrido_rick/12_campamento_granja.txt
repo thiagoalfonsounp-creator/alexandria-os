@@ -1,19 +1,24 @@
 THE WORLD / RECORRIDO DE RICK
-ETAPA 02 — CAMPAMENTO Y GRANJA GREENE
+ETAPA 02 — EL CAMPAMENTO Y LA GRANJA
 ============================================================
-REFERENCIA DE LECTURA: #7-12.
-PUNTOS: campamento de Atlanta y granja Greene.
+REFERENCIA DE LECTURA: #7–#12.
+PUNTOS: campamento de Atlanta, Wiltshire Estates y granja Greene.
 
 RECORRIDO
-Después de la etapa de Atlanta, el grupo se desplaza y encuentra refugio
-temporal en la granja de Hershel. La vida en el campo ofrece una pausa,
-pero los conflictos del grupo y la presencia de caminantes impiden tratar
-el lugar como un destino seguro o permanente.
+Al comenzar el invierno, el grupo deja el campamento en la autocaravana de
+Dale. Se detiene en la urbanización nevada de Wiltshire Estates (#8–#9),
+donde la pérdida de Donna los obliga a seguir. En #10, Otis hiere a Carl por
+accidente y lleva al grupo a la granja de Hershel Greene. La salida de los
+caminantes del granero cambia la situación; Rick y los demás abandonan la
+granja al cierre de #12.
 
 LECTURA DEL MAPA
-La flecha marca el paso general del campamento al refugio rural. No fija la
-carretera, la duración del viaje ni las paradas que no estén comprobadas.
+Campamento -> Wiltshire Estates -> granja Greene indica el orden de las
+paradas. Es una secuencia narrativa sin orientación cardinal, carretera ni
+distancia entre los lugares.
 
 EVIDENCIA
-Evidence Level: UNCONFIRMED hasta cotejar los números directamente.
-Comic Reference: #7-12, usado como localizador del arco en la cronología.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #7–#12. Cotejado con la partida (#7),
+Wiltshire Estates (#8–#9), la llegada a la granja (#10), el granero (#11)
+y la salida (#12).

@@ -1,23 +1,37 @@
+----------ARCHIVO DE PERSONAJES | Maxwell (Vol. 30: New World Order)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-maxwell
 NOMBRE: Maxwell
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Commonwealth
+AGRUPACIÓN: La Mancomunidad (The Commonwealth)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: New World Order
+PRIMERA APARICIÓN: #176
+ÚLTIMA APARICIÓN: #193
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #176 y última aparición #193. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #176 y #193.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #176 (Volumen 30: New World Order, Parte 2 de 6).
+Apariciones posteriores: Números #177–#192 (Volúmenes 30 y 31: The Rotten Core) y
+epílogo en Número #193 (Volumen 32: Rest In Peace).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (presuntamente asistente ejecutivo o secretario administrativo en Estados Unidos).
+- Perfil físico observado: Varón caucásico-americano de entre finales de los 30 y principios de los 40 años en su debut (envejeciendo hasta los 60 en el epílogo), complexión delgada, cabello rubio/castaño claro corto y traje formal ejecutivo.
+- Rol post-brote: Secretario privado y asistente principal de la gobernadora Pamela Milton en La Mancomunidad (Ohio), y posteriormente asistente ejecutivo de la presidenta Maggie Greene en el epílogo.
+- Incidente registrado (#176–#192): Aparece por primera vez en el número #176 asistiendo a la gobernadora Pamela Milton durante la recepción de Michonne Hawthorne y los recién llegados de Virginia, encargándose de coordinar su agenda y reuniones diplomáticas (#177–#182). Durante la revuelta social y el golpe fallido del Volumen 31 (#186–#192), Maxwell observa con preocupación la deriva autoritaria de Pamela y la inmadurez de Sebastian Milton; tras la destitución de Pamela y el asesinato de Rick Grimes (#191–#192), colabora lealmente en la transición hacia un gobierno democrático.
+- Desenlace (#193): En el epílogo del Número #193 (ambientado décadas después), Maxwell continúa vivo y trabaja como asistente ejecutivo de la presidenta Maggie Greene, informándole sobre el viaje de Hershel Greene Jr. y el juicio en La Mancomunidad.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Es uno de los pocos funcionarios originales de La Mancomunidad que aparece vivo tanto en el Volumen 30 como en el epílogo final del Número #193.
+- Diferencia con la adaptación televisiva: En la serie de AMC (temporada 11, interpretado por Courtney Dietz), el personaje es adaptado como una mujer llamada Maxine "Max" Mercer, hermana del General Mercer y pareja sentimental de Eugene Porter.

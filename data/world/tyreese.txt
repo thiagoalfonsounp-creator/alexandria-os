@@ -6,61 +6,74 @@ EXPEDIENTE: TW-PER-011
 PERSONAJE: TYREESE
 FUENTE CANONICA: COMIC THE WALKING DEAD
 ESTADO: FICHA INTEGRAL
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo, arco, primera y última aparición.
+ARCO: Miles Behind Us
+PRIMERA APARICIÓN: #7
+ÚLTIMA APARICIÓN: #72 (flashback)
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #7 y última aparición #72 (flashback). El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #7 y #72 (flashback).
+COTEJO: el propietario cotejó el contenido y las apariciones con el cómic; consultó la wiki individual y videos explicativos como apoyo de contexto.
+
 AVISO: CONTIENE SPOILERS DEL COMIC
 
 IDENTIFICACION
+
 Tyreese es un sobreviviente fuerte y experimentado que
 se incorpora al grupo de Rick junto a su hija Julie y
 el novio de ella, Chris.
 
 INGRESO AL GRUPO
+
 Tyreese demuestra pronto que puede defender a los demás
 y trabajar en equipo. Rick confía en él y lo convierte
 en uno de sus aliados más cercanos.
-
 Su fuerza física es evidente, pero su importancia no se
 limita al combate. Tyreese comparte con Rick decisiones
 de liderazgo y, en ocasiones, cuestiona la forma en que
 el grupo enfrenta sus problemas.
 
 PERDIDAS Y CONFLICTOS
+
 La muerte de Julie y Chris lo golpea profundamente. La
 tragedia altera sus vínculos y muestra cuánto le cuesta
 procesar el duelo sin dejar que la violencia decida por él.
-
 Durante la vida en la prisión, Tyreese mantiene una relación
 afectiva con Carol. Su historia personal se entrelaza con
 los conflictos y las pérdidas del grupo.
 
 LA PRISION Y EL GOBERNADOR
+
 Cuando el Gobernador amenaza la prisión, Tyreese queda
 capturado durante el conflicto. El Gobernador lo ejecuta
 como parte de su presión contra Rick y los sobrevivientes.
-
 Su muerte ocurre en el arco de la prisión y es distinta
 de la adaptación televisiva, donde su recorrido es otro.
 
 PERFIL PSICOLOGICO
+
 Tyreese es leal, protector y capaz de una gran fuerza.
 También puede ser impulsivo cuando lo empujan el dolor
 o la frustración.
-
 Su vínculo con Rick está basado en el respeto, aunque no
 siempre está de acuerdo con él. Esa diferencia permite
 que Rick reciba una mirada crítica dentro de su propio
 grupo.
 
 IMPACTO Y LEGADO
+
 Tyreese es una de las primeras figuras de peso que Rick
 pierde después de la granja. Su muerte muestra hasta dónde
 está dispuesto a llegar el Gobernador para quebrar a sus
 oponentes.
 
 REFERENCIAS
+
 - Primera aparición: numero 7.
 - Captura durante el conflicto de la prisión: numero 46.
 - Arco de la prisión: numeros 45-48.
 
 NOTA DE CANON
+
 Esta ficha sigue la serie original de comics. No mezcla
 hechos de la adaptacion televisiva.

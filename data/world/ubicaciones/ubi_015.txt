@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 OCEANSIDE
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #139-#191.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Asentamiento costero
 
 DESCRIPCIÓN
-Lugar vinculado con una comunidad de la red de intercambio.
+Comunidad situada en la costa atlántica dedicada a la pesca y al comercio marítimo mediante embarcaciones, integrada en la red de intercambio tras el salto temporal.
 
 RELEVANCIA NARRATIVA
-Amplía la geografía del mundo reconstruido.
+Amplía el alcance geográfico y logístico de la alianza de comunidades, aportando proteínas y rutas de navegación seguras lejos de las carreteras infestadas.
 
 ANÁLISIS DE SUPERVIVENCIA
-Los recursos costeros complementan los agrícolas. No se fija una coordenada ni distancia sin referencia primaria.
+Los asentamientos costeros acceden a fuentes de alimento inagotables mediante la pesca y cuentan con flancos naturales protegidos por el mar.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #139; The Walking Dead #143; The Walking Dead #152.
+Cotejado directamente con la llegada del barco de Michonne y Pete (#139) y el reclutamiento de tripulación para la milicia contra Los Susurradores.

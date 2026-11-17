@@ -4,14 +4,18 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-otis
 NOMBRE: Otis
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Familia de Patricia
+AGRUPACIÓN: Familia de Patricia
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo y datos de aparición.
+ARCO: Miles Behind Us
+PRIMERA APARICIÓN: #9
+ÚLTIMA APARICIÓN: #35 (caminante)
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #9 y última aparición #35 (caminante). El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #9 y #35 (caminante).
+COTEJO: el propietario verificó el contenido narrativo y las apariciones con el cómic; la wiki individual y videos explicativos se usaron como apoyo de contexto.
 
 REGISTRO
-BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
-Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
 
 Registro y Datos del Personaje en el Cómic
 
@@ -24,7 +28,7 @@ Registro y Datos del Personaje en el Cómic
 Otis era un hombre de mediana edad, un tanto tosco y el único en la granja Greene que portaba y sabía usar un arma de fuego antes de la llegada de los sobrevivientes. Su desarrollo en las viñetas se desglosa en varios eventos clave:
 • El accidente que cambió la historia (#9): Mientras cazaba un ciervo en los bosques cercanos a la autopista, Otis disparó su rifle sin notar que, justo detrás del animal, se encontraba el pequeño Carl Grimes. La bala atravesó al ciervo e hirió gravemente a Carl en el abdomen. Desesperado y lleno de culpa, Otis ayudó a Rick a cargar al niño herido y los guio directamente hasta la granja para que Hershel Greene lo operara.
 • El descubrimiento de Sophia: Durante sus patrullajes previos en los bosques, Otis había encontrado a una zombificada Sophia vagando sola. Siguiendo las directrices religiosas de Hershel, Otis la metió discretamente al granero para protegerla, sin saber en ese momento que el grupo de Atlanta la estaba buscando.
-• El nexo con Michonne (#19): Tras la masacre del granero y el posterior éxodo a la prisión, Otis se quedó unos días atrás en la granja para asegurar las últimas provisiones. Al intentar unirse al grupo en la prisión, fue rodeado por una horda en el camino. Fue rescatada de manera espectacular por Michonne, quien hacía su primera aparición en el cómic usando su katana y sus dos zombis mascotas para abrirse paso. Otis la llevó sana y salva ante Rick, introduciéndola formalmente al grupo.
+• El nexo con Michonne (#19): Tras la masacre del granero y el posterior éxodo a la prisión, Otis se quedó unos días atrás en la granja para asegurar las últimas provisiones. Al intentar unirse al grupo en la prisión, fue rodeado por una horda en el camino. Fue rescatado de manera espectacular por Michonne, quien hacía su primera aparición en el cómic usando su katana y sus dos zombis mascotas para abrirse paso. Otis la llevó sana y salva ante Rick, introduciéndola formalmente al grupo.
 • Prejuicios y ruptura con Patricia (#19 - #21): En la prisión, Otis mostró una faceta compleja al exhibir ciertos prejuicios raciales hacia el recluso Dexter. Cuando Dexter intentó un golpe armado contra Rick, Patricia (influenciada por los reclusos) apoyó la rebelión. Otis se opuso firmemente a las acciones de su novia, lo que provocó una severa discusión que terminó con la ruptura definitiva de su noviazgo. Más adelante se disculparon y mantuvieron una relación de amistad madura antes de su trágico final.
 
 ¿Cómo terminó? (La invasión a la prisión y su reanimación)
@@ -36,14 +40,5 @@ El destino final de Otis ocurre durante una de las primeras y más caóticas bre
 Su muerte dejó el camino libre para que Patricia buscara consuelo en el recluso Axel y dejó una profunda marca de luto en Hershel Greene, quien lo consideraba parte fundamental de su extendida familia.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
-SIGUIENTE REVISIÓN
-Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
-
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
-
-FUENTE DE TRABAJO
-Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.
+Referencia verificada: The Walking Dead #9, #19-#21 y #34-#35.

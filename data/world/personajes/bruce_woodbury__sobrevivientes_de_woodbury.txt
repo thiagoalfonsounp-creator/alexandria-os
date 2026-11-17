@@ -1,23 +1,32 @@
+----------ARCHIVO DE PERSONAJES | Bruce (Woodbury) (Vol. 5: The Best Defense)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-bruce_woodbury
-NOMBRE: Bruce (Woodbury)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+NOMBRE: Bruce (Woodbury) [Nombre completo: Bruce Allan Cooper]
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #27 (Volumen 5: The Best Defense, Parte 3 de 6).
+Apariciones posteriores: Números #28–#30 (Vol. 5), #32–#33 (Vol. 6: This Sorrowful Life),
+#41–#42 (Vol. 7: The Calm Before) y #43 (Volumen 8: Made To Suffer).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Empleado de una estación de servicio en Georgia.
+- Perfil físico observado: Varón afroamericano de entre mediados y finales de los 30 años, complexión muy musculosa e intimidante, cabeza rapada/calvo y perilla corta.
+- Rol post-brote: Jefe de guardia de Woodbury, Georgia, principal ejecutor, guardaespaldas y hombre de máxima confianza de Brian Blake (El Gobernador).
+- Incidente registrado (#27–#30): Recibe junto al Gobernador y Gabriel Harris a Rick Grimes, Glenn y Michonne en Woodbury. Colabora directamente en la emboscada y captura del grupo: sujeta a Rick contra una mesa mientras el Gobernador le amputa la mano derecha, encierra a Glenn y facilita el cautiverio y abuso de Michonne.
+- Rescate del Gobernador (#32–#33): Tras la fuga de los prisioneros, encuentra al Gobernador gravemente mutilado en su departamento y obliga a punta de pistola al médico alcohólico Bob Stookey a salvarle la vida.
+- Emboscada en el depósito (#41–#42): Lidera una partida de rastreo hacia el almacén de la Guardia Nacional; allí embosca y hiere de bala a Glenn en el pecho (quien sobrevive gracias a su armadura antidisturbios), aunque debe retirarse al ser superado por el fuego de cobertura de Andrea.
+- Desenlace (#43): Encabeza junto al Gobernador la marcha del ejército de Woodbury hacia la prisión. Al acercarse a las vallas perimetrales, recibe un disparo en el cuello efectuado por Andrea desde una torre de vigilancia. Agonizante y desangrándose, alcanza a reportar lo sucedido al Gobernador antes de morir; Brian Blake le dispara en la cabeza para evitar su reanimación.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Continuidad con novelas: Su nombre completo (Bruce Allan Cooper), su profesión previa al apocalipsis y su ascenso junto a Brian Blake se desarrollan ampliamente en las novelas canónicas "The Walking Dead: The Road to Woodbury" y "The Walking Dead: The Fall of the Governor" (Partes 1 y 2).
+- Nota de desambiguación: No debe confundirse con Bruce (trabajador de construcción de la Zona Segura de Alexandria), quien aparece más adelante entre los números #69 y #80 (Volúmenes 12 al 14).

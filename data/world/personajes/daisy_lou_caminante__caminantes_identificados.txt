@@ -1,23 +1,28 @@
+Daisy-Lou (caminante) es uno de los tres zombis que atacan la casa donde se refugian Rick y Carl Grimes tras la caída de la prisión, siendo abatida por un disparo en la cabeza efectuado por Carl en el Número 50 del cómic principal. Su nombre completo, Daisy-Lou Ariana, proviene de su aparición paródica y no canónica en la tira cómica The Secret Diary of a Walker.  ----------CAMINANTES IDENTIFICADOS | Daisy-Lou (caminante) (Vol. 9: Here We Remain)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-daisy_lou_caminante
-NOMBRE: Daisy-Lou (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+NOMBRE: Daisy-Lou (caminante) [Alias no canónico: Daisy-Lou Ariana]
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #50 (Volumen 9: Here We Remain, Parte 2 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Reanimación: Falleció por causas desconocidas durante el inicio del brote y reanimó como caminante en Georgia.
+- Incidente registrado (#50): Tras la destrucción de la prisión, Rick Grimes cae gravemente enfermo e inconsciente dentro de una vivienda abandonada. A la mañana siguiente, Daisy-Lou junto a otros dos caminantes detectan presencia humana y golpean insistentemente la puerta principal de la casa.
+- Desenlace: Para proteger a su padre inconsciente, Carl Grimes sale por la puerta trasera y atrae a los tres caminantes lejos del refugio. Durante la maniobra, Carl tropieza y cae al suelo, momento en el que Daisy-Lou y los otros dos zombis lo acorralan. Carl logra desenfundar su arma y dispararle en la cabeza a los tres, acabando definitivamente con ella.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (NO CANÓNICO)
+- Aunque en el cómic principal nunca se pronuncia su nombre en los diálogos, el personaje fue bautizado oficialmente en los créditos y material complementario como Daisy-Lou.
+- En la serie de historias cortas humorísticas "The Secret Diary of a Walker" (publicada en The Walking Dead: The Official Magazine), se le asigna el nombre completo "Daisy-Lou Ariana" y se narra una versión satírica de sus pensamientos antes de ser abatida por Carl. Este material se considera fuera de continuidad (NO CANÓNICO) para efectos del registro principal.

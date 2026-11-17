@@ -2,29 +2,31 @@
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd -- "$SCRIPT_DIR/.." && pwd)"
+APP_VERSION="0.6"
+export ALEXANDRIA_ROOT="$PROJECT_ROOT"
 export DIALOGRC="$PROJECT_ROOT/config/dialogrc"
-APP_VERSION="0.4"
+if ! dialog --print-maxsize >/dev/null 2>&1; then
+  unset DIALOGRC
+fi
+
+LOGO_FILE="$PROJECT_ROOT/assets/logo-alexandria-safe-zone.png"
 while true; do
-opcion=$(dialog --title "ALEXANDRIA OS $APP_VERSION" \
-  --backtitle "ALEXANDRIA OS $APP_VERSION  ///  ARCHIVO DOCUMENTAL" \
-  --menu "Elegí una sección" 17 64 6 \
-  1 "THE WORLD" \
-  2 "THE COMIC ARCHIVE" \
-  3 "THE REFUGE" \
-  4 "CUADERNO DE CAMPO" \
-  5 "MANUAL / AYUDA" \
-  6 "TERMINAL" \
-  3>&1 1>&2 2>&3)
- case "$opcion" in
-   1) bash /home/walker/alexandria-os/src/world/menu.sh ;;
-   2) bash /home/walker/alexandria-os/src/comic_archive/menu.sh ;;
-   3) python3 "$PROJECT_ROOT/src/refuge/refuge.py" ;;
-   4) nano /home/walker/alexandria-os/data/cuaderno.txt ;;
-   5) dialog --msgbox "Flechas y Enter: recorrer y elegir. Escape: cancelar. Cuaderno: editar notas en Nano. Terminal: volver a consola. Las secciones principales siguen en desarrollo." 9 65 ;;
-
-   6) break ;;
-   *) break ;;
- esac
+  python3 "$PROJECT_ROOT/src/ui/main_menu.py" "$LOGO_FILE"
+  opcion=$?
+  case "$opcion" in
+    1) bash "$PROJECT_ROOT/src/world/menu.sh" ;;
+    2) bash "$PROJECT_ROOT/src/comic_archive/menu.sh" ;;
+    3) python3 "$PROJECT_ROOT/src/refuge/refuge.py" ;;
+    4) nano "$PROJECT_ROOT/data/cuaderno.txt" ;;
+    5)
+      MANUAL="$PROJECT_ROOT/docs/manual_ayuda.txt"
+      if [[ -r "$MANUAL" ]]; then
+        dialog --title "MANUAL / AYUDA" --exit-label "Volver" --textbox "$MANUAL" 0 0
+      else
+        dialog --title "MANUAL / AYUDA" --msgbox "No se encontró el archivo del manual:\n$MANUAL" 8 68
+      fi
+      ;;
+    6) break ;;
+    *) break ;;
+  esac
 done
-
-	

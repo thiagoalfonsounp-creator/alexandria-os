@@ -1,23 +1,32 @@
+Fran (caminante) es una zombi que aparece en las inmediaciones de El Reino (The Kingdom) en el Número 111 del cómic principal, donde muere abatida fuera de panel de un disparo en la cabeza por un soldado de dicha comunidad mientras practicaban puntería bajo la instrucción de Andrea.
+
+----------CAMINANTES IDENTIFICADOS | Fran (caminante) (Vol. 19: March To War)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-fran_caminante
 NOMBRE: Fran (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #111 (Volumen 19: March To War, Parte 3 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Perfil físico observado: Mujer joven de complexión media, vestimenta civil deteriorada.
+- Reanimación: Falleció por causas desconocidas durante el inicio del brote y reanimó como caminante en la región de Virginia / alrededores de Washington D.C.
+- Incidente registrado (#111): Mientras Rick Grimes, Ezekiel, Jesus y Michonne planifican el ataque contra Los Salvadores en El Reino, Andrea entrena a los habitantes y soldados de la comunidad en el manejo de armas de fuego utilizando caminantes errantes que se acercan al perímetro como blancos reales. Fran forma parte de este grupo de zombis junto a Steven.
+- Desenlace (#111): Durante la práctica de tiro organizada por Andrea, un soldado de El Reino dispara a Fran directamente en la cabeza (fuera de panel), acabando definitivamente con ella.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y PORTADAS
+- En el cómic principal nunca se pronuncia su nombre. Su identidad fue establecida posteriormente en la historia corta humorística "The Secret Diary of a Walker" (publicada en The Walking Dead: The Official Magazine, número #6).
+- En dicho relato paródico (NO CANÓNICO), Fran y su vecino Steven son presentados como dos caminantes jóvenes que convencen a un padre zombi ("Dad") y a sus hijos de emprender unas vacaciones familiares hacia El Reino, sin saber que allí hay humanos armados entrenando.
+- Dato editorial: Fran aparece ilustrada en la portada de la edición Deluxe del Número #111 (publicada en abril de 2025).

@@ -1,23 +1,30 @@
+----------ARCHIVO DE PERSONAJES | Scott (Woodbury) (Vol. 5: The Best Defense)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-scott_woodbury
-NOMBRE: Scott (Woodbury)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+NOMBRE: Scott (Woodbury) [Nombre completo: Scott Moon]
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición en cómic principal (cabeza reanimada): Número #29 (Volumen 5: The Best Defense, Parte 5 de 6).
+Aparición con vida (especial canónico): The Walking Dead: The Governor Special (Parte única).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL Y ESPECIALES)
+- Antecedentes previos al brote: Estudiante de escuela secundaria en Georgia y pareja sentimental de Megan Lafferty.
+- Perfil físico observado: Varón caucásico-americano joven (finales de la adolescencia / principios de los 20 años), complexión delgada y cabello rubio.
+- Rol post-brote: Sobreviviente inicial junto a Lilly Caul, Megan Lafferty y Joshua Hamilton en las inmediaciones de Atlanta ("Tent City") que posteriormente se asienta como residente civil en Woodbury, Georgia.
+- Incidente registrado (The Governor Special): Tras descubrir junto a sus amigos las prácticas brutales y los combates clandestinos organizados por Brian Blake (El Gobernador) en Woodbury, Scott decide enfrentarlo en secreto en su departamento para rescatar a una joven cautiva y detener su tiranía. El Gobernador lo sorprende, lo reduce y lo decapita brutalmente, convirtiendo su cabeza reanimada en la primera de su colección privada de peceras.
+- Aparición en el cómic principal (#29): Su cabeza zombificada aparece sumergida en uno de los tanques de agua dentro de la habitación privada del Gobernador mientras este observa su colección tras capturar a Rick Grimes, Glenn y Michonne (en el número #29 aún no se menciona su nombre, el cual se revela oficialmente en The Governor Special y las novelas).
+- Desenlace (Novelas canónicas): Tras la derrota del Gobernador en la prisión y el regreso de los sobrevivientes a Woodbury, Lilly Caul dispara a la cabeza reanimada de Scott Moon para liberar su sufrimiento y acabar definitivamente con él.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Continuidad con novelas: Su historia previa, su relación con Megan Lafferty y Lilly Caul, y su muerte a manos del Gobernador constituyen uno de los ejes centrales de la novela canónica "The Walking Dead: The Road to Woodbury", mientras que su eliminación definitiva ocurre en "The Fall of the Governor - Part Two".
+- Nota de desambiguación: No debe confundirse con Scott (buscador de suministros de la Zona Segura de Alexandria y mejor amigo de Heath), quien debuta mucho más adelante en el Número #69 (Volumen 12: Life Among Them) y muere en el Número #77.

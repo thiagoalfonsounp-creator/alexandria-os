@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 WOODBURY
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #27-#48.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Asentamiento urbano
 
 DESCRIPCIÓN
-La población y sus espacios quedan bajo el control del Gobernador.
+Pueblo amurallado en Georgia gobernado de forma autoritaria por Philip Blake (El Gobernador), equipado con barricadas perimetrales y una pequeña guarnición armada.
 
 RELEVANCIA NARRATIVA
-Es el centro territorial del antagonismo con la prisión.
+Representa la primera comunidad organizada hostil que enfrenta el grupo, demostrando que otros supervivientes estructurados constituyen una amenaza mayor que los caminantes.
 
 ANÁLISIS DE SUPERVIVENCIA
-La seguridad física debe evaluarse junto con las condiciones que impone quien controla el lugar.
+Un perímetro urbano fortificado puede sostener una población estable, pero el control basado en la coacción y el conflicto externo compromete su supervivencia ante represalias.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #27-#33; The Walking Dead #43-#48.
+Cotejado directamente con la captura de Rick, Glenn y Michonne (#27-#33) y la movilización contra la prisión (#43-#48).

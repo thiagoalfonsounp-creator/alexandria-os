@@ -1,23 +1,34 @@
+----------ARCHIVO DE PERSONAJES | Johnny (familia de Brianna) (Vol. 17: Something To Fear)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-johnny_familia_de_brianna
 NOMBRE: Johnny (familia de Brianna)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Familia de Brianna
+AGRUPACIÓN: Colonia Hilltop
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: Something To Fear
+PRIMERA APARICIÓN: #101 (mención)
+ÚLTIMA APARICIÓN: #116 (mención)
+ALCANCE: The Walking Dead, serie regular; primera mención #101 y última mención #116. El personaje nunca aparece visualmente.
+REFERENCIA PRIMARIA: The Walking Dead #101 y #116 (menciones; no aparece visualmente).
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera mención: Número #101 (Volumen 17: Something To Fear, Parte 5 de 6).
+Mención posterior: Número #116 (Volumen 20: All Out War - Part One, Parte 2 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido; esposo de Brianna).
+- Perfil físico observado: No aplica (personaje mencionado exclusivamente de forma póstuma; nunca aparece visualmente en el cómic).
+- Rol post-brote: Residente original de la Colonia Hilltop junto a su esposa Brianna antes de la llegada del grupo de Rick Grimes.
+- Incidente registrado y desenlace (#101): Poco tiempo antes de que Rick Grimes estableciera contacto con la Colonia Hilltop, Johnny fue asesinado por Los Salvadores bajo el régimen de extorsión de Negan (en circunstancias similares a las ejecuciones de Rory, Tim y Marsha). En el número #101, poco después de que Maggie Greene se mude a Hilltop tras el asesinato de Glenn a manos de Negan, Brianna intenta consolarla contándole que comprende su dolor porque ella misma perdió a su esposo Johnny por culpa de Los Salvadores. Su muerte vuelve a ser mencionada en el número #116 como motivación de Brianna para apoyar la guerra contra Negan.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Es un personaje exclusivamente referencial (mencionado pero nunca visto), cuya muerte sirve para vincular emocionalmente a Brianna y Maggie Greene desde el Volumen 17.

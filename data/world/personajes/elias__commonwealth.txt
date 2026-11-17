@@ -1,23 +1,33 @@
+----------ARCHIVO DE PERSONAJES | Elias (Vol. 30: New World Order)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-elias
 NOMBRE: Elias
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Commonwealth
+AGRUPACIÓN: La Mancomunidad (The Commonwealth)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: New World Order
+PRIMERA APARICIÓN: #177
+ÚLTIMA APARICIÓN: #177
+ALCANCE: The Walking Dead, serie regular; aparición registrada en #177.
+REFERENCIA PRIMARIA: The Walking Dead #177.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #177 (Volumen 30: New World Order, Parte 3 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón adulto de complexión atlética/media con armadura blanca completa reglamentaria del ejército de La Mancomunidad.
+- Rol post-brote: Soldado raso del ejército regular de La Mancomunidad (Ohio), asignado a la escolta de seguridad y protección de dignatarios bajo las órdenes del General Mercer y la gobernadora Pamela Milton.
+- Incidente registrado y desenlace (#177): En el número #177 (Volumen 30: New World Order), Elias integra el pelotón de soldados blindados que escolta a la gobernadora Pamela Milton y a la delegación encabezada por Michonne Hawthorne y Eugene Porter durante su viaje diplomático desde Ohio hacia las comunidades de Virginia (Alexandria, Hilltop y El Reino). Durante una parada en la ruta donde el convoy es atacado por una horda de caminantes, Elias combate en formación junto a los demás soldados para proteger a Pamela Milton y a los enviados de la alianza. Tras dicho capítulo no vuelve a ser identificado por nombre en viñeta, por lo que su estado final al cierre del cómic principal se clasifica oficialmente como vivo (o desconocido sin baja confirmada).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Forma parte de la primera escuadra de soldados de La Mancomunidad que viaja hacia el este para establecer contacto formal con Rick Grimes.

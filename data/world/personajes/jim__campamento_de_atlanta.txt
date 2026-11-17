@@ -4,14 +4,18 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-jim
 NOMBRE: Jim
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Campamento de Atlanta
+AGRUPACIÓN: Campamento de Atlanta
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo y datos de aparición.
+ARCO: Days Gone Bye
+PRIMERA APARICIÓN: #2
+ÚLTIMA APARICIÓN: #6
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #2 y última aparición #6. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #2 y #6.
+COTEJO: el propietario verificó el contenido narrativo y las apariciones con el cómic; la wiki individual y videos explicativos se usaron como apoyo de contexto.
 
 REGISTRO
-BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
-Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
 
 Jim era un mecánico de Atlanta y uno de los miembros originales del campamento de sobrevivientes en las afueras de la ciudad. En el cómic, aparece desde el Número 2 y es recordado por su profunda tristeza, pocas palabras y uno de los destinos más memorables y pacíficos del inicio de la saga.
 
@@ -29,14 +33,5 @@ Jim era un mecánico de Atlanta y uno de los miembros originales del campamento 
 • Destino final: El grupo respetó su voluntad. Lo dejaron sentado, apoyado contra un árbol cerca de las afueras de Atlanta, despidiéndose de él mientras moría en paz en el Número 6 del cómic.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
-SIGUIENTE REVISIÓN
-Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
-
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
-
-FUENTE DE TRABAJO
-Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.
+Referencia verificada: The Walking Dead #2 y #6.

@@ -1,23 +1,29 @@
+----------ARCHIVO DE PERSONAJES | Clyde (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-clyde
 NOMBRE: Clyde
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #69 (Volumen 12: Life Among Them, Parte 3 de 6).
+Apariciones posteriores: Números #70–#72 (Vol. 12), #73–#78 (Volumen 13: Too Far Gone),
+#79–#84 (Volumen 14: No Way Out) y apariciones de fondo hasta el Volumen 28 (A Certain Doom).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón caucásico-americano adulto, complexión media, cabello oscuro corto y vestimenta de trabajo/construcción.
+- Rol post-brote: Residente original de la Zona Segura de Alexandria y miembro de la cuadrilla de construcción encargada del mantenimiento y reforzamiento de los muros perimetrales junto a Tobin, Bruce y Jamie.
+- Incidente registrado (#69–#84): Forma parte de los habitantes presentes en Alexandria cuando Rick Grimes y su grupo ingresan a la comunidad. Trabaja bajo la supervisión de Tobin en la ampliación y reparación de las murallas, y participa en la defensa colectiva de la zona segura durante el ataque de Los Carroñeros (The Scavengers) y la posterior invasión de la gran horda de caminantes (#80–#83), logrando sobrevivir al asedio.
+- Apariciones posteriores y desenlace: Continúa desempeñándose como obrero y residente de Alexandria durante la reconstrucción tras la Guerra Total contra Los Salvadores y los conflictos contra Los Susurradores. Debido a que nunca se muestra su muerte en viñeta ni se menciona su fallecimiento en los volúmenes finales, su estado al cierre del cómic principal se clasifica oficialmente como vivo (o desconocido sin baja confirmada).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Dato editorial y de producción: Clyde jamás pronuncia una palabra de diálogo en todo el cómic principal. Su nombre fue revelado oficialmente por Robert Kirkman en la sección "Cutting Room Floor" del Número #71, donde publicó su lista original de nombres de los residentes de Alexandria presentados en ese arco (siendo Clyde y Jamie los únicos dos nombres de dicha lista que nunca llegaron a mencionarse dentro de los globos de diálogo de la historieta).

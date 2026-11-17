@@ -1,23 +1,36 @@
+----------ARCHIVO DE PERSONAJES | Hershel Greene Jr. (Vol. 22: A New Beginning)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-hershel_greene_jr
-NOMBRE: Hershel Greene Jr.
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Hilltop · familia Greene
+NOMBRE: Hershel Greene Jr. [Alias: Hershel II / Hershel Rhee]
+AGRUPACIÓN: Colonia Hilltop
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: A New Beginning
+PRIMERA APARICIÓN: #130
+ÚLTIMA APARICIÓN: #193
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #130 y última aparición #193. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #130 y #193.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #130 (Volumen 22: A New Beginning, Parte 4 de 6).
+Apariciones posteriores: Números #131–#192 (Volúmenes 22 al 31) y epílogo en
+Número #193 (Volumen 32: Rest In Peace).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: No aplica (nacido aproximadamente seis meses después del inicio del apocalipsis, tras el asesinato de su padre Glenn a manos de Negan en el Número #100; hermano adoptivo de Sophia Grimes).
+- Perfil físico observado: Varón de ascendencia coreano-americana y caucásico-americana (niño de 3 años en su debut, adolescente en La Mancomunidad y adulto de 27 años en el epílogo), cabello negro lacio y vestimenta casual o traje formal en el epílogo.
+- Rol post-brote: Residente infantil de la Colonia Hilltop criado por Maggie Greene, residente posterior de La Mancomunidad y empresario/propietario de la exhibición itinerante "See the Walking Dead Show" en el epílogo.
+- Incidente registrado (#130–#174): Presentado tras el salto temporal de dos años como un niño inquieto y mimado por su madre Maggie Greene en Hilltop (#130). Sobrevive bajo el cuidado de Brianna y Sophia durante el incendio de la Colonia Hilltop provocado por Los Susurradores (#159–#161) y participa en la marcha hacia Alexandria (#162).
+- Etapa en La Mancomunidad y Desenlace (#175–#193): Se traslada junto a su madre Maggie (futura presidenta de la unión de comunidades) hacia La Mancomunidad. En el epílogo del Número #193 (ambientado décadas después, cuando los caminantes son extremadamente raros), un Hershel Greene Jr. ya adulto y arrogante administra un espectáculo circense ambulante exhibiendo caminantes encerrados como atracción pública. Cuando varios de sus caminantes son destruidos por Carl Grimes tras invadir su propiedad, Hershel demanda a Carl ante el tribunal de La Mancomunidad, aunque pierde el caso tras la sentencia de la jueza Michonne Hawthorne.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Es el segundo ser humano conocido en nacer tras el estallido del apocalipsis (después de Judith Grimes) y actúa como el antagonista principal del capítulo final de toda la serie (#193).

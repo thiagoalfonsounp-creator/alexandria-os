@@ -1,23 +1,29 @@
+----------ARCHIVO DE PERSONAJES | Spencer Monroe (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-spencer_monroe
 NOMBRE: Spencer Monroe
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Familia Monroe
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #72 (Volumen 12: Life Among Them, Parte 6 de 6).
+Apariciones posteriores: Números #73–#110 (Volúmenes 12 al 19) y
+desenlace en Número #111 (Volumen 19: March To War, Parte 3 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (hijo de el excongresista Douglas Monroe y Regina Monroe).
+- Perfil físico observado: Varón caucásico-americano de entre mediados y finales de los 20 años, complexión atlética/delgada, cabello castaño/rubio oscuro peinado y vestimenta civil casual.
+- Rol post-brote: Residente original de la Zona Segura de Alexandria, miembro de la familia fundadora, guardia de vigilancia perimetral y breve interés romántico de Andrea.
+- Incidente registrado (#72–#90): Presentado durante la fiesta de bienvenida de Alexandria (#72), inicia un cortejo hacia Andrea, aunque ella lo rechaza al descubrir su naturaleza egoísta cuando Spencer le sugiere abandonar la comunidad con suministros durante la invasión de la gran horda (#80–#83). Tras la muerte de sus padres Douglas y Regina Monroe (#77 y #83) y el ascenso de Rick Grimes al liderazgo, Spencer desarrolla un profundo resentimiento y se une a la conspiración liderada por Nicholas para derrocar a Rick (#89–#90).
+- Conspiración contra Rick y desenlace (#98–#111): Cuando Negan y Los Salvadores someten a Alexandria mediante extorsión, Spencer acusa abiertamente a Rick de ser incapaz de proteger al pueblo (#106). En el número #111 (Volumen 19: March To War), aprovechando que Rick se encuentra ausente en El Reino, Spencer invita a Negan a jugar al billar dentro de Alexandria y le propone en secreto que asesine a Rick Grimes para instalarlo a él como líder títere y cooperativo de la comunidad. Disgustado por su traición y cobardía al pedirle a otro hombre que haga el trabajo sucio mientras él mismo no tiene el valor de enfrentar a Rick, Negan saca su cuchillo de caza y le abre el abdomen de un tajo ("Nunca tuviste agallas"), destripándolo en el acto frente a los residentes horrorizados. Instantes después, Rick Grimes regresa a Alexandria y apuñala la cabeza de Spencer en el suelo para evitar su reanimación.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Su ejecución a manos de Negan en el Número #111 (adaptada de manera casi idéntica en la séptima temporada de la serie televisiva de AMC, episodio 7x08 "Hearts Still Beating") detona inmediatamente el inicio de la guerra abierta entre Alexandria y Los Salvadores.

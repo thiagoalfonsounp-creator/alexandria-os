@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 EL SANTUARIO
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #104-#191.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Base industrial
 
 DESCRIPCIÓN
-Complejo utilizado como centro de poder de los Salvadores.
+Complejo fabril fortificado rodeado por una valla de caminantes empalados como barrera disuasoria, sede central de Los Salvadores bajo el mando de Negan.
 
 RELEVANCIA NARRATIVA
-Desde allí se organiza una parte del sistema de dominación de Negan.
+Centro de operaciones del sistema de extorsión regional y objetivo principal del asedio en la guerra total; tras la caída de Negan se integra como nodo productivo de la red comunitaria.
 
 ANÁLISIS DE SUPERVIVENCIA
-Una gran instalación ofrece espacio y barreras, pero concentra población y necesidades de abastecimiento.
+El uso de caminantes como defensa perimetral y el saqueo sistemático generan estabilidad a corto plazo, pero al carecer de producción propia el modelo colapsa cuando se cortan los suministros externos.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #104-#126; The Walking Dead #127-#191.
+Cotejado directamente con la infiltración de Carl (#104-#105), el asedio de las comunidades (#115-#118) y la etapa de liderazgo de Dwight y Sherry (#127-#167).

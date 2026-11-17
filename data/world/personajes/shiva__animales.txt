@@ -4,20 +4,23 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-shiva
 NOMBRE: Shiva
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Animales
+AGRUPACIÓN: Animales
 TIPO: ANIMAL
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #108–#118
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+Tigresa de Bengala rescatada y criada por Ezekiel desde cachorra, durante su
+etapa como cuidador de zoológico. En el cómic aparece junto a él en el Reino
+(#108), donde también representa un símbolo de autoridad y una compañera
+leal. Participa en enfrentamientos contra caminantes y Salvadores durante
+la guerra (#115–#117). Muere en #118 al enfrentarse a una horda para permitir
+que Ezekiel escape.
+
+ANÁLISIS
+Las escenas muestran a Shiva atacando caminantes y combatientes; no se
+infiere de ello inmunidad a la infección ni una regla general sobre animales.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
-
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
-
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+Comic Reference: The Walking Dead #108 (primera aparición), #115–#117
+(participación en combate) y #118 (muerte).

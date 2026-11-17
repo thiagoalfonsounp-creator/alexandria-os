@@ -1,23 +1,28 @@
+----------ARCHIVO DE PERSONAJES | Dr. Stevens (Vol. 5: The Best Defense)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-dr_stevens
-NOMBRE: Dr. Stevens
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+NOMBRE: Dr. Stevens [Nombre completo: Dr. Lawrence Stevens]
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #28 (Volumen 5: The Best Defense, Parte 4 de 6).
+Apariciones posteriores: Números #29–#30 (Vol. 5) y #32 (Volumen 6: This Sorrowful Life).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Médico cirujano / doctor en medicina en Georgia.
+- Perfil físico observado: Varón caucásico-americano de entre mediados y finales de los 50 años, complexión delgada, cabello blanco con calvicie frontal y bata médica o vestimenta formal deteriorada.
+- Rol post-brote: Médico principal del hospital improvisado de Woodbury, Georgia, mentor de la enfermera Alice Warren y figura moralmente opuesta a los métodos sádicos de Brian Blake (El Gobernador).
+- Incidente registrado (#28–#30): Tras la amputación de la mano derecha de Rick Grimes ordenada por el Gobernador, el Dr. Stevens recibe al herido en la clínica y realiza la intervención quirúrgica de emergencia para detener la hemorragia, cauterizar el muñón y salvarle la vida. Posteriormente atiende también a Glenn y expresa abiertamente su repulsión hacia la brutalidad del Gobernador.
+- Desenlace (#32): Convencido por su asistente Alice Warren y apoyado por Caesar Martínez, el Dr. Stevens decide abandonar Woodbury junto a Rick, Glenn y Michonne durante una fuga nocturna. Al cruzar la puerta perimetral hacia el exterior del pueblo, el grupo es sorprendido por caminantes errantes; el Dr. Stevens es atacado y mordido fatalmente en el cuello antes de poder reaccionar. Rick y el resto del grupo deben abandonarlo en el lugar para escapar, quedando su cuerpo expuesto para reanimar como caminante (siendo reemplazado en la clínica de Woodbury por el médico alcohólico Bob Stookey).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (UNIVERSO COMIC-NOVELAS)
+- Continuidad con novelas: Su nombre de pila (Lawrence), su historial clínico en Woodbury y su relación profesional con Alice Warren y Bob Stookey se amplían en las novelas canónicas "The Walking Dead: The Road to Woodbury" y "The Fall of the Governor - Part One" y "Part Two".

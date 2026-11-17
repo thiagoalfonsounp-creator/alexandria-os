@@ -6,6 +6,7 @@ EXPEDIENTE: TW-PER-026
 PERSONAJE: PAMELA MILTON
 CANON: COMIC THE WALKING DEAD, SERIE PRINCIPAL
 ESTADO: FICHA AMPLIADA
+CATEGORÍA ADICIONAL: ANTAGONISTA (secundaria durante el conflicto de la Commonwealth).
 AVISO: CONTIENE SPOILERS
 
 IDENTIFICACION
@@ -29,7 +30,7 @@ CONFIRMED: aparece por primera vez en el numero 176; el conflicto
 de la Commonwealth se desarrolla hasta el numero 193.
 OBSERVED: sus decisiones y sus desacuerdos con Rick se muestran en
 escenas del arco final.
-UNCONFIRMED: su posicion y su vida despues del final que no queden
+NO ESTABLECIDO EN EL CÓMIC: su posicion y su vida despues del final que no queden
 establecidas de forma expresa.
 
 VINCULOS

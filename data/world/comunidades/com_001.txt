@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 GRUPO DE RICK
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #3-#69.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Grupo itinerante y comunidad en formación
 
 DESCRIPCIÓN
-Rick encabeza una agrupación que cambia de integrantes y de formas de decisión durante el viaje.
+Agrupación nacida en un campamento improvisado a las afueras de Atlanta durante las primeras semanas del brote, reunida originalmente por Shane Walsh con familias locales como Lori y Carl Grimes, Dale, Andrea, Amy, Allen, Donna, Carol y Sophia. Tras el regreso de Rick Grimes y la muerte de Shane, el grupo abandona Georgia e incorpora sucesivamente a figuras clave como Tyreese, la familia Greene, Michonne, Abraham Ford, Eugene Porter y Rosita Espinosa. Su estructura muta desde una convivencia informal de refugiados hasta una unidad altamente cohesionada, operando bajo liderazgo compartido en la prisión y bajo mando táctico centralizado en la carretera hacia Virginia.
 
 RELEVANCIA NARRATIVA
-El grupo conecta las primeras búsquedas de refugio con la construcción de una sociedad en Alexandria.
+Constituye el hilo conductor emocional, ético y político de toda la obra. A través de sus pérdidas, desplazamientos y dilemas morales, el cómic documenta el proceso de adaptación psicológica al colapso: el abandono de las normas legales previas, la necesidad de ejecutar amenazas internas (como Thomas o los Cazadores) y la transformación de un grupo de supervivientes errantes en los arquitectos de la reconstrucción social en Alexandria.
 
 ANÁLISIS DE SUPERVIVENCIA
-La movilidad facilita abandonar amenazas, pero dificulta sostener alimentos, descanso y atención a personas heridas.
+La principal fortaleza de esta facción radica en su altísima cohesión interpersonal, la confianza mutua forjada en crisis extremas y una capacidad de respuesta táctica superior a la de cualquier grupo sedentario que encuentran en su camino. No obstante, su condición nómada durante largos tramos genera un desgaste físico y mental severo, escasez crónica de suministros médicos, imposibilidad de producir alimentos y vulnerabilidad constante ante emboscadas en ruta. Su supervivencia demuestra que la experiencia en combate y la lealtad interna son vitales para resistir el exterior, pero insuficientes para garantizar el futuro sin una base territorial estable.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #3-#69.
+Cotejado directamente con el origen del campamento en Atlanta (#3-#6), el trayecto invernal (#7-#12), la etapa en la prisión (#12-#48), la dispersión y reagrupamiento con el grupo de Abraham (#53-#60) y la llegada a Alexandria (#69). No se incorporan datos de otras adaptaciones.

@@ -1,23 +1,32 @@
+Front (caminante) es uno de los primeros zombis que aparecen en la serie, específicamente en el Número 4 del cómic principal, donde ataca a Rick Grimes y Shane Walsh mientras cazan ciervos en el bosque cercano al campamento de Atlanta, siendo abatido por Rick con un hacha.
+
+----------CAMINANTES IDENTIFICADOS | Front (caminante) (Vol. 1: Days Gone Bye)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-front_caminante
 NOMBRE: Front (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #4 (Volumen 1: Days Gone Bye, Parte 4 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (nombre de pila real desconocido).
+- Perfil físico observado: Varón caucásico adulto de complexión delgada, vestimenta civil deteriorada.
+- Reanimación: Falleció por causas desconocidas durante el colapso inicial en Georgia y reanimó como caminante errante en las zonas boscosas cercanas a Atlanta.
+- Incidente registrado (#4): Mientras Rick Grimes y Shane Walsh se internan en el bosque para cazar ciervos y abastecer al campamento de Atlanta, detectan un ejemplar que acaban de abatiro que está siendo devorado en el suelo. Front se encuentra alimentándose del animal junto a otro caminante. Al percibir la presencia humana, se incorpora y avanza directamente hacia ellos.
+- Desenlace (#4): Cuando Front se abalanza sobre ellos, Rick Grimes reacciona rápidamente utilizando un hacha de mano (hatchet) y le asesta un golpe directo en el cráneo, acabando con él en el acto.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / CONTEXTO DE CATALOGACIÓN
+- A diferencia de otros caminantes catalogados mediante relatos complementarios de revistas, Front es una designación utilizada en los archivos del fandom para identificar a este caminante específico de la etapa inicial del cómic principal (Volumen 1).
+- Su encuentro tiene relevancia histórica dentro de la obra: es uno de los primeros enfrentamientos cuerpo a cuerpo de Rick con armas blancas y establece la regla de que los caminantes también cazan fauna silvestre cuando no hay humanos cerca.
+- Este personaje sirvió de inspiración directa para la recordada escena del episodio 1x03 ("Tell It to the Frogs") de la serie televisiva de AMC, donde Daryl Dixon encuentra a un caminante devorando el ciervo que había rastreado.

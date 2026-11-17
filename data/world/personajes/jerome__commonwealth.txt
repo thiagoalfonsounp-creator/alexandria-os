@@ -1,23 +1,33 @@
+----------ARCHIVO DE PERSONAJES | Jerome (Vol. 31: The Rotten Core)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-jerome
 NOMBRE: Jerome
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Commonwealth
+AGRUPACIÓN: La Mancomunidad (The Commonwealth)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: The Rotten Core
+PRIMERA APARICIÓN: #185
+ÚLTIMA APARICIÓN: #185
+ALCANCE: The Walking Dead, serie regular; aparición registrada en #185.
+REFERENCIA PRIMARIA: The Walking Dead #185.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #185 (Volumen 31: The Rotten Core, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón afroamericano adulto (entre 30 y 40 años aproximadamente), complexión media, cabello negro corto y uniforme de empleado de cafetería.
+- Rol post-brote: Residente de clase trabajadora en La Mancomunidad (Ohio), empleado en el distrito comercial de alimentos y bebidas.
+- Incidente registrado y desenlace (#185): En el número #185 (Volumen 31: The Rotten Core), Jerome atiende en la cafetería de La Mancomunidad cuando ingresa Sebastian Milton exigiendo atención preferencial y tratando con desprecio a los empleados. El incidente contribuye al creciente malestar de la clase trabajadora contra los abusos de la familia Milton. Tras dicho episodio no vuelve a ser acreditado por nombre en viñeta, por lo que su estado final al cierre del cómic principal se clasifica oficialmente como vivo (o desconocido sin baja confirmada).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Forma parte de los ciudadanos trabajadores del Volumen 31 cuyas interacciones con Sebastian Milton ilustran las tensiones de clase que desembocan en el motín del Número #191.

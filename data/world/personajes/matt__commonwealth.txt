@@ -1,23 +1,33 @@
+----------ARCHIVO DE PERSONAJES | Matt (Vol. 31: The Rotten Core)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-matt
 NOMBRE: Matt
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Commonwealth
+AGRUPACIÓN: La Mancomunidad (The Commonwealth)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: The Rotten Core
+PRIMERA APARICIÓN: #183
+ÚLTIMA APARICIÓN: #183
+ALCANCE: The Walking Dead, serie regular; aparición registrada en #183.
+REFERENCIA PRIMARIA: The Walking Dead #183.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #183 (Volumen 31: The Rotten Core, Parte 3 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón caucásico-americano joven (alrededor de 20–25 años), complexión delgada, cabello castaño claro corto y delantal/uniforme de dependiente comercial.
+- Rol post-brote: Residente de clase trabajadora en La Mancomunidad (Ohio), empleado como dependiente en un establecimiento comercial de la ciudad.
+- Incidente registrado y desenlace (#183): En el número #183 (Volumen 31: The Rotten Core), Matt atiende en su local comercial cuando ingresa Sebastian Milton (hijo de la gobernadora Pamela Milton) acompañado de su novia Kayla. Sebastian trata a Matt con arrogancia y desprecio, exigiéndole atención inmediata por su estatus privilegiado y provocando un incidente público que evidencia las desigualdades de clase en La Mancomunidad. Tras dicho episodio no vuelve a aparecer acreditado por nombre en viñeta, por lo que su estado final al cierre del cómic principal se clasifica oficialmente como vivo (o desconocido sin baja confirmada).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Nota de desambiguación: No debe confundirse con Matt (novio adolescente de Alicia Clark en la primera temporada de la serie derivada "Fear the Walking Dead", episodio 1x02 "So Close, Yet So Far").

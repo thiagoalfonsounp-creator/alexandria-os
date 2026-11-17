@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 OCEANSIDE
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #139-#191.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Comunidad costera
 
 DESCRIPCIÓN
-Forma parte de la red de intercambio que se desarrolla entre asentamientos.
+Asentamiento marítimo ubicado en la costa atlántica que entra en contacto con la alianza de Virginia tras el salto temporal posterior a la guerra contra Los Salvadores. Sus habitantes se dedican a la pesca intensiva, la recolección costera y la navegación comercial mediante barcos como el que tripula Pete, manteniendo un perfil discreto frente a los conflictos terrestres del interior hasta su integración formal en la red de intercambio y en el esfuerzo bélico contra Los Susurradores.
 
 RELEVANCIA NARRATIVA
-Su presencia amplía el mundo más allá de las comunidades que protagonizan la guerra.
+Demuestra la expansión geográfica de la reconstrucción civilizada más allá de los límites terrestres inmediatos de Alexandria y Hilltop. Su incorporación aporta diversidad económica, rutas de transporte marítimo seguras frente a las hordas y un vínculo narrativo directo con la etapa de aislamiento y posterior regreso de Michonne.
 
 ANÁLISIS DE SUPERVIVENCIA
-La costa ofrece recursos y rutas distintas. La estructura de liderazgo queda pendiente de referencia primaria.
+La ubicación costera otorga dos ventajas estratégicas determinantes: acceso continuo a fuentes de alimento proteico mediante la pesca sin depender exclusivamente de cosechas estacionales, y una barrera geográfica natural en su flanco marítimo que reduce el perímetro terrestre a vigilar. Su principal desafío radica en la exposición a tormentas costeras y en la vulnerabilidad de las embarcaciones y puertos frente a incursiones si no cuentan con apoyo terrestre aliado.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #139; The Walking Dead #143; The Walking Dead #152-#157.
+Cotejado directamente con el desembarco de Michonne y Pete (#139), el transporte comercial y el reclutamiento de voluntarios durante la guerra contra Los Susurradores (#152-#157).

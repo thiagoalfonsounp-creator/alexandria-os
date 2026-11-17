@@ -4,14 +4,18 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-chris_grupo_de_tyreese
 NOMBRE: Chris (grupo de Tyreese)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Grupo de Tyreese
+AGRUPACIÓN: Grupo de Tyreese
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo y datos de aparición.
+ARCO: Miles Behind Us
+PRIMERA APARICIÓN: #7
+ÚLTIMA APARICIÓN: #15 (caminante)
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #7 y última aparición #15 (caminante). El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #7 y #15 (caminante).
+COTEJO: el propietario verificó el contenido narrativo y las apariciones con el cómic; la wiki individual y videos explicativos se usaron como apoyo de contexto.
 
 REGISTRO
-BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
-Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
 
 Registro y Datos del Personaje en el Cómic
 
@@ -35,14 +39,5 @@ Su final se desarrolla de forma brutal en el Número 15 del cómic, marcando una
 • El destino de su cadáver: Rick Grimes dejó a Tyreese a solas en la celda con el cadáver de Chris para que procesara su luto. Horas más tarde, Rick regresó y descubrió con horror que Tyreese no se había movido; se había quedado sentado esperando a que el cadáver de Chris reanimara como caminante. Una vez zombificado, Tyreese comenzó a mutilar y despedazar el cuerpo del chico una y otra vez como un perturbador acto de venganza. Finalmente, Rick tuvo que intervenir y destruir el cerebro del zombi de Chris para dar por cerrado el macabro episodio.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
-SIGUIENTE REVISIÓN
-Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
-
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
-
-FUENTE DE TRABAJO
-Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.
+Referencia verificada: The Walking Dead #7 y #15.

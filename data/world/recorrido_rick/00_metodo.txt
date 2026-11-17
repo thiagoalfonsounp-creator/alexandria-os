@@ -1,49 +1,39 @@
 THE WORLD / RECORRIDO DE RICK
 CRITERIO, ALCANCE Y ESTADO DE EVIDENCIA
 ============================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+Continuidad: cómic principal de The Walking Dead, #1–#193.
 Aviso: contiene spoilers de toda la serie y del epílogo.
 
 QUÉ REPRESENTA
-Los diagramas agrupan lugares y etapas narrativas del recorrido de Rick.
-Son esquemas documentales, no mapas de navegación ni reproducciones
-geográficas a escala. Las líneas y ramas indican secuencia general o
-relación narrativa, nunca una carretera, dirección exacta o distancia.
+Los diagramas ordenan los lugares y desplazamientos que aparecen en el
+recorrido de Rick. Son esquemas topológicos, no mapas de navegación ni
+reproducciones geográficas a escala.
 
-QUÉ NO SE DEDUCE
-El cómic no fija aquí fechas civiles, duración de cada viaje, kilómetros,
-coordenadas de cada refugio ni el trazado completo de las carreteras.
-Esos datos quedan abiertos. El epílogo se trata como coda, no como un
-trayecto de Rick: la ubicación exacta de la granja no se asigna.
+CONVENCIONES
+- La flecha continua indica el movimiento confirmado del grupo que se nombra
+en cada etapa. Cuando el movimiento corresponde a una expedición de aliados
+y no a Rick, el diagrama lo identifica expresamente.
+- La línea punteada indica conflicto, vínculo entre comunidades, salto
+narrativo o trayecto intermedio que no se cartografía.
+- Los números señalan escenas o ventanas narrativas; un rango no afirma que
+Rick esté presente en cada número intermedio.
+- El #193 es el epílogo de Carl y Sophia. Se incluye como coda del legado de
+Rick, no como un viaje que él haya realizado.
 
-EVIDENCIA
-Evidence Level: UNCONFIRMED para las síntesis de esta sección hasta
-cotejar directamente los números y escenas indicados. Las sinopsis y
-ediciones recopilatorias del editor son localizadores editoriales, no
-sustituyen la lectura del cómic. Los rangos de números siguen el índice
-de cronología del proyecto y sirven para orientar la revisión.
+ESTADO DE EVIDENCIA
+Evidence Level: CONFIRMED para las secuencias y escenas citadas en las diez
+etapas, según el cotejo directo consignado por el propietario en las fichas
+recibidas. Esta confirmación no fija carreteras, distancias, coordenadas ni
+duración de viaje que el cómic no establezca.
+Comic Reference: The Walking Dead #1–#193. Cada etapa detalla sus números.
+No se incorporan ubicaciones ni acontecimientos exclusivos de la televisión
+o los videojuegos.
 
-FUENTES EDITORIALES DE LOCALIZACIÓN
-Skybound, ficha oficial de la serie (Cynthiana, Kentucky):
-https://www.skybound.com/the-walking-dead/comics
-Image Comics, The Walking Dead #1:
-https://imagecomics.com/comics/releases/the-walking-dead-1
-Image Comics, The Walking Dead #2:
-https://imagecomics.com/comics/releases/the-walking-dead-2
-Image Comics, The Walking Dead #13:
-https://imagecomics.com/comics/releases/the-walking-dead-13
-Image Comics, Compendium Two (#49-96):
-https://imagecomics.com/comics/releases/the-walking-dead-compendium-two
-Image Comics, Compendium Three (#97-144):
-https://imagecomics.com/comics/releases/the-walking-dead-compendium-three
-Image Comics, Compendium Four (#145-193):
-https://imagecomics.com/comics/releases/the-walking-dead-compendium-four
-
-PENDIENTES
-- Cotejar cada waypoint con el número y la escena del ejemplar.
-- No colocar Oceanside en el recorrido hasta confirmar su pertenencia al
-  canon del cómic con una fuente primaria; permanece en el catálogo general
-  de Ubicaciones con estado UNCONFIRMED.
-- Confirmar si Pittsburgh es un waypoint del recorrido de Rick y establecer
-  su relación con la Commonwealth antes de dibujar una conexión directa.
-- Probar el menú y los diagramas en la VM Debian.
+LÍMITES QUE SE CONSERVAN
+- No se asignan distancias, tiempos de viaje ni coordenadas.
+- Pittsburgh corresponde al paso de la expedición de contacto; el viaje
+posterior de Rick a la Commonwealth se dibuja por separado y sin inventar
+paradas intermedias.
+- La granja del epílogo se identifica como hogar de Carl y Sophia, sin
+asignarle una ubicación geográfica exacta.
+- La visualización en Debian queda pendiente de comprobar tras sincronizar.

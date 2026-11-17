@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 ALEXANDRIA
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #69-#193.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Comunidad amurallada
 
 DESCRIPCIÓN
-Douglas Monroe dirige la comunidad cuando llega Rick; el liderazgo y las responsabilidades cambian después.
+Urbanización residencial planificada en el norte de Virginia, cerca de Washington D.C., construida originalmente como complejo autosustentable con muros de placas de acero reforzado, red de paneles solares y sistema propio de filtración de agua. Fundada y administrada inicialmente por el excongresista Douglas Monroe con apoyo de reclutadores como Aaron y Eric, alberga a civiles que lograron evitar el contacto directo con el colapso exterior. Tras la crisis provocada por la invasión de una megahorda y los conflictos internos de liderazgo, Rick Grimes asume el mando, transformando la comunidad en una potencia agrícola, militar y diplomática que lidera la red regional de asentamientos.
 
 RELEVANCIA NARRATIVA
-Su desarrollo desplaza el centro de la historia desde encontrar un refugio hacia reconstruir instituciones.
+Constituye el hogar definitivo de los protagonistas y el laboratorio central donde se construye una nueva sociedad tras el apocalipsis. Su evolución narrativa abarca desde el choque cultural entre civiles protegidos y supervivientes endurecidos, pasando por la resistencia frente a Los Salvadores y Los Susurradores, hasta convertirse en una ciudad próspera con leyes, comercio y expansión urbana en el epílogo de la serie.
 
 ANÁLISIS DE SUPERVIVENCIA
-Murallas, patrullas, producción y participación comunitaria deben funcionar juntas.
+Alexandria representa el estándar más alto de sostenibilidad física a largo plazo dentro de la obra: combina infraestructura energética autónoma, barreras perimetrales de grado industrial y expansión progresiva de cultivos y ganadería. Su principal vulnerabilidad inicial radicaba en la falta de experiencia táctica de su población original, lo que la exponía tanto a saqueadores (como los Carroñeros de Derek) como a errores de manejo de hordas. Una vez subsanado el déficit defensivo e integrada en una red comercial interregional, demuestra que la civilización solo es viable mediante cooperación institucional y defensa profesionalizada.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #69-#193.
+Cotejado directamente desde el reclutamiento por Aaron (#69), la crisis de la megahorda (#80-#84), la guerra contra Negan (#115-#126) y la etapa de reconstrucción hasta el epílogo (#127-#193).

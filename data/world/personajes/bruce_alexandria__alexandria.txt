@@ -1,23 +1,30 @@
+----------ARCHIVO DE PERSONAJES | Bruce (Alexandria) (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-bruce_alexandria
 NOMBRE: Bruce (Alexandria)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #69 (Volumen 12: Life Among Them, Parte 3 de 6).
+Apariciones posteriores: Números #70–#79 (Volúmenes 12 y 13: Too Far Gone) y
+desenlace en Número #80 (Volumen 14: No Way Out, Parte 2 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón caucásico-americano de entre 30 y 40 años aproximadamente, complexión media, cabello oscuro corto, gafas de montura negra y vestimenta de trabajo/construcción.
+- Rol post-brote: Residente de la Zona Segura de Alexandria (incorporado a la comunidad meses antes de la llegada de Rick Grimes) y miembro activo de la cuadrilla de construcción y seguridad de muros junto a Tobin, Holly, Clyde y Jamie.
+- Incidente registrado (#69–#79): Aparece por primera vez escoltando los vehículos y dando la bienvenida al grupo de Rick Grimes cuando ingresan a Alexandria junto a Aaron y Eric (#69). Trabaja bajo las órdenes de Tobin y posteriormente de Abraham Ford en el mantenimiento y ampliación de las murallas perimetrales, forjando una relación de respeto con Abraham al compartir la experiencia de haber llegado a la zona segura tiempo después de su fundación (#73). También participa en la defensa armada de la comunidad durante el ataque de Los Carroñeros (The Scavengers) en el número #79.
+- Desenlace (#80): A la mañana siguiente del tiroteo contra Los Carroñeros, Bruce integra la patrulla de limpieza enviada al exterior de las murallas para despejar a los caminantes atraídos por el ruido de los disparos. Al descubrir que una megahorda masiva avanza directamente hacia Alexandria, el equipo emprende una retirada urgente hacia el portón principal; durante el repliegue, Bruce es sorprendido y mordido fatalmente en el cuello por un caminante antes de poder cruzar la puerta. Ya dentro del recinto y agonizando sin posibilidad de salvación, Abraham Ford le dispara en la cabeza en un acto de misericordia para evitar su sufrimiento y reanimación (acción rápida que inicialmente provoca que Holly abofetee a Abraham en estado de shock).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Contexto narrativo: Es el primer residente conocido de la Zona Segura de Alexandria en morir a causa del ataque de la gran horda en el Volumen 14 (No Way Out).
+- Nota de desambiguación: No debe confundirse con Bruce (Woodbury) [Bruce Allan Cooper], jefe de seguridad y mano derecha de El Gobernador entre los números #27 y #43, ni con el personaje homónimo de la serie televisiva de AMC (temporadas 5 a 8, quien muere en el episodio 8x13 "Do Not Send Us Astray" tras ser herido por un arma contaminada de Los Salvadores).

@@ -1,23 +1,37 @@
+----------ARCHIVO DE PERSONAJES | Earl Sutton (Vol. 16: A Larger World)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-earl_sutton
 NOMBRE: Earl Sutton
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Hilltop
+AGRUPACIÓN: Colonia Hilltop
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: A Larger World
+PRIMERA APARICIÓN: #95
+ÚLTIMA APARICIÓN: #193
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #95 y última aparición #193. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #95 y #193.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #95 (Volumen 16: A Larger World, Parte 5 de 6).
+Apariciones posteriores: Números #96–#192 (Volúmenes 16 al 31) y epílogo en
+Número #193 (Volumen 32: Rest In Peace).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Maestro herrero jubilado en Estados Unidos.
+- Perfil físico observado: Varón caucásico-americano mayor (desde finales de los 40 años en su debut hasta finales de los 70 en el epílogo), complexión robusta, cabello negro canoso con calvicie frontal y barba espesa.
+- Rol post-brote: Residente original y herrero principal de la Colonia Hilltop, fabricante de armas cuerpo a cuerpo y herramientas agrícolas, y mentor de Rolland, Carl Grimes y Mikey.
+- Incidente registrado (#95–#126): Presentado a Rick Grimes por Paul "Jesus" Monroe durante la primera visita a Hilltop (#95), Earl fabrica las lanzas, cuchillos y armaduras que suplen la escasez de municiones de la comunidad. Durante la Guerra Total contra Los Salvadores (All Out War), forja la emblemática prótesis metálica con gancho para el brazo derecho amputado de Rick Grimes y sobrevive al asalto nocturno de Negan sobre Hilltop.
+- Etapa de mentoría y Guerra contra Los Susurradores (#129–#174): Tras el salto temporal de dos años, acepta a Carl Grimes como aprendiz de herrería en Hilltop (#129–#131). Cuando los miembros de Los Susurradores atacan e incendian Hilltop durante la guerra (#159–#161), Earl combate en la defensa de la comunidad y posteriormente ayuda a rescatar a los sobrevivientes de las ruinas.
+- Desenlace (#193): En el epílogo del Número #193 (ambientado décadas después), Earl Sutton continúa vivo a avanzada edad, retirado en una cabaña en el bosque acompañado de sus tres perros cerca de la granja de Carl y Sophia Grimes.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Es uno de los personajes secundarios más longevos del cómic principal (28 apariciones desde el #95 hasta el #193) y el creador de la prótesis de mano de Rick Grimes.

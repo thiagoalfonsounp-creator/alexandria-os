@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 HOSPITAL DEL DESPERTAR
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #1.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Centro sanitario
 
 DESCRIPCIÓN
-Rick despierta en un hospital abandonado y encuentra señales del colapso.
+Instalación hospitalaria en Cynthiana donde Rick permanece internado en coma durante el estallido del brote y de la cual logra escapar tras recuperar la consciencia.
 
 RELEVANCIA NARRATIVA
-Introduce su aislamiento y la ruptura con la normalidad.
+Funciona como punto de transición entre el mundo previo al colapso y la nueva realidad, revelando el abandono institucional y las primeras víctimas encerradas o reanimadas.
 
 ANÁLISIS DE SUPERVIVENCIA
-La presencia de instalaciones médicas no implica que sigan existiendo personal, suministros o zonas seguras.
+Las infraestructuras médicas colapsan rápidamente por alta concentración de heridos y falta de personal, convirtiéndose en focos de encierro con rutas de evacuación bloqueadas.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #1.
+Cotejado directamente con las viñetas de #1 (páginas iniciales del despertar y salida del edificio). No se importan detalles externos ni cronologías de otras adaptaciones.

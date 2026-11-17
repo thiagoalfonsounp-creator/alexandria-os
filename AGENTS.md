@@ -48,8 +48,8 @@ Describí primero la escena y separá de ella cualquier interpretación. No pres
 ## Organización del contenido
 
 - Reservá expedientes completos para personajes de relevancia narrativa alta. Incluí información interesante de personajes secundarios cuando aporte al archivo.
-- Mantené `data/world/personajes_index.tsv` como índice de personajes, antagonistas, animales y caminantes identificados. Sus columnas son `PERSONAJE`, `GRUPO`, `TIPO`, `NIVEL`, `ARCO`, `PRIMERA_APARICION` y `ARCHIVO`. Cada entrada debe apuntar a una ficha existente y distinguir esas categorías y los niveles de detalle.
-- Mostrá el arco y el número de primera aparición entre paréntesis junto a cada nombre cuando estén confirmados. Si la fuente primaria no permite confirmarlos, usá `Arco no confirmado` y dejá los campos correspondientes como `UNCONFIRMED`; no deduzcas el arco a partir de la comunidad o la familia.
+- Mantené `data/world/personajes_index.tsv` como índice de personajes, antagonistas, animales y caminantes identificados. Sus columnas son `PERSONAJE`, `GRUPO`, `TIPO`, `NIVEL`, `ARCO`, `PRIMERA_APARICION`, `ULTIMA_APARICION` y `ARCHIVO`. Cada entrada debe apuntar a una ficha existente y distinguir esas categorías y los niveles de detalle. Si una ficha corresponde a más de una categoría, permití varias filas que apunten al mismo archivo y contá el perfil único una sola vez.
+- En los selectores de Personajes y Antagonistas, mostrá el nombre limpio y, en la columna de detalle, el tomo/arco de debut más los números de primera y última aparición cuando estén confirmados. No muestres las categorías internas de nivel de detalle; `NIVEL` se conserva para el formato de las fichas y los retratos. El intervalo indica los extremos, no que el personaje aparezca en cada número intermedio. Si la fuente primaria no permite confirmarlos, usá `Arco no confirmado` y dejá los campos correspondientes como `UNCONFIRMED`; no deduzcas el arco a partir de la comunidad o la familia.
 - El alcance del archivo principal es la serie regular, números 1-193, y su epílogo. Identificá por separado los materiales complementarios que queden fuera de ese alcance.
 - Registrá ubicaciones relevantes para la historia, la supervivencia o los conflictos.
 - Ordená las cronologías según el orden interno de los acontecimientos. Marcá como aproximadas o desconocidas las fechas que el cómic no precise.
@@ -58,7 +58,7 @@ Describí primero la escena y separá de ella cualquier interpretación. No pres
 
 ## Implementación y datos
 
-- La interfaz usa Bash y `dialog`; conservá la navegación por teclado y los textos en español.
+- La interfaz conserva Bash y `dialog` en sus módulos. El menú principal usa Python/curses y Chafa para representar el logo en la terminal; mantené la navegación por teclado, los textos en español y el funcionamiento sin escritorio gráfico.
 - Guardá los expedientes de texto en `data/` y conectá cada opción del menú con su archivo o módulo correspondiente.
 - Conservá los permisos ejecutables de los scripts de `bin/` y `src/`.
 - Algunos scripts asumen `/home/walker/alexandria-os` o `$HOME/alexandria-os`. Si se cambian esas rutas, actualizá todos los puntos afectados y documentá el nuevo requisito.

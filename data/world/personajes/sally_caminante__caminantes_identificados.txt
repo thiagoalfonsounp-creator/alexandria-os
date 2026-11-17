@@ -1,23 +1,32 @@
+
+Sally (caminante) es una zombi que aparece en el Número 52 del cómic principal, durante la etapa en la que Rick y Carl Grimes viajan solos por la carretera tras la caída de la prisión, aunque en la continuidad oficial se desconoce si llegó a ser abatida.
+
+----------CAMINANTES IDENTIFICADOS | Sally (caminante) (Vol. 9: Here We Remain)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-sally_caminante
 NOMBRE: Sally (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #52 (Volumen 9: Here We Remain, Parte 4 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Perfil físico observado: Mujer caucásica de entre 30 y 35 años aproximadamente, de cabello rubio.
+- Reanimación: Falleció por causas desconocidas durante el inicio del brote y reanimó como caminante en Georgia.
+- Incidente registrado (#52): Tras recuperarse parcialmente de su enfermedad y abandonar la casa donde se refugiaban, Rick Grimes emprende el viaje por carretera junto a Carl. Sally aparece como parte de los caminantes errantes que se cruzan en el camino durante este trayecto (mismo capítulo en el que Rick utiliza el teléfono de juguete/desconectado para "hablar" con Lori).
+- Desenlace (#52): En el cómic principal no se muestra su eliminación definitiva, por lo que su estado final se clasifica como desconocido (presuntamente activa/errante).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (NO CANÓNICO)
+- En el cómic principal nunca se menciona su nombre. Su identidad fue establecida posteriormente en la historia corta humorística "The Secret Diary of a Walker" (publicada en The Walking Dead: The Official Magazine).
+- En dicha versión paródica (NO CANÓNICA), Sally decide unirse a la caminata anual de caminantes ("Walkers' Walk") junto a Al y otros zombis. En ese relato alternativo es atropellada accidentalmente por Carl Grimes en un vehículo, detalle que no ocurre en la continuidad oficial del cómic.

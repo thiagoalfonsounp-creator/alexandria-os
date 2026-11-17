@@ -1,23 +1,35 @@
+----------ARCHIVO DE PERSONAJES | Yumiko (Vol. 22: A New Beginning)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-yumiko
 NOMBRE: Yumiko
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Grupo de Magna
+AGRUPACIÓN: Grupo de Magna / Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: A New Beginning
+PRIMERA APARICIÓN: #127
+ÚLTIMA APARICIÓN: #192
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #127 y última aparición #192. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #127 y #192.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #127 (Volumen 22: A New Beginning, Parte 1 de 6).
+Apariciones posteriores: Números #128–#192 (Volúmenes 22 al 31: The Rotten Core).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido; ascendencia japonesa-americana, pareja sentimental de Magna).
+- Perfil físico observado: Mujer asiático-americana de entre finales de los 20 y principios de los 30 años, complexión atlética/delgada, cabello negro largo habitualmente recogido en una coleta y vestimenta de exploración o combate.
+- Rol post-brote: Miembro del grupo nómada de Magna; posteriormente residente integrada en la Zona Segura de Alexandria, exploradora y soldado veterana de la milicia comunitaria.
+- Incidente registrado (#127–#139): Aparece por primera vez viajando en caravana junto a Magna, Kelly, Connie, Luke y Bernie en las inmediaciones de Washington D.C. tras el salto temporal de dos años (#127). Cuando su grupo es emboscado por una horda de caminantes desviada por Paul "Jesus" Monroe y su patrulla, pierden a Bernie y son rescatados y escoltados hacia la Zona Segura de Alexandria (#127–#128). Al principio desconfía de la aparente perfección de Alexandria y colabora en secreto con Magna para investigar la comunidad e incluso descubrir la celda subterránea donde está encerrado Negan (#135–#139), aunque finalmente reconoce la buena fe de Rick Grimes y se integra plenamente.
+- Guerra contra Los Susurradores y La Mancomunidad (#158–#192): Combate en primera línea durante la Guerra contra Los Susurradores (#158–#174), participando en la defensa de Alexandria frente a la megahorda de Beta (#163–#167). Posteriormente acompaña a la expedición diplomática hacia La Mancomunidad (#175–#192) y apoya la estabilización de la comunidad tras el asesinato de Rick Grimes. Su última aparición ocurre en el Número #192 (Volumen 31: The Rotten Core), confirmándose viva al cierre de la serie regular (su destino posterior tras el salto temporal del epílogo #193 no se muestra).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Es una de las integrantes más longevas del grupo de Magna (52 apariciones en total) y forma junto a Magna una de las parejas estables más relevantes de la segunda mitad de la serie.

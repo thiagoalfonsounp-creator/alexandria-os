@@ -1,6 +1,9 @@
 #!/bin/bash
 
-carpeta="$HOME/alexandria-os/imports/comics"
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd -- "$SCRIPT_DIR/../.." && pwd)"
+export ALEXANDRIA_ROOT="${ALEXANDRIA_ROOT:-$PROJECT_ROOT}"
+carpeta="$ALEXANDRIA_ROOT/imports/comics"
 
 while true; do
     opcion=$(dialog --title "THE COMIC ARCHIVE" \
@@ -26,7 +29,7 @@ while true; do
         2)
             dialog --title "IMPORTAR ARCHIVOS" --msgbox "Copiá en $carpeta los cómics PDF o CBZ que tengas derecho a usar. Después elegí Ver catálogo local." 9 72
             ;;
-        3) bash "$HOME/alexandria-os/src/comic_archive/lector_pdf.sh" ;;
+        3) bash "$PROJECT_ROOT/src/comic_archive/lector_pdf.sh" ;;
         0|"") break ;;
         *) break ;;
     esac

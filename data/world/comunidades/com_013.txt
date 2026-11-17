@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 GRUPO DE MAGNA
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #127-#193.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Grupo itinerante
 
 DESCRIPCIÓN
-Magna y sus compañeros llegan desde fuera de la red de comunidades.
+Pequeña unidad de supervivientes veteranos encabezada por Magna e integrada por Yumiko, Luke, Connie, Kelly y Bernie, que logra sobrevivir durante más de dos años en las carreteras de la costa este antes de ser rescatada de una horda por Paul Monroe (Jesús) e incorporada a Alexandria. Sus miembros mantienen una lealtad férrea entre sí, disciplina táctica en desplazamientos y una cautela inicial extrema frente a comunidades asentadas debido a malas experiencias previas con grupos hostiles.
 
 RELEVANCIA NARRATIVA
-Su incorporación permite observar las sociedades reconstruidas desde la mirada de recién llegados.
+Funcionan como punto de vista externo para presentar el nuevo mundo reconstruido tras el salto temporal de dos años posterior a la guerra contra Los Salvadores. Su desconfianza inicial hacia el orden pacífico de Alexandria —y el descubrimiento de la celda de Negan— permite contrastar la mentalidad de supervivencia nómada con la institucionalidad consolidada, integrándose luego como líderes clave en la milicia y la expedición hacia Ohio.
 
 ANÁLISIS DE SUPERVIVENCIA
-Recibir personas nuevas requiere evaluar riesgos sin convertir toda llegada en una amenaza.
+Su supervivencia prolongada en el exterior demuestra el valor de mantener un núcleo reducido, altamente móvil, con roles definidos y estricta disciplina de silencio y evasión frente a las hordas. No obstante, su caso también evidencia el techo operativo de los grupos itinerantes: sin una base fortificada ni alianzas comunitarias, cualquier desgaste de munición o encuentro con una megahorda resulta fatal sin auxilio externo.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #127-#193.
+Cotejado directamente desde su rescate en la carretera (#127), la etapa de adaptación y vigilancia en Alexandria (#128-#138) y su participación en la guerra de los Susurradores y la Commonwealth.

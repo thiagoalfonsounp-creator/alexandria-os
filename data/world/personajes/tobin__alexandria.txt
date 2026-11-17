@@ -1,23 +1,30 @@
+----------ARCHIVO DE PERSONAJES | Tobin (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-tobin
 NOMBRE: Tobin
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #69 (Volumen 12: Life Among Them, Parte 3 de 6).
+Apariciones posteriores: Números #70–#80 (Volúmenes 12 al 14) y
+desenlace en Número #81 (Volumen 14: No Way Out, Parte 3 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Trabajador en una planta desalinizadora en Estados Unidos (apellido desconocido).
+- Perfil físico observado: Varón caucásico-americano de finales de los 30 años, complexión media, cabello negro corto y vestimenta de trabajo de construcción.
+- Rol post-brote: Residente original de la Zona Segura de Alexandria y capataz/jefe inicial de la cuadrilla de construcción y mantenimiento de muros perimetrales junto a Bruce, Holly, Clyde y Jamie.
+- Incidente registrado (#69–#75): Aparece por primera vez trabajando en las murallas de Alexandria durante la llegada del grupo de Rick Grimes (#69) y recluta a Abraham Ford para reforzar el equipo de obra (#73). Cuando una horda de caminantes ataca a los obreros en el exterior, Tobin entra en pánico y huye abandonando a Holly a su suerte, quien es rescatada por Abraham. Avergonzado por su cobardía (y admitiendo que sus malas decisiones previas ya habían costado vidas en la comunidad), Tobin cede voluntariamente el mando de la cuadrilla a Abraham Ford ante Douglas Monroe (#74).
+- Defensa de Alexandria y desenlace (#79–#81): Participa en la defensa armada de la comunidad durante el ataque de Los Carroñeros (#79) y en la contención de la megahorda de caminantes atraída por los disparos (#80–#81). Mientras vigila junto a Holly una sección debilitada del muro perimetral en el número #81, la estructura colapsa bajo el peso de los muertos vivientes; redimiéndose de su cobardía pasada, Tobin ordena a Holly correr a alertar a Rick y al resto de los sobrevivientes mientras él se queda solo intentando frenar la brecha. Es rápidamente superado, derribado y destripado/devorado vivo por los caminantes (su cadáver siendo devorado es hallado instantes después por Rick y Holly).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Su sacrificio en el Número #81 cierra su arco de redención frente a Holly tras haberla abandonado en el Volumen 13.
+- Diferencia con la adaptación televisiva: En la serie de AMC (temporadas 5 a 8), Tobin sobrevive mucho más tiempo, mantiene un breve romance con Carol Peletier y muere durante el ataque de Los Salvadores a la Colonia Hilltop (episodio 8x13 "Do Not Send Us Astray") tras ser herido por un arma contaminada con vísceras de caminante y ser abatido por Carol al reanimar.

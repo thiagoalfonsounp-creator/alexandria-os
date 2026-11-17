@@ -1,0 +1,11 @@
+ALEXANDRIA OS | THE WORLD
+FIELD OBSERVATIONS
+============================================================
+
+Observation ID: FO-013
+Subject: Comportamiento en medios acuáticos
+Comic Reference: The Walking Dead #148
+Description: Se registran caminantes sumergidos o arrastrados en cuerpos de agua que mantienen actividad motriz básica en el fondo o en zonas poco profundas sin sufrir asfixia.
+Analysis: La ausencia de necesidad respiratoria evita el ahogamiento, aunque la flotabilidad nula y la falta de coordinación motriz les impiden nadar de forma efectiva en aguas profundas.
+Evidence Level: OBSERVED
+Conclusion: Las masas de agua funcionan como barreras naturales parciales que ralentizan el desplazamiento, pero no eliminan a los caminantes sumergidos.

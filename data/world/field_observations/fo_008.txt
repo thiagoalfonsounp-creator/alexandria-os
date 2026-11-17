@@ -1,0 +1,11 @@
+ALEXANDRIA OS | THE WORLD
+FIELD OBSERVATIONS
+============================================================
+
+Observation ID: FO-008
+Subject: Respuesta térmica y ausencia de dolor ante el fuego
+Comic Reference: The Walking Dead #14
+Description: Durante un ataque en la autopista, un caminante entra en contacto con el fuego y continúa avanzando hacia los supervivientes mientras arde, sin emitir señales de dolor ni intentar alejarse de la fuente de calor.
+Analysis: El daño térmico no activa reflejos de autoconservación ni interrumpe la locomoción de forma inmediata; el sujeto solo se detiene cuando el tejido muscular o el sistema nervioso sufren destrucción severa.
+Evidence Level: OBSERVED
+Conclusion: El fuego no funciona como elemento disuasorio inmediato y puede incrementar el riesgo ambiental al generar vectores móviles en llamas.

@@ -1,23 +1,28 @@
+----------ARCHIVO DE PERSONAJES | Craig (Vol. 10: What We Become)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-craig
-NOMBRE: Craig
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Saqueadores
+NOMBRE: Craig [Apellido en material complementario: Denton]
+AGRUPACIÓN: Los Saqueadores (The Marauders)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #57 (Volumen 10: What We Become, Parte 3 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos en el canon principal.
+- Perfil físico observado: Varón caucásico-americano de alrededor de 40 años, complexión robusta, cabello oscuro desaliñado y barba espesa.
+- Rol post-brote: Líder de la banda de asaltantes y saqueadores de caminos conocida como Los Saqueadores (The Marauders), operando junto a sus compañeros Andy y Jud en las carreteras rumbo a Kentucky.
+- Incidente registrado (#57): Durante la primera noche del viaje de abastecimiento de Rick Grimes, Carl y Abraham Ford hacia Cynthiana, Craig encabeza la emboscada nocturna en la carretera para robarles sus pertenencias y vehículos. Apunta directamente a la cabeza de Abraham Ford con su revólver para mantenerlo reducido mientras Andy sujeta a Rick y Jud intenta agredir sexualmente a Carl.
+- Desenlace (#57): En el instante en que Rick Grimes se libera mordiendo fatalmente la garganta de Andy, Craig desvía su atención hacia ellos. Abraham Ford aprovecha la distracción para golpearlo, desarmarlo, quitarle su propio revólver y dispararle directamente en la cabeza, acabando con él en el acto.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Apellido en guiones/adaptaciones: En ciertos materiales de referencia y wikis derivadas se le identifica bajo el apellido "Denton" junto a Andy y Jud (presentados a veces como hermanos), aunque en los diálogos del cómic principal únicamente se emplea su nombre de pila ("Craig").
+- Nota de desambiguación: No debe confundirse con Craig (residente de la Colonia Hilltop encargado de transportar provisiones a Los Salvadores), quien aparece mucho más adelante en el Número #95 (Volumen 16: A Larger World).

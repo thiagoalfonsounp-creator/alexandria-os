@@ -1,23 +1,30 @@
+----------ARCHIVO DE PERSONAJES | Eugene Cooney (Vol. 6: This Sorrowful Life)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
-EXPEDIENTE: TW-PER-BR-eugene_woodbury
-NOMBRE: Eugene Cooney
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+EXPEDIENTE: TW-PER-BR-eugene_cooney
+NOMBRE: Eugene Cooney [Alias: Cooney]
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #31 (Volumen 6: This Sorrowful Life, Parte 1 de 6).
+Apariciones posteriores: Números #32 (Vol. 6) y #45–#47 (Volumen 8: Made To Suffer).
+Mención de desenlace: Número #48 (Volumen 8: Made To Suffer, Parte 6 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Soldado/veterano de las fuerzas armadas de Estados Unidos.
+- Perfil físico observado: Varón caucásico-americano de entre mediados y finales de los 30 años, complexión muy grande y musculosa, cabeza rapada/calvo y expresión agresiva.
+- Rol post-brote: Residente de Woodbury, Georgia, gladiador estrella en los combates clandestinos organizados por Brian Blake (El Gobernador) y posteriormente miembro de la milicia armada.
+- Incidente registrado (#31–#32): El Gobernador obliga a Michonne Hawthorne a luchar desarmada contra Eugene Cooney en la arena rodeada de caminantes encadenados para divertir a los habitantes de Woodbury. Aprovechando su superioridad física, Cooney la golpea brutalmente, pero Michonne logra revertir el combate utilizando técnicas de esgrima con sus propias manos, rompiéndole el brazo izquierdo y golpeándolo repetidamente contra el suelo hasta dejarlo inconsciente. En el número #32 se le ve recuperándose con el brazo en cabestrillo.
+- Asalto a la prisión y desenlace (#45–#48): Tras recuperarse de su fractura, se une al ejército de Woodbury durante el ataque a la prisión. Participa en la ofensiva final tras el derribo de las vallas con el tanque (#47). Muere fuera de panel durante el caos de la batalla y la invasión de caminantes entre los números #47 y #48 (en el #48, Lilly Caul y los sobrevivientes restantes de Woodbury confirman que todos los demás atacantes en el patio murieron devorados o abatidos).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Continuidad con novelas: Su apellido (Cooney) y su trasfondo militar previo al apocalipsis se amplían en las novelas canónicas "The Walking Dead: The Rise of the Governor" (como personaje secundario temprano) y "The Walking Dead: The Fall of the Governor - Part One" y "Part Two".
+- Nota de desambiguación: No debe confundirse con Eugene Porter (miembro principal del grupo de Rick Grimes que debuta en el Número #53).

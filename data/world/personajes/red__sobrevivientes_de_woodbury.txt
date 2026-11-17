@@ -4,14 +4,18 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-red
 NOMBRE: Red
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo y datos de aparición.
+ARCO: Made to Suffer
+PRIMERA APARICIÓN: #43
+ÚLTIMA APARICIÓN: #48
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #43 y última aparición #48. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #43 y #48.
+COTEJO: el propietario verificó el contenido narrativo y las apariciones con el cómic; la wiki individual y videos explicativos se usaron como apoyo de contexto.
 
 REGISTRO
-BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
-Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
 
 Registro y Datos del Personaje en el Cómic
 
@@ -35,14 +39,5 @@ A diferencia de los guardias principales que mueren bajo las orugas del tanque b
 Su cuerpo quedó abandonado e irreconocible en el campo de batalla, reanimando minutos después como un caminante más dentro de una prisión completamente destruida, desierta y consumida por las llamas.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
-SIGUIENTE REVISIÓN
-Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
-
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
-
-FUENTE DE TRABAJO
-Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.
+Referencia verificada: The Walking Dead #43 y #48.

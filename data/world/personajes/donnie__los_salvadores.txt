@@ -1,23 +1,36 @@
+----------ARCHIVO DE PERSONAJES | Donnie (Vol. 18: What Comes After)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-donnie
 NOMBRE: Donnie
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Los Salvadores
+AGRUPACIÓN: Los Salvadores (The Saviors)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: What Comes After
+PRIMERA APARICIÓN: #104
+ÚLTIMA APARICIÓN: #114
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #104 y última aparición #114. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #104 y #114.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #104 (Volumen 18: What Comes After, Parte 2 de 6).
+Apariciones posteriores: Números #111–#113 (Volumen 19: March To War) y
+desenlace en Número #114 (Volumen 19: March To War, Parte 6 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón caucásico-americano adulto (entre 30 y 40 años aproximadamente), complexión robusta, cabello oscuro corto, perilla/barba recortada y chaqueta o equipo de combate.
+- Rol post-brote: Soldado veterano y guardia personal dentro de la escolta de Negan en Los Salvadores.
+- Incidente registrado (#104–#113): Aparece por primera vez integrando la comitiva armada de Negan que acude a Alexandria para recolectar tributos (#104) y regresa en el número #111 (presenciando la ejecución de Spencer Monroe a manos de Negan). En los números #113–#114, forma parte de las tropas que acompañan a Negan cuando toma como rehenes a Rick Grimes, Heath, Nicholas y Holly en la calle principal de Alexandria tras descubrir el intento de asesinato perpetrado por Carl Grimes.
+- Desenlace (#114): Al cierre del Volumen 19 (March To War, número #114), cuando Negan se dispone a ejecutar a los rehenes alineados frente a las casas, Andrea dispara desde el campanario abatendo al Salvador que sostenía a Rick, desatando una emboscada sorpresa coordinada por Rick Grimes, Jesus, Ezekiel y los soldados de El Reino. En el intercambio inicial de disparos a quemarropa en medio de la calle, Donnie es alcanzado mortalmente por los disparos de los defensores de Alexandria y los refuerzos de El Reino, muriendo en el acto antes de poder responder al fuego.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Forma parte del grupo de guardias de élite de Negan abatidos en la emboscada del Número #114 que marca el inicio oficial de la Guerra Total (All Out War).

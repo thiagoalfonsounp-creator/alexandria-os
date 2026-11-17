@@ -1,23 +1,29 @@
+----------ARCHIVO DE PERSONAJES | Lola (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-lola
 NOMBRE: Lola
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #70 (Volumen 12: Life Among Them, Parte 4 de 6).
+Apariciones posteriores: Número #71 (Vol. 12: Life Among Them) y
+Número #76 (Volumen 13: Too Far Gone, Parte 4 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Estudiante de escuela primaria en Estados Unidos (apellido y padres desconocidos).
+- Perfil físico observado: Niña caucásico-americana de entre 7 y 10 años de edad, cabello castaño y vestimenta infantil casual.
+- Rol post-brote: Residente infantil original de la Zona Segura de Alexandria y alumna de las clases escolares impartidas a los niños de la comunidad.
+- Incidente registrado (#70–#71): Tras el ingreso del grupo de Rick Grimes a Alexandria, Lola es presentada como una de las niñas residentes de la comunidad que juega regularmente junto a Ron Anderson, Mikey y Josh. Cuando Carl Grimes intenta integrarse con los niños locales, Lola presencia el primer altercado y discusión entre Carl y Mikey en el patio (#70) y vuelve a aparecer jugando con ellos en el número #71.
+- Aparición posterior y desenlace (#76 y #80–#83): En el número #76 se la observa asistiendo a clase junto a Ron Anderson. Tras dicho capítulo, Lola no vuelve a aparecer en el cómic principal; debido a que desaparece de escena justo antes de la invasión de la gran horda de caminantes sobre Alexandria (Volumen 14: No Way Out, números #80–#83), su estado final se clasifica oficialmente como desconocido (presuntamente fallecida durante el asedio o evacuada fuera de panel).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Dato editorial y de producción: Lola no pronuncia ninguna línea de diálogo en sus tres apariciones en el cómic principal. Su nombre fue revelado oficialmente por Robert Kirkman en la sección "Cutting Room Floor" del Número #71, donde publicó su lista original de habitantes de Alexandria.

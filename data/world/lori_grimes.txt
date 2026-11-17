@@ -6,85 +6,103 @@ EXPEDIENTE: TW-PER-003
 PERSONAJE: LORI GRIMES
 FUENTE CANONICA: COMIC THE WALKING DEAD
 ESTADO: FICHA INTEGRAL
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo, arco, primera y última aparición.
+ARCO: Days Gone Bye
+PRIMERA APARICIÓN: #1 (fotografía; presencia física desde #2)
+ÚLTIMA APARICIÓN: #87 (voz, alucinación)
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #1 (fotografía; presencia física desde #2) y última aparición #87 (voz, alucinación). El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #1 (fotografía; presencia física desde #2) y #87 (voz, alucinación).
+COTEJO: el propietario cotejó el contenido y las apariciones con el cómic; consultó la wiki individual y videos explicativos como apoyo de contexto.
+
 AVISO: CONTIENE SPOILERS DEL COMIC
 
 IDENTIFICACION
+
 Lori Grimes es la esposa de Rick y madre de Carl. Al
 comienzo del apocalipsis, huye junto a su hijo y Shane,
 un compañero de Rick que cree que Rick ha muerto.
 
 REUNION CON RICK
+
 Lori y Carl encuentran refugio con otros sobrevivientes
 cerca de Atlanta. Cuando Rick logra reunirse con ellos,
 la familia intenta recomponerse en medio del peligro.
-
 El regreso de Rick cambia la relación entre los tres.
 Lori había empezado una relación con Shane mientras creía
 que su marido no volvería. El conflicto afecta al grupo y
 se vuelve uno de los primeros choques personales de Rick.
 
 LA FAMILIA EN EL APOCALIPSIS
+
 Lori procura proteger a Carl y mantener una vida familiar
 en condiciones cada vez más inestables. Durante el viaje,
 queda embarazada. El cómic deja abierta la paternidad
 biológica de Judith, pero Rick decide criarla como hija.
-
 La granja y la prisión parecen ofrecer lugares donde
 detenerse. Sin embargo, la seguridad nunca dura. Lori vive
 con miedo por sus hijos y por la posibilidad de perder a
 Rick, aunque no siempre comparte sus decisiones.
 
 LA PRISION
+
 Durante el ataque a la prisión, Lori muere junto con Judith.
 Su muerte corta de manera abrupta la vida familiar que Rick
 intentaba sostener y deja a Carl enfrentado a una pérdida
 que no puede reparar.
 
 PERFIL
+
 Lori aparece en una etapa temprana de la historia, cuando
 los personajes todavía intentan conservar las reglas y
 afectos del mundo anterior. Sus decisiones nacen de la
 necesidad de proteger a sus hijos y encontrar seguridad.
-
 Su relación con Shane y el regreso de Rick muestran cómo
 el colapso desarma los vínculos personales. La historia no
 reduce el conflicto a una disputa romántica: también trata
 sobre duelo, miedo, lealtad y supervivencia.
 
 VINCULOS IMPORTANTES
+
 RICK GRIMES
+
 Su esposo. La relación se ve afectada por el regreso de
 Rick, la presión del grupo y las decisiones de supervivencia.
 
 CARL GRIMES
+
 Su hijo mayor. Lori intenta protegerlo y conservar para él
 algo de la vida que conocía antes del apocalipsis.
 
 JUDITH GRIMES
+
 Su hija menor, nacida durante el recorrido del grupo.
 Lori muere junto a ella durante el ataque a la prisión.
 
 SHANE WALSH
+
 Compañero de Rick y protector inicial de Lori y Carl.
 La relación que mantienen mientras Rick está desaparecido
 se convierte en un conflicto central al reencontrarse.
 
 EVOLUCION E IMPACTO
+
 Lori no tiene un recorrido tan extenso como Rick o Carl,
 pero su presencia sostiene el núcleo familiar del comienzo.
 Su embarazo y su muerte cambian profundamente el camino
 de los Grimes.
-
 Su pérdida deja a Rick y Carl sin una parte esencial de
 su familia y marca el tono de los peligros que enfrentan:
 la comunidad puede ofrecer apoyo, pero no garantiza que
 sus seres queridos estén a salvo.
 
 REFERENCIAS
+
 - Rick busca a su familia: numero 1.
 - Vida del grupo y conflicto inicial: primeros arcos.
 - Ataque a la prisión y muerte de Lori: numero 48.
 
 NOTA DE CANON
+
 Esta ficha sigue la serie original de comics. No mezcla
 hechos de la adaptacion televisiva.

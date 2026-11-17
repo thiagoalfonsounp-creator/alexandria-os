@@ -1,23 +1,29 @@
+----------ARCHIVO DE PERSONAJES | Penny Blake (Vol. 5: The Best Defense)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-penny_blake
 NOMBRE: Penny Blake
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Familia Blake · Woodbury
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #29 (Volumen 5: The Best Defense, Parte 5 de 6).
+Apariciones posteriores: Números #32–#33 (Volumen 6: This Sorrowful Life) y #43 (Volumen 8: Made To Suffer).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Estudiante de segundo grado de primaria (aproximadamente 7 años de edad) en Georgia; hija biológica de Philip Blake y Sarah Blake, y sobrina de Brian Blake.
+- Perfil físico observado: Niña de ascendencia mexicana y caucásico-americana, cabello castaño largo y lacio, vestido infantil deteriorado, boca desprovista de dientes (arrancados con alicates por Brian) y correa/cadena metálica sujeta al cuello.
+- Reanimación: Falleció durante el inicio del apocalipsis tras recibir un disparo de escopeta en el estómago efectuado por un saqueador en el bosque y reanimó poco después como caminante (tras la muerte de su padre Philip, su tío Brian asumió la identidad de "Philip Blake / El Gobernador" y mantuvo a Penny encadenada como si siguiera viva).
+- Incidente registrado (#29): Aparece por primera vez en el departamento privado del Gobernador en Woodbury. Tras ordenar amputarle la mano derecha a Rick Grimes, Brian ingresa a su habitación oculta, alimenta a la zombificada Penny con la mano cercenada de Rick y posteriormente la besa de forma perturbadora en la boca.
+- Apariciones posteriores y desenlace (#32–#33 y #43): En el número #32, mientras Michonne tortura brutalmente al Gobernador en su departamento, Penny observa encadenada desde el rincón; en el #33, cuando Jameson y los guardias derriban la puerta para rescatar a Brian, Penny intenta atacarlos y es contenida nuevamente. Su última aparición en el cómic principal ocurre en el número #43, cuando el Gobernador se despide de ella antes de partir hacia el asalto de la prisión, dejando su destino final abierto en la historieta regular.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (UNIVERSO COMIC-NOVELAS)
+- Continuidad con novelas: Su vida previa al brote, su muerte a manos de un bandido en el bosque, su reanimación y la caída en la locura de su tío Brian constituyen el eje central de la novela canónica "The Walking Dead: Rise of the Governor".
+- Desenlace definitivo (Novelas): Aunque en el cómic principal su muerte definitiva no se muestra en viñeta, en la novela canónica "The Walking Dead: The Fall of the Governor - Part Two" se confirma que, tras el fracaso del ataque a la prisión y la muerte del Gobernador, Lilly Caul descubre a Penny encadenada en el departamento y le dispara en la cabeza para acabar con su existencia.

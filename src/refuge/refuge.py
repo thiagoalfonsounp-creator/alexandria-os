@@ -13,6 +13,7 @@ import textwrap
 import termios
 import time
 import tty
+from contextlib import contextmanager
 from pathlib import Path
 
 DIALOG = shutil.which("dialog")
@@ -20,6 +21,21 @@ STATE_HOME = os.environ.get("XDG_STATE_HOME")
 STATE_ROOT = Path(STATE_HOME) if STATE_HOME else Path.home() / ".local" / "state"
 SAVE_FILE = STATE_ROOT / "alexandria-os" / "the-refuge.json"
 SAVE_VERSION = 1
+MINIGAME_COLOR_CODES = {
+    "red": "91",
+    "green": "92",
+    "yellow": "93",
+    "blue": "94",
+    "magenta": "95",
+    "cyan": "96",
+    "white": "97",
+    "dim": "2",
+}
+MINIGAME_COLOR_ENABLED = (
+    sys.stdout.isatty()
+    and "NO_COLOR" not in os.environ
+    and os.environ.get("TERM") != "dumb"
+)
 
 RESOURCE_NAMES = {
     "food": "Comida",
@@ -33,6 +49,13 @@ STAT_NAMES = {
     "defense": "Defensas",
     "intel": "Inteligencia",
     "alliances": "Alianzas",
+}
+STAT_SHORT_NAMES = {
+    "survivors": "Sup.",
+    "morale": "Moral",
+    "defense": "Def.",
+    "intel": "Intel.",
+    "alliances": "Al.",
 }
 STAT_LIMITS = {
     "survivors": (0, 12),
@@ -48,8 +71,11 @@ RESOURCE_LIMITS = {
     "materials": 10,
 }
 
-WAR_TURNS = 5
+PREPARATION_TURNS = 5
+WAR_TURNS = 8
+WAR_RATION_COST = 2
 INCIDENT_CHANCE = 0.38
+EARLY_CAMPAIGN_PHASES = ("council", "expedition", "crisis", "recovery", "refugees")
 
 PHASES = {
     "council": (
@@ -72,9 +98,13 @@ PHASES = {
         "NUEVOS REFUGIADOS",
         "Un grupo llega desde una comunidad cercana. Aceptarlo puede ayudar, pero también consume reservas.",
     ),
+    "preparation": (
+        "PREPARACIÓN DEL REFUGIO",
+        "La ofensiva se acerca. Elegí cada día entre abastecerse, cuidar al grupo o fortalecer la defensa.",
+    ),
     "war": (
         "GUERRA CONTRA LOS SALVADORES",
-        "La ofensiva avanza por cinco turnos. Cada decisión afecta los recursos y la capacidad de resistir.",
+        "La ofensiva avanza por ocho turnos. Cada decisión afecta los recursos y la capacidad de resistir; el frente consume dos raciones de comida y agua por turno.",
     ),
     "final": (
         "CONFRONTACIÓN FINAL",
@@ -85,7 +115,7 @@ PHASES = {
 
 def call_dialog(args):
     if not DIALOG:
-        print("No se encontró dialog. Instalalo con: sudo apt install dialog")
+        print("No se encontró dialog. Instalalo como root con: su -c 'apt install dialog'")
         raise SystemExit(1)
     return subprocess.run(
         [DIALOG, "--clear", "--stdout", *args],
@@ -95,18 +125,33 @@ def call_dialog(args):
     )
 
 
+def dialog_width(requested, content=()):
+    columns = shutil.get_terminal_size(fallback=(80, 24)).columns
+    maximum = max(40, columns - 4)
+    if requested > 0:
+        return min(requested, maximum)
+    lines = []
+    for block in content:
+        lines.extend(str(block).splitlines() or [""])
+    needed = max((len(line) for line in lines), default=68) + 8
+    return min(maximum, max(68, needed))
+
+
 def message(title, text, height=12, width=76):
     call_dialog(["--title", title, "--msgbox", text, str(height), str(width)])
 
 
-def confirm(title, text):
-    result = call_dialog(["--title", title, "--yesno", text, "9", "68"])
+def confirm(title, text, height=9, width=68):
+    width = dialog_width(width, [text])
+    result = call_dialog(["--title", title, "--yesno", text, str(height), str(width)])
     return result.returncode == 0
 
 
 def choose(title, prompt, choices, height=20, width=78, menu_height=10):
     if not choices:
         return None
+    content = [prompt, *(f"{tag} {description}" for tag, description in choices)]
+    width = dialog_width(width, content)
     args = ["--title", title, "--menu", prompt, str(height), str(width), str(menu_height)]
     for tag, description in choices:
         args.extend([tag, description])
@@ -122,6 +167,7 @@ def create_campaign():
         "status": "active",
         "day": 1,
         "phase": "council",
+        "preparation_turn": 1,
         "war_turn": 0,
         "survivors": 12,
         "morale": 5,
@@ -178,6 +224,7 @@ def load_campaign():
         )
         return None
     state.setdefault("shortage_streak", 0)
+    state.setdefault("preparation_turn", 1)
     return state
 
 
@@ -191,6 +238,41 @@ def status_text(state):
         f"Moral: {state['morale']}/10   Defensas: {state['defense']}/6\n"
         f"Inteligencia: {state['intel']}/6   Alianzas: {state['alliances']}/5\n"
         f"Escasez consecutiva: {state.get('shortage_streak', 0)}/2 jornadas"
+    )
+
+
+def ration_forecast_text(state):
+    phase = state.get("phase")
+    if phase == "war":
+        turns_left = max(0, WAR_TURNS - state.get("war_turn", 1) + 1)
+        base_rations = turns_left * WAR_RATION_COST
+    elif phase == "preparation":
+        prep_left = max(
+            0,
+            PREPARATION_TURNS - state.get("preparation_turn", 1) + 1,
+        )
+        base_rations = prep_left + WAR_TURNS * WAR_RATION_COST
+    else:
+        opening_phases_left = (
+            len(EARLY_CAMPAIGN_PHASES) - EARLY_CAMPAIGN_PHASES.index(phase)
+            if phase in EARLY_CAMPAIGN_PHASES
+            else 0
+        )
+        base_rations = (
+            opening_phases_left
+            + PREPARATION_TURNS
+            + WAR_TURNS * WAR_RATION_COST
+        )
+
+    resources = state["resources"]
+    food = resources["food"]
+    water = resources["water"]
+    food_gap = max(0, base_rations - food)
+    water_gap = max(0, base_rations - water)
+    return (
+        f"Raciones base restantes (incluye hoy): comida {base_rations}, agua {base_rations}.\n"
+        f"Reservas {food}/{water}; sin reponer faltarían {food_gap}/{water_gap}. "
+        "Los gastos de decisiones e incidentes son variables."
     )
 
 
@@ -218,6 +300,12 @@ DECISION_STATS = {
     "request_allies": ("alliances", "morale"),
     "investigate": ("intel",),
     "infested_pass": ("intel", "defense"),
+    "prep_supply": ("survivors", "intel"),
+    "prep_scavenge": ("intel", "defense"),
+    "prep_trade": ("alliances", "intel"),
+    "prep_fortify": ("defense",),
+    "prep_clinic": ("survivors", "morale"),
+    "prep_training": ("defense", "morale"),
     "treat_wounded": ("survivors", "morale"),
     "repair_homes": ("defense",),
     "rest": ("morale",),
@@ -232,6 +320,7 @@ DECISION_STATS = {
     "war_intel": ("intel",),
     "war_hold": ("defense", "morale"),
     "war_sabotage": ("intel", "defense"),
+    "war_supply": ("intel", "survivors"),
     "final_hold": ("defense", "morale"),
     "final_talk": ("intel", "alliances"),
     "final_evacuate": ("survivors", "intel"),
@@ -257,9 +346,39 @@ def decision_success_probability(state, choice):
     return max(0.05, min(0.95, chance))
 
 
-def decision_stat_label(choice):
+def decision_stat_short_label(choice):
     stats = DECISION_STATS.get(choice.get("id"), ("intel",))
-    return "/".join(STAT_NAMES[name] for name in stats)
+    return "/".join(STAT_SHORT_NAMES[name] for name in stats)
+
+
+def compact_choice_hint(choice):
+    hint = choice.get("hint", "")
+    for full, short in (
+        ("Supervivientes", "Sup."),
+        ("Inteligencia", "Intel."),
+        ("Defensas", "Def."),
+        ("Materiales", "Mat."),
+        ("Medicinas", "Med."),
+        ("Comida", "Com."),
+        ("Agua", "Ag."),
+        ("Alianzas", "Al."),
+    ):
+        hint = hint.replace(full, short).replace(full.lower(), short)
+    if choice.get("id") == "prep_supply":
+        return "Mat.-1; Com.+3; Ag.+3"
+    if choice.get("id") in ("prep_scavenge", "war_supply"):
+        return "Riesgo; Com.+3; Ag.+2"
+    if choice.get("id") == "prep_trade":
+        return "Com.-2; Ag.-2; Med.-1; Mat.+2"
+    if choice.get("id") == "war_sabotage":
+        return "Riesgo; Intel. mejora éxito"
+    if choice.get("id") in ("infested_depot", "war_sabotage"):
+        return "Riesgo medio; Intel. mejora el éxito"
+    if choice.get("id") == "accept_unchecked":
+        return "Riesgo: puede ayudar o complicar el refugio"
+    if choice.get("id") == "infested_pass":
+        return "RIESGO EXTREMO: un fallo termina la campaña"
+    return hint
 
 
 def negative_changes(changes):
@@ -275,6 +394,64 @@ def negative_changes(changes):
         if name != "resources" and amount < 0:
             result[name] = amount
     return result
+
+
+def merge_changes(*change_sets):
+    merged = {}
+    for changes in change_sets:
+        for name, amount in changes.items():
+            if name == "resources":
+                resources = merged.setdefault("resources", {})
+                for resource, delta in amount.items():
+                    resources[resource] = resources.get(resource, 0) + delta
+            else:
+                merged[name] = merged.get(name, 0) + amount
+    return merged
+
+
+def effect_summary(state, changes):
+    effects = []
+    for resource, amount in changes.get("resources", {}).items():
+        current = state["resources"][resource]
+        applied = max(0, min(RESOURCE_LIMITS[resource], current + amount)) - current
+        cap_note = " (límite)" if applied != amount else ""
+        effects.append(f"{RESOURCE_NAMES[resource]} {applied:+d}{cap_note}")
+    for stat, amount in changes.items():
+        if stat == "resources":
+            continue
+        current = state[stat]
+        low, high = STAT_LIMITS[stat]
+        applied = max(low, min(high, current + amount)) - current
+        cap_note = " (límite)" if applied != amount else ""
+        effects.append(f"{STAT_NAMES[stat]} {applied:+d}{cap_note}")
+    return ", ".join(effects) if effects else "sin cambios directos"
+
+
+def risk_preview_text(state, choice):
+    risk = choice["risk"]
+    probability = decision_success_probability(state, choice)
+    success_percent = int(round(probability * 100))
+    failure_percent = 100 - success_percent
+    success_changes = merge_changes(
+        choice.get("changes", {}), risk.get("success_changes", {})
+    )
+    failure_changes = merge_changes(
+        negative_changes(choice.get("changes", {})),
+        risk.get("failure_changes", {}),
+    )
+    ration_cost = WAR_RATION_COST if state.get("phase") == "war" else 1
+    preview = (
+        f"Éxito {success_percent}% ({decision_stat_short_label(choice)}):\n"
+        f"{risk.get('success_text', choice.get('result', 'La acción sale bien.'))}\n"
+        f"Efectos directos: {effect_summary(state, success_changes)}.\n\n"
+        f"Fallo {failure_percent}%:\n"
+        f"{risk.get('failure_text', choice.get('failure_text', 'La acción falla.'))}\n"
+        f"Efectos directos: {effect_summary(state, failure_changes)}.\n\n"
+        f"Después se consumen {ration_cost} de comida y agua; un incidente aleatorio puede cambiar las reservas."
+    )
+    if choice.get("id") in {"infested_depot", "war_sabotage", "war_supply"}:
+        preview += "\nSi sale bien, puede aparecer un minijuego opcional de bonificación."
+    return preview
 
 
 def choices_for(phase, state):
@@ -501,6 +678,68 @@ def choices_for(phase, state):
             },
         ]
 
+    if phase == "preparation":
+        return [
+            {
+                "id": "prep_supply",
+                "label": "Reponer comida y agua",
+                "hint": "Materiales -1; comida +3; agua +3",
+                "requires": {"materials": 1},
+                "changes": {"resources": {"materials": -1, "food": 3, "water": 3}},
+                "result": "El grupo repara los recipientes y deja listas nuevas raciones para los días de guerra.",
+            },
+            {
+                "id": "prep_scavenge",
+                "label": "Rastrear depósito",
+                "hint": "Riesgo medio; si sale bien, comida +3 y agua +2",
+                "risk": {
+                    "success_chance": 0.66,
+                    "intel_bonus": 0.035,
+                    "defense_bonus": 0.015,
+                    "success_changes": {"resources": {"food": 3, "water": 2}},
+                    "success_text": "La cuadrilla recupera provisiones antes de que llegue la ofensiva.",
+                    "failure_changes": {"survivors": -1, "morale": -1},
+                    "failure_text": "El depósito estaba vigilado y la cuadrilla vuelve con una baja.",
+                },
+                "changes": {},
+                "result": "Una cuadrilla intenta recuperar provisiones en una zona expuesta.",
+            },
+            {
+                "id": "prep_trade",
+                "label": "Cambiar por equipo",
+                "hint": "Comida -2; agua -2; medicinas -1; materiales +2",
+                "requires": {"food": 2, "water": 2, "medicine": 1},
+                "changes": {
+                    "resources": {"food": -2, "water": -2, "medicine": -1, "materials": 2}
+                },
+                "result": "El asentamiento vecino entrega piezas y herramientas a cambio de provisiones médicas.",
+            },
+            {
+                "id": "prep_fortify",
+                "label": "Instalar trampas",
+                "hint": "Materiales -2; defensas +1; inteligencia +1",
+                "requires": {"materials": 2},
+                "changes": {"resources": {"materials": -2}, "defense": 1, "intel": 1},
+                "result": "Las entradas quedan cubiertas y los vigías aprenden a reconocer los puntos débiles.",
+            },
+            {
+                "id": "prep_clinic",
+                "label": "Abrir enfermería",
+                "hint": "Medicinas -1; supervivientes +1; moral +1",
+                "requires": {"medicine": 1},
+                "changes": {"resources": {"medicine": -1}, "survivors": 1, "morale": 1},
+                "result": "La enfermería estabiliza a una persona herida y organiza suministros para la ofensiva.",
+            },
+            {
+                "id": "prep_training",
+                "label": "Entrenar a la guardia",
+                "hint": "Comida -1; defensas +1; moral -1",
+                "requires": {"food": 1},
+                "changes": {"resources": {"food": -1}, "defense": 1, "morale": -1},
+                "result": "La guardia practica relevos y señales para sostener el perímetro durante los ataques.",
+            },
+        ]
+
     if phase == "war":
         negotiation = {
             "id": "negotiate",
@@ -550,7 +789,7 @@ def choices_for(phase, state):
             },
             {
                 "id": "war_sabotage",
-                "label": "Infiltrarse en los suministros enemigos",
+                "label": "Sabotear suministros",
                 "hint": "Riesgo medio: la inteligencia mejora la probabilidad de éxito",
                 "risk": {
                     "success_chance": 0.62,
@@ -563,6 +802,22 @@ def choices_for(phase, state):
                 },
                 "changes": {},
                 "result": "Un equipo intenta entrar en una zona controlada por los Salvadores.",
+            },
+            {
+                "id": "war_supply",
+                "label": "Recuperar un convoy",
+                "hint": "Riesgo medio; si sale bien, comida +3 y agua +2",
+                "risk": {
+                    "success_chance": 0.62,
+                    "intel_bonus": 0.035,
+                    "defense_bonus": 0.015,
+                    "success_changes": {"resources": {"food": 3, "water": 2}},
+                    "success_text": "El equipo vuelve con provisiones suficientes para sostener a la comunidad.",
+                    "failure_changes": {"survivors": -2, "morale": -1},
+                    "failure_text": "El convoy estaba bajo fuego y el grupo vuelve con bajas, sin provisiones.",
+                },
+                "changes": {},
+                "result": "Una salida de abastecimiento puede aliviar las reservas, pero expone al equipo.",
             },
         ]
 
@@ -847,10 +1102,12 @@ def finish_if_failed(state):
 
 def consume_rations(state):
     shortages = []
+    ration_cost = WAR_RATION_COST if state.get("phase") == "war" else 1
     for resource, label in (("food", "comida"), ("water", "agua")):
-        if state["resources"][resource] > 0:
-            state["resources"][resource] -= 1
+        if state["resources"][resource] >= ration_cost:
+            state["resources"][resource] -= ration_cost
         else:
+            state["resources"][resource] = 0
             state["morale"] = max(0, state["morale"] - 1)
             shortages.append(label)
 
@@ -859,7 +1116,11 @@ def consume_rations(state):
     else:
         state["shortage_streak"] = 0
 
-    result = "Se consumió una ración de comida y agua."
+    result = (
+        "El frente consumió dos raciones de comida y agua."
+        if ration_cost > 1
+        else "Se consumió una ración de comida y agua."
+    )
     if shortages:
         result = "La reserva de " + " y ".join(shortages) + " se agotó; la moral baja."
     if state["shortage_streak"] >= 2:
@@ -873,6 +1134,8 @@ def phase_label(state):
     phase = state["phase"]
     if phase == "war":
         return f"GUERRA — TURNO {state['war_turn']} DE {WAR_TURNS}"
+    if phase == "preparation":
+        return f"PREPARACIÓN — JORNADA {state.get('preparation_turn', 1)} DE {PREPARATION_TURNS}"
     return PHASES.get(phase, ("THE REFUGE", ""))[0]
 
 
@@ -887,8 +1150,14 @@ def advance(state):
     elif phase == "recovery":
         state["phase"] = "refugees"
     elif phase == "refugees":
-        state["phase"] = "war"
-        state["war_turn"] = 1
+        state["phase"] = "preparation"
+        state["preparation_turn"] = 1
+    elif phase == "preparation":
+        if state.get("preparation_turn", 1) < PREPARATION_TURNS:
+            state["preparation_turn"] = state.get("preparation_turn", 1) + 1
+        else:
+            state["phase"] = "war"
+            state["war_turn"] = 1
     elif phase == "war":
         if state["war_turn"] < WAR_TURNS:
             state["war_turn"] += 1
@@ -922,6 +1191,28 @@ def ending_score(state):
 
 ARENA_WIDTH = 40
 ARENA_HEIGHT = 14
+ARENA_DURATION = 40.0
+ARENA_WAVES = 1
+ARENA_LIVES = 2
+ARENA_SPAWN_SCHEDULE = (
+    (2.5, "S"),
+    (5.0, "N"),
+    (7.5, "Z"),
+    (10.0, "S"),
+    (12.5, "N"),
+    (15.0, "Z"),
+    (17.5, "S"),
+    (20.0, "N"),
+    (22.5, "Z"),
+    (25.0, "S"),
+    (27.5, "N"),
+    (30.0, "Z"),
+    (32.5, "S"),
+    (35.0, "N"),
+    (37.5, "Z"),
+)
+ARENA_SPEEDUP_PER_SECOND = 0.003
+ARENA_MIN_SPEED_FACTOR = 0.88
 ARENA_WALLS = {
     (5, 2), (6, 2), (5, 3), (6, 3),
     (13, 2), (14, 2), (13, 3), (14, 3),
@@ -945,6 +1236,614 @@ ARENA_MOVES = {
     "s": (0, 1),
     "d": (1, 0),
 }
+ARENA_ARROW_KEYS = {
+    b"A": "w",
+    b"B": "s",
+    b"C": "d",
+    b"D": "a",
+}
+
+
+def _arena_read_key(fd):
+    first = os.read(fd, 1)
+    if first != b"\x1b":
+        return first.decode("ascii", errors="ignore").lower()
+
+    ready, _, _ = select.select([fd], [], [], 0.05)
+    if not ready:
+        return ""
+    prefix = os.read(fd, 1)
+    if prefix not in (b"[", b"O"):
+        return ""
+
+    ready, _, _ = select.select([fd], [], [], 0.05)
+    if not ready:
+        return ""
+    return ARENA_ARROW_KEYS.get(os.read(fd, 1), "")
+
+
+@contextmanager
+def _minigame_terminal():
+    if not sys.stdin.isatty():
+        yield None
+        return
+
+    fd = sys.stdin.fileno()
+    previous_settings = termios.tcgetattr(fd)
+    try:
+        tty.setcbreak(fd)
+        quiet_settings = termios.tcgetattr(fd)
+        quiet_settings[3] &= ~termios.ECHO
+        termios.tcsetattr(fd, termios.TCSADRAIN, quiet_settings)
+        while select.select([fd], [], [], 0)[0]:
+            os.read(fd, 1)
+        sys.stdout.write("\x1b[?25l")
+        sys.stdout.flush()
+        yield fd
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, previous_settings)
+        sys.stdout.write("\x1b[?25h\x1b[2J\x1b[H")
+        sys.stdout.flush()
+
+
+def _minigame_wait_key(fd, timeout, on_tick=None):
+    deadline = time.monotonic() + timeout
+    next_tick = 0.0
+    while True:
+        now = time.monotonic()
+        remaining = deadline - now
+        if remaining <= 0:
+            return ""
+        if on_tick and now >= next_tick:
+            on_tick(remaining)
+            next_tick = now + 0.12
+        ready, _, _ = select.select([fd], [], [], min(remaining, 0.12))
+        if ready:
+            pressed = _arena_read_key(fd)
+            if pressed:
+                return pressed
+
+
+def _minigame_color(text, color="white", bold=False):
+    if not MINIGAME_COLOR_ENABLED:
+        return text
+    code = MINIGAME_COLOR_CODES.get(color, MINIGAME_COLOR_CODES["white"])
+    style = f"1;{code}" if bold else code
+    return f"\x1b[{style}m{text}\x1b[0m"
+
+
+def _write_centered_screen(lines):
+    columns, rows = shutil.get_terminal_size(fallback=(80, 24))
+    visible_width = max((len(plain) for plain, _ in lines), default=0)
+    top = max(0, (rows - len(lines)) // 2)
+    left = max(0, (columns - visible_width) // 2)
+    output = ["\x1b[H\x1b[J", "\n" * top]
+    for index, (plain, styled) in enumerate(lines):
+        padding = max(0, (visible_width - len(plain)) // 2)
+        trailing = max(0, visible_width - len(plain) - padding)
+        line = " " * (left + padding) + styled + " " * trailing
+        if index < len(lines) - 1:
+            line += "\n"
+        output.append(line)
+    sys.stdout.write("".join(output))
+    sys.stdout.flush()
+
+
+def _render_minigame_panel(title, content, accent="cyan", footer=""):
+    columns, _ = shutil.get_terminal_size(fallback=(80, 24))
+    wrap_width = max(12, min(64, columns - 16))
+    rows = []
+    for item in content:
+        text, color = item if isinstance(item, tuple) else (item, "white")
+        wrapped = textwrap.wrap(
+            str(text),
+            width=wrap_width,
+            break_long_words=True,
+            break_on_hyphens=False,
+        ) or [""]
+        rows.extend((line, color) for line in wrapped)
+    if footer:
+        rows.extend([("", "dim"), (footer, "dim")])
+
+    title_lines = textwrap.wrap(title, width=wrap_width) or [""]
+    longest_line = max(
+        [*(len(line) for line, _ in rows), *(len(line) for line in title_lines)],
+        default=0,
+    )
+    box_width = min(columns - 4, max(44, longest_line + 6))
+    top = ("╔" + "═" * (box_width - 2) + "╗", "cyan")
+    separator = ("╟" + "─" * (box_width - 2) + "╢", "dim")
+    bottom = ("╚" + "═" * (box_width - 2) + "╝", "cyan")
+    screen_lines = []
+    screen_lines.append((top[0], _minigame_color(top[0], accent, True)))
+
+    for index, line in enumerate(title_lines):
+        padded = "║ " + line.center(box_width - 4) + " ║"
+        screen_lines.append((padded, _minigame_color(padded, accent, True)))
+    screen_lines.append((separator[0], _minigame_color(separator[0], "dim")))
+    for line, color in rows:
+        padded = "║  " + line.ljust(box_width - 6) + "  ║"
+        screen_lines.append((padded, _minigame_color(padded, color)))
+    screen_lines.append((bottom[0], _minigame_color(bottom[0], accent, True)))
+    _write_centered_screen(screen_lines)
+
+
+def _minigame_bar(current, total, width=18):
+    if total <= 0:
+        filled = 0
+    else:
+        filled = max(0, min(width, int(width * current / total)))
+    return "[" + "#" * filled + "-" * (width - filled) + "]"
+
+
+def _direction_glyph(key):
+    return {"w": "↑", "a": "←", "s": "↓", "d": "→"}[key]
+
+
+def _direction_sequence_game(title, count=4, time_limit=7.0):
+    sequence = [random.choice(tuple(ARENA_MOVES)) for _ in range(count)]
+    with _minigame_terminal() as fd:
+        if fd is None:
+            return False
+
+        shown = "    ".join(_direction_glyph(key) for key in sequence)
+        _render_minigame_panel(
+            title,
+            [
+                ("MEMORIZÁ LA RUTA", "yellow"),
+                (shown, "white"),
+                (f"SECUENCIA DE {count} MOVIMIENTOS", "dim"),
+            ],
+            accent="cyan",
+            footer="FLECHAS O W A S D  ·  PREPARATE",
+        )
+        time.sleep(1.4 + count * 0.1)
+
+        deadline = time.monotonic() + time_limit
+        correct = 0
+        for expected in sequence:
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                break
+
+            def show_sequence_progress(seconds_left):
+                _render_minigame_panel(
+                    title,
+                    [
+                        ("REPETÍ LA SECUENCIA", "yellow"),
+                        (_minigame_bar(correct, count), "green"),
+                        (f"MOVIMIENTOS {correct}/{count}", "white"),
+                        (f"TIEMPO {seconds_left:0.1f} s", "red" if seconds_left < 2 else "cyan"),
+                        (_minigame_bar(seconds_left, time_limit), "yellow"),
+                    ],
+                    accent="cyan",
+                    footer="FLECHAS O W A S D",
+                )
+
+            pressed = _minigame_wait_key(fd, remaining, show_sequence_progress)
+            if pressed != expected:
+                break
+            correct += 1
+
+        success = correct == count
+        _render_minigame_panel(
+            "RUTA RECUPERADA" if success else "RUTA INTERRUMPIDA",
+            [
+                (f"{correct}/{count} movimientos correctos", "green" if success else "red"),
+                ("BONIFICACIÓN ASEGURADA" if success else "SE CONSERVA EL RESULTADO BASE", "yellow"),
+            ],
+            accent="green" if success else "red",
+        )
+        time.sleep(0.8)
+        return success
+
+
+def _perimeter_reflex_game(rounds=4, time_limit=1.25):
+    directions = tuple(ARENA_MOVES)
+    correct = 0
+    with _minigame_terminal() as fd:
+        if fd is None:
+            return 0
+
+        for round_number in range(1, rounds + 1):
+            target = random.choice(directions)
+            round_limit = max(0.85, time_limit - (round_number - 1) * 0.08)
+
+            def show_perimeter_signal(seconds_left):
+                _render_minigame_panel(
+                    "BRECHA EN EL PERÍMETRO",
+                    [
+                        (f"SEÑAL {round_number}/{rounds}", "yellow"),
+                        (_direction_glyph(target), "red"),
+                        (f"TIEMPO {seconds_left:.2f} s", "white"),
+                        (_minigame_bar(correct, rounds), "green"),
+                        (f"ACCESOS CUBIERTOS {correct}/{rounds}", "cyan"),
+                    ],
+                    accent="red",
+                    footer="FLECHAS O W A S D",
+                )
+
+            pressed = _minigame_wait_key(fd, round_limit, show_perimeter_signal)
+            if pressed == target:
+                correct += 1
+                feedback = "Acceso cubierto."
+            elif not pressed:
+                feedback = "Llegaste tarde."
+            else:
+                feedback = "Señal equivocada."
+            _render_minigame_panel(
+                "SEÑAL CUBIERTA" if pressed == target else "SEÑAL PERDIDA",
+                [
+                    (feedback, "green" if pressed == target else "red"),
+                    (_minigame_bar(correct, rounds), "green"),
+                    (f"ACCESOS {correct}/{rounds}", "yellow"),
+                ],
+                accent="green" if pressed == target else "red",
+            )
+            time.sleep(0.45)
+
+        time.sleep(0.7)
+        return correct
+
+
+def _radio_cipher_game(length=4, time_limit=7.0):
+    code = "".join(str(random.randrange(10)) for _ in range(length))
+    answer = code[::-1]
+    with _minigame_terminal() as fd:
+        if fd is None:
+            return False
+
+        _render_minigame_panel(
+            "INTERCEPTAR EL CÓDIGO DE RADIO",
+            [
+                ("MEMORIZÁ LA CLAVE", "yellow"),
+                ("   ·   ".join(code), "magenta"),
+                (f"{length} DÍGITOS  ·  RESPUESTA EN ORDEN INVERSO", "dim"),
+            ],
+            accent="magenta",
+            footer="PREPARATE PARA INGRESAR LOS NÚMEROS",
+        )
+        time.sleep(1.4 + length * 0.1)
+
+        deadline = time.monotonic() + time_limit
+        entered = ""
+        while len(entered) < length:
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                break
+
+            def show_radio_progress(seconds_left):
+                _render_minigame_panel(
+                    "INTERCEPTAR EL CÓDIGO DE RADIO",
+                    [
+                        ("INGRESÁ LA CLAVE AL REVÉS", "yellow"),
+                        (_minigame_bar(len(entered), length), "magenta"),
+                        (f"DÍGITOS {len(entered)}/{length}", "white"),
+                        (f"FRECUENCIA {seconds_left:0.1f} s", "red" if seconds_left < 2 else "cyan"),
+                        (_minigame_bar(seconds_left, time_limit), "yellow"),
+                    ],
+                    accent="magenta",
+                    footer="INGRESÁ LOS NÚMEROS SIN ENTER",
+                )
+
+            pressed = _minigame_wait_key(fd, remaining, show_radio_progress)
+            if len(pressed) != 1 or pressed not in "0123456789":
+                break
+            entered += pressed
+
+        success = entered == answer
+        _render_minigame_panel(
+            "FRECUENCIA DECODIFICADA" if success else "SEÑAL PERDIDA",
+            [
+                (f"{len(entered)}/{length} dígitos ingresados", "green" if success else "red"),
+                ("BONIFICACIÓN ASEGURADA" if success else "SE CONSERVA EL RESULTADO BASE", "yellow"),
+            ],
+            accent="green" if success else "red",
+        )
+        time.sleep(0.8)
+        return success
+
+
+HORDE_QTE_SCENES = (
+    {
+        "situation": (
+            "La horda entra al patio. La escalera al techo está despejada; "
+            "el callejón está lleno de caminantes."
+        ),
+        "safe": "Subir al techo y trabar la escotilla.",
+        "unsafe": "Correr por el callejón hacia la calle.",
+        "bonus": {"defense": 1},
+        "bonus_label": "Defensas +1",
+    },
+    {
+        "situation": (
+            "Los golpes se acercan por el corredor. El cuarto de hormigón tiene "
+            "una puerta sólida y ventilación cerrada."
+        ),
+        "safe": "Entrar en silencio y asegurar la puerta.",
+        "unsafe": "Atravesar el corredor antes de que llegue la horda.",
+        "bonus": {"intel": 1},
+        "bonus_label": "Inteligencia +1",
+    },
+    {
+        "situation": (
+            "Una persona quedó separada. La horda mira al portón; la puerta "
+            "lateral del depósito permite reunirse sin cruzar el patio."
+        ),
+        "safe": "Abrir la puerta lateral y trabarla tras reagruparse.",
+        "unsafe": "Gritarle que corra por el patio hasta la salida.",
+        "bonus": {"morale": 1},
+        "bonus_label": "Moral +1",
+    },
+)
+HORDE_QTE_TIME_LIMITS = (7.0, 6.0, 5.0)
+
+
+def horde_quick_time_event(state=None):
+    """Run three timed choices; state is omitted for a non-persistent test."""
+    bonuses = []
+    with _minigame_terminal() as fd:
+        if fd is None:
+            return {
+                "completed": False,
+                "cleared": 0,
+                "bonuses": bonuses,
+                "failure": "No se pudo leer una respuesta en la terminal.",
+            }
+
+        for index, scene in enumerate(HORDE_QTE_SCENES):
+            time_limit = HORDE_QTE_TIME_LIMITS[index]
+            correct_side = random.choice(("left", "right"))
+            left_option, right_option = (
+                (scene["safe"], scene["unsafe"])
+                if correct_side == "left"
+                else (scene["unsafe"], scene["safe"])
+            )
+
+            def show_horde_progress(seconds_left):
+                _render_minigame_panel(
+                    "HORDA EN EL CORREDOR",
+                    [
+                        (f"DECISIÓN {index + 1}/{len(HORDE_QTE_SCENES)}", "yellow"),
+                        (scene["situation"], "white"),
+                        (f"1 / ←  {left_option}", "cyan"),
+                        (f"2 / →  {right_option}", "magenta"),
+                        (f"TIEMPO {seconds_left:0.1f} s", "red" if seconds_left < 2 else "yellow"),
+                        (_minigame_bar(seconds_left, time_limit, 16), "red" if seconds_left < 2 else "green"),
+                    ],
+                    accent="yellow",
+                    footer="ELEGÍ 1 / 2 O ← / →",
+                )
+
+            pressed = _minigame_wait_key(
+                fd,
+                time_limit,
+                show_horde_progress,
+            )
+            if pressed in ("1", "a"):
+                selected_side = "left"
+            elif pressed in ("2", "d"):
+                selected_side = "right"
+            else:
+                selected_side = ""
+
+            if selected_side != correct_side:
+                if not pressed:
+                    failure = "Se acabó el tiempo; la horda alcanzó al grupo en el corredor."
+                else:
+                    failure = "La decisión dejó expuesto al grupo y la horda alcanzó el corredor."
+                _render_minigame_panel(
+                    "LA HORDA ALCANZÓ EL REFUGIO",
+                    [
+                        (f"DECISIÓN {index + 1}/{len(HORDE_QTE_SCENES)} FALLIDA", "red"),
+                        (failure, "white"),
+                        (f"Etapas superadas: {index}/{len(HORDE_QTE_SCENES)}", "yellow"),
+                        ("LA CAMPAÑA TERMINA", "red"),
+                    ],
+                    accent="red",
+                )
+                time.sleep(0.9)
+                return {
+                    "completed": False,
+                    "cleared": index,
+                    "bonuses": bonuses,
+                    "failure": failure,
+                }
+
+            if state is not None:
+                bonus = effect_summary(state, scene["bonus"])
+                apply_changes(state, scene["bonus"])
+            else:
+                bonus = scene["bonus_label"]
+            bonuses.append(bonus)
+            _render_minigame_panel(
+                "PASO SUPERADO",
+                [
+                    (f"DECISIÓN {index + 1}/{len(HORDE_QTE_SCENES)} CORRECTA", "green"),
+                    (f"Bonificación: {bonus}", "yellow"),
+                    (f"Pasos pendientes: {len(HORDE_QTE_SCENES) - index - 1}", "white"),
+                ],
+                accent="green",
+            )
+            time.sleep(0.65)
+
+        _render_minigame_panel(
+            "SALIDA DESPEJADA",
+            [
+                ("La cuadrilla se reagrupó y salió del corredor.", "white"),
+                ("Bonificaciones: " + ", ".join(bonuses), "yellow"),
+                ("LA CAMPAÑA CONTINÚA", "green"),
+            ],
+            accent="green",
+        )
+        time.sleep(0.9)
+        return {
+            "completed": True,
+            "cleared": len(HORDE_QTE_SCENES),
+            "bonuses": bonuses,
+            "failure": "",
+        }
+
+
+def end_campaign_on_horde_failure(state, reason):
+    state["status"] = "failed"
+    state["ending"] = {
+        "title": "EL REFUGIO CAE ANTE LA HORDA",
+        "score": 0,
+        "text": reason,
+        "epilogue": (
+            "El corredor quedó abierto cuando la horda alcanzó a la cuadrilla. "
+            "Quienes seguían en el refugio se dispersaron antes de que Rick pudiera "
+            "reunirlos en un punto seguro. El asentamiento se perdió y ya no hubo "
+            "una defensa común que pudiera recuperarlo. Esta campaña alternativa "
+            "termina con la retirada desordenada del grupo; es un desenlace de la "
+            "simulación y no un hecho del cómic."
+        ),
+    }
+
+
+def optional_campaign_minigame(state, phase, choice, outcome):
+    choice_id = choice["id"]
+    if phase == "war" and state.get("war_turn") == 4 and choice_id == "war_hold":
+        if not confirm(
+            "HORDA DE CAMINANTES",
+            "La horda llegó al corredor. La prueba tiene tres decisiones con 7, 6 "
+            "y 5 segundos para responder. Elegir mal o dejar vencer el tiempo termina "
+            "la campaña. Cada acierto da una bonificación; si elegís No, la campaña "
+            "sigue sin la prueba ni sus bonos.\n\n"
+            "Controles: 1/2 o flechas izquierda/derecha.\n\n¿Entrar a la prueba?",
+            14,
+            0,
+        ):
+            return "\n\nSe evitó el evento de la horda; la campaña sigue sin bonificaciones extra."
+
+        result = horde_quick_time_event(state)
+        if result["completed"]:
+            return (
+                "\n\nMINIJUEGO HORDA: salida despejada; bonificaciones: "
+                + ", ".join(result["bonuses"])
+                + "."
+            )
+
+        end_campaign_on_horde_failure(state, result["failure"])
+        return (
+            "\n\nMINIJUEGO HORDA: "
+            + result["failure"]
+            + " FIN DE CAMPAÑA: el refugio cayó ante la horda."
+        )
+
+    if "\n\nÉXITO:" not in outcome:
+        return ""
+
+    if phase == "expedition" and choice_id in {
+        "food_run", "water_run", "medicine_run", "infested_depot"
+    }:
+        title = "RASTREAR SUMINISTROS"
+        game = "route"
+        reward_by_choice = {
+            "food_run": {"food": 2},
+            "water_run": {"water": 2},
+            "medicine_run": {"medicine": 1},
+            "infested_depot": {"food": 1, "medicine": 1},
+        }
+        reward = {"resources": reward_by_choice[choice_id]}
+        description = "La expedición encontró señales de una reserva adicional."
+    elif phase == "preparation" and choice_id == "prep_scavenge":
+        title = "RASTREAR SUMINISTROS"
+        game = "route"
+        reward = {"resources": {"food": 2, "water": 1}}
+        description = "La cuadrilla vio otra ruta de acceso al depósito."
+    elif phase == "crisis" and choice_id == "crisis_fortify":
+        title = "BRECHA EN EL PERÍMETRO"
+        game = "perimeter"
+        reward = {}
+        description = "La alarma detectó cuatro puntos de presión en el perímetro."
+    elif phase == "war" and choice_id == "war_sabotage":
+        title = "INTERCEPTAR EL CÓDIGO DE RADIO"
+        game = "signal"
+        reward = {"resources": {"materials": 1, "medicine": 1}}
+        description = "El equipo interceptó una clave que puede revelar dónde guardan suministros."
+    elif phase == "war" and choice_id == "war_supply":
+        title = "RECUPERAR EL CONVOY"
+        game = "route"
+        reward = {"resources": {"food": 2, "water": 1}}
+        description = "El convoy quedó localizado, pero hay que seguir sus señales."
+    else:
+        return ""
+
+    if game == "perimeter":
+        rounds = 4
+        reaction_time = 1.25
+        challenge_description = "Cuatro señales; el tiempo baja de 1,25 a 1,01 segundos por respuesta."
+        reward_description = (
+            "Con 3/4 aciertos: defensas +1. Con 4/4: además, materiales +1."
+        )
+    else:
+        if game == "signal":
+            war_turn = state.get("war_turn", 1)
+            sequence_length = 4 + int(war_turn >= 4) + int(war_turn >= 7)
+        elif phase == "preparation":
+            sequence_length = 4 + int(state.get("preparation_turn", 1) >= 3)
+        elif phase == "war":
+            war_turn = state.get("war_turn", 1)
+            sequence_length = 4 + int(war_turn >= 4) + int(war_turn >= 7)
+        else:
+            sequence_length = 4
+        time_limit = 7.0 + (sequence_length - 4) * 0.8
+        display_time = 1.4 + sequence_length * 0.1
+        challenge_name = "dígitos al revés" if game == "signal" else "flechas"
+        challenge_description = (
+            f"Memorizá {sequence_length} {challenge_name} durante {display_time:.1f} s; "
+            f"después tenés {time_limit:.1f} s para responder."
+        )
+        reward_description = f"Al completarlo: {effect_summary(state, reward)}."
+
+    if not confirm(
+        title,
+        f"{description}\n\n{challenge_description}\n{reward_description}\n"
+        "Si la omitís o fallás, conservás el resultado de la decisión.\n\n¿Intentarla?",
+        14,
+        0,
+    ):
+        return "\n\nSe omitió la prueba opcional; el resultado de la decisión se conserva."
+
+    if game == "perimeter":
+        score = _perimeter_reflex_game(rounds=rounds, time_limit=reaction_time)
+        if score >= 3:
+            apply_changes(state, {"defense": 1})
+            bonus = "La guardia cubrió los accesos: defensas +1."
+            if score == 4:
+                apply_changes(state, {"resources": {"materials": 1}})
+                bonus += " Materiales +1 por una reparación rápida."
+        else:
+            bonus = "La defensa mantuvo el perímetro, pero no se consiguió una mejora extra."
+        return f"\n\nMINIJUEGO ({score}/4): {bonus}"
+
+    if game == "signal":
+        succeeded = _radio_cipher_game(
+            length=sequence_length,
+            time_limit=time_limit,
+        )
+    else:
+        succeeded = _direction_sequence_game(
+            title,
+            count=sequence_length,
+            time_limit=time_limit,
+        )
+
+    if succeeded:
+        reward_text = effect_summary(state, reward)
+        apply_changes(state, reward)
+        result_label = "código decodificado" if game == "signal" else "ruta completada"
+        return f"\n\nMINIJUEGO: {result_label}; {reward_text}."
+    return "\n\nMINIJUEGO: no se completó la prueba; se conserva el resultado de la decisión."
+
+
+def _arena_speed_factor(elapsed):
+    return max(
+        ARENA_MIN_SPEED_FACTOR,
+        1.0 - max(0.0, elapsed) * ARENA_SPEEDUP_PER_SECOND,
+    )
 
 
 def _arena_walkable(position):
@@ -1000,20 +1899,23 @@ def _arena_far_spawn(player, enemies, skip=None):
     )
 
 
-def _arena_spawn_enemy(symbol, player, enemies, now):
-    interval = {"S": 0.56, "N": 0.70, "Z": 0.78}[symbol]
+def _arena_spawn_enemy(symbol, player, enemies, now, elapsed=0.0):
+    base_interval = {"S": 0.46, "N": 0.54, "Z": 0.62}[symbol]
+    interval = base_interval * _arena_speed_factor(elapsed)
     return {
         "symbol": symbol,
         "position": _arena_far_spawn(player, enemies),
         "warning": None,
+        "base_interval": base_interval,
         "interval": interval,
         "next_move": now + random.uniform(0.25, interval),
     }
 
 
-def _arena_update_enemies(player, enemies, now):
+def _arena_update_enemies(player, enemies, now, elapsed):
     hits = 0
     for enemy in enemies:
+        enemy["interval"] = enemy["base_interval"] * _arena_speed_factor(elapsed)
         if now < enemy["next_move"]:
             continue
         enemy["next_move"] = now + enemy["interval"]
@@ -1062,43 +1964,86 @@ def _arena_draw(player, enemies, seconds_left, lives, dodges, wave, event):
         )
         for enemy in enemies
     }
+    columns, terminal_rows = shutil.get_terminal_size(fallback=(80, 24))
+    title = "ALEXANDRIA // THE REFUGE"
+    timer_color = "green" if seconds_left > 20 else "yellow" if seconds_left > 8 else "red"
+    status = (
+        f"OLEADA {wave}/{ARENA_WAVES}  TIEMPO {seconds_left:04.1f}s "
+        f"{_minigame_bar(seconds_left, ARENA_DURATION, 12)}  "
+        f"VIDAS {lives}/{ARENA_LIVES}  ESQUIVAS {dodges}  "
+        f"BONUS +{min(6, dodges * 2)}"
+    )
+    legend = "@ vos  S Salvador  N Negan  Z caminante  ! ataque  # cobertura"
+    panel_width = min(
+        columns - 4,
+        max(ARENA_WIDTH + 6, len(status) + 6, len(legend) + 6, len(title) + 6),
+    )
+    body_width = panel_width - 6
+    frame = "╔" + "═" * (panel_width - 2) + "╗"
+    frame_bottom = "╚" + "═" * (panel_width - 2) + "╝"
+    lines = []
+
+    def add_centered(plain, styled=None, color="white", bold=False):
+        wrapped = textwrap.wrap(plain, width=body_width, break_long_words=True) or [""]
+        for segment in wrapped:
+            padding = max(0, (body_width - len(segment)) // 2)
+            trailing = max(0, body_width - len(segment) - padding)
+            plain_row = "║  " + " " * padding + segment + " " * trailing + "  ║"
+            if styled is None or len(wrapped) > 1:
+                styled_segment = _minigame_color(segment, color, bold)
+            else:
+                styled_segment = styled
+            styled_row = "║  " + " " * padding + styled_segment + " " * trailing + "  ║"
+            lines.append((plain_row, styled_row))
+
+    lines.append((frame, _minigame_color(frame, "cyan", True)))
+    add_centered(title, color="cyan", bold=True)
+    add_centered(status, color=timer_color, bold=True)
+    add_centered(legend, color="dim")
     border = "+" + "-" * ARENA_WIDTH + "+"
-    lines = [
-        "THE REFUGE // PRUEBA DE ESQUIVA",
-        (
-            f"OLEADA {wave}/4  TIEMPO {seconds_left:04.1f}s  "
-            f"VIDAS {lives}/3  ESQUIVAS {dodges}  "
-            f"BONUS +{min(6, dodges * 2)}"
-        ),
-        "@ vos | S Salvador | N Negan | Z caminante | ! ataque | # cobertura",
-        border,
-    ]
+    add_centered(border, color="cyan")
     for y in range(ARENA_HEIGHT):
         row = []
+        colored_row = []
         for x in range(ARENA_WIDTH):
             position = (x, y)
             if position == player:
-                row.append("@")
+                tile, color = "@", "cyan"
             elif position in enemy_tiles:
-                row.append(enemy_tiles[position])
+                tile = enemy_tiles[position]
+                color = "red" if tile == "!" or tile == "N" else "yellow" if tile == "S" else "green"
             elif position in ARENA_WALLS:
-                row.append("#")
+                tile, color = "#", "white"
             else:
-                row.append(".")
-        lines.append("|" + "".join(row) + "|")
-    lines.extend(
-        [
-            border,
-            event,
-            "W A S D mover | Q terminar la prueba | No hace falta presionar Enter",
-        ]
-    )
-    sys.stdout.write("\x1b[H\x1b[J" + "\n".join(lines) + "\n")
+                tile, color = ".", "dim"
+            row.append(tile)
+            colored_row.append(_minigame_color(tile, color, tile in ("@", "!", "N")))
+        plain_map_row = "|" + "".join(row) + "|"
+        colored_map_row = "|" + "".join(colored_row) + "|"
+        add_centered(plain_map_row, styled=colored_map_row)
+    add_centered(border, color="cyan")
+    event_color = "red" if "alcanzaron" in event or "horda" in event else "yellow" if "Oleada" in event else "green" if "Esquiva" in event or "Resististe" in event else "white"
+    add_centered(event, color=event_color, bold=True)
+    add_centered("FLECHAS / W A S D MOVER  ·  Q TERMINA", color="cyan")
+    lines.append((frame_bottom, _minigame_color(frame_bottom, "cyan", True)))
+
+    visible_width = max(len(plain) for plain, _ in lines)
+    top = max(0, (terminal_rows - len(lines)) // 2)
+    left = max(0, (columns - visible_width) // 2)
+    output = ["\x1b[H\x1b[J", "\n" * top]
+    for index, (plain, styled) in enumerate(lines):
+        padding = max(0, (visible_width - len(plain)) // 2)
+        trailing = max(0, visible_width - len(plain) - padding)
+        line = " " * (left + padding) + styled + " " * trailing
+        if index < len(lines) - 1:
+            line += "\n"
+        output.append(line)
+    sys.stdout.write("".join(output))
     sys.stdout.flush()
 
 
 def quick_time_event():
-    duration = 22.0
+    duration = ARENA_DURATION
     if not sys.stdin.isatty():
         return 0
 
@@ -1110,9 +2055,9 @@ def quick_time_event():
     for symbol in ("S", "S", "Z"):
         enemies.append(_arena_spawn_enemy(symbol, player, enemies, started))
 
-    spawn_schedule = ((4.4, "S"), (8.8, "N"), (13.2, "Z"), (17.6, "S"))
+    spawn_schedule = ARENA_SPAWN_SCHEDULE
     next_spawn = 0
-    lives = 3
+    lives = ARENA_LIVES
     dodges = 0
     last_move = 0.0
     next_frame = 0.0
@@ -1121,6 +2066,8 @@ def quick_time_event():
 
     try:
         tty.setcbreak(fd)
+        sys.stdout.write("\x1b[?25l")
+        sys.stdout.flush()
         quiet_settings = termios.tcgetattr(fd)
         quiet_settings[3] &= ~termios.ECHO
         termios.tcsetattr(fd, termios.TCSADRAIN, quiet_settings)
@@ -1136,11 +2083,11 @@ def quick_time_event():
 
             while next_spawn < len(spawn_schedule) and elapsed >= spawn_schedule[next_spawn][0]:
                 symbol = spawn_schedule[next_spawn][1]
-                enemies.append(_arena_spawn_enemy(symbol, player, enemies, now))
+                enemies.append(_arena_spawn_enemy(symbol, player, enemies, now, elapsed))
                 event = f"¡Oleada nueva! Se acerca {'Negan' if symbol == 'N' else 'un caminante'}."
                 next_spawn += 1
 
-            wave = min(4, int(elapsed // 5.5) + 1)
+            wave = min(ARENA_WAVES, int(elapsed // (duration / ARENA_WAVES)) + 1)
             if now >= next_frame:
                 _arena_draw(
                     player, enemies, max(0.0, duration - elapsed),
@@ -1156,7 +2103,7 @@ def quick_time_event():
             timeout = max(0.0, wake_at - time.monotonic())
             ready, _, _ = select.select([fd], [], [], timeout)
             if ready:
-                pressed = os.read(fd, 1).decode("ascii", errors="ignore").lower()
+                pressed = _arena_read_key(fd)
                 now = time.monotonic()
                 if pressed == "q":
                     finished_by_player = True
@@ -1188,23 +2135,23 @@ def quick_time_event():
             elapsed = now - started
             while next_spawn < len(spawn_schedule) and elapsed >= spawn_schedule[next_spawn][0]:
                 symbol = spawn_schedule[next_spawn][1]
-                enemies.append(_arena_spawn_enemy(symbol, player, enemies, now))
+                enemies.append(_arena_spawn_enemy(symbol, player, enemies, now, elapsed))
                 event = f"¡Oleada nueva! Se acerca {'Negan' if symbol == 'N' else 'un caminante'}."
                 next_spawn += 1
 
-            hits = _arena_update_enemies(player, enemies, now)
+            hits = _arena_update_enemies(player, enemies, now, elapsed)
             if hits:
                 lives = max(0, lives - hits)
                 event = f"¡Te alcanzaron {hits} vez/veces! Perdés vida y el enemigo vuelve a aparecer."
 
         elapsed = min(duration, time.monotonic() - started)
-        wave = min(4, int(elapsed // 5.5) + 1)
+        wave = min(ARENA_WAVES, int(elapsed // (duration / ARENA_WAVES)) + 1)
         if lives <= 0:
             event = "La horda te alcanzó. El desenlace continúa con las esquivas logradas."
         elif finished_by_player:
             event = "Terminaste la prueba; el desenlace continúa con las esquivas logradas."
         else:
-            event = "¡Resististe las tres oleadas!"
+            event = "¡Resististe la oleada completa de 40 segundos!"
         _arena_draw(
             player, enemies, max(0.0, duration - elapsed),
             lives, dodges, wave, event,
@@ -1275,6 +2222,30 @@ def show_ending(state):
         return
 
     title = ending.get("title", "CAMPAÑA FINALIZADA")
+    if not ending.get("epilogue"):
+        final_choice = None
+        decisions = state.get("decisions", [])
+        if isinstance(decisions, list):
+            for decision in reversed(decisions):
+                if (
+                    isinstance(decision, dict)
+                    and decision.get("phase") == "Confrontación final"
+                    and decision.get("choice") in {"hold", "talk", "evacuate"}
+                ):
+                    final_choice = decision["choice"]
+                    break
+
+        failure = ""
+        if state.get("status") == "failed":
+            failure = ending.get("text") or failure_reason(state)
+        ending["epilogue"] = campaign_epilogue(
+            state,
+            title,
+            final_choice=final_choice,
+            failure=failure,
+        )
+        save_campaign(state)
+
     lines = [
         "THE REFUGE — LÍNEA ALTERNATIVA",
         f"DESENLACE: {title}",
@@ -1296,11 +2267,7 @@ def show_ending(state):
     lines.append("RESULTADO")
     append_wrapped(ending.get("text", ""))
     lines.append("CRÓNICA DE ESTA PARTIDA")
-    epilogue = ending.get("epilogue") or (
-        "Esta partida se guardó con una versión anterior del módulo y no incluye "
-        "una crónica ampliada. Iniciá una campaña nueva para generar un epílogo."
-    )
-    append_wrapped(epilogue)
+    append_wrapped(ending["epilogue"])
     lines.append("Esta narración es una variación original del cómic y no modifica su canon.")
 
     with tempfile.NamedTemporaryFile(
@@ -1331,21 +2298,34 @@ def final_decision(state):
         probability = decision_success_probability(state, decision)
         success_percent = int(round(probability * 100))
         failure_percent = 100 - success_percent
-        stats_label = decision_stat_label(decision)
+        stats_label = decision_stat_short_label(decision)
         options.append(
-            (tag, f"{label} — Éxito {success_percent}% / fallo {failure_percent}% ({stats_label})")
+            (tag, f"{label} · {success_percent}/{failure_percent}% · {stats_label}")
         )
 
-    selected = choose(
-        "CONFRONTACIÓN FINAL",
-        "Elegí cómo responder. Las probabilidades dependen de las estadísticas indicadas. Es una simulación alternativa.",
-        options,
-        16,
-        86,
-        5,
-    )
-    if selected is None:
-        return False
+    while True:
+        selected = choose(
+            "CONFRONTACIÓN FINAL",
+            "Elegí cómo responder. Cada cifra indica éxito/fallo; las abreviaturas nombran las estadísticas que influyen.",
+            options,
+            16,
+            0,
+            5,
+        )
+        if selected is None:
+            return False
+        if confirm(
+            "ANTES DE LA PRUEBA FINAL",
+            f"Elegiste: {labels[selected]}.\n\n"
+            "Después de confirmar, empezará una prueba de reflejos.\n"
+            "Movete con las flechas o con W, A, S y D. Q termina la prueba.\n\n"
+            "Es una oleada de 40 segundos y tenés dos vidas. "
+            "Llegan refuerzos cada 2,5 segundos y los enemigos aumentan levemente su velocidad con el paso del tiempo.\n\n"
+            "¿Empezar la confrontación?",
+            14,
+            0,
+        ):
+            break
 
     final_choice = {"id": f"final_{selected}"}
     probability = decision_success_probability(state, final_choice)
@@ -1409,12 +2389,25 @@ def play_campaign(state):
         title, description = PHASES[phase]
         if phase == "war":
             title = f"GUERRA — TURNO {state['war_turn']} DE {WAR_TURNS}"
+        elif phase == "preparation":
+            title = (
+                f"PREPARACIÓN — JORNADA "
+                f"{state.get('preparation_turn', 1)} DE {PREPARATION_TURNS}"
+            )
 
         prompt = (
             f"{description}\n\n"
-            "Cada opción indica probabilidad de éxito y fallo según las estadísticas actuales.\n\n"
-            f"{status_text(state)}"
+            "Cada opción muestra éxito/fallo, la estadística y sus efectos. "
+            "Abrev.: Sup., Intel., Def., Med., Mat., Com., Ag. y Al.\n\n"
+            f"{status_text(state)}\n"
+            f"{ration_forecast_text(state)}"
         )
+        if phase == "war" and state.get("war_turn") == 4:
+            prompt += (
+                "\n\nEn este turno, elegir Mantener la línea abre una prueba "
+                "opcional ante la horda. Tres decisiones cronometradas; un error "
+                "termina la campaña."
+            )
         raw_choices = choices_for(phase, state)
         choices = available(raw_choices, state)
         menu_choices = []
@@ -1422,19 +2415,32 @@ def play_campaign(state):
             success_percent = int(round(decision_success_probability(state, choice) * 100))
             failure_percent = 100 - success_percent
             item_description = (
-                f"{choice['label']} — Éxito {success_percent}% / "
-                f"fallo {failure_percent}% ({decision_stat_label(choice)}) — {choice['hint']}"
+                f"{choice['label']} · {success_percent}/{failure_percent}% · "
+                f"{decision_stat_short_label(choice)} · {compact_choice_hint(choice)}"
             )
             menu_choices.append((str(index), item_description))
-        selected = choose(title, prompt, menu_choices, 23, 86, 8)
+        selected = choose(title, prompt, menu_choices, 23, 0, 8)
         if selected is None:
             return
 
         choice = choices[int(selected) - 1]
+        if choice.get("risk") and not confirm(
+            "REVISÁ EL RIESGO",
+            f"{risk_preview_text(state, choice)}\n\n¿Confirmar esta decisión?",
+            20,
+            0,
+        ):
+            continue
+
         outcome = resolve_choice(state, choice)
         failure = finish_if_failed(state)
+        if not failure and state["status"] == "active":
+            outcome += optional_campaign_minigame(state, phase, choice, outcome)
+        if state["status"] == "failed" and not failure:
+            failure = state.get("ending", {}).get("text", "La campaña terminó.")
         if failure:
-            outcome += "\n\nFIN DE CAMPAÑA: " + failure
+            if "FIN DE CAMPAÑA:" not in outcome:
+                outcome += "\n\nFIN DE CAMPAÑA: " + failure
         else:
             outcome += "\n" + consume_rations(state)
             incident = resolve_random_incident(state)
@@ -1514,8 +2520,8 @@ def show_about():
     message(
         "¿QUÉ ES THE REFUGE?",
         "THE REFUGE es una campaña de supervivencia por turnos ambientada en una línea alternativa de The Walking Dead.\n\n"
-        "Durante diez jornadas vas a organizar el refugio y administrar recursos y seguridad. Cada decisión muestra sus probabilidades de éxito y fallo, junto con la estadística que influye: inteligencia, defensas, moral, alianzas o supervivientes. Cuanto mejor esté esa estadística, mayores serán las chances de éxito; fallar puede costar recursos y poner en riesgo la campaña.\n\n"
-        "Después llegan cinco turnos de guerra y una confrontación final con una prueba de esquiva en la terminal. La partida se guarda localmente para que puedas continuarla. Los desenlaces son variaciones originales: no modifican el canon del cómic.",
+        "Vas a tomar diez decisiones de preparación y ocho durante la guerra, además de elegir cómo afrontar la confrontación final. Cada jornada consume comida y agua; durante la guerra se gastan dos raciones de cada una por turno. Las reservas pueden obligarte a cambiar de plan. Cada decisión muestra sus probabilidades de éxito y fallo, junto con la estadística que influye; fallar puede costar recursos y poner en riesgo la campaña.\n\n"
+        "Las expediciones, las crisis y algunas operaciones de guerra pueden abrir minijuegos opcionales para conseguir suministros o mejorar la defensa. En el turno 4, Mantener la línea puede abrir el QTE de la horda: tres decisiones rápidas; equivocarse o tardar termina la campaña. La advertencia permite rechazarlo antes de empezar. La prueba final de esquiva dura 40 segundos. La partida se guarda localmente para que puedas continuarla. Los desenlaces son variaciones originales: no modifican el canon del cómic.",
         19,
         78,
     )
@@ -1524,10 +2530,11 @@ def show_about():
 def show_rules():
     message(
         "THE REFUGE — REGLAS",
-        "Campaña persistente: consejo, expedición, crisis, reconstrucción, refugiados, cinco turnos de guerra y confrontación final.\n\n"
-        "Cada jornada consume comida y agua. Dos jornadas consecutivas con faltantes causan una baja. Cada opción muestra su probabilidad de éxito/fallo y la estadística que usa; un valor más alto aumenta las chances. En las maniobras arriesgadas también influyen inteligencia y defensas. Si no quedan supervivientes o colapsan moral y defensas, la campaña termina.\n\n"
+        "Campaña persistente: cinco etapas iniciales, cinco jornadas de preparación, ocho turnos de guerra y confrontación final: 18 decisiones estratégicas antes del desenlace.\n\n"
+        "Cada jornada consume comida y agua; durante los ocho turnos de guerra se consumen dos raciones de cada una. Dos jornadas consecutivas con faltantes causan una baja. Cada opción muestra su probabilidad de éxito/fallo y la estadística que usa; un valor más alto aumenta las chances. En las maniobras arriesgadas también influyen inteligencia y defensas. Si no quedan supervivientes o colapsan moral y defensas, la campaña termina.\n\n"
+        "Durante la preparación podés reponer comida y agua, intercambiar suministros, fortalecer accesos o atender a los heridos. Algunas expediciones, crisis y operaciones de guerra ofrecen minijuegos opcionales: acertar suma recursos o preparación; fallar una de esas pruebas no quita lo que ya ganaste. En el turno 4, Mantener la línea puede iniciar el QTE de la horda: tres decisiones de 7, 6 y 5 segundos; un error o dejar vencer el tiempo termina la campaña. La advertencia permite rechazarlo.\n\n"
         "La partida se guarda localmente. Escape vuelve al menú y conserva el último estado guardado.\n\n"
-        "En la prueba final, movete con W, A, S y D. Resistís cuatro oleadas durante 22 segundos, con tres vidas; Q termina la prueba.\n\n"
+        "En la prueba final, movete con las flechas o con W, A, S y D. Resistís una oleada de 40 segundos, con dos vidas; los refuerzos llegan cada 2,5 segundos y los enemigos aumentan levemente su velocidad con el paso del tiempo. Q termina la prueba.\n\n"
         "Marco temático: All-Out War, The Walking Dead #115-126. Esta campaña presenta una variación original, sin reproducir páginas ni diálogos del cómic.",
         22,
         78,
@@ -1546,7 +2553,7 @@ def start_campaign(current):
     save_campaign(state)
     message(
         "THE REFUGE",
-        "La campaña comienza. Prepará el refugio durante diez jornadas antes de la confrontación final. La guerra ocupa cinco turnos.\n\n"
+        "La campaña comienza. Tomá diez decisiones de preparación antes de la guerra, que dura ocho turnos. Cada jornada consume comida y agua; en la guerra se gastan dos raciones de cada una por turno. Las reservas van a definir qué prioridades podés sostener.\n\n"
         "Algunas maniobras tienen riesgo y se indican en el menú. Los eventos aleatorios pueden alterar tus recursos; una decisión extrema puede acabar con la campaña.",
         11,
         74,
@@ -1554,9 +2561,177 @@ def start_campaign(current):
     play_campaign(state)
 
 
-def main():
+TEST_DIFFICULTIES = {
+    "inicial": 4,
+    "media": 5,
+    "avanzada": 6,
+}
+
+
+def _show_standalone_test_result(title, lines, accent="green"):
+    with _minigame_terminal() as fd:
+        if fd is None:
+            print("\n".join(lines))
+            return
+        _render_minigame_panel(
+            title,
+            [(line, "white") for line in lines],
+            accent=accent,
+            footer="PRESIONÁ CUALQUIER TECLA PARA VOLVER",
+        )
+        while not _minigame_wait_key(fd, 3600):
+            pass
+
+
+def run_standalone_minigame(name, difficulty="inicial"):
+    if not sys.stdin.isatty():
+        print("Abrí una terminal interactiva para probar los minijuegos.", file=sys.stderr)
+        return 1
+
+    if name in ("ruta", "radio"):
+        if difficulty not in TEST_DIFFICULTIES:
+            print("Dificultad inválida: elegí inicial, media o avanzada.", file=sys.stderr)
+            return 2
+        sequence_length = TEST_DIFFICULTIES[difficulty]
+        time_limit = 7.0 + (sequence_length - 4) * 0.8
+    elif name in ("brecha", "arena", "horda"):
+        if difficulty != "inicial":
+            print(f"El minijuego {name} no tiene niveles de dificultad.", file=sys.stderr)
+            return 2
+    else:
+        print("Minijuego inválido: elegí ruta, brecha, radio o arena.", file=sys.stderr)
+        return 2
+
+    if name == "ruta":
+        completed = _direction_sequence_game(
+            "PRUEBA INDEPENDIENTE // RASTREAR SUMINISTROS",
+            count=sequence_length,
+            time_limit=time_limit,
+        )
+        result = "Ruta completada." if completed else "Ruta incompleta."
+        _show_standalone_test_result(
+            "RESULTADO DE RUTA",
+            [result, "La prueba no leyó, cambió ni guardó la campaña."],
+            "green" if completed else "yellow",
+        )
+    elif name == "brecha":
+        score = _perimeter_reflex_game()
+        if score >= 4:
+            result = "En campaña: defensas +1 y materiales +1."
+        elif score >= 3:
+            result = "En campaña: defensas +1; sin materiales extra."
+        else:
+            result = "En campaña: sin bonificación adicional."
+        _show_standalone_test_result(
+            "RESULTADO DE LA BRECHA",
+            [f"Aciertos: {score}/4.", result, "No se aplicaron cambios a la campaña."],
+            "green" if score >= 3 else "yellow",
+        )
+    elif name == "radio":
+        decoded = _radio_cipher_game(
+            length=sequence_length,
+            time_limit=time_limit,
+        )
+        result = "Clave decodificada." if decoded else "Clave no decodificada."
+        _show_standalone_test_result(
+            "RESULTADO DE RADIO",
+            [result, "La prueba no leyó, cambió ni guardó la campaña."],
+            "green" if decoded else "yellow",
+        )
+    elif name == "horda":
+        result = horde_quick_time_event()
+        if result["completed"]:
+            lines = [
+                f"Decisiones correctas: {result['cleared']}/{len(HORDE_QTE_SCENES)}.",
+                "Bonificaciones simuladas: " + ", ".join(result["bonuses"]) + ".",
+                "La prueba no leyó ni modificó la campaña guardada.",
+            ]
+            accent = "green"
+        else:
+            lines = [
+                f"Decisiones correctas: {result['cleared']}/{len(HORDE_QTE_SCENES)}.",
+                result["failure"],
+                "En campaña, este error terminaría la partida.",
+                "La prueba no leyó ni modificó la campaña guardada.",
+            ]
+            accent = "red"
+        _show_standalone_test_result("RESULTADO DE LA HORDA", lines, accent)
+    else:
+        dodges = quick_time_event()
+        _show_standalone_test_result(
+            "RESULTADO DE LA ARENA",
+            [f"Esquivas registradas: {dodges}.", "No se leyó ni se modificó la campaña guardada."],
+            "cyan",
+        )
+    return 0
+
+
+def standalone_minigame_menu():
+    options = [
+        ("ruta_inicial", "Rastrear suministros · inicial, 4 flechas"),
+        ("ruta_media", "Rastrear suministros · media, 5 flechas"),
+        ("ruta_avanzada", "Rastrear suministros · avanzada, 6 flechas"),
+        ("brecha", "Brecha del perímetro · cuatro señales"),
+        ("radio_inicial", "Código de radio · inicial, 4 dígitos"),
+        ("radio_media", "Código de radio · media, 5 dígitos"),
+        ("radio_avanzada", "Código de radio · avanzada, 6 dígitos"),
+        ("horda", "Horda de caminantes · tres decisiones rápidas"),
+        ("arena", "Arena final · 40 segundos"),
+        ("volver", "Volver a la terminal"),
+    ]
+    tests = {
+        "ruta_inicial": ("ruta", "inicial"),
+        "ruta_media": ("ruta", "media"),
+        "ruta_avanzada": ("ruta", "avanzada"),
+        "brecha": ("brecha", "inicial"),
+        "radio_inicial": ("radio", "inicial"),
+        "radio_media": ("radio", "media"),
+        "radio_avanzada": ("radio", "avanzada"),
+        "horda": ("horda", "inicial"),
+        "arena": ("arena", "inicial"),
+    }
+    while True:
+        selected = choose(
+            "BANCO DE PRUEBAS — THE REFUGE",
+            "Elegí un minijuego. Estas pruebas son independientes y no usan la campaña guardada.",
+            options,
+            20,
+            0,
+            9,
+        )
+        if selected in (None, "volver"):
+            return 0
+        name, difficulty = tests[selected]
+        result = run_standalone_minigame(name, difficulty)
+        if result:
+            return result
+
+
+def main(arguments=None):
+    if arguments is None:
+        arguments = sys.argv[1:]
+
+    if arguments == ["--probar-minijuegos"]:
+        return standalone_minigame_menu()
+    if arguments and arguments[0] == "--probar-minijuego":
+        if len(arguments) not in (2, 3):
+            print(
+                "Uso: refugio --probar-minijuego ruta|brecha|radio|horda|arena [inicial|media|avanzada]",
+                file=sys.stderr,
+            )
+            return 2
+        name = arguments[1]
+        difficulty = arguments[2] if len(arguments) == 3 else "inicial"
+        return run_standalone_minigame(name, difficulty)
+    if arguments:
+        print(
+            "Uso: refugio [--probar-minijuegos | --probar-minijuego ruta|brecha|radio|horda|arena [inicial|media|avanzada]]",
+            file=sys.stderr,
+        )
+        return 2
+
     if not DIALOG:
-        print("THE REFUGE necesita dialog. Instalalo con: sudo apt install dialog")
+        print("THE REFUGE necesita dialog. Instalalo como root con: su -c 'apt install dialog'")
         return 1
 
     while True:

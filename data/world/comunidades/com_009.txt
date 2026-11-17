@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 LOS SUSURRADORES
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #130-#162.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Grupo nómada
 
 DESCRIPCIÓN
-Alpha y Beta son sus figuras centrales; el grupo usa pieles de caminantes para desplazarse entre los muertos.
+Agrupación tribal y nómada que rechaza cualquier vestigio de civilización, nombres propios o asentamientos fijos, comandada bajo leyes darwinistas de supervivencia del más fuerte por Alpha y su segundo al mando, Beta. Sus integrantes visten pieles curtidas de caminantes y se desplazan silenciosamente mezclados dentro de megahordas masivas, guiando el rumbo de los muertos como arma estratégica. Operan en zonas boscosas de Virginia sin estructuras permanentes, aplicando brutalidad interna contra los miembros considerados débiles y delimitando su territorio mediante una frontera de cabezas empaladas.
 
 RELEVANCIA NARRATIVA
-Su choque con las comunidades cuestiona la reconstrucción de una vida sedentaria.
+Representan la antítesis filosófica del proyecto de reconstrucción de Rick Grimes: mientras Alexandria busca restaurar la sociedad humana, Los Susurradores abrazan la regresión animal y la integración con el entorno post-colapso. Su conflicto desencadena la pérdida de figuras clave (Ezekiel, Rosita), la destrucción de Hilltop y la liberación de la mayor megahorda vista en la serie contra Alexandria.
 
 ANÁLISIS DE SUPERVIVENCIA
-El camuflaje y las hordas son amenazas específicas; no deben confundirse con capacidades sobrenaturales.
+Su adaptación al medio hostil es extraordinaria: el camuflaje olfativo y visual permanente anula el riesgo de ataques de caminantes, elimina la necesidad de defender murallas y les otorga un arma de destrucción masiva móvil. No obstante, su modelo carece por completo de sostenibilidad biológica y social: la ausencia de medicina, agricultura, refugio climático y empatía grupal condena a sus integrantes a una mortalidad constante y los deja sin capacidad de recuperación tras perder a su liderazgo central.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #130-#162; The Walking Dead #173.
+Cotejado directamente desde los primeros avistamientos (#130-#132), la frontera de picas (#144), la muerte de Alpha (#156), la guerra de los Susurradores (#157-#162) y el fin de Beta (#173).

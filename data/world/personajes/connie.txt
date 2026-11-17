@@ -29,7 +29,7 @@ CONFIRMED: primera aparicion en el numero 127; ultima aparicion
 registrada en el 191.
 OBSERVED: desconfianza inicial, integracion a la milicia y combate
 contra los Susurradores se muestran en escenas concretas.
-UNCONFIRMED: situacion posterior al numero 191 y apellido.
+NO ESTABLECIDO EN EL CÓMIC: situacion posterior al numero 191 y apellido.
 
 VINCULOS
 MAGNA: lider de su grupo.

@@ -1,23 +1,33 @@
+----------ARCHIVO DE PERSONAJES | Mike (Salvadores) (Vol. 18: What Comes After)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-mike_salvadores
 NOMBRE: Mike (Salvadores)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Los Salvadores
+AGRUPACIÓN: Los Salvadores (The Saviors)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: What Comes After
+PRIMERA APARICIÓN: #104
+ÚLTIMA APARICIÓN: #104
+ALCANCE: The Walking Dead, serie regular; aparición registrada en #104. El estado final se describe en el historial.
+REFERENCIA PRIMARIA: The Walking Dead #104.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #104 (Volumen 18: What Comes After, Parte 2 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón caucásico-americano adulto (entre 30 y 40 años aproximadamente), complexión media, cabello oscuro corto y equipo de combate de Los Salvadores.
+- Rol post-brote: Soldado y miembro de la escolta armada de Negan en Los Salvadores.
+- Incidente registrado y desenlace (#104): Forma parte del contingente armado que acompaña a Negan cuando este se presenta antes de la fecha pactada en la Zona Segura de Alexandria para exigir suministros, armas y medicinas (#104). Mientras Negan recorre las viviendas junto a Rick Grimes, Mike colabora en la vigilancia del perímetro y la carga de provisiones confiscadas en los camiones. Tras dicho episodio no vuelve a ser acreditado por nombre ni mostrado de manera identificable en los combates posteriores de la Guerra Total (Volúmenes 20 y 21), por lo que su estado final al cierre del cómic principal se clasifica oficialmente como desconocido (presuntamente fallecido durante la guerra o sobreviviente en El Santuario).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Nota de desambiguación: No debe confundirse con Mike (el novio zombificado de Michonne Hawthorne decapitado en el Número #19), con Mike (equipo de noticias, piloto de Fox News cuya cabeza aparece en las peceras del Gobernador en el Número #29) ni con Mike (miembro de Los Susurradores).

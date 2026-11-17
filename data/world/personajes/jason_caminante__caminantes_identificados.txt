@@ -1,23 +1,32 @@
+Jason (caminante) es uno de los zombis con los que se cruzan Rick Grimes y Abraham Ford en el Número 89 del cómic principal mientras regresan a Alexandria, siendo eliminado brutalmente por Abraham con un hacha y la culata de su arma.
+
+----------CAMINANTES IDENTIFICADOS | Jason (caminante) (Vol. 15: We Find Ourselves)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-jason_caminante
 NOMBRE: Jason (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #89 (Volumen 15: We Find Ourselves, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Perfil físico observado: Varón adulto en avanzado estado de descomposición, con vestimenta civil deteriorada.
+- Reanimación: Falleció por causas desconocidas durante el inicio del brote y reanimó como caminante en los alrededores de Virginia / Washington D.C.
+- Incidente registrado (#89): Mientras regresan a pie hacia la Zona Segura de Alexandria tras la invasión de la horda, Rick Grimes y Abraham Ford se topan en el camino con Jason y otro caminante errante.
+- Desenlace (#89): Ambos sobrevivientes intervienen de inmediato para despejar la ruta. Abraham Ford ataca a Jason asestándole un hachazo directo en la cabeza y posteriormente remata los restos de su cráneo golpeándolos repetidamente con su pistola.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (NO CANÓNICO)
+- En el cómic principal nunca se pronuncia su nombre. Su identidad fue establecida posteriormente en la historia corta humorística "The Secret Diary of a Walker" (publicada en The Walking Dead: The Official Magazine).
+- En dicha versión paródica (NO CANÓNICA), se narra una perspectiva cómica de su encuentro final con Rick y Abraham antes de ser abatido.
+- Dato de registro: Jason es cronológicamente el último personaje con nombre propio asesinado/abatido por Abraham Ford en la serie de cómics antes de la muerte del propio Abraham a manos de los Salvadores.

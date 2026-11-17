@@ -6,85 +6,100 @@ EXPEDIENTE: TW-PER-009
 PERSONAJE: MAGGIE GREENE
 FUENTE CANONICA: COMIC THE WALKING DEAD
 ESTADO: FICHA INTEGRAL
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo, arco, primera y última aparición.
+ARCO: Miles Behind Us
+PRIMERA APARICIÓN: #10
+ÚLTIMA APARICIÓN: #193
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #10 y última aparición #193. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #10 y #193.
+COTEJO: el propietario cotejó el contenido y las apariciones con el cómic; consultó la wiki individual y videos explicativos como apoyo de contexto.
+
 AVISO: CONTIENE SPOILERS DEL COMIC
 
 IDENTIFICACION
+
 Maggie Greene es hija de Hershel y una de las sobrevivientes
 de la granja familiar. El comic la identifica como Maggie Greene.
 No le atribuye el apellido Rhee.
 
 LA GRANJA Y EL GRUPO
+
 Maggie conoce a Rick y sus compañeros cuando llegan a la
 granja. La convivencia con el grupo cambia su vida y la
 obliga a enfrentar un mundo que ya no puede protegerse
 con las reglas de antes.
-
 Su relación con Glenn crece entre pérdidas y desplazamientos.
 Ambos se casan y construyen una familia en medio de la
 inseguridad constante.
 
 GLENN Y LA PERDIDA
+
 La muerte de Glenn a manos de Negan transforma el rumbo
 de Maggie. Tras el duelo, sigue adelante con su hijo
 Hershel y se establece en Hilltop junto a Sophia.
-
 Maggie no olvida lo ocurrido. Su postura frente a Negan
 refleja el dolor de la pérdida y la tensión entre buscar
 justicia y evitar que la venganza siga gobernando a los
 sobrevivientes.
 
 HILLTOP
+
 En Hilltop, Maggie pasa de ser una residente a convertirse
 en una dirigente. Desafía a Gregory y defiende que la
 comunidad tome sus propias decisiones.
-
 Durante la guerra contra los Salvadores sostiene la alianza
 con Rick y participa en decisiones que afectan a todas
 las comunidades. Su liderazgo se fortalece en los años
 posteriores.
 
 PERFIL PSICOLOGICO
+
 Maggie es perseverante, directa y protectora. El duelo la
 afecta profundamente, pero no la deja inmóvil. Aprende a
 convertir su dolor en una voluntad firme de cuidar a su
 hijo y a la comunidad.
-
 Su liderazgo se basa en la experiencia y en la capacidad
 de tomar decisiones impopulares cuando cree que son
 necesarias para el grupo.
 
 VINCULOS IMPORTANTES
+
 GLENN RHEE
+
 Su esposo y compañero. La muerte de Glenn influye en
 muchas de sus decisiones posteriores.
 
 HERSHEL GREENE
+
 Su padre. La vida en la granja y las pérdidas familiares
 marcan la primera etapa de su historia.
-
 HERSHEL GREENE JR.
 Su hijo con Glenn. Maggie intenta darle una vida segura
 en una sociedad que todavía se está reconstruyendo.
 
 RICK GRIMES
+
 Aliado y compañero en la lucha por unir comunidades.
 Sus acuerdos y desacuerdos reflejan las distintas
 responsabilidades que ambos asumen.
 
 DESTINO Y LEGADO
+
 Maggie sobrevive y amplia su influencia hasta convertirse
 en una de las principales dirigentes de la sociedad
 reconstruida.
-
 Su recorrido va desde la vida familiar en la granja hasta
 la responsabilidad política de sostener una comunidad y
 pensar en el futuro de su hijo.
 
 REFERENCIAS
+
 - Granja de Hershel y relación con Glenn: primeros arcos.
 - Hilltop después de la guerra: numero 109.
 - Liderazgo y Commonwealth: arcos finales, hasta el 193.
 
 NOTA DE CANON
+
 Esta ficha sigue la serie original de comics. No mezcla
 hechos de la adaptacion televisiva.

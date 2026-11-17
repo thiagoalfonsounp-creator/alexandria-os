@@ -3,31 +3,44 @@ MAPA 1 — ORIGEN Y REFUGIOS DEL SUR
 ============================================================
 ESQUEMA SIN ESCALA. No marca caminos ni distancias.
 
-                         CYNTHIANA
-                     origen y hospital
-                           |
-                  salida hacia Atlanta
-                           v
-                       ATLANTA
-                           |
-                 CAMPAMENTO DEL GRUPO
-                           |
-          +----------------+----------------+
-          |                |                |
-   WILTSHIRE ESTATES   GRANJA GREENE     LA PRISIÓN
-          |                |                |
-          +------ refugios del sur ---------+
-                                           . . .
-                                      WOODBURY / ARENA
-                                      conflicto narrativo
+                    CYNTHIANA
+                     (#1–#2)
+                        |
+                        v
+                     ATLANTA
+                 llegada inicial (#2)
+                        |
+                        v
+              CAMPAMENTO DEL GRUPO
+                 reencuentro (#3)
+                        |\
+                        | \-- incursión con Glenn --> ATLANTA (#4)
+                        |<-------------------------- regreso al campamento
+                        |
+          salida del campamento en autocaravana (#7)
+                        v
+             WILTSHIRE ESTATES (#8–#9)
+                        |
+                        v
+               GRANJA GREENE (#10–#12)
+                        |
+                        v
+              LA PRISIÓN (#12–#48; con salidas y conflictos)
+                        .
+                        . conflicto, no ruta de asentamiento
+                        v
+                WOODBURY / ARENA
+                    (#27–#48)
 
 LECTURA
-- La ficha oficial de la serie sitúa el origen de Rick en Cynthiana,
-  Kentucky. La sinopsis editorial de #1 narra su salida hacia Atlanta; no
-  se dibuja la carretera ni una escala real.
-- Las ubicaciones rurales y el conflicto de Woodbury se muestran agrupados
-  para orientar. El orden exacto de las paradas del sur queda pendiente.
-- Las líneas punteadas expresan relación temática, no un viaje confirmado.
+- Rick despierta en Cynthiana, viaja hacia Atlanta y se reúne con Lori y
+Carl en el campamento. La incursión con Glenn en #4 ocurre después del
+reencuentro; el esquema muestra ese regreso a Atlanta por separado.
+- Luego el grupo pasa por Wiltshire Estates, la granja Greene y la prisión.
+El #12 es una transición entre la salida de la granja y la llegada a la
+prisión; los rangos marcan escenas y etapas, no presencia continua.
+- Woodbury es el centro del conflicto con la prisión, no un refugio aliado.
+Las líneas no representan carreteras ni distancias.
 
-Evidence Level: UNCONFIRMED hasta revisar los ejemplares indicados.
-Referencias de lectura: #1-48; ver etapas 01-04 y el criterio de esta sección.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #1–#48; etapas R01–R04.

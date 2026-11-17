@@ -6,38 +6,51 @@ EXPEDIENTE: TW-PER-016
 PERSONAJE: SOPHIA; SOPHIA GRIMES EN EL EPILOGO
 CANON: COMIC THE WALKING DEAD, SERIE PRINCIPAL Y EPILOGO
 ESTADO: FICHA AMPLIADA
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo, arco, primera y última aparición.
+ARCO: Days Gone Bye
+PRIMERA APARICIÓN: #2
+ÚLTIMA APARICIÓN: #193
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #2 y última aparición #193. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #2 y #193.
+COTEJO: el propietario cotejó el contenido y las apariciones con el cómic; consultó la wiki individual y videos explicativos como apoyo de contexto.
+
 AVISO: CONTIENE SPOILERS
 
 IDENTIFICACION
+
 Sophia aparece por primera vez en el numero 2. Es hija de Carol y
 forma parte del grupo que Rick encuentra en Atlanta. La serie regular
 la identifica como Sophia; el apellido Peletier pertenece a la
 adaptacion televisiva.
 
 RECORRIDO
+
 Sophia sobrevive a la caida de la granja y sigue viajando con los
 supervivientes. Tras la muerte de Carol, Maggie y Glenn la cuidan.
 Su cercania con Carl continua mientras ambos crecen entre las
 comunidades.
-
 En el numero 193, Sophia es adulta, esta casada con Carl y es madre
 de Andrea Grimes. El epilogo la muestra en la granja familiar,
 participando en una vida donde los caminantes ya no son una amenaza
 cotidiana para su hija.
 
 EVIDENCIA
+
 CONFIRMED: primera aparicion en el numero 2; esposa de Carl y madre
 de Andrea en el numero 193.
 OBSERVED: su crecimiento y los vinculos con Maggie, Glenn y Carl se
 muestran a lo largo de la serie.
-UNCONFIRMED: un apellido de nacimiento que la serie principal no
+NO ESTABLECIDO EN EL CÓMIC: un apellido de nacimiento que la serie principal no
 establece.
 
 VINCULOS
+
 CAROL: madre.
 MAGGIE Y GLENN: adultos que la cuidan tras la muerte de Carol.
 CARL GRIMES: amigo durante la infancia y esposo en el epilogo.
 ANDREA GRIMES: hija de Sophia y Carl.
 
 REFERENCIAS
+
 The Walking Dead, numeros 2-193; epilogo en el numero 193.

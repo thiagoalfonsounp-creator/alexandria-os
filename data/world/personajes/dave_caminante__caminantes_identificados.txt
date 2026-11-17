@@ -1,23 +1,32 @@
+Dave (caminante) es uno de los zombis que irrumpen en la granja de Hershel en el Número 54 del cómic principal, donde muere tras ser atravesado en la cabeza con una horca (bieldo agrícola) por Abraham Ford.
+
+----------CAMINANTES IDENTIFICADOS | Dave (caminante) (Vol. 9: Here We Remain)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-dave_caminante
 NOMBRE: Dave (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #54 (Volumen 9: Here We Remain, Parte 6 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Perfil físico observado: Varón adulto de complexión media, vestimenta civil deteriorada.
+- Reanimación: Falleció por causas desconocidas durante el inicio del brote y reanimó como caminante en Georgia.
+- Incidente registrado (#54): Apenas un capítulo después de la llegada de Abraham, Rosita y Eugene a la granja de Hershel Greene, un nuevo grupo de caminantes invade el perímetro de la propiedad mientras los sobrevivientes se organizan para partir hacia Washington D.C. Dave forma parte de los zombis que avanzan hacia el grupo.
+- Desenlace (#54): Mientras contiene a los caminantes junto al resto de los sobrevivientes, Abraham Ford toma una horca (pitchfork) de la granja y atraviesa directamente el cráneo de Dave, acabando con él en el acto.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (NO CANÓNICO)
+- En el cómic principal nunca se pronuncia su nombre. Su identidad fue revelada posteriormente en la historia corta humorística "The Secret Diary of a Walker" (publicada en The Walking Dead: The Official Magazine, número #9).
+- En dicha versión paródica (NO CANÓNICA), Dave aparece junto a otra caminante apodada "Office Walker" (protagonista de esa entrega, también abatida por Abraham con la misma horca en esa escena).
+- Nota de desambiguación: En el material de la revista existe otro personaje llamado "Stinky Dave" (un caminante amigo del protagonista del diario del automóvil), que corresponde a una entrada distinta dentro de esa serie paródica.

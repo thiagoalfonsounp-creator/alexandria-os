@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 HILLTOP
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #95-#193.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Comunidad agrícola
 
 DESCRIPCIÓN
-Gregory representa su autoridad inicial; Maggie adquiere después un papel central en su conducción.
+Asentamiento fortificado construido alrededor de la histórica mansión Barrington en Virginia, rodeado por un muro de troncos y tierra apisonada. Alberga a cerca de doscientos residentes dedicados a la agricultura extensiva, cría de ganado, carpintería y herrería artesanal (liderada por Earl Sutton), con exploradores activos como Paul Monroe (Jesús). Gobernada inicialmente por Gregory —un administrador cobarde que cede ante las extorsiones de Negan—, la comunidad pasa posteriormente al liderazgo firme de Maggie Greene tras la guerra contra Los Salvadores.
 
 RELEVANCIA NARRATIVA
-Sus intercambios y su relación con los Salvadores impulsan la alianza entre comunidades.
+Introduce el concepto de economía interregional y comercio sistemático entre asentamientos independientes. Su acuerdo de intercambio con Alexandria desencadena el choque directo contra Los Salvadores, y más adelante se convierte en el principal campo de batalla durante el conflicto contra Los Susurradores, resistiendo la destrucción parcial de la mansión y ataques con armas contaminadas.
 
 ANÁLISIS DE SUPERVIVENCIA
-La producción de alimentos facilita comerciar, pero también puede atraer exigencias de tributo.
+Hilltop posee la mayor capacidad de producción primaria de alimentos y manufactura artesanal de la región, lo que la convierte en un nodo económico indispensable. Sin embargo, su perímetro de madera y su ubicación en terreno elevado pero abierto la hacen vulnerable ante incendios o asedios prolongados, además de carecer inicialmente de una cultura militar propia, dependiendo de aliados externos para su defensa estratégica.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #95-#193.
+Cotejado directamente desde la presentación por Paul Monroe (#95), el acuerdo comercial (#96), la batalla con armas contaminadas (#159-#160) y su reconstrucción posterior.

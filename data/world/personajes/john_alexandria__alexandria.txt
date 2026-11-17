@@ -1,23 +1,29 @@
+----------ARCHIVO DE PERSONAJES | John (Alexandria) (Vol. 20: All Out War - Part One)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-john_alexandria
 NOMBRE: John (Alexandria)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #115 (Volumen 20: All Out War - Part One, Parte 1 de 6).
+Desenlace: Número #121 (Volumen 21: All Out War - Part Two, Parte 1 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido; ascendencia rumano-americana).
+- Perfil físico observado: Varón de ascendencia rumano-americana de mediados de los 30 años, complexión media, cabello negro corto y vestimenta de trabajo/gorra.
+- Rol post-brote: Residente de la Zona Segura de Alexandria e integrante del equipo técnico asignado a la fábrica secreta de producción de municiones liderada por Eugene Porter durante el conflicto contra Negan.
+- Incidente registrado (#115): Tras el inicio de la Guerra Total (All Out War) y el ataque inicial sobre El Santuario, John es reclutado para operar la maquinaria metalúrgica en el taller industrial ubicado fuera de Alexandria donde Eugene Porter fabrica balas en secreto para abastecer a la alianza de comunidades.
+- Desenlace (#121): Mientras trabaja en el turno de la fábrica de municiones junto al equipo de Eugene, John sale temporalmente al exterior del edificio sin escolta para orinar. Allí es sorprendido por una horda de caminantes errantes que lo rodea, lo derriba y lo devora vivo antes de que sus compañeros puedan auxiliarlo (su muerte alerta a Eugene sobre la proximidad de los caminantes y de las tropas de Los Salvadores que terminan capturando el taller).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Contexto narrativo: Su descuido al salir sin vigilancia de la fábrica de balas marca el inicio de la emboscada en la que Eugene Porter y su equipo de producción son capturados por Negan y Los Salvadores durante la segunda mitad de All Out War.
+- Nota de desambiguación: No debe confundirse con John (miembro de Los Salvadores y esposo de Tara que debuta mucho más adelante en el Número #147, Volumen 25: No Turning Back, y que intenta ahorcar a Dwight en el Volumen 28).

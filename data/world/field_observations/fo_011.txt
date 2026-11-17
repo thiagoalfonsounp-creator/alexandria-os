@@ -1,0 +1,11 @@
+ALEXANDRIA OS | THE WORLD
+FIELD OBSERVATIONS
+============================================================
+
+Observation ID: FO-011
+Subject: Propagación acústica y efecto arrastre
+Comic Reference: The Walking Dead #68
+Description: Un disparo o ruido intenso en una zona urbana provoca que unos pocos caminantes se dirijan hacia la fuente sonora; sus propios gruñidos y pasos atraen progresivamente a otros individuos fuera de la línea de visión directa.
+Analysis: El estímulo inicial no necesita ser percibido por toda la población local; la reacción de los primeros sujetos actúa como señal secundaria que amplifica el radio de atracción en cadena.
+Evidence Level: CONFIRMED
+Conclusion: El uso de armas de fuego o ruidos fuertes en entornos abiertos puede desencadenar concentraciones masivas mediante reacción en cadena.

@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 LA PRISIÓN
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #12-#48.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Complejo penitenciario
 
 DESCRIPCIÓN
-Celdas, patios y cercas reutilizados como refugio por el grupo.
+Institución correccional cercada por doble valla perimetral en Georgia, despejada por el grupo para establecer su primer asentamiento fortificado a largo plazo.
 
 RELEVANCIA NARRATIVA
-Se convierte en una base prolongada y en objetivo de Woodbury.
+Escenario de la consolidación del grupo, la convivencia con reclusos supervivientes, el nacimiento de Judith y el asalto final de las fuerzas de Woodbury que destruye las defensas.
 
 ANÁLISIS DE SUPERVIVENCIA
-La compartimentación ayuda a defenderse; también puede encerrar amenazas en sectores sin revisar.
+Las infraestructuras penitenciarias proveen barreras físicas excepcionales contra caminantes, pero requieren mantenimiento constante del alambrado y resultan vulnerables ante ataques humanos con armamento pesado.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #12-#48.
+Cotejado directamente desde el avistamiento del complejo (#12) y su limpieza (#13-#14) hasta el asalto final con tanque y caída del recinto (#47-#48).

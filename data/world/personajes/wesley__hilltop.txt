@@ -1,23 +1,36 @@
+----------ARCHIVO DE PERSONAJES | Wesley (Vol. 16: A Larger World)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-wesley
 NOMBRE: Wesley
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Hilltop
+AGRUPACIÓN: Colonia Hilltop
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: A Larger World
+PRIMERA APARICIÓN: #95
+ÚLTIMA APARICIÓN: UNCONFIRMED
+ALCANCE: The Walking Dead, serie regular; primera aparición #95 y apariciones posteriores hasta el Volumen 27, sin número final preciso en el expediente.
+REFERENCIA PRIMARIA: The Walking Dead #95; apariciones posteriores hasta el Volumen 27, según el registro.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #95 (Volumen 16: A Larger World, Parte 5 de 6).
+Apariciones posteriores: Números #96 (Vol. 16), #115–#126 (Volúmenes 20 y 21: All Out War)
+y apariciones secundarias hasta el Volumen 27 (The Whisperer War).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón caucásico-americano adulto (entre 30 y 40 años aproximadamente), complexión media, cabello oscuro corto y vestimenta civil casual.
+- Rol post-brote: Residente original de la Colonia Hilltop, buscador de suministros y partidario leal de Maggie Greene.
+- Incidente registrado (#95–#96): Aparece por primera vez en la mansión Barrington de Hilltop durante la llegada de Rick Grimes y su grupo (#95), irrumpiendo en la oficina de Gregory para avisar con alarma que Ethan ha regresado solo tras la entrega de suministros a Los Salvadores (evento que desemboca inmediatamente en el intento de asesinato de Gregory por parte de Ethan).
+- Guerra contra Los Salvadores y desenlace (#115–#161): Desencantado con el liderazgo egoísta de Gregory, Wesley apoya abiertamente la conducción de Maggie Greene al frente de Hilltop y participa en la defensa de la comunidad durante la Guerra Total contra Negan (#115–#126). Tras el salto temporal y durante la Guerra contra Los Susurradores (Volumen 27), desaparece de viñeta sin que se confirme si falleció durante el incendio de Hilltop o si fue evacuado a Alexandria, por lo que su estado final al cierre de la serie se clasifica oficialmente como desconocido.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Nota de desambiguación: No debe confundirse con Wes (Hilltop) [pareja sentimental de Alex en Hilltop que debuta en el Número #131, listado más abajo en esta misma página de registro], ni con Wes (soldado de Los Salvadores ejecutado en el Número #125 o el personaje homónimo de la serie derivada "Fear the Walking Dead").

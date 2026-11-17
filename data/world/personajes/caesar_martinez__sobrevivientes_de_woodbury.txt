@@ -1,23 +1,30 @@
+----------ARCHIVO DE PERSONAJES | Caesar Martínez (Vol. 5: The Best Defense)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-caesar_martinez
-NOMBRE: Caesar Martinez
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+NOMBRE: Caesar Martínez [Nombre completo: Caesar Ramón Martínez]
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #27 (Volumen 5: The Best Defense, Parte 3 de 6).
+Apariciones posteriores: Números #28–#30 (Vol. 5) y #32–#36 (Volumen 6: This Sorrowful Life).
+Aparición póstuma (cabeza reanimada): Número #43 (Volumen 8: Made To Suffer, Parte 1 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Profesor de educación física y entrenador deportivo juvenil en la escuela secundaria Pope John Middle School.
+- Perfil físico observado: Varón hispano-americano de principios de los 30 años, complexión atlética, cabello negro largo cubierto habitualmente por un pañuelo o bandana en la cabeza.
+- Rol post-brote: Residente de Woodbury, Georgia, donde se desempeña como guardia de perímetro, buscador de suministros (supply runner) y oficial de confianza bajo las órdenes de Brian Blake (El Gobernador).
+- Incidente registrado (#27–#30): Intercepta junto a otros guardias a Rick Grimes, Glenn y Michonne cuando llegan a las inmediaciones de Woodbury tras el accidente del helicóptero, conduciéndolos ante el Gobernador.
+- Fuga y traslado a la prisión (#32–#35): Desencantado aparentemente con la crueldad del Gobernador, Martínez facilita la fuga de Rick, Glenn, Michonne y la Dra. Alice Warren de Woodbury (en secreto, siguiendo un plan acordado para descubrir dónde se esconde el grupo de Rick). Se integra temporalmente a la comunidad de la prisión, ganándose la confianza de los sobrevivientes.
+- Desenlace (#36 y #43): En el número #36, Martínez abandona sigilosamente la prisión a pie con la intención de regresar a Woodbury e informar sobre el recinto para trasladar allí a su gente. Rick Grimes descubre su ausencia, lo persigue en la autocaravana (RV) y lo atropella deliberadamente en la carretera; acto seguido, Rick lo estrangula hasta matarlo. Posteriormente reanima como caminante; en el número #43, una patrulla de Woodbury encuentra su cuerpo decapitado/reanimado, y el Gobernador lleva su cabeza zombificada de vuelta al pueblo para manipular a los habitantes y convencerlos de atacar la prisión.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (UNIVERSO COMIC-NOVELAS)
+- Continuidad con novelas: Martínez es uno de los protagonistas de la novela canónica "The Walking Dead: The Road to Woodbury" y aparece en "The Fall of the Governor - Part One" y "Part Two". Existen ligeras variaciones biográficas entre medios (en el cómic #34 afirma que nunca se casó ni tuvo hijos, mientras que en las novelas se menciona que estaba divorciado y tenía un hijo desaparecido). En las novelas se confirma además que Lilly Caul acaba definitivamente con su cabeza reanimada al regresar a Woodbury.

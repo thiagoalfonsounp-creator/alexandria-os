@@ -1,23 +1,29 @@
+----------ARCHIVO DE PERSONAJES | Nicholas (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-nicholas
 NOMBRE: Nicholas
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Familia de Nicholas
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #71 (Volumen 12: Life Among Them, Parte 5 de 6).
+Apariciones posteriores: Números #72–#124 (Volúmenes 12 al 21) y
+desenlace en Número #125 (Volumen 21: All Out War - Part Two, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Repartidor/mensajero en Estados Unidos (apellido desconocido; esposo de Paula y padre de Mikey).
+- Perfil físico observado: Varón caucásico-americano de finales de los 30 años, complexión media, cabello rubio sucio/castaño claro corto y vestimenta civil o equipo de combate.
+- Rol post-brote: Residente original de la Zona Segura de Alexandria, guardia de vigilancia, líder inicial de la facción disidente contra Rick y posteriormente soldado leal de la milicia comunitaria.
+- Incidente registrado (#71–#90): Tras el ingreso del grupo de Rick Grimes a Alexandria (#71–#72) y la crisis provocada por Pete Anderson (#77), Nicholas comienza a cuestionar el liderazgo autoritario de Rick. Después de la invasión de la gran horda (#80–#83), Nicholas organiza una conspiración secreta junto a Spencer Monroe, Olivia y otros vecinos para derrocar y expulsar a Rick de la comunidad (#89–#90). Sin embargo, al ser confrontado directamente por Rick en el número #90, Nicholas entra en pánico, se rinde llorando y pide clemencia; Rick decide perdonarle la vida, lo que transforma a Nicholas en un seguidor fiel y agradecido.
+- Guerra contra Los Salvadores y desenlace (#98–#125): Participa activamente en la resistencia contra Negan y en las ofensivas de la Guerra Total (All Out War). Durante el asalto nocturno de Los Salvadores contra la Colonia Hilltop en el número #122, Nicholas combate en el frente para salvar la vida de Rick Grimes, pero recibe un corte profundo en la espalda con un machete contaminado con vísceras de caminante por parte de un soldado enemigo. En el número #125, sucumbe lentamente a la fiebre de la infección rodeado por Paula, Mikey y Rick (quien lo elogia por su valentía y le promete cuidar de su familia), siendo abatido en la cabeza antes de reanimar.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Diferencia con la adaptación televisiva: En la serie de AMC (temporadas 5 y 6), Nicholas tiene una personalidad mucho más cobarde y egoísta (provocando la muerte de Noah e intentando matar a Glenn Rhee) y muere suicidándose de un disparo en la cabeza en el episodio 6x03 ("Thank You") al quedar acorralado por una horda de caminantes.

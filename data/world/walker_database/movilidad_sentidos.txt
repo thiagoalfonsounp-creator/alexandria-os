@@ -5,31 +5,71 @@ WALKER DATABASE - MOBILITY & SENSES
 TEMA: CAMUFLAJE POR OLOR
 Evidence Level: OBSERVED
 Comic Reference: The Walking Dead #4
+Author Reference: —
 AFIRMACIÓN: Rick y Glenn se cubren con restos de caminante para pasar entre
 ellos; la lluvia elimina el camuflaje y vuelven a ser detectados.
 ANÁLISIS: El olor funciona como pista en esa escena. No se establece un
 alcance, umbral ni una explicación completa de la percepción sensorial.
 
+TEMA: PERCEPCIÓN VISUAL Y DETECCIÓN DE MOVIMIENTO
+Evidence Level: OBSERVED
+Comic Reference: The Walking Dead #2 y #132
+Author Reference: —
+AFIRMACIÓN: Las escenas muestran caminantes que reaccionan ante personas
+visibles en movimiento y que no detectan a quienes se camuflan entre ellos
+imitando su aspecto y conducta.
+ANÁLISIS: Se registran esas situaciones concretas. No se deducen distancia
+de detección, agudeza visual ni reconocimiento facial.
+
 TEMA: RUIDO Y ATRACCIÓN DE LA HORDA
 Evidence Level: OBSERVED
 Comic Reference: The Walking Dead #60
+Author Reference: —
 AFIRMACIÓN: Los supervivientes describen que los golpes contra una puerta
 atraen a más caminantes y consideran usar ruido para desviar la horda.
 ANÁLISIS: La escena muestra respuesta a estímulos y acumulación grupal; no
 establece precisión auditiva, distancia ni comunicación consciente.
 
+TEMA: ESTADOS DE ACTIVIDAD (ROAMERS Y LURKERS)
+Evidence Level: OBSERVED
+Comic Reference: The Walking Dead #20 y #121
+Author Reference: Letter Hacks #7 y #121
+AFIRMACIÓN: Se describen patrones de caminantes errantes en desplazamiento
+y otros que permanecen inmóviles hasta responder a estímulos cercanos.
+ANÁLISIS: La inmovilidad no equivale a neutralización. Los rótulos describen
+conductas; no demuestran especies ni explican la transición entre estados.
+
+TEMA: CAPACIDAD DE ESCALADA Y OBSTÁCULOS FÍSICOS
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #18 y #50
+Author Reference: Letter Hacks #7
+AFIRMACIÓN: La declaración autoral citada indica que los caminantes no
+pueden trepar.
+ANÁLISIS: Se conserva esa limitación explícita. No se amplía a toda forma de
+obstáculo ni se infiere incapacidad para abrir cerraduras o manipular objetos.
+
 TEMA: CAPACIDAD DE CORRER
 Evidence Level: CONFIRMED
 Comic Reference: —
-Author Reference: Letter Hacks #7.
+Author Reference: Letter Hacks #7
 AFIRMACIÓN: Kirkman indica que los caminantes no pueden correr.
 ANÁLISIS: Se conserva como declaración autoral; no se cuantifica velocidad.
 
 TEMA: DETERIORO Y MOVILIDAD
 Evidence Level: CONFIRMED
-Comic Reference: —
-Author Reference: Letter Hacks #186; escenas de The Walking Dead #9, #20 y
-#121 muestran caminantes con movilidad variable.
+Comic Reference: The Walking Dead #9, #20 y #121
+Author Reference: Letter Hacks #186
 AFIRMACIÓN: Kirkman y el editor describen que el deterioro de músculos y
-tejidos limita el movimiento con el tiempo, sin fijar un plazo individual.
+tejidos limita el movimiento con el tiempo. Las escenas citadas muestran
+caminantes con movilidad variable.
 ANÁLISIS: La duración y el grado de movilidad no se cuantifican.
+
+TEMA: RESTRICCIÓN POR TEMPERATURAS BAJAS
+Evidence Level: OBSERVED
+Comic Reference: The Walking Dead #21
+Author Reference: —
+AFIRMACIÓN: Durante la nevada, los caminantes del exterior quedan congelados
+o con movilidad severamente reducida, lo que permite el tránsito cercano sin
+respuesta agresiva.
+ANÁLISIS: Se registra el efecto mostrado en esa escena. No se establece un
+umbral de temperatura ni que el frío destruya al caminante.

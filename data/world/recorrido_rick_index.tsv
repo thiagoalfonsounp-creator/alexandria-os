@@ -1,15 +1,15 @@
 ID	TITULO	REFERENCIA	ARCHIVO
-MAPA_SUR	Mapa del origen y los refugios del sur	Cynthiana · Atlanta · refugios; esquema sin escala	data/world/recorrido_rick/01_mapa_sudeste.txt
-MAPA_RED	Mapa de la red de comunidades	Alexandria y comunidades; vínculos narrativos	data/world/recorrido_rick/02_mapa_red_comunidades.txt
-MAPA_FINAL	Mapa del tramo final	Pittsburgh · Commonwealth · epílogo; ubicación abierta	data/world/recorrido_rick/03_mapa_tramo_final.txt
-METODO	Criterio y límites del mapa	Fuentes, evidencia y datos que no se deducen	data/world/recorrido_rick/00_metodo.txt
-R01	Etapa 01 · Cynthiana a Atlanta	#1-6 · despertar y búsqueda de la familia	data/world/recorrido_rick/11_cynthiana_atlanta.txt
-R02	Etapa 02 · El campamento y la granja	#7-12 · salida de Atlanta y refugio rural	data/world/recorrido_rick/12_campamento_granja.txt
-R03	Etapa 03 · Refugios del sur	#13-24 · Wiltshire Estates y prisión	data/world/recorrido_rick/13_refugios_prision.txt
-R04	Etapa 04 · Prisión y Woodbury	#25-48 · dos centros de poder en conflicto	data/world/recorrido_rick/14_prision_woodbury.txt
-R05	Etapa 05 · De la prisión a Alexandria	#49-66 · dispersión, carretera y reencuentros	data/world/recorrido_rick/15_ruta_alexandria.txt
-R06	Etapa 06 · Llegada y crisis de Alexandria	#67-90 · adaptación y defensa	data/world/recorrido_rick/16_alexandria.txt
-R07	Etapa 07 · La red de comunidades	#91-126 · Hilltop, el Reino y los Salvadores	data/world/recorrido_rick/17_red_comunidades.txt
-R08	Etapa 08 · Fronteras y Susurradores	#127-168 · etapa posterior al salto temporal	data/world/recorrido_rick/18_susurradores.txt
-R09	Etapa 09 · Pittsburgh y Commonwealth	#169-192 · contacto con una sociedad mayor	data/world/recorrido_rick/19_commonwealth.txt
-R10	Etapa 10 · El epílogo de Carl y Sophia	#193 · granja; localización exacta abierta	data/world/recorrido_rick/20_epilogo.txt
+MAPA_SUR	Mapa del origen y los refugios del sur	Cynthiana · Atlanta · Wiltshire · granja Greene · prisión · Woodbury	data/world/recorrido_rick/01_mapa_sudeste.txt
+MAPA_RED	Mapa de la red de comunidades	Alexandria · Hilltop · Reino · Oceanside · Santuario · Susurradores	data/world/recorrido_rick/02_mapa_red_comunidades.txt
+MAPA_FINAL	Mapa del contacto con Commonwealth y el epílogo	Expedición por Pittsburgh; viaje posterior de Rick; coda de Carl y Sophia	data/world/recorrido_rick/03_mapa_tramo_final.txt
+METODO	Criterio y límites del mapa	Fuentes, convenciones, evidencia y datos no deducidos	data/world/recorrido_rick/00_metodo.txt
+R01	Etapa 01 · Cynthiana a Atlanta	#1–#6 · despertar y búsqueda de la familia	data/world/recorrido_rick/11_cynthiana_atlanta.txt
+R02	Etapa 02 · El campamento y la granja	#7–#12 · Wiltshire Estates y granja Greene	data/world/recorrido_rick/12_campamento_granja.txt
+R03	Etapa 03 · De la granja a la prisión	#12–#26 · primer asentamiento fortificado	data/world/recorrido_rick/13_refugios_prision.txt
+R04	Etapa 04 · Prisión y Woodbury	#27–#48 · excursiones, asedios y dispersión	data/world/recorrido_rick/14_prision_woodbury.txt
+R05	Etapa 05 · De la prisión a Alexandria	#49–#69 · carretera, Cazadores y llegada	data/world/recorrido_rick/15_ruta_alexandria.txt
+R06	Etapa 06 · Llegada y crisis de Alexandria	#69–#94 · horda, defensa y reconstrucción	data/world/recorrido_rick/16_alexandria.txt
+R07	Etapa 07 · La red de comunidades	#95–#126 · Hilltop, el Reino y los Salvadores	data/world/recorrido_rick/17_red_comunidades.txt
+R08	Etapa 08 · Fronteras y Susurradores	#127–#172 · Oceanside, guerra y hordas	data/world/recorrido_rick/18_susurradores.txt
+R09	Etapa 09 · Pittsburgh y Commonwealth	#173–#192 · Pittsburgh es la expedición, no Rick	data/world/recorrido_rick/19_commonwealth.txt
+R10	Etapa 10 · Epílogo de Carl y Sophia	#193 · coda; la granja sin coordenada	data/world/recorrido_rick/20_epilogo.txt

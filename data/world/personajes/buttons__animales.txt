@@ -4,20 +4,25 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-buttons
 NOMBRE: Buttons
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Animales
+AGRUPACIÓN: Animales
 TIPO: ANIMAL
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #10–#70
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+Caballo de monta de la granja Greene, identificado en #10. Sobrevive a la
+caída de la granja y acompaña al grupo durante la etapa de la prisión y la
+marcha hacia Virginia, como medio de monta y carga. En #70, una superviviente
+desconocida se lo lleva mientras el grupo acampa cerca de Alexandria. Esa es
+su última aparición conocida.
+
+ANÁLISIS
+No se muestra qué ocurre con Buttons después del robo ni se confirma su
+muerte. En Letter Hacks, Kirkman reconoce que olvidó resolver el destino del
+caballo tras el #70; el expediente conserva esa incertidumbre.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
-
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
-
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+Comic Reference: The Walking Dead #10 (primera aparición) y #70 (última
+aparición conocida y robo).
+Author Reference: Letter Hacks #122 (Kirkman reconoce que dejó sin resolver
+el destino del animal tras #70).

@@ -4,48 +4,44 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-megan
 NOMBRE: Megan
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: historia en la novela y aparición en The Governor Special; sin aparición en la serie regular.
+ARCO: Material complementario
+PRIMERA APARICIÓN: NO APLICA (sin aparición en la serie regular)
+ÚLTIMA APARICIÓN: NO APLICA (sin aparición en la serie regular)
+ALCANCE: Material complementario: novela The Road to Woodbury y especial The Governor Special; sin aparición en los números regulares 1-193 ni en el epílogo.
+REFERENCIA PRIMARIA: The Road to Woodbury (novela); The Governor Special (especial de cómic, 2013).
+COTEJO: se distingue la historia de la novela y la aparición en el especial de las apariciones de la serie regular; la wiki individual se usó como índice de localización.
 
 REGISTRO
-BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
-Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
 
-Registro y Datos del Personaje en el Cómic
+Registro del personaje en las novelas y el especial de cómic
 
-• Primera aparición: Novela The Road to Woodbury / Cómic The Governor Special (Edición del Día del Cómic Gratis, 2013).
-• Última aparición: Novela The Fall of the Governor - Part One.
-• Relaciones sentimentales: Scott Moon (novio, fallecido); Martínez, Denny y Bruce (intercambios físicos fortuitos bajo coerción o trueque).
+• Primera aparición: Novela The Road to Woodbury; aparición en cómic en The Governor Special (2013).
+• Última aparición en las novelas: The Road to Woodbury. Su única aparición en un especial de cómic es The Governor Special; no aparece en la serie regular numerada.
+• Relaciones: Scott Moon (novio); el Gobernador la explota sexualmente en Woodbury.
 • Amistades clave: Lilly Caul (mejor amiga); Bob Stookey (confidente).
 
 ¿Qué hizo? (La adicción y la explotación en Woodbury)
 
-Megan formaba parte del grupo original de sobrevivientes que huyó junto a Lilly Caul de un campamento en una tienda de campaña de Walmart antes de encontrar los muros de Woodbury. A diferencia de Lilly, que intentaba mantener una postura firme, los horrores del fin del mundo quebraron a Megan psicológicamente, arrastrándola hacia la autodestrucción:
+Megan formaba parte del grupo de sobrevivientes que llegó a Woodbury junto a Lilly Caul, Bob Stookey y Scott Moon. Los horrores del fin del mundo y la pérdida de Scott la llevaron a consumir drogas para entumecer el dolor. En Woodbury, recurrió a relaciones sexuales a cambio de marihuana y el Gobernador se aprovechó de su vulnerabilidad.
 • El abuso de sustancias: Incapaz de procesar el luto por el fin de la civilización y el posterior asesinato de su novio Scott Moon, Megan recurrió a drogarse frecuentemente con marihuana y fármacos para entumecer el dolor.
 • Trueques de supervivencia: En el abusivo entorno militarizado controlado por el Gobernador, las drogas eran un recurso escaso en Woodbury. Para poder conseguir su dosis constante de marihuana, Megan comenzó a usar su cuerpo como moneda de cambio, acostándose con los principales guardias del pueblo (como Martínez, Bruce y Denny) a cambio de sustancias. Esto le generó fuertes roces con Lilly Caul, quien juzgaba severamente su promiscuidad.
-• La trampa del Gobernador: Su necesidad de escape la convirtió en una víctima fácil. El Gobernador (Brian Blake) notó su debilidad y la manipuló, obligándola a convertirse en una de las mujeres que servían para el entretenimiento forzado de la cúpula de guardias a cambio de mantenerla abastecida y protegida dentro de los dormitorios.
+• El abuso del Gobernador: Brian Blake la explotó sexualmente y la expuso a la visión de la cabeza cercenada de Scott, conservada entre los acuarios de su apartamento. La experiencia agravó su estado y su desesperación.
 
-¿Cómo terminó? (El intento de aborto y sus desgarradoras últimas palabras)
+¿Cómo terminó? (Su suicidio en Woodbury)
 
-Su destino final es uno de los pasajes más lúgubres de la etapa de Woodbury, narrado con sumo detalle clínico en la novela The Fall of the Governor - Part One:
-• El embarazo no deseado: Tras meses de explotación y relaciones de trueque con los milicianos, Megan descubrió con horror que estaba embarazada, ignorando por completo quién de todos los guardias era el padre biológico.
-• El aborto casero clandestino: En un mundo desprovisto de clínicas y con el Dr. Stevens vigilado, Megan entró en pánico ante la idea de traer un bebé al apocalipsis. Desesperada, ingirió un cóctel masivo de químicos nocivos y píldoras robadas e intentó realizarse un legrado empírico ella sola en su departamento.
-• Muerte por hemorragia interna: El procedimiento clandestino salió catastróficamente mal. Megan sufrió un shock séptico y una masiva hemorragia interna que la dejó desangrándose en el suelo del departamento.
-• Sus últimas palabras a Bob Stookey: El exmédico de combate Bob Stookey llegó al lugar tras ser alertado por los gritos, pero fue incapaz de contener la pérdida de sangre. Mientras moría en los brazos de Bob, Megan pronunció en shock sus desgarradoras últimas palabras oficiales de la franquicia literaria: "Nunca debí haber... ¿Qué he hecho...? Bob... ¿Qué demonios me pasa?".
-• Prevención de la reanimación: Tras expirar debido al shock hipovolémico, Bob Stookey sabía perfectamente que reanimaría debido a la infección latente. Antes de que el cadáver de Megan se levantara como un monstruo caminante, Bob destruyó su cerebro, dándole fin a su trágico recorrido.
-La muerte de Megan Lafferty dejó a Lilly Caul sumida en un luto rabioso que alimentó su posterior odio ciego hacia el Gobernador y las condiciones infrahumanas del pueblo.
+Su historia concluye en la novela The Road to Woodbury:
+• Desesperada y afectada por lo que vivió en Woodbury, Megan se ahorcó.
+• Bob Stookey la encontró y, cuando reanimó, le disparó para detenerla.
+• Su muerte afectó profundamente a Lilly Caul y agravó su desconfianza hacia el Gobernador.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
-SIGUIENTE REVISIÓN
-Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
+Referencias: The Road to Woodbury (novela); The Governor Special (especial de cómic, 2013). Su historia no forma parte de la serie regular numerada.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+REFERENCIA SECUNDARIA
 
-FUENTE DE TRABAJO
-Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.
+Walking Dead Wiki, “Megan Lafferty (Comic Universe)”: https://walkingdead.fandom.com/wiki/Megan_Lafferty_%28Comic_Universe%29
