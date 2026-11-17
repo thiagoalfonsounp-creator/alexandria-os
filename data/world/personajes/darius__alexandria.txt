@@ -1,23 +1,28 @@
+----------ARCHIVO DE PERSONAJES | Darius (Vol. 23: Whispers Into Screams)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-darius
 NOMBRE: Darius
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #133 (Volumen 23: Whispers Into Screams, Parte 1 de 6).
+Apariciones posteriores: Números #134 y #136 (Volumen 23: Whispers Into Screams).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón afroamericano de entre finales de los 30 y principios de los 40 años, complexión robusta, cabello negro corto con canas incipientes y equipo de protección antidisturbios.
+- Rol post-brote: Residente incorporado tras el salto temporal en la Zona Segura de Alexandria y guardia de patrulla asignado a la vigilancia de las rutas seguras de la alianza de comunidades.
+- Incidente registrado (#133–#134): Mientras realiza una patrulla de reconocimiento en las rutas exteriores junto a Paul "Jesus" Monroe y su compañero Nathaniel (con quien discute habitualmente porque este se termina las raciones de comida), el grupo detecta una horda de caminantes que actúa de forma anormal. Al acercarse para desviarla, son emboscados por Los Susurradores (humanos disfrazados con pieles de muertos vivientes); Darius es apuñalado repetidamente en el pecho y la cadera por los atacantes (incluyendo a Joshua), logrando sobrevivir únicamente gracias a que su armadura antidisturbios amortiguó las puñaladas más profundas y a que Jesus abatió a los emboscadores y capturó a Lydia.
+- Recuperación y desenlace (#136): Severamente herido y desangrándose, Darius es trasladado de urgencia por Jesus hasta la Colonia Hilltop, donde recibe atención quirúrgica inmediata por parte del Dr. Harlan Carson. En el número #136, Maggie Greene confirma que Darius ha sido estabilizado y sobrevivirá a sus heridas. Tras dicho capítulo no vuelve a aparecer en viñeta ni se registra su fallecimiento en los conflictos posteriores, por lo que su estado al cierre del cómic principal se clasifica oficialmente como vivo (o desconocido sin baja confirmada).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Darius es una de las primeras víctimas directas de la emboscada que revela la existencia de Los Susurradores en el Volumen 23, demostrando el peligro de los enemigos infiltrados entre las hordas de caminantes.

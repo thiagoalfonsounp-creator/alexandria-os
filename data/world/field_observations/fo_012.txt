@@ -1,0 +1,11 @@
+ALEXANDRIA OS | THE WORLD
+FIELD OBSERVATIONS
+============================================================
+
+Observation ID: FO-012
+Subject: Transmisión mediante armas contaminadas
+Comic Reference: The Walking Dead #159
+Description: Durante el conflicto en Hilltop, los atacantes recubren flechas y armas blancas con fluidos y restos de caminantes. Supervivientes que reciben heridas superficiales no letales desarrollan fiebre rápida y fallecen poco después.
+Analysis: La transferencia directa de material biológico contaminado al torrente sanguíneo reproduce los mismos síntomas febriles mortales que una mordida directa.
+Evidence Level: CONFIRMED
+Conclusion: El agente infeccioso secundario reside en los fluidos y tejidos de los caminantes, convirtiendo cualquier herida abierta expuesta en un riesgo letal.

@@ -1,21 +1,24 @@
 THE WORLD / RECORRIDO DE RICK
 ETAPA 01 — CYNTHIANA A ATLANTA
 ============================================================
-REFERENCIA DE LECTURA: #1-6.
-PUNTOS: Cynthiana, hospital del despertar, Atlanta y campamento.
+REFERENCIA DE LECTURA: #1–#6.
+PUNTOS: Cynthiana, hospital, Atlanta y campamento.
 
 RECORRIDO
-Rick despierta en un hospital después del colapso, vuelve a su entorno y
-busca a su familia. La sinopsis oficial de #1 indica que obtiene provisiones
-en la comisaría y sale hacia Atlanta; la de #2 lo muestra dirigiéndose allí.
-En Atlanta se encuentra con Glenn y se integra al grupo del campamento.
+Rick despierta del coma en el hospital de Cynthiana y regresa brevemente a
+su vivienda. En #2 conoce a Morgan y Duane, se abastece en la comisaría y
+emprende el viaje hacia Atlanta para buscar a Lori y Carl. Llega al campamento
+y se reúne con su familia en #3. En #4 vuelve a entrar en Atlanta con Glenn
+para recuperar provisiones y queda en peligro; el grupo lo ayuda a salir.
+La etapa concluye en el campamento con los acontecimientos de #5–#6.
 
 LECTURA DEL MAPA
-Cynthiana -> Atlanta es la única flecha direccional de esta etapa. Es una
-secuencia narrativa, no un trazado vial: no se dibujan carreteras, paradas
-intermedias, duración ni distancia.
+Cynthiana -> Atlanta -> campamento representa el viaje inicial. La incursión
+posterior de Rick y Glenn en Atlanta se marca como un regreso aparte, no como
+parte de una ruta continua hacia el campamento.
 
 EVIDENCIA
-Evidence Level: UNCONFIRMED hasta cotejar los números directamente.
-Comic Reference: #1-6. Las páginas oficiales de #1 y #2 son localizadores
-editoriales; no reemplazan el ejemplar.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #1–#6. Cotejado con el despertar (#1),
+el encuentro con Morgan y Duane y el viaje hacia Georgia (#2), el reencuentro
+familiar (#3), la incursión con Glenn (#4) y los sucesos del campamento (#5–#6).

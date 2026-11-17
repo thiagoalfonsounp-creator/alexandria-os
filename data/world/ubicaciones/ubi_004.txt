@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 CAMPAMENTO DE ATLANTA
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #2-#6.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Refugio provisional
 
 DESCRIPCIÓN
-El grupo de supervivientes ocupa un campamento fuera del núcleo urbano.
+Asentamiento improvisado de tiendas y vehículos en las afueras boscosas de Atlanta donde se reúne el grupo inicial de supervivientes, incluidos Lori, Carl, Shane, Dale y Andrea.
 
 RELEVANCIA NARRATIVA
-Allí Rick se reúne con su familia y afronta los primeros conflictos de liderazgo.
+Consolida el primer núcleo colectivo de protagonistas, expone la fragilidad de los refugios abiertos durante un ataque nocturno y culmina con la muerte de Shane y la partida del grupo.
 
 ANÁLISIS DE SUPERVIVENCIA
-Un campamento abierto facilita moverse, pero ofrece escasa protección fija frente a un ataque.
+Los campamentos sin perímetro físico ni vigilancia constante dependen exclusivamente de la distancia respecto a los núcleos urbanos, quedando expuestos ante desplazamientos impredecibles de caminantes.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #2; The Walking Dead #3; The Walking Dead #4; The Walking Dead #5; The Walking Dead #6.
+Cotejado directamente con las escenas del asentamiento desde el reencuentro de Rick con su familia (#3) hasta el ataque nocturno (#5) y el entierro de Shane (#6).

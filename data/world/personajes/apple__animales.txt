@@ -4,20 +4,23 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-apple
 NOMBRE: Apple
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Animales
+AGRUPACIÓN: Animales
 TIPO: ANIMAL
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #172
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+Caballo de Hilltop Colony en la etapa de reconstrucción posterior a la guerra
+contra los Susurradores. Apple aparece en los establos junto a Annie (#172) y
+forma parte del plantel equino bajo su cuidado. La ficha recibida lo incluye
+entre los animales de tiro y monta del asentamiento.
+
+ANÁLISIS
+La escena respalda la presencia de caballos administrados en Hilltop. El uso
+en labores agrícolas, patrullaje y transporte entre comunidades se conserva
+como contexto funcional del expediente; #172 no cuantifica la participación
+de Apple en cada tarea ni indica apariciones en otros números.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
-
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
-
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+Comic Reference: The Walking Dead #172 (identificación en los establos de
+Hilltop junto a Annie).

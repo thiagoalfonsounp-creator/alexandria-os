@@ -1,23 +1,29 @@
+----------ARCHIVO DE PERSONAJES | Sam (Woodbury) (Vol. 6: This Sorrowful Life)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-sam_woodbury
-NOMBRE: Sam (Woodbury)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+NOMBRE: Sam (Woodbury) [Nombre completo: Sam Curtis]
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #32 (Volumen 6: This Sorrowful Life, Parte 2 de 6).
+Desenlace: Número #43 (Volumen 8: Made To Suffer, Parte 1 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Perfil físico observado: Varón afroamericano joven de principios de los 20 años, complexión delgada, cabello negro con rizos (estilo Jheri curls) sujetos con una cinta en la frente y vestimenta urbana estilo hip-hop.
+- Rol post-brote: Residente de Woodbury, Georgia, donde se desempeña como guardia de perímetro, buscador de suministros y miembro de la milicia armada bajo las órdenes de Brian Blake (El Gobernador).
+- Incidente registrado (#32): Aparece realizando guardia en las barricadas perimetrales de Woodbury cuando es relevado de su turno por Caesar Martínez, justo antes de que Rick Grimes, Glenn y Michonne logren escapar de su cautiverio con ayuda del propio Martínez.
+- Desenlace (#43): Integra el ejército de Woodbury que marcha hacia la prisión para sitiar al grupo de Rick Grimes. Al comenzar la escaramuza frente a las vallas perimetrales, Sam se niega a rendirse e intenta abrir fuego contra las defensas del recinto; es alcanzado en la cabeza por un disparo de rifle de francotirador efectuado por Andrea desde una de las torres de vigilancia, muriendo en el acto.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Continuidad con novelas: Su apellido (Curtis) y su personalidad despreocupada se amplían en la novela canónica "The Walking Dead: The Fall of the Governor - Part One" y "Part Two" (donde su muerte se narra en el Capítulo 8).
+- Nota de desambiguación: No debe confundirse con Samuel (residente de la Colonia Hilltop que muere durante la Guerra contra Los Susurradores) ni con Sam (personaje exclusivo de la serie de novelas de Woodbury que dirigía el sistema de trueque).

@@ -6,30 +6,40 @@ EXPEDIENTE: TW-PER-007
 PERSONAJE: MICHONNE
 FUENTE CANONICA: COMIC THE WALKING DEAD
 ESTADO: FICHA INTEGRAL
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo, arco, primera y última aparición.
+ARCO: The Heart's Desire
+PRIMERA APARICIÓN: #19
+ÚLTIMA APARICIÓN: #193
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #19 y última aparición #193. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #19 y #193.
+COTEJO: el propietario cotejó el contenido y las apariciones con el cómic; consultó la wiki individual y videos explicativos como apoyo de contexto.
+
 AVISO: CONTIENE SPOILERS DEL COMIC
 
 IDENTIFICACION
+
 Michonne es una sobreviviente que aparece armada con una
 katana. Al principio se mueve acompañada por dos caminantes
 a los que les quitó la mandíbula y los brazos para ocultar
 su presencia entre los muertos.
 
 ENTRADA AL GRUPO
+
 Michonne llega a la prisión después de perder a su familia
 y de pasar mucho tiempo sola. Su forma de acercarse al
 grupo es cautelosa: observa a las personas antes de confiar
 en ellas y mantiene una fuerte independencia.
-
 La prisión no borra el daño que sufrió. El encuentro con
 el Gobernador la expone a una violencia extrema y deja
 consecuencias físicas y emocionales que debe afrontar.
 
 RECORRIDO
+
 Tras la caída de la prisión, Michonne continúa su camino
 con otros sobrevivientes. Se convierte en una combatiente
 decisiva y en una aliada de Rick, aunque a menudo prefiere
 procesar sus pérdidas en soledad.
-
 Durante la guerra contra los Salvadores participa en la
 alianza de comunidades. Más adelante viaja hacia la
 Commonwealth, donde descubre que su hija Elodie sobrevivió.
@@ -37,41 +47,47 @@ El reencuentro no soluciona de inmediato los años de
 separación y ambas deben reconstruir su vínculo.
 
 PERFIL PSICOLOGICO
+
 Michonne es reservada, perspicaz y muy capaz bajo presión.
 Usa el humor y la distancia para manejar el dolor, pero no
 está desconectada de los demás.
-
 La katana es una herramienta de supervivencia, no toda
 su identidad. A lo largo de la historia busca recuperar
 los vínculos familiares que creyó haber perdido.
 
 VINCULOS IMPORTANTES
+
 RICK GRIMES
+
 Aliado y amigo. Comparten pérdidas y decisiones difíciles,
 aunque cada uno conserva su independencia.
 
 EL0DIE
+
 Su hija, a quien encuentra en la Commonwealth. La separación
 de tantos años hace que el reencuentro sea complejo.
 
 EZEKIEL
+
 Durante la guerra contra los Salvadores forman una relación
 afectiva. El vínculo se interrumpe y la pérdida posterior
 de Ezekiel deja una marca en Michonne.
 
 EVOLUCION Y DESTINO
+
 Michonne pasa de la soledad y la desconfianza a participar
 en comunidades y alianzas. Su recorrido también la conduce
 de vuelta a una parte de su familia.
-
 Sobrevive hasta el cierre de la serie y vuelve a ocupar un
 lugar en la vida de su hija y en el mundo reconstruido.
 
 REFERENCIAS
+
 - Primera aparición y llegada a la prisión: arco temprano.
 - Guerra contra los Salvadores: "All Out War".
 - Commonwealth y Elodie: arco final de la serie.
 
 NOTA DE CANON
+
 Esta ficha sigue la serie original de comics. No mezcla
 hechos de la adaptacion televisiva.

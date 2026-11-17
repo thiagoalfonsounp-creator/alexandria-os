@@ -1,23 +1,38 @@
+----------ARCHIVO DE PERSONAJES | Elodie Hawthorne (Vol. 30: New World Order)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-elodie_hawthorne
 NOMBRE: Elodie Hawthorne
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Commonwealth
+AGRUPACIÓN: La Mancomunidad (The Commonwealth)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: New World Order
+PRIMERA APARICIÓN: #176 (física; primera mención #21)
+ÚLTIMA APARICIÓN: #193
+ALCANCE: The Walking Dead, serie regular; primera mención #21, primera aparición física #176 y última aparición #193.
+REFERENCIA PRIMARIA: The Walking Dead #21 (mención), #176 (primera aparición física) y #193.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera mención: Número #21 (Volumen 4: The Heart's Desire, Parte 3 de 6).
+Primera aparición física: Número #176 (Volumen 30: New World Order, Parte 2 de 6).
+Apariciones posteriores: Números #177–#192 (Volúmenes 30 y 31) y epílogo en
+Número #193 (Volumen 32: Rest In Peace).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Niña estudiante en Atlanta, Georgia (hija mayor de Michonne Hawthorne y Dominic, y hermana mayor de Colette).
+- Perfil físico observado: Mujer afroamericana joven (entre finales de los 20 y principios de los 30 años en su aparición física, envejeciendo hasta mediados de los 50 en el epílogo), complexión delgada/media, cabello negro con rastas/trenzas recogidas y delantal de panadería o vestimenta civil.
+- Rol post-brote: Sobreviviente rescatada e integrada a La Mancomunidad en Ohio, donde ejerce como panadera y repostera comunitaria en el distrito comercial.
+- Incidente registrado (#176–#192): Tras separarse de su madre durante el caos inicial del brote en Georgia (cuando vivía junto a su padre Dominic y su hermana Colette), Elodie logró sobrevivir y establecerse en La Mancomunidad, colocando una fotografía suya en el tablón público de personas desaparecidas del muro comunitario. En el número #176 (Volumen 30: New World Order), Michonne Hawthorne reconoce la fotografía de su hija en el muro y corre hacia la panadería donde trabaja, protagonizando uno de los reencuentros más emotivos de toda la serie. Durante la crisis política y la revuelta social en La Mancomunidad (#183–#192), Elodie permanece al lado de Michonne (quien asume el cargo de jueza) y le brinda apoyo emocional tras el asesinato de Rick Grimes.
+- Desenlace (#193): En el epílogo del Número #193 (ambientado décadas después), Elodie continúa viva, feliz y plenamente integrada en la nueva sociedad pacífica, manteniendo una estrecha relación familiar con su madre Michonne.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Su búsqueda impulsó gran parte del arco emocional de Michonne desde el Volumen 4 hasta el Volumen 30 (incluyendo la miniserie de videojuegos de Telltale "The Walking Dead: Michonne").
+- Diferencia con la adaptación televisiva: En la serie de AMC, los dos hijos de Michonne (Andre Anthony, un niño pequeño fallecido al inicio del brote, y R.J. Grimes, hijo de Rick) son completamente distintos; la historia del muro de fotografías y el reencuentro de Michonne con Elodie fue adaptada parcialmente en la temporada 11 a través de Yumiko y su hermano Tommy.

@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 WOODBURY
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #27-#48.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Asentamiento autoritario
 
 DESCRIPCIÓN
-El Gobernador concentra el poder y utiliza la fuerza para sostener su autoridad.
+Pueblo comercial fortificado en Georgia gobernado bajo un régimen autocrático y personalista por Philip Blake, autodenominado El Gobernador, respaldado por lugartenientes como Bruce Cooper, Gabe y el doctor Stevens. La comunidad alberga a decenas de civiles detrás de barricadas de vehículos, láminas metálicas y puestos de tiro, abastecida mediante patrullas armadas que saquean los alrededores. Para canalizar la frustración y mantener sumisa a la población, el liderazgo organiza combates clandestinos en una arena rodeada de caminantes encadenados, mientras mantiene en secreto a su sobrina reanimada (Penny) y una colección de cabezas en peceras.
 
 RELEVANCIA NARRATIVA
-La comunidad entra en conflicto con el grupo instalado en la prisión.
+Introduce el primer antagonismo humano estructurado de la obra y demuestra que las comunidades organizadas pueden degenerar en dictaduras basadas en la manipulación propagandística y la tortura (ejercida sobre Rick, Glenn y Michonne). Asimismo, expone cómo un líder paranoico puede arrastrar a una población civil entera a una guerra de aniquilación contra otro asentamiento, culminando con la rebelión de sus propios soldados (Lilly Caul) al comprender la naturaleza despiadada de su gobernante.
 
 ANÁLISIS DE SUPERVIVENCIA
-La protección puede convertirse en dependencia cuando la información y la violencia quedan bajo un único mando.
+El control autoritario y la militarización permiten asegurar un perímetro urbano extenso y ofrecer una apariencia de normalidad y protección a los civiles desarmados. Sin embargo, el modelo de Woodbury es estructuralmente inviable a mediano plazo: carece de agricultura o producción autosuficiente, dependiendo de incursiones predatorias que agotan el entorno y generan conflictos mortales. Además, la cohesión basada en el miedo y el espectáculo violento se fractura rápidamente cuando la población es obligada a participar en agresiones injustificadas contra inocentes.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #27-#33; The Walking Dead #43-#48.
+Cotejado directamente con la captura del grupo de Rick (#27), las torturas y fuga (#28-#33), los preparativos bélicos en Woodbury (#43) y la muerte del Gobernador a manos de Lilly Caul (#48).

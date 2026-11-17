@@ -1,23 +1,31 @@
+----------ARCHIVO DE PERSONAJES | Holly (Vol. 13: Too Far Gone)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-holly
 NOMBRE: Holly
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #73 (Volumen 13: Too Far Gone, Parte 1 de 6).
+Apariciones posteriores: Números #74–#119 (Volúmenes 13 al 20) y
+aparición póstuma (caminante) en Número #120 (Volumen 20: All Out War - Part One, Parte 6 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Mujer caucásico-americana de entre principios y mediados de los 30 años, complexión atlética/delgada, cabello rubio corto y vestimenta de trabajo de construcción.
+- Rol post-brote: Residente original de la Zona Segura de Alexandria, miembro de la cuadrilla de construcción y mantenimiento de muros bajo las órdenes de Tobin y Abraham Ford, pareja sentimental de Abraham y soldado de la milicia comunitaria.
+- Incidente registrado (#73–#97): Aparece por primera vez trabajando en la ampliación y reparación de los muros perimetrales de Alexandria bajo el mando de Tobin (#73). Cuando una pequeña horda de caminantes ataca a los obreros y Tobin entra en pánico abandonándola, Holly es rescatada por Abraham Ford, quien asume desde entonces la jefatura de la cuadrilla. Durante los meses siguientes (incluyendo la invasión de la gran horda en los números #80–#83), Holly y Abraham estrechan lazos hasta iniciar una relación amorosa (#90–#97), provocando que Abraham termine su relación con Rosita Espinosa.
+- Duelo y Guerra contra Los Salvadores (#98–#118): Tras el asesinato de Abraham Ford a manos de Dwight y Los Salvadores (#98), Holly queda sumida en una profunda sed de venganza y se enlista en el frente de combate de la milicia de Rick Grimes.
+- Desenlace (#119–#120): En el número #119 (Volumen 20: All Out War - Part One), durante la ofensiva inicial contra El Santuario, Rick Grimes planea conducir una camioneta blindada a través de las vallas principales para permitir el ingreso de los caminantes, acción que probablemente le costaría la vida. Antes de que Rick pueda hacerlo, Holly lo golpea/empuja fuera del vehículo y toma el volante ella misma, estrellando la camioneta contra el portón de El Santuario para abrir una brecha. Sobrevive al impacto pero es capturada por Los Salvadores; aunque Negan ejecuta brutalmente a su soldado David por intentar violarla y afirma que no permite abusos sexuales, posteriormente asesina a Holly fuera de panel (degollándola o mediante inyección/asfixia) para convertirla en caminante. En el número #120, Negan acude a las puertas de Alexandria devolviendo a Holly con una bolsa sobre la cabeza como falso gesto de paz; al retirarle la capucha, Holly ya reanimada muerde en el brazo derecho a la Dra. Denise Cloyd (provocando su muerte posterior), siendo abatida de inmediato de un disparo en la cabeza efectuado por Rick Grimes.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Su sacrificio al volante en el Número #119 salva directamente la vida de Rick Grimes, pero su conversión en caminante por parte de Negan en el Número #120 desencadena tanto la muerte de la Dra. Denise Cloyd como el bombardeo con granadas sobre Alexandria.
+- Diferencia con la adaptación televisiva: En la serie de AMC (temporadas 5 y 6), Holly tiene un rol secundario muy reducido y muere durante el ataque de Los Lobos a Alexandria (episodio 6x02 "JSS"), mientras que su arco argumental romántico con Abraham y su sacrificio/captura como "arma caminante" de Negan fueron adaptados en el personaje de Sasha Williams (temporadas 6 y 7).

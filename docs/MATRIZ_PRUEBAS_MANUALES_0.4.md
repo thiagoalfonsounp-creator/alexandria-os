@@ -1,0 +1,128 @@
+# Matriz manual — Alexandria OS 0.4
+
+Preparada el 2026-11-10. **Todas las pruebas de esta matriz están pendientes; no se ejecutó la VM en esta tarea.**
+
+## Base y alcance
+
+Fuente de verdad: [main consultada](https://github.com/thiagoalfonsounp-creator/alexandria-os/tree/84544ac3aa3d0dafe58e1babf3524aacd16c6a20), commit `84544ac3aa3d0dafe58e1babf3524aacd16c6a20`. Incluye [las 46 fichas provisionales](https://github.com/thiagoalfonsounp-creator/alexandria-os/commit/d6be6a17dae73dba103ce741f81c98f6f868cead) y cambios posteriores del tema monocromático. Referencias: [README](https://github.com/thiagoalfonsounp-creator/alexandria-os/blob/84544ac3aa3d0dafe58e1babf3524aacd16c6a20/README.md), [reglas](https://github.com/thiagoalfonsounp-creator/alexandria-os/blob/84544ac3aa3d0dafe58e1babf3524aacd16c6a20/AGENTS.md), lanzador y módulos de esa revisión. La copia local anterior no se considera sincronizada: ensayar solamente después de identificar y sincronizar la revisión de la VM.
+
+## Confirmaciones históricas documentadas, separadas del plan
+
+Son antecedentes del README, no ejecuciones realizadas para esta matriz ni aprobación de 0.4. No se dispone aquí de los archivos originales de evidencia; deben adjuntarse si se requiere auditoría.
+
+| Antecedente | Confirmación registrada | Límite |
+| --- | --- | --- |
+| WALKER DATABASE y FIELD OBSERVATIONS, versión anterior | El usuario indicó funcionamiento en Debian | No cubre ampliación ni interfaz actual |
+| Personajes, 2026-11-07 | Apertura de lista tras normalización LF | No valida todas las fichas o categorías |
+| Retrato de Rick y selección de retratos, 2026-11-09 | Presentación observada y consultas de ampliada/breve seleccionada; conteos de 7 nombres y 38 imágenes | No valida todas las imágenes, breve fuera de selección ni marcos actuales |
+| THE REFUGE, 2026-11-09 23:45 ART | Apertura directa del módulo corregido | No valida acceso por menú, campaña ni arena actuales |
+| Campaña anterior de THE REFUGE | El usuario alcanzó un desenlace antes de cambios posteriores | No valida probabilidades, diez jornadas, epílogos o arena actuales |
+| Ampliación 0.4 | README registra correspondencia estática de 46 fichas con entradas existentes | No demuestra ejecución en Debian ni exactitud narrativa |
+
+## Instrucciones de ejecución y registro
+
+- Preparar snapshot de VM y copias de las notas/partidas antes de ensayos que escriben datos. Usar archivos propios o autorizados de prueba. No capturar contraseñas ni páginas del cómic.
+- Completar por cada ID: responsable, commit real, VM/versión Debian, terminal, dimensiones y precondiciones. Usar fecha AAAA-MM-DD y hora HH:MM:SS ART (UTC−3).
+- Estados permitidos: Pendiente, Aprobada, Fallida o Bloqueada. Solo cambiar tras ejecución y observación. Registrar resultado real, incidencia y enlace/ruta de captura o registro. Un bloqueo debe indicar causa; no cuenta como aprobación.
+- Las filas que abarcan varias entradas/rutas requieren una subfila por entrada/ruta en el registro. Una muestra no aprueba un módulo completo. Cada reintento conserva el resultado previo y agrega fecha/evidencia nueva.
+- El estado de prueba y el nivel de evidencia narrativa son independientes. Abrir una ficha no cambia UNCONFIRMED a CONFIRMED. Cotejar cada afirmación requiere número y escena primarios; mantener OBSERVED para observaciones, sin generalizarlas.
+- En main consultada no están config/comandos.bash, bin/instalar-comandos ni docs/manual_ayuda.txt. No se presuponen comandos personalizados instalados ni paginación por botones a partir de copias locales antiguas.
+
+## Plan por módulo
+
+| ID | Módulo | Pasos concretos | Resultado esperado | Criterio de aprobación | Estado | Fecha ART | Hora ART | Evidencia / resultado real |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BASE-01 | Preparación | En Debian 13, registrar commit con git rev-parse HEAD, usuario, ruta, tamaño con stty size y dependencias con command -v bash dialog nano python3 pdfinfo pdftoppm chafa. Comparar con la base indicada. | Entorno y versión identificados. | Commit de ensayo identificado; dependencias disponibles; no atribuir resultados a otra versión. | Pendiente | — | — | — |
+| BASE-02 | Menú principal | Con la copia sincronizada en /home/walker/alexandria-os y la cuenta normal, ejecutar ./bin/alexandria; recorrer las seis opciones; salir por TERMINAL; volver a abrir y salir con Escape. | Título ALEXANDRIA OS 0.4, franja ARCHIVO DOCUMENTAL y retorno a consola. | Sin errores, cierre ni bloqueo inesperados; rótulo 0.4 visible. | Pendiente | — | — | — |
+| BASE-03 | Tema y terminal | Desde el lanzador abrir THE WORLD y Rick; repetir en 120×40 y 80×24; registrar TERM, fuente y dimensiones reales. | Paleta monocromática, selección distinguible, texto y retrato legibles. | Ningún contenido esencial cortado o superpuesto; teclado usable en ambos tamaños; registrar cualquier límite. | Pendiente | — | — | — |
+| W-01 | THE WORLD | Abrir cada una de las diez categorías y volver con Escape y con Volver donde exista. | Cada opción abre su módulo correcto y regresa al menú correspondiente. | Diez rutas recorridas sin salir involuntariamente al sistema. | Pendiente | — | — | — |
+| P-01 | Personajes | Abrir Personajes; recorrer principio, centro y final con flechas y teclas de página; contrastar nombres con TIPO=PERSONAJE del TSV. | 225 entradas de personajes accesibles en lista continua; categorías separadas. | Sin omisiones, duplicados ni mezcla de categorías frente al índice; no exigir botones de paginación ausentes del código actual. | Pendiente | — | — | — |
+| P-02 | Personajes | Abrir Rick Grimes, una breve seleccionada para retrato (Allen) y una breve fuera de retratos_destacados.txt; leer hasta el final y volver. | Expediente ampliado y breve seleccionada con panel; breve no seleccionada compacta. | Texto íntegro, identidad correcta y comportamiento de panel acorde al nivel/lista. | Pendiente | — | — | — |
+| P-03 | Personajes: 46 fichas | Ejecutar cada fila F01–F46 del anexo desde Personajes; comparar ficha visible con su archivo de main. | Las 46 descripciones están disponibles y mantienen UNCONFIRMED para datos sin cotejo. | Las 46 filas tienen resultado individual; coincidencia de texto y archivo; aprobar interfaz no confirma el canon. | Pendiente | — | — | — |
+| P-04 | Metadatos y canon | Elegir una entrada con arco/primera aparición confirmados y otra con UNCONFIRMED en el TSV; abrirlas y comparar etiquetas y cuerpo. | Valores confirmados visibles; Arco no confirmado cuando el arco es incierto. | Ninguna aparición, relación, destino o escena incierta se presenta como confirmada por haber abierto la ficha. | Pendiente | — | — | — |
+| P-05 | Retratos | En una copia de ensayo, abrir un ampliado con imagen autorizada y otro sin imagen; repetir sin chafa disponible en ese entorno aislado. | Imagen Sextant con marco diagonal o RETRATO PENDIENTE; texto disponible. | Alternativa textual legible y sin cierre; no alterar imágenes o paquetes de la VM de uso. | Pendiente | — | — | — |
+| A-01 | Antagonistas | THE WORLD → Antagonistas; abrir cada una de las 5 entradas y recorrer su texto; volver. | Solo las 5 entradas TIPO=ANTAGONISTA; ficha correspondiente. | Cinco fichas legibles, metadatos y retratos coherentes, retorno correcto. | Pendiente | — | — | — |
+| AN-01 | Animales | THE WORLD → Animales; abrir las 4 entradas y comparar con TIPO=ANIMAL del índice. | Cuatro animales identificados con su ficha correcta. | 4/4 accesibles, sin personajes humanos mezclados; evidencia incierta preservada. | Pendiente | — | — | — |
+| CA-01 | Caminantes identificados | THE WORLD → Caminantes → Caminantes identificados; abrir las 14 entradas. | Selector CAMINANTE separado de los textos generales de WALKER DATABASE. | 14/14 fichas coinciden con índice, se leen completas y vuelven a WALKER DATABASE. | Pendiente | — | — | — |
+| CA-02 | WALKER DATABASE | Abrir Perfil, Anatomía y daño, Infección y reanimación, Movilidad y sentidos, Conducta y clasificaciones, Debilidades y casos especiales, Referencias y pendientes. Repetir en terminales de 80×24 y 120×40. | Siete documentos correctos, desplazables; lector y menú se ajustan a la terminal. | 7/7 legibles en ambos tamaños; conserva distinción CONFIRMED, OBSERVED y UNCONFIRMED; Escape devuelve al módulo. | Pendiente | — | — | — |
+| CO-01 | Comunidades | THE WORLD → Comunidades; recorrer todo el índice; abrir cada entrada y leer hasta el final; regresar. Contrastar títulos/rutas con el TSV correspondiente. | 13 fichas disponibles con contenido correspondiente. | Todas las entradas del índice abren sin errores; títulos y archivos coinciden; registrar cada entrada revisada en evidencia. | Pendiente | — | — | — |
+| UB-01 | Ubicaciones | THE WORLD → Ubicaciones; recorrer todo el índice; abrir cada entrada y leer hasta el final; regresar. Contrastar títulos/rutas con el TSV correspondiente. | 19 fichas disponibles con contenido correspondiente. | Todas las entradas del índice abren sin errores; títulos y archivos coinciden; registrar cada entrada revisada en evidencia. | Pendiente | — | — | — |
+| GL-01 | Glosario | THE WORLD → Glosario; recorrer todo el índice; abrir cada entrada y leer hasta el final; regresar. Contrastar títulos/rutas con el TSV correspondiente. | 40 términos y guía de método disponibles con contenido correspondiente. | Todas las entradas del índice abren sin errores; títulos y archivos coinciden; registrar cada entrada revisada en evidencia. | Pendiente | — | — | — |
+| CR-01 | Cronología | THE WORLD → Cronología; recorrer todo el índice; abrir cada entrada y leer hasta el final; regresar. Contrastar títulos/rutas con el TSV correspondiente. | 33 etapas y guía de método disponibles con contenido correspondiente. | Todas las entradas del índice abren sin errores; títulos y archivos coinciden; registrar cada entrada revisada en evidencia. | Pendiente | — | — | — |
+| CR-02 | Cronología: contenido | Recorrer las 33 etapas en orden; revisar cómo se expresan fechas aproximadas o desconocidas. | Orden interno de acontecimientos; incertidumbre conservada. | No introducir fechas precisas sin referencia primaria; registrar discrepancias para cotejo. | Pendiente | — | — | — |
+| FO-01 | FIELD OBSERVATIONS | THE WORLD → Observaciones; abrir FO-001, FO-002 y FO-003; recorrer cada texto en terminales de 80×24 y 120×40. | Tres registros con siete campos: Observation ID, Subject, Comic Reference, Description, Analysis, Evidence Level, Conclusion; lector y menú se ajustan a la terminal. | 3/3 completos y en ese orden en ambos tamaños; observación separada de interpretación; retorno correcto. | Pendiente | — | — | — |
+| RR-01 | Recorrido de Rick | Abrir los tres mapas, la guía y R01–R10 desde THE WORLD → Recorrido de Rick. | 14 documentos legibles, mapas esquemáticos y etapas del recorrido. | 14/14 accesibles; sin distancias/coordenadas afirmadas; conserva UNCONFIRMED y límites sobre Pittsburgh, Oceanside y epílogo. | Pendiente | — | — | — |
+| BI-01 | THE COMIC ARCHIVE: catálogo | Usar biblioteca de ensayo vacía; consultar catálogo e importación. Añadir un PDF propio de dos páginas y un CBZ autorizado, con espacios en los nombres; reabrir catálogo. | Mensaje de vacío; luego ambos nombres; instrucciones apuntan a imports/comics. | Sin fallos con espacios; se listan PDF/CBZ. La lectura de CBZ no se promete. | Pendiente | — | — | — |
+| BI-02 | Lector PDF | Desde Leer tomo en PDF elegir el PDF de ensayo; probar p en primera página, n hasta la última, n al final, p y q; cancelar también el selector. | Páginas 1–2, límites respetados, retorno; render Sixel en terminal compatible. | Contenido y contador visibles; sin perder control de terminal. Si no hay Sixel, registrar bloqueo de compatibilidad, no aprobación. | Pendiente | — | — | — |
+| BI-03 | Lector PDF: errores | En copia de ensayo probar carpeta sin PDF y un .pdf inválido; volver al archivo. | Mensajes No hay archivos PDF y ERROR DE LECTURA. | Error comprensible, retorno controlado y consola usable. | Pendiente | — | — | — |
+| CU-01 | Cuaderno de campo | Respaldar data/cuaderno.txt fuera del repo; abrir CUADERNO DE CAMPO, añadir una nota de ensayo, guardar con Ctrl+O y salir con Ctrl+X; reabrir; restaurar respaldo. | Nota persiste en el archivo correcto. | Nota visible al reabrir, retorno al menú y contenido original restaurado. | Pendiente | — | — | — |
+| AY-01 | MANUAL / AYUDA | Abrir la opción 5 del menú; leer flechas, Enter, Escape, Nano y Terminal; cerrar. | Cuadro breve de ayuda, conforme al lanzador actual. | Mensaje legible y retorno correcto; no exigir docs/manual_ayuda.txt, ausente de main consultada. | Pendiente | — | — | — |
+| RF-01 | THE REFUGE: acceso | Desde el menú principal abrir THE REFUGE; consultar ¿Qué es THE REFUGE? y volver; repetir ejecución directa con python3 src/refuge/refuge.py. | Menú e introducción de campaña sin error de sintaxis. | Ambas rutas abren y cierran; no ampliar confirmación histórica del acceso directo al acceso por menú. | Pendiente | — | — | — |
+| RF-02 | THE REFUGE: campaña | Con XDG_STATE_HOME dirigido a un directorio temporal de ensayo, iniciar partida; recorrer diez jornadas y cinco turnos de guerra; registrar opciones, probabilidades, estadísticas e incidentes. | Decisiones muestran éxito/fallo; estadísticas cambian según resultado; incidentes pueden ayudar o perjudicar. | Campaña completa sin excepción; probabilidades y consecuencias coherentes; resultado aleatorio aislado no demuestra la distribución. | Pendiente | — | — | — |
+| RF-03 | THE REFUGE: persistencia | Guardar/salir a mitad de partida; reiniciar con el mismo XDG_STATE_HOME y continuar; comparar fase, reservas y estadísticas con evidencia previa. | JSON local fuera del repositorio y reanudación del mismo estado. | Sin pérdida de estado ni cierre al llegar a confrontación final; conservar la partida personal. | Pendiente | — | — | — |
+| RF-04 | THE REFUGE: arena | Llegar al final en ensayo; probar WASD, cobertura, avisos y daño; en partidas separadas salir con Q, agotar vidas y completar tiempo. Registrar duración, oleadas, enemigos y puntaje. | Arena 40×14, cuatro oleadas durante 22 s, hasta siete enemigos; terminal se restaura. | Movimiento/colisión, daño y límite de bonificación acordes al código; tras cada salida se puede escribir normalmente. | Pendiente | — | — | — |
+| RF-05 | THE REFUGE: desenlaces | En partidas de ensayo separadas elegir sostener el frente, negociar y evacuar; provocar además derrota anticipada por colapso; reabrir cada partida finalizada y su epílogo. | Desenlace y crónica correspondientes, persistentes, identificados como variación original. | Cada ruta y derrota comprobadas individualmente; no dar por probados todos los finales por una sola campaña. | Pendiente | — | — | — |
+| INT-01 | Integración y rutas | Salir y volver a entrar a cada módulo; desde /tmp ejecutar /home/walker/alexandria-os/bin/alexandria; repetir un módulo directo usando ruta absoluta. | Datos correctos independientemente del directorio actual, dentro de las rutas requeridas. | Sin archivo faltante ni error CRLF; documentar dependencia de /home/walker y HOME, sin suponer portabilidad a otra instalación. | Pendiente | — | — | — |
+| ERR-01 | Errores del índice | Solo en copia de ensayo: ocultar temporalmente el TSV y luego una ficha; abrir selector/ficha y restaurar archivos. | No se encontró el índice o No se puede abrir la ficha seleccionada. | Mensaje controlado; archivos restaurados; VM de uso intacta. | Pendiente | — | — | — |
+
+## Anexo: ejecución individual de las 46 fichas
+
+Para cada fila: localizar el nombre por la columna ARCHIVO del TSV; abrir desde THE WORLD → Personajes; recorrer hasta la última línea; comparar con el archivo de la revisión base; volver. Esperado: identidad y descripción completas, sin errores y con incertidumbre preservada. Aprobar la presentación solo si el texto coincide y se lee íntegro. Registrar aparte el cotejo de cada afirmación con número/escena; el cotejo también queda pendiente.
+
+| ID | Archivo bajo data/world/personajes/ | Prueba de presentación | Cotejo primario | Fecha ART | Hora ART | Evidencia / resultado real |
+| --- | --- | --- | --- | --- | --- | --- |
+| F01 | alice_warren__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F02 | allen__familia_de_allen.txt | Pendiente | Pendiente | — | — | — |
+| F03 | amy__familia_de_andrea.txt | Pendiente | Pendiente | — | — | — |
+| F04 | andrew__prision.txt | Pendiente | Pendiente | — | — | — |
+| F05 | arnold_greene__familia_greene.txt | Pendiente | Pendiente | — | — | — |
+| F06 | austin__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F07 | axel__prision.txt | Pendiente | Pendiente | — | — | — |
+| F08 | ben__familia_de_allen.txt | Pendiente | Pendiente | — | — | — |
+| F09 | billy_familia_allen__familia_de_allen.txt | Pendiente | Pendiente | — | — | — |
+| F10 | billy_greene__familia_greene.txt | Pendiente | Pendiente | — | — | — |
+| F11 | bob_stookey__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F12 | calvin_deets__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F13 | chris_grupo_de_tyreese__grupo_de_tyreese.txt | Pendiente | Pendiente | — | — | — |
+| F14 | daniel__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F15 | denny__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F16 | dexter__prision.txt | Pendiente | Pendiente | — | — | — |
+| F17 | donna__familia_de_allen.txt | Pendiente | Pendiente | — | — | — |
+| F18 | duane_jones__condado_de_grant_familia_jones.txt | Pendiente | Pendiente | — | — | — |
+| F19 | earl_woodbury__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F20 | gabriel_woodbury__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F21 | hap__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F22 | jared__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F23 | jim__campamento_de_atlanta.txt | Pendiente | Pendiente | — | — | — |
+| F24 | johnny_woodbury__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F25 | judith_grimes__prision.txt | Pendiente | Pendiente | — | — | — |
+| F26 | julie__familia_de_tyreese.txt | Pendiente | Pendiente | — | — | — |
+| F27 | lacey_greene__familia_greene.txt | Pendiente | Pendiente | — | — | — |
+| F28 | lilly__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F29 | lou__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F30 | marianne__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F31 | matthew__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F32 | megan__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F33 | mike_grupo_de_michonne__grupo_de_michonne.txt | Pendiente | Pendiente | — | — | — |
+| F34 | otis__familia_de_patricia.txt | Pendiente | Pendiente | — | — | — |
+| F35 | patricia__familia_de_patricia.txt | Pendiente | Pendiente | — | — | — |
+| F36 | rachel_greene__familia_greene.txt | Pendiente | Pendiente | — | — | — |
+| F37 | red__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F38 | reggie__condado_de_grant_residentes.txt | Pendiente | Pendiente | — | — | — |
+| F39 | rudy__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F40 | shawn_greene__familia_greene.txt | Pendiente | Pendiente | — | — | — |
+| F41 | smitty__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F42 | susie_greene__familia_greene.txt | Pendiente | Pendiente | — | — | — |
+| F43 | terry_grupo_de_michonne__grupo_de_michonne.txt | Pendiente | Pendiente | — | — | — |
+| F44 | thomas__prision.txt | Pendiente | Pendiente | — | — | — |
+| F45 | tom_woodbury__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+| F46 | wes_woodbury__sobrevivientes_de_woodbury.txt | Pendiente | Pendiente | — | — | — |
+
+## Registro ampliable por ejecución
+
+| ID / entrada / ruta | Responsable | Commit y entorno | Resultado real | Estado | Fecha ART | Hora ART | Evidencia | Incidencia / siguiente acción |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| — | — | — | — | Pendiente | — | — | — | — |
+
+Cierre: un módulo se aprueba únicamente cuando todas sus entradas y variantes previstas cumplen los criterios y tienen evidencia. La aceptación funcional de 0.4 y el cotejo narrativo de las 46 fichas se informan por separado. La exportación/importación del OVA y la revisión del PDF académico siguen fuera de esta ejecución funcional y pendientes según AGENTS.md.
+

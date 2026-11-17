@@ -9,18 +9,21 @@ mostrar_archivo() {
     local archivo="$1"
     local titulo="$2"
 
-    if [[ -f "$archivo" ]]; then
-        dialog --title "$titulo" --textbox "$archivo" 28 110
-    else
+    if [[ ! -r "$archivo" ]]; then
         dialog --title "WALKER DATABASE" \
-            --msgbox "No se encontró el archivo del expediente." 7 64
+            --msgbox "No se puede leer el archivo del expediente:\n$archivo" 0 0
+    elif [[ ! -s "$archivo" ]]; then
+        dialog --title "WALKER DATABASE" \
+            --msgbox "El archivo del expediente está vacío:\n$archivo" 0 0
+    else
+        dialog --title "$titulo" --textbox "$archivo" 0 0
     fi
 }
 
 while true; do
     seccion=$(dialog --title "WALKER DATABASE" \
-        --menu "Elegí un apartado del archivo" 20 88 10 \
-        "Caminantes identificados" "Individuos del cómic con ficha breve" \
+        --menu "Elegí un apartado del archivo" 0 0 10 \
+        "Caminantes identificados" "Individuos del cómic identificados" \
         "Perfil" "Alcance, identidad y criterio de evidencia" \
         "Anatomía y daño" "Cabeza, cerebro y lesiones" \
         "Infección y reanimación" "Mordidas, muerte y retorno" \

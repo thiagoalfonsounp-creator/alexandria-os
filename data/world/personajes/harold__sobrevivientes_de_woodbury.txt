@@ -1,23 +1,28 @@
+----------ARCHIVO DE PERSONAJES | Harold (Vol. 5: The Best Defense)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-harold
-NOMBRE: Harold
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+NOMBRE: Harold [Nombre completo: Harold Abernathy]
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #28 (Volumen 5: The Best Defense, Parte 4 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Perfil físico observado: Varón caucásico-americano de entre finales de los 30 y principios de los 40 años, complexión robusta y atlética, cabello oscuro corto y barba incipiente.
+- Rol post-brote: Residente de la comunidad de Woodbury, Georgia, y luchador voluntario en la arena de combates clandestinos organizada por Brian Blake (El Gobernador) para entretener a los ciudadanos.
+- Incidente registrado (#28): Durante la visita de Rick Grimes, Glenn y Michonne a Woodbury, el Gobernador los lleva a presenciar una pelea en la arena rodeada de caminantes encadenados. Harold se enfrenta en un combate cuerpo a cuerpo sin armas contra Eugene Cooney; durante el intercambio de golpes, Harold logra derribar a Cooney y le rompe varios dientes de un puñetazo (motivo por el cual Cooney lo confronta posteriormente en la clínica del Dr. Stevens).
+- Desenlace (#28): Tras el combate en la arena, Harold no vuelve a aparecer en el cómic principal. Debido a que no participa en el asalto a la prisión ni se muestra su muerte en pantalla, su estado final se clasifica oficialmente como desconocido (presuntamente sobreviviente en Woodbury o fallecido tras la caída posterior de la comunidad).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (UNIVERSO COMIC-NOVELAS)
+- Su apellido (Abernathy) y el altercado posterior con Eugene Cooney en la clínica del Dr. Stevens (donde Cooney le reclama por haberle volado los dientes en la arena) se desarrollan en las novelas canónicas de la franquicia ("The Walking Dead: The Fall of the Governor - Part One").
+- Nota de desambiguación: En las novelas y en el cómic (#48) aparece un personaje llamado "Hap" Abernathy (un soldado mayor que sobrevive al asalto de la prisión junto a Lilly Caul), quien corresponde a un personaje distinto dentro de la misma continuidad.

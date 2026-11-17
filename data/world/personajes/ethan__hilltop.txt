@@ -1,23 +1,33 @@
+----------ARCHIVO DE PERSONAJES | Ethan (Vol. 16: A Larger World)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-ethan
 NOMBRE: Ethan
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Hilltop
+AGRUPACIÓN: Colonia Hilltop
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: A Larger World
+PRIMERA APARICIÓN: #95
+ÚLTIMA APARICIÓN: #95
+ALCANCE: The Walking Dead, serie regular; aparición registrada en #95. El estado final se describe en el historial.
+REFERENCIA PRIMARIA: The Walking Dead #95.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #95 (Volumen 16: A Larger World, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido; hermano de Crystal).
+- Perfil físico observado: Varón caucásico-americano de entre finales de los 20 y principios de los 30 años, complexión media, cabello oscuro corto, barba incipiente y vestimenta civil desgastada.
+- Rol post-brote: Residente original de la Colonia Hilltop y miembro de la cuadrilla encargada de recolectar y entregar tributos de alimentos y medicinas a Los Salvadores.
+- Incidente registrado y desenlace (#95): Durante la primera visita de Rick Grimes, Michonne Hawthorne, Glenn Rhee, Andrea y Carl a la mansión Barrington de Hilltop en el número #95, Wesley irrumpe para anunciar el regreso en solitario de Ethan. Alterado y desesperado, Ethan ingresa en la oficina de Gregory para informarle que Negan consideró insuficiente la última entrega de suministros, por lo que asesinó a golpes a sus compañeros Tim y Marsha y retuvo como rehén a su hermano Crystal. Cumpliendo el mensaje de advertencia impuesto por Negan para liberar a su hermano, Ethan saca un cuchillo y apuñala a Gregory en el abdomen. Antes de que pueda rematarlo, Rick Grimes interviene rápidamente, lo derriba en un forcejeo y le corta la garganta con un cuchillo, matándolo al instante frente a los residentes horrorizados (acto que establece el liderazgo implacable de Rick ante Hilltop y detona el conflicto contra Los Salvadores).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Es el primer personaje en mencionar directamente a Negan y Los Salvadores en todo el cómic principal (Número #95), y su ejecución a manos de Rick Grimes (adaptada de manera idéntica en la sexta temporada de la serie televisiva de AMC, episodio 6x11 "Knots Untie") inicia formalmente la saga de Negan.

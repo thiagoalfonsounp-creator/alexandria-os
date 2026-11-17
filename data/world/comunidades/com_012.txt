@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 LOS CAZADORES
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #61-#66.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Grupo hostil itinerante
 
 DESCRIPCIÓN
-Chris encabeza un grupo que captura personas para alimentarse de ellas.
+Pequeña banda nómada compuesta por seis integrantes (Chris, Theresa, Greg, Charlie, David y Albert) que opera en los bosques de Virginia siguiendo a otros grupos de supervivientes para emboscarlos y practicar el canibalismo. Tras fracasar en la caza de fauna silvestre y agotarse las reservas enlatadas, optan por secuestrar víctimas aisladas, amputar sus extremidades para mantenerlas vivas como fuente de carne fresca y evitar ingerir tejido infectado por mordeduras.
 
 RELEVANCIA NARRATIVA
-Su persecución del grupo de Rick convierte a otros supervivientes en una amenaza organizada.
+Constituyen una amenaza íntima y psicológicamente perturbadora durante el viaje hacia Washington D.C., marcando un punto de no retorno moral para el grupo de Rick. La captura y mutilación de Dale desemboca en una operación nocturna de rastreo y ejecución sumaria cerca de la iglesia de Gabriel, consolidando la determinación de los protagonistas de eliminar sin piedad a cualquier facción depredadora.
 
 ANÁLISIS DE SUPERVIVENCIA
-El peligro humano exige vigilancia y capacidad de rescate, además de defensa frente a caminantes.
+El canibalismo oportunista basado en el acecho sigiloso permite a una célula reducida subsistir temporalmente sin infraestructura agrícola ni conocimientos de caza mayor. Sin embargo, es una estrategia condenada al fracaso: al atacar exclusivamente a otros humanos organizados sin capacidad numérica ni defensiva, tarde o temprano enfrentan a un grupo con superioridad táctica y armamento capaz de aniquilarlos por completo.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #61-#66.
+Cotejado directamente desde la vigilancia en carretera (#61), el secuestro de Dale (#63-#64) y la emboscada y ejecución del grupo completo (#65-#66).

@@ -1,23 +1,31 @@
+Kevin (caminante), cuyo nombre completo es Kevin O'Brien, es uno de los zombis que atacan la granja de Hershel en el Número 53 del cómic principal, donde es abatido de una puñalada en la cabeza por Abraham Ford durante la primera aparición de este último. Es un caso único en la franquicia porque está basado en un fan real que ganó una subasta benéfica de Robert Kirkman para aparecer zombificado en el cómic.
+
+----------CAMINANTES IDENTIFICADOS | Kevin (caminante) (Vol. 9: Here We Remain)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-kevin_caminante
-NOMBRE: Kevin (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+NOMBRE: Kevin (caminante) [Nombre completo: Kevin O'Brien]
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #53 (Volumen 9: Here We Remain, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos en el canon principal (en material complementario se le atribuye profesión de vendedor de seguros de accidentes y una pareja llamada Amber).
+- Perfil físico observado: Varón adulto con gafas/lentes, cabello oscuro y una camiseta con el lema "I'd rather be playing Cosmic Encounter".
+- Reanimación: Falleció por causas desconocidas durante el inicio del brote y reanimó como caminante en Georgia.
+- Incidente registrado (#53): Tras el reencuentro de los sobrevivientes en la granja de Hershel Greene, Kevin y otra caminante (Amber) irrumpen en el lugar atraídos por la presencia humana.
+- Desenlace (#53): Abraham Ford (en su primera aparición en la serie, junto a Rosita Espinosa y Eugene Porter) interviene de inmediato y apuñala a Kevin en la parte posterior del cráneo con un cuchillo, acabando definitivamente con él.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y PRODUCCIÓN
+- Origen real: Kevin O'Brien es una persona real que ganó una subasta benéfica organizada por Robert Kirkman en eBay para ser dibujado como caminante en el cómic, incluyendo un guiño a su juego de mesa favorito ("Cosmic Encounter") en su camiseta.
+- Material no canónico: Protagonizó los relatos humorísticos de "The Secret Diary of a Walker" en los números #3 y #18 de The Walking Dead: The Official Magazine. En el relato #3 (NO CANÓNICO) se narra su llegada a la granja buscando a su novia Amber hasta que Abraham los mata a ambos, mientras que el #18 funciona como una historia paródica alternativa fuera de continuidad.

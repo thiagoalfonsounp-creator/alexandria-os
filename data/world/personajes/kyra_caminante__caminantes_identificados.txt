@@ -1,23 +1,31 @@
+Kyra (caminante) es una zombi joven con la que se cruzan Rick Grimes y Andrea en las inmediaciones de Alexandria en el Número 98 del cómic principal, mientras persiguen a un grupo de Salvadores en represalia por el asesinato de Abraham Ford. A diferencia de los caminantes anteriores, Kyra sobrevive al encuentro, ya que Rick ordena no gastar munición y retroceder.
+
+----------CAMINANTES IDENTIFICADOS | Kyra (caminante) (Vol. 17: Something To Fear)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-kyra_caminante
 NOMBRE: Kyra (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #98 (Volumen 17: Something To Fear, Parte 2 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (en el material complementario se le atribuye un hermano mayor).
+- Perfil físico observado: Caminante de aspecto juvenil (aparenta alrededor de 12 años de edad).
+- Reanimación: Falleció por causas desconocidas durante el inicio del brote y reanimó como caminante en la región de Virginia / alrededores de Washington D.C.
+- Incidente registrado (#98): Tras la emboscada en la que los Salvadores asesinan a Abraham Ford, Rick Grimes y Andrea salen en persecución de los atacantes en los alrededores de la Zona Segura de Alexandria. Al doblar una esquina, se topan de frente con Kyra encabezando una pequeña horda de caminantes.
+- Desenlace (#98): Andrea apunta su arma con intención de dispararle, pero Rick la detiene ordenándole que no desperdicie munición y ambos optan por retroceder. Kyra permanece activa y su estado final al cierre de la serie es desconocido (presuntamente activa o errante).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (NO CANÓNICO)
+- En el cómic principal nunca se pronuncia su nombre. Su identidad fue establecida posteriormente en la tira humorística "The Secret Diary of a Walker" (publicada en The Walking Dead: The Official Magazine, número #10).
+- En dicho relato paródico (NO CANÓNICO), Kyra es presentada como una niña caminante de 12 años que sale a cazar "Normos" (humanos) cerca de Alexandria junto a su hermano mayor de 14 años (protagonista del diario) y su amigo Bill, logrando escapar con vida por muy poco.

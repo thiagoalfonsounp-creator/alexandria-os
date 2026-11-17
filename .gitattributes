@@ -1,4 +1,7 @@
 *.sh text eol=lf
+*.bash text eol=lf
+bin/alexandria text eol=lf
+bin/instalar-comandos text eol=lf
 *.tsv text eol=lf
 *.txt text eol=lf
 *.md text eol=lf

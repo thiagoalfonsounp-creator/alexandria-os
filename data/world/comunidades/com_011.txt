@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 COMMONWEALTH
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #175-#192.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Sociedad de gran escala
 
 DESCRIPCIÓN
-Pamela Milton representa un sistema político con jerarquías y desigualdades sociales.
+Red urbana y territorial asentada en Ohio que reúne a cerca de cincuenta mil habitantes bajo un aparato estatal complejo, gobernado de forma elitista por Pamela Milton y respaldado por una fuerza militar profesionalizada y blindada al mando de Mercer. La comunidad conserva industrias activas, hospitales, estadios deportivos, prensa escrita y electricidad continua, pero reproduce estrictamente las jerarquías socioeconómicas y privilegios de clase anteriores al colapso, asignando empleos y estatus según el origen previo al brote.
 
 RELEVANCIA NARRATIVA
-El contacto con esta sociedad plantea qué instituciones merece la pena reconstruir.
+Representa el estadio más avanzado de reconstrucción civilizada en la obra y plantea el dilema político final: si la supervivencia justifica restaurar las desigualdades estructurales del viejo mundo. El choque ideológico entre el modelo elitista de Pamela Milton y el igualitarismo comunitario de Rick Grimes desencadena una insurrección interna, el asesinato de Rick a manos de Sebastian Milton y la posterior democratización institucional de la sociedad.
 
 ANÁLISIS DE SUPERVIVENCIA
-Una mayor capacidad material no elimina los conflictos por poder, trabajo y acceso a recursos.
+Una escala demográfica masiva permite la especialización laboral, la producción industrial, la medicina avanzada y una capacidad militar abrumadora frente a cualquier horda o banda externa. Sin embargo, la estabilidad de la Commonwealth se ve amenazada desde adentro: la estratificación social rígida y la impunidad de las élites generan un resentimiento profundo en la clase trabajadora y en las fuerzas armadas, demostrando que una civilización reconstruida colapsa si carece de justicia social y movilidad equitativa.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #175-#192.
+Cotejado directamente desde la llegada de la expedición de Eugene y Michonne (#175), la revuelta ciudadana (#186-#190), la muerte de Rick (#191-#192) y la reforma posterior.

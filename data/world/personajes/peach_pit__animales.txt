@@ -4,20 +4,23 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-peach_pit
 NOMBRE: Peach Pit
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Animales
+AGRUPACIÓN: Animales
 TIPO: ANIMAL
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #172
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+Caballo de Hilltop Colony en la etapa de reconstrucción posterior a la guerra
+contra los Susurradores. Peach Pit aparece en los establos junto a Annie
+(#172), como parte del plantel equino del asentamiento bajo su cuidado. La
+ficha recibida lo identifica entre los caballos de tiro y monta de Hilltop.
+
+ANÁLISIS
+La escena registra la presencia de caballos administrados en la comunidad.
+Su aporte a las tareas rurales y a la movilidad se conserva como contexto
+funcional; #172 no establece la frecuencia de uso ni una aparición continua
+en los números intermedios.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
-
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
-
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+Comic Reference: The Walking Dead #172 (identificación en los establos de
+Hilltop junto a Annie).

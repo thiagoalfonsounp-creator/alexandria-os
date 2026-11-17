@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 FAMILIA GREENE
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #10-#12 (integración posterior desde #13).
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Núcleo familiar rural
 
 DESCRIPCIÓN
-Hershel y su familia viven en una granja y reciben temporalmente al grupo de Rick.
+Núcleo familiar y laboral asentado en una granja autosuficiente en la zona rural de Georgia, encabezado por el veterinario viudo Hershel Greene. Está compuesto por sus hijos (Maggie, Lacey, Arnold, Billy, Rachel y Susie) junto con su capataz Otis y su pareja Patricia. Durante los primeros meses del brote logran mantener su propiedad intacta gracias al aislamiento geográfico, trabajando cultivos y ganado bajo una estricta autoridad patriarcal y una profunda fe religiosa. Sin embargo, Hershel utiliza el granero para encerrar a vecinos y familiares reanimados (incluido su hijo Shawn), convencido de que padecen una enfermedad curable.
 
 RELEVANCIA NARRATIVA
-La convivencia enfrenta distintas ideas sobre los caminantes y sobre quién puede permanecer en el refugio.
+Representa el primer contraste ideológico frente al grupo itinerante de Rick: una comunidad que aún conserva intactas las estructuras morales, religiosas y familiares del mundo previo al colapso. El incidente del granero quiebra esa negación de la realidad, obliga a los personajes a aceptar la irreversibilidad de la condición de los caminantes y culmina con la expulsión del grupo de Rick. Poco después, tras comprender que la granja no puede sostenerse aislada, los sobrevivientes de la familia se trasladan a la prisión, aportando conocimientos agrícolas y médicos indispensables.
 
 ANÁLISIS DE SUPERVIVENCIA
-La producción agrícola necesita defensa, trabajo y acuerdos de convivencia; una granja no garantiza seguridad.
+Su dominio de la producción agrícola, el manejo de ganado y los conocimientos veterinarios aplicados a la medicina de emergencia representan activos estratégicos de primer orden para cualquier asentamiento. Sin embargo, su modelo presenta dos fallos críticos: el aislamiento defensivo sin vigilancia perimetral armada y la convivencia cercana con caminantes cautivos por motivos afectivos. El caso evidencia que la autosuficiencia alimentaria no garantiza la supervivencia si la ideología del grupo impide aplicar protocolos racionales de neutralización de amenazas.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #10-#12; The Walking Dead #13-#48.
+Cotejado directamente con la llegada tras el disparo accidental a Carl (#10), la apertura del granero y muerte de Arnold y Lacey (#11), la expulsión (#12) y la posterior incorporación a la prisión (#13).

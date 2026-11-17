@@ -4,20 +4,28 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-gloria
 NOMBRE: Gloria
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo y datos de aparición.
+ARCO: Made to Suffer
+PRIMERA APARICIÓN: #43
+ÚLTIMA APARICIÓN: #48
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #43 y última aparición #48. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #43 y #48.
+COTEJO: el propietario verificó el contenido narrativo y las apariciones con el cómic; la wiki individual y videos explicativos se usaron como apoyo de contexto.
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+
+Gloria pertenece a Woodbury y aparece entre el público de la arena mientras el Gobernador se dirige a la comunidad, antes de revelar la cabeza de Caesar Martínez. El índice ubica su participación en el arco Made to Suffer y registra sus extremos en los números #43-#48, verificados por el propietario.
+
+La wiki individual la describe como integrante de las fuerzas de Woodbury que cumple tareas de suministro. Esta ficha conserva el nombre Gloria, usado para identificarla en el cómic, y no incorpora el apellido de la fuente secundaria como si estuviera establecido en la serie regular.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+Referencia verificada: The Walking Dead #43 y #48.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+REFERENCIA SECUNDARIA
+
+Walking Dead Wiki, «Gloria Pyne (Comic Universe)».
+https://walkingdead.fandom.com/wiki/Gloria_Pyne_(Comic_Universe)

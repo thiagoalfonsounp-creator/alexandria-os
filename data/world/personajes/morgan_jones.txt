@@ -6,14 +6,25 @@ EXPEDIENTE: TW-PER-022
 PERSONAJE: MORGAN JONES
 CANON: COMIC THE WALKING DEAD, SERIE PRINCIPAL
 ESTADO: FICHA AMPLIADA
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo, arco, primera y última aparición.
+ARCO: Days Gone Bye
+PRIMERA APARICIÓN: #1
+ÚLTIMA APARICIÓN: #83 (caminante)
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #1 y última aparición #83 (caminante). El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #1 y #83 (caminante).
+COTEJO: el propietario cotejó el contenido y las apariciones con el cómic; consultó la wiki individual y videos explicativos como apoyo de contexto.
+
 AVISO: CONTIENE SPOILERS
 
 IDENTIFICACION
+
 Morgan es uno de los primeros sobrevivientes que Rick encuentra.
 El numero 1 establece su encuentro en el condado de Grant y su
 vinculo con Duane, su hijo.
 
 REENCUENTRO
+
 Rick vuelve a encontrar a Morgan en el arco de los numeros 58-83.
 Morgan se incorpora al grupo que viaja hacia Alexandria. El comic
 lo muestra afectado por el duelo y por su dificultad para dejar
@@ -21,20 +32,23 @@ atras la vida anterior; esas conductas se observan en sus escenas,
 pero no se tratan como una regla universal.
 
 MORGAN EN ALEXANDRIA
+
 Durante el ataque de caminantes a la Zona Segura, Morgan recibe
 una mordida en el brazo. En el numero 82, Michonne se lo amputa
 para intentar detener la infeccion. Morgan muere y vuelve como
 caminante en el numero 83; Michonne acaba con el caminante.
 
 EVIDENCIA
+
 CONFIRMED: encuentro inicial en el numero 1; apariciones posteriores
 en los numeros 58-83; mordida y amputacion en el 82; muerte y retorno
 como caminante en el 83.
 OBSERVED: el duelo por Duane y su dificultad para integrarse se
 describen como conductas mostradas en escenas concretas.
-UNCONFIRMED: los detalles de su vida anterior al brote que el comic
+NO ESTABLECIDO EN EL CÓMIC: los detalles de su vida anterior al brote que el comic
 no establezca expresamente.
 
 REFERENCIAS DE LECTURA
+
 The Walking Dead, numeros 1, 58-83; escenas clave en 82-83.
 Esta ficha no incorpora el especial Morgan Special.

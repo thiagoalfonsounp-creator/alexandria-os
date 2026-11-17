@@ -1,23 +1,30 @@
+----------ARCHIVO DE PERSONAJES | Anna (Vol. 22: A New Beginning)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-anna
 NOMBRE: Anna
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #129 (Volumen 22: A New Beginning, Parte 3 de 6).
+Apariciones/menciones posteriores: Número #131 (carta en Vol. 22), Número #144
+(Volumen 24: Life and Death, Parte 6 de 6) y Número #157 (Volumen 27: The Whisperer War, Parte 1 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido y padres desconocidos; nació en los primeros años del apocalipsis o era muy pequeña durante el colapso inicial).
+- Perfil físico observado: Adolescente caucásico-americana de entre 14 y 16 años de edad, complexión delgada, cabello castaño rojizo (auburn) largo y vestimenta juvenil casual.
+- Rol post-brote: Residente adolescente de la Zona Segura de Alexandria tras el salto temporal y alumna de la escuela local junto a Carl Grimes y Michael Thompson.
+- Incidente registrado (#129–#131): Aparece por primera vez fuera de la escuela de Alexandria conversando con Carl Grimes, donde le enseña sus pechos en un gesto adolescente impulsivo para llamar su atención antes de marcharse nerviosa (#129). Poco después, al enterarse de que Carl planea mudarse a la Colonia Hilltop para convertirse en aprendiz de herrero, Anna le entrega una carta de despedida pidiéndole que la lea al llegar a su destino (#130–#131). En dicha nota se disculpa avergonzada por su comportamiento, expresa admiración por el historial heroico de Carl y le confiesa que siente atracción romántica por él (carta que posteriormente genera celos en Lydia cuando la encuentra en Hilltop).
+- Apariciones posteriores y desenlace (#144 y #157): Vuelve a ser vista brevemente en Alexandria durante los eventos de la feria de las comunidades y la crisis desatada por Los Susurradores (#144 y #157). Después de dicho capítulo no vuelve a aparecer en viñeta ni se confirma si sobrevivió a la Guerra contra Los Susurradores o si falleció fuera de panel, por lo que su estado final al cierre de la serie se clasifica oficialmente como desconocido.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Contexto narrativo: Aunque aparece en pocos paneles, su carta de amor para Carl tiene relevancia argumental más adelante en Hilltop, ya que desencadena una discusión sobre confianza y celos entre Carl Grimes y Lydia.
+- Nota de desambiguación: No debe confundirse con Anna (personaje exclusiva de la serie televisiva de AMC en la temporada 6, residente de Alexandria que muere durante el ataque con granadas de Los Salvadores en el episodio 8x08 "How It's Gotta Be").

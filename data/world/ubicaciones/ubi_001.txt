@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 CYNTHIANA
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #1-#2.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Ciudad de origen
 
 DESCRIPCIÓN
-Entorno de la vida de Rick antes del colapso y de su despertar en un mundo transformado.
+Localidad de Kentucky donde residía Rick Grimes junto a Lori y Carl antes del brote, y escenario inicial de su despertar y primer contacto con los caminantes y la familia Jones.
 
 RELEVANCIA NARRATIVA
-Abre el recorrido y muestra la pérdida de los servicios cotidianos.
+Abre el recorrido de la obra, presenta la caída total de los servicios básicos y establece el punto de partida del viaje hacia Atlanta en busca de Lori y Carl.
 
 ANÁLISIS DE SUPERVIVENCIA
-Los lugares familiares pueden haber cambiado de forma radical; conocerlos no confirma que sean seguros.
+Los entornos familiares conocidos pierden su estructura social y logística tras el colapso; conocer la geografía previa no garantiza seguridad ni suministro de recursos.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #1; The Walking Dead #2.
+El texto está cotejado directamente con las páginas del cómic principal. En #1 se muestra el tiroteo previo al coma y el despertar; en #2 ocurre el encuentro con Morgan y Duane y la partida hacia Georgia. No se asignan distancias ni fechas no verificadas en las viñetas.

@@ -3,18 +3,49 @@ ARCHIVO DOCUMENTAL - ALCANCE DEL REPARTO
 ============================================================
 
 ALCANCE PRINCIPAL
-El archivo reúne 248 entradas de la serie regular de The Walking Dead,
-números 1-193, y el epílogo. Incluye 225 personajes, 5 antagonistas
-principales, 14 caminantes identificados y 4 animales con ficha.
+El índice reúne 249 asignaciones de categoría y 248 fichas únicas: 225
+personajes, 6 antagonistas, 14 caminantes identificados y 4 animales con
+ficha. Pamela Milton figura en Personajes y también en Antagonistas como
+antagonista política secundaria del conflicto de la Commonwealth. El canon
+principal es la serie regular de The Walking Dead, números 1-193, y su epílogo; las
+entradas basadas en material complementario se identifican por separado.
 Hay 31 expedientes ampliados, 199 fichas breves y 18 identificaciones.
 
 ORGANIZACIÓN DEL SELECTOR
 Personajes, antagonistas, caminantes identificados y animales se muestran
-en apartados separados. Cada nombre lleva entre paréntesis el arco y el
-número de primera aparición cuando esos datos están confirmados. Cuando
-falta la comprobación, el selector muestra "Arco no confirmado" y el TSV
-conserva UNCONFIRMED. No se deduce un debut individual a partir de la
-comunidad, familia o agrupación del índice.
+en apartados separados. Cada nombre lleva entre paréntesis el arco y los
+números de primera y última aparición cuando están confirmados. El rango
+indica sus extremos, no una aparición en cada número intermedio. No se
+deduce un debut individual a partir de la comunidad, familia o agrupación
+del índice. Los materiales complementarios se rotulan como tales y no
+reciben números de la serie regular.
+
+AVANCE DEL COTEJO DE PERSONAJES
+El índice contiene 225 entradas PERSONAJE y todas apuntan a fichas existentes.
+La revisión estática encontró 212 fichas con ESTADO DE EVIDENCIA: CONFIRMED:
+páginas 1–2, 60/60; páginas 3–4, 56/60; páginas 5–6, 59/60; páginas 7–8,
+37/45. Las 13 restantes son expedientes ampliados preexistentes que se
+conservaron sin cambios y no tienen esa etiqueta: Eugene Porter, Rosita
+Espinosa, Abraham Ford, Jesus (Paul Monroe), Douglas Monroe, Dwight,
+Ezekiel, Magna, Connie, Lydia, Juanita Sanchez (Princess), Mercer y Pamela
+Milton. La ausencia de la etiqueta no equivale a una verificación nueva.
+
+El RAR de las páginas 7–8 contenía 36 archivos: 35 con contenido y
+mike-joshua.txt vacío. Las 35 fichas completas ya estaban marcadas CONFIRMED;
+se añadieron sus campos de arco, apariciones, alcance, referencia y cotejo,
+y se actualizaron sus filas del índice. En Elodie Hawthorne se conserva por
+separado la primera mención (#21) y la primera aparición física (#176). El
+archivo de Joshua no venía en el RAR y el de Mike estaba vacío; se conservaron
+ambas fichas breves locales y se completaron sus localizadores: Joshua, Lines
+We Cross #173–#187; Mike, Lines We Cross #173. También se conservaron sin
+cambios ocho expedientes ampliados de esas páginas. La ficha individual se usó
+para localizar las apariciones y el tomo oficial confirma el arco de #173; esta
+revisión no volvió a cotejar las viñetas del cómic.
+
+Los valores específicos que siguen como UNCONFIRMED no se deducen a partir
+de agrupaciones ni rangos generales. Los expedientes preexistentes sin una
+etiqueta de evidencia se dejan sin marcar hasta que se actualicen con la
+ficha correspondiente.
 
 FUENTES Y EVIDENCIA
 Comic Series Characters, Walking Dead Wiki (Fandom):
@@ -22,15 +53,25 @@ https://walkingdead.fandom.com/wiki/Comic_Series_Characters
 Consultada el 2026-11-07. Se usa para localizar nombres y agrupaciones,
 no como fuente primaria de escenas, destinos o relaciones.
 
+Para localizar las apariciones de Joshua y Mike (11-11-2026) se consultaron
+sus fichas individuales en Walking Dead Wiki; se usan solo como localizadores:
+Joshua: https://walkingdead.fandom.com/wiki/Joshua_%28Comic_Series%29
+Mike: https://walkingdead.fandom.com/wiki/Mike_%28Whisperer%29
+El catálogo oficial de Image Comics confirma que el volumen 29, Lines We Cross,
+recopila los números #169–174:
+https://imagecomics.com/comics/releases/the-walking-dead-vol-29-lines-we-cross-tp
+
 Los títulos y rangos de los arcos siguen los volúmenes recopilatorios de
 la serie regular, del volumen 1 (Days Gone Bye, números 1-6) al volumen 32
 (Rest in Peace, números 187-193). La tabla de referencia está disponible en:
 https://en.wikipedia.org/wiki/The_Walking_Dead_(comic_book)#Collected_editions
 
-Las fichas breves sin número o escena comprobados llevan la etiqueta
-UNCONFIRMED. No se asignan apariciones, relaciones ni destinos por
-inferencia. Al ampliar una ficha, anotar los números consultados y
-diferenciar hechos de escena, observaciones y declaraciones autorales.
+Cuando la fuente primaria no confirma un valor, este permanece UNCONFIRMED.
+Los expedientes preexistentes sin etiqueta formal de evidencia se conservan
+sin marcar hasta recibir una ficha cotejada. No se asignan apariciones,
+relaciones ni destinos por inferencia. Al ampliar una ficha, anotar los
+números consultados y diferenciar hechos de escena, observaciones y
+declaraciones autorales.
 
 MATERIALES COMPLEMENTARIOS FUERA DEL SELECTOR
 El inventario de referencia también muestra personajes de historias

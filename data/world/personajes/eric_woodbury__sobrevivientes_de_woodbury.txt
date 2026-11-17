@@ -1,23 +1,28 @@
+----------ARCHIVO DE PERSONAJES | Eric (Woodbury) (Vol. 8: Made To Suffer)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-eric_woodbury
 NOMBRE: Eric (Woodbury)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #45 (Volumen 8: Made To Suffer, Parte 3 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Perfil físico observado: Varón adulto joven de complexión media, cabello oscuro, vestimenta urbana holgada (estilo hip-hop deteriorado, a juego con su compañero Daniel).
+- Rol post-brote: Residente de Woodbury, Georgia, y soldado raso de la milicia armada bajo las órdenes de Brian Blake (El Gobernador).
+- Incidente registrado (#45): Tras el primer asalto fallido contra la prisión y el repliegue del Gobernador hacia el bosque, Eric es seleccionado para integrar una patrulla de reconocimiento liderada por Raymond Hilliard junto a James Steagal, Daniel, Gloria Pyne y Gabriel Harris.
+- Desenlace (#45): Mientras el grupo de reconocimiento prepara su armamento y avanza entre los árboles para vigilar los movimientos de la prisión, son emboscados por Tyreese y Michonne Hawthorne, quienes habían salido de la prisión para contraatacar. Eric es eliminado fuera de panel durante el enfrentamiento (en el número #46, Gabriel Harris confirma al Gobernador que toda la patrulla fue masacrada excepto él).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (UNIVERSO COMIC-NOVELAS)
+- Su participación en la patrulla de reconocimiento y su diálogo previo a la emboscada con su amigo Daniel y Gloria Pyne se desarrollan en mayor detalle en la novela canónica "The Walking Dead: The Fall of the Governor - Part Two" (Capítulo 13: "Doomsday Clock").
+- Nota de desambiguación: No debe confundirse con Eric (reclutador de la Zona Segura de Alexandria y pareja de Aaron), quien debuta mucho más adelante en el Número #68 (Volumen 12: Life Among Them).

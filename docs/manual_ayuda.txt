@@ -1,0 +1,121 @@
+ALEXANDRIA OS 0.6
+MANUAL / AYUDA
+========================================
+
+NAVEGACION
+En los menús, usá las flechas para moverte y Enter para elegir.
+Escape cancela o vuelve a la pantalla anterior. Para cerrar Alexandria OS
+y volver a la terminal, elegí TERMINAL en el menú principal.
+
+PRESENTACIÓN
+La interfaz usa fondo negro, paneles claros, marcos en tinta y selección
+rojo oscuro. Las fichas muestran un retrato monocromo cuando existe una
+imagen local; la ficha de Rick Grimes incluye uno.
+
+SECCIONES
+THE WORLD reúne personajes, antagonistas, animales, caminantes, comunidades,
+ubicaciones, cronología, observaciones, glosario y el recorrido de Rick.
+Personajes muestra hasta 30 fichas por página; usá las opciones de página
+para avanzar o volver. Escape regresa a THE WORLD.
+THE COMIC ARCHIVE organiza los cómics PDF y CBZ personales.
+THE REFUGE es una experiencia de supervivencia en la terminal.
+CUADERNO DE CAMPO abre las notas editables con Nano.
+
+LEER UN TOMO
+Guardá tus archivos PDF en ~/alexandria-os/imports/comics/.
+Desde THE COMIC ARCHIVE, elegí "Leer tomo en PDF" y después seleccioná
+el archivo. En la consola local de Debian, el tomo completo se muestra como imagen
+real en blanco y negro, sin convertir sus páginas a caracteres. El visor abre
+la página ajustada a la pantalla: flechas para desplazarte, Espacio o j para la
+página siguiente, k para la anterior, + y - para el zoom, a para volver a
+ajustar y q para regresar a Alexandria. También admite número + g para saltar
+a una página. Esta ruta preserva las letras impresas y es la recomendada para
+leer el cómic.
+El modo local necesita fbi, fbgs, Ghostscript y acceso de lectura/escritura a
+un dispositivo framebuffer (/dev/fbN) o DRM (/dev/dri/cardN). Si falta alguno,
+el lector informa el requisito y vuelve al menú; no muestra la página como
+caracteres ilegibles.
+
+Por SSH se usa una vista de caracteres: n/p cambian la página, q sale, las
+flechas o W/A/S/D desplazan sectores, + y - cambian el zoom y 0 muestra la
+página completa. Es una vista de referencia y no garantiza que los globos
+pequeños se lean cómodamente. El modo local solo funciona en una consola Linux
+real, no en SSH. Para añadir el visor en Debian, desde una sesión con permisos
+de root:
+  apt install fbi ghostscript
+
+COMANDOS PERSONALIZADOS
+Los comandos se agregan a la cuenta normal de Bash con:
+
+  bash "$HOME/alexandria-os/bin/instalar-comandos"
+  source "$HOME/.bashrc"
+
+Si la instalación ya se hizo, cerrá y abrí una terminal nueva o ejecutá
+el segundo comando para activarlos en la terminal actual. comandosalexandria
+muestra la lista completa.
+
+Inicio y biblioteca:
+  alexandria       Menú principal
+  comicarchive     THE COMIC ARCHIVE
+  leertomo         Selector directo de tomos PDF
+  cuaderno         Cuaderno de campo
+  refugio          THE REFUGE
+  refugiominijuegos Banco de pruebas independiente
+  pruebaruta       Probar Rastreo de suministros
+  pruebabrecha     Probar Brecha del perímetro
+  pruebaradio      Probar Código de radio
+  pruebahorda      Probar la horda de caminantes
+  pruebafinal      Probar la arena final de 40 segundos
+
+Para las secuencias de ruta o radio, agregá inicial, media o avanzada.
+Ejemplos: pruebaruta avanzada, pruebaradio media. Estas pruebas no leen
+ni modifican la campaña guardada. La arena dura 40 segundos.
+La horda tiene tres decisiones cronometradas; en campaña, una respuesta
+incorrecta o tardía termina la partida. `pruebahorda` simula el evento sin
+leer ni cambiar la campaña guardada.
+
+THE WORLD:
+  mundo            Menú de THE WORLD (también theworld)
+  personajes       Selector de fichas de personajes
+  antagonistas     Selector de fichas de antagonistas
+  animales         Archivo de animales
+  caminantes       WALKER DATABASE
+  comunidades      Archivo de comunidades
+  ubicaciones      Archivo de ubicaciones
+  cronologia       Cronología
+  glosario         Glosario
+  observaciones    FIELD OBSERVATIONS
+  recorridorick    Mapas y etapas del recorrido de Rick
+
+FICHAS DIRECTAS
+  fichapersonaje "Nombre exacto"
+  fichaantagonista "Nombre exacto"
+
+Ejemplos:
+  fichapersonaje "Rick Grimes"
+  fichaantagonista "Negan"
+
+También hay atajos: rick, carl, lori, lorigrimes, michonne, glenn, maggie,
+carol, dale, andrea, ezequiel, eugene, abraham, negan, shane, alpha, beta
+y gobernador.
+
+leertomo requiere dialog, pdfinfo y pdftoppm. Para leer el tomo completo en la
+consola local también necesita fbi, fbgs, ghostscript, un dispositivo
+framebuffer (/dev/fbN) o DRM (/dev/dri/cardN) accesible por la cuenta y una
+consola Linux real (TERM=linux); para el modo de caracteres por SSH necesita
+chafa. fbi y Ghostscript están disponibles en los repositorios oficiales de
+Debian 13. Si la consola no tiene acceso al dispositivo, el lector avisa y
+vuelve al menú.
+Si un comando no aparece, comprobá que se haya instalado desde la cuenta walker
+y que la sesión use Bash.
+Los PDF y CBZ no se incluyen en el proyecto: guardá únicamente copias propias
+o autorizadas en imports/comics/.
+
+MARCA DEL MENÚ PRINCIPAL (0.6)
+El menú muestra el PNG aprobado ALEXANDRIA / molino / SAFE ZONE a la izquierda.
+Chafa representa la imagen en caracteres y color; la navegación queda a la derecha.
+Usá flechas y Enter; Escape vuelve o cierra la pantalla actual.
+El lanzador requiere el paquete chafa, además de Bash, Python y dialog.
+La prueba automatizada de la nube no reemplaza las 79 pruebas manuales pendientes
+ni la inspección visual en la VM Debian.
+La OVA y el PDF final se entregan por fuera del repositorio Git.

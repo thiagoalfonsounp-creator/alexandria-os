@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 HILLTOP COLONY
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #95-#193.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Asentamiento agrícola
 
 DESCRIPCIÓN
-Una elevación defendida y espacios destinados a vivienda y producción.
+Comunidad fortificada construida alrededor de la mansión Barrington en Virginia, especializada en agricultura, ganadería y herrería, gobernada inicialmente por Gregory y luego por Maggie Greene.
 
 RELEVANCIA NARRATIVA
-Es un punto central de intercambio y de la alianza frente a los Salvadores.
+Inicia la red de intercambio comercial entre asentamientos, aporta recursos vitales a Alexandria y resiste ataques directos tanto de Los Salvadores como de Los Susurradores.
 
 ANÁLISIS DE SUPERVIVENCIA
-La capacidad productiva vuelve importante proteger campos, accesos y rutas comerciales.
+La especialización productiva y el comercio entre comunidades multiplican las probabilidades de supervivencia frente al aislamiento, aunque expone las rutas de transporte a emboscadas.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #95-#193.
+Cotejado directamente desde la primera visita guiada por Paul Monroe (#95) hasta la batalla con armas contaminadas (#159-#160) y su reconstrucción.

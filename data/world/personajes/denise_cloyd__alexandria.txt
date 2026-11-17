@@ -1,23 +1,31 @@
+----------ARCHIVO DE PERSONAJES | Denise Cloyd (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-denise_cloyd
 NOMBRE: Denise Cloyd
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #71 (Volumen 12: Life Among Them, Parte 5 de 6).
+Apariciones posteriores: Números #72–#120 (Volúmenes 12 al 20) y
+desenlace en Número #121 (Volumen 21: All Out War - Part Two, Parte 1 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Médica cirujana profesional en Estados Unidos.
+- Perfil físico observado: Mujer caucásico-americana de principios de los 30 años, complexión media, cabello pelirrojo largo/ondulado habitualmente recogido, gafas/lentes graduados y bata médica o vestimenta civil.
+- Rol post-brote: Residente original y médica cirujana principal de la Zona Segura de Alexandria, encargada de la enfermería comunitaria y pareja sentimental de Heath.
+- Incidente registrado (#71–#84): Aparece por primera vez atendiendo a Scott tras su fractura de pierna (#71), aunque no logra evitar que fallezca días después por una septicemia al agotarse los antibióticos (#77). Tras la ejecución de Pete Anderson, queda como la única médica de Alexandria. Durante la invasión de la gran horda de caminantes (#80–#83), demuestra una valentía extraordinaria al abandonar su refugio para atender heridos en el exterior y realizar una cirugía de emergencia que salva la vida de Carl Grimes tras recibir un disparo accidental en el ojo derecho por parte de Douglas Monroe (#83–#84).
+- Etapa de reconstrucción y conflicto con Los Salvadores (#85–#119): Continúa ejerciendo como cirujana de cabecera de la comunidad (atendiendo tanto a residentes como a miembros de Los Salvadores heridos en intercambio táctico con Negan) y consolida su relación amorosa con Heath.
+- Desenlace (#120–#121): Durante la Guerra Total (All Out War), Negan acude a las puertas de Alexandria en el número #120 simulando devolver a Holly capturada, pero con una bolsa cubriéndole la cabeza. Al retirar la capucha para auxiliarla, Denise es sorprendida y mordida en el brazo derecho por Holly (quien había sido asesinada previamente y ya había reanimado como caminante). Instantes después, Los Salvadores bombardean Alexandria con granadas y una explosión amputa la pierna izquierda de Heath. Decidida a salvar a su pareja, Denise rechaza amputarse su propio brazo infectado para no perder tiempo ni capacidad quirúrgica; logra operar y estabilizar a Heath con éxito, pero sucumbe a la fiebre de la infección y fallece en el número #121 acompañada por Heath. Antes de que reanime, Michonne Hawthorne acaba con ella apuñalándola en la cabeza con su katana.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Su sacrificio en los números #120–#121 constituye una de las muertes más heroicas de toda la etapa de la Guerra Total contra Negan.
+- Diferencia con la adaptación televisiva: En la serie de AMC (episodio 6x14 "Twice as Far"), Denise es psicóloga en lugar de cirujana y muere mucho antes (atravesada en el ojo por un virote de ballesta disparado por Dwight, replicando la muerte original de Abraham Ford en el cómic).

@@ -1,29 +1,35 @@
 THE WORLD / RECORRIDO DE RICK
-MAPA 3 — CONTACTO FINAL Y EPÍLOGO
+MAPA 3 — CONTACTO CON LA COMMONWEALTH Y EPÍLOGO
 ============================================================
-ESQUEMA DE SECUENCIA. No indica orientación, camino ni distancia.
+ESQUEMA SIN ESCALA. No marca orientación ni carreteras.
 
-   RED DE ALEXANDRIA
-          . . . . . contacto con una sociedad mayor
-                            |
-                       COMMONWEALTH
-                            |
-                 cambio político y desenlace
-                            |
-              EPÍLOGO: CARL Y SOPHIA
-                  granja sin coordenada
+EXPEDICIÓN DE CONTACTO (#173–#175)
+Equipo de Eugene, Michonne, Siddiq, Magna y Yumiko:
 
-PITTSBURGH
-   [Ubicación incluida en el catálogo general; su lugar exacto en el
-    recorrido y su conexión con Commonwealth requieren cotejo primario.]
+ALEXANDRIA --> PITTSBURGH (#173–#174) --> COMMONWEALTH (#175)
+             encuentro con Princesa
+
+VIAJE POSTERIOR DE RICK (#178–#180)
+
+ALEXANDRIA . . . . . . . . . . . . . . . .> COMMONWEALTH
+          trayecto intermedio no cartografiado
+
+COMMONWEALTH
+conflicto político y muerte de Rick (#178–#192)
+          .
+          . salto temporal de décadas; no es un viaje de Rick
+          v
+GRANJA DE CARL Y SOPHIA (#193)
+hogar del epílogo; ubicación exacta no asignada
 
 LECTURA
-- La edición recopilatoria oficial describe los números #145-193 como el
-  tramo que va de los Susurradores a la Commonwealth. Esto localiza el arco,
-  pero no proporciona una ruta geográfica completa.
-- Pittsburgh queda fuera de las flechas hasta comprobar la escena y el orden.
-- La granja del epílogo pertenece al cierre de Carl y Sophia; no se inventa
-  su estado, distancia ni relación vial con la Commonwealth.
+- Pittsburgh es el paso de la primera expedición del grupo de contacto; Rick
+no forma parte de esa lista. La expedición llega a la Commonwealth en #175.
+- Rick viaja personalmente allí después, durante #178–#180. Como las fuentes
+citadas no fijan todos los puntos intermedios, no se dibuja su ruta pasando
+por Pittsburgh.
+- El vínculo punteado con la granja corresponde al salto temporal y al
+legado narrativo. El epílogo de #193 pertenece a Carl y Sophia.
 
-Evidence Level: UNCONFIRMED hasta revisar los ejemplares indicados.
-Referencias de lectura: #169-193; ver etapas 09-10 y el criterio de esta sección.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #173–#193; etapas R09–R10.

@@ -1,23 +1,28 @@
+----------ARCHIVO DE PERSONAJES | Mike (equipo de noticias) (Vol. 5: The Best Defense)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-mike_equipo_de_noticias
 NOMBRE: Mike (equipo de noticias)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Equipo de noticias en Woodbury
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición en cómic principal (cabeza reanimada): Número #29 (Volumen 5: The Best Defense, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL Y NOVELAS)
+- Antecedentes previos al brote: Piloto de helicóptero de tráfico para la cadena televisiva Fox News en Atlanta, Georgia, y amigo/compañero de trabajo de la productora Christina Haben.
+- Perfil físico observado: Varón caucásico-americano adulto de cabello castaño (con el rostro severamente quemado y desfigurado en su costado izquierdo tras el accidente aéreo).
+- Incidente previo (The Fall of the Governor - Part One): Durante el colapso inicial, sobrevive junto a unas veinte personas dentro de la sede de Fox News en Atlanta. Cuando se agotan las provisiones de comida y estalla la violencia entre los refugiados, Mike (el único piloto disponible en el edificio) intenta escapar en el helicóptero de noticias junto a Christina Haben y Theresa. Sin embargo, la aeronave había sido saboteada previamente; Mike logra alejarse de la ciudad antes de perder el control y estrellarse cerca de Woodbury, muriendo carbonizado en la cabina (con una mano fundida a la palanca de mando) tras pedir como último deseo un entierro cristiano.
+- Aparición en el cómic principal (#29): Ignorando las súplicas de Christina Haben, Brian Blake (El Gobernador) ordena arrojar los restos calcinados de Mike a los caminantes de la arena de combate y conserva su cabeza reanimada. En el número #29, su cabeza zombificada aparece sumergida en una de las peceras de trofeos dentro del departamento privado del Gobernador.
+- Desenlace (Novelas canónicas): Tras la derrota del Gobernador en la prisión y el regreso de los sobrevivientes a Woodbury, Lilly Caul entra en el departamento privado y dispara a cada una de las cabezas zombificadas en las peceras, incluida la de Mike, acabando definitivamente con él.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Continuidad con novelas: Su historia en la sede de Fox News, el sabotaje del helicóptero junto a Christina Haben y Theresa, y el destino de su cuerpo se narran en la novela canónica "The Walking Dead: The Fall of the Governor - Part One", conectando directamente con las peceras mostradas en el Número #29 del cómic principal.
+- Nota de desambiguación: No debe confundirse con Mike (el novio zombificado y sin brazos/mandíbula que acompañaba a Michonne Hawthorne, quien muere decapitado en el Número #19), ni con Mike (soldado de Los Salvadores) ni con Mike (miembro de Los Susurradores).

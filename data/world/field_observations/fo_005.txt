@@ -1,0 +1,11 @@
+ALEXANDRIA OS | THE WORLD
+FIELD OBSERVATIONS
+============================================================
+
+Observation ID: FO-005
+Subject: Amputación ante mordida en extremidad
+Comic Reference: The Walking Dead #19
+Description: Tras ser mordido en la pierna dentro de la prisión, Allen es sometido a una amputación inmediata por debajo de la rodilla para intentar frenar el avance de la infección.
+Analysis: El procedimiento detiene la propagación de la fiebre letal vinculada a la mordida en este caso puntual, aunque el sujeto sufre un fuerte trauma hemorrágico.
+Evidence Level: OBSERVED
+Conclusion: La extirpación rápida de tejido afectado puede evitar la muerte por infección, pero depende del tiempo transcurrido y de la zona comprometida.

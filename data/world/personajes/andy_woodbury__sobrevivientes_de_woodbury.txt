@@ -1,23 +1,29 @@
+----------ARCHIVO DE PERSONAJES | Andy (Woodbury) (Vol. 8: Made To Suffer)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-andy_woodbury
 NOMBRE: Andy (Woodbury)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #43 (Volumen 8: Made To Suffer, Parte 1 de 6).
+Desenlace: Número #44 (Volumen 8: Made To Suffer, Parte 2 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón caucásico-americano de alrededor de 35 años, cabello castaño cubierto por una gorra de béisbol colocada hacia atrás y camisa de botones sobre camiseta.
+- Rol post-brote: Residente de la comunidad de Woodbury, Georgia, y soldado de la milicia armada bajo las órdenes de Brian Blake (El Gobernador).
+- Incidente registrado (#43–#44): Integra el contingente militar que marcha desde Woodbury hacia la prisión para iniciar el sitio contra el grupo de Rick Grimes. Durante la llegada de las tropas, se posiciona junto a otros soldados como Arlo Simmons para iniciar el tiroteo contra las defensas del recinto.
+- Desenlace (#44): Al comenzar el intercambio de disparos frente a las vallas perimetrales, Andy intenta localizar la posición de los tiradores de la prisión. Es alcanzado directamente en el cuello por un disparo de rifle de francotirador efectuado por Andrea desde una de las torres de vigilancia, muriendo desangrado en el acto (constituyendo la segunda baja mortal de Woodbury en la batalla, justo después de Arlo Simmons).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Continuidad con novelas: Su participación en el primer asalto frente a las vallas de la prisión y su muerte por disparo en el cuello también se recogen en la novela canónica "The Walking Dead: The Fall of the Governor - Part Two" (Capítulo 11: "Doomsday Clock").
+- Nota de desambiguación: No debe confundirse con Andy (miembro de Los Saqueadores / The Marauders), quien aparece más adelante en el Número #57 (Volumen 10: What We Become) y es asesinado por Rick Grimes de un mordisco en la garganta.

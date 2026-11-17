@@ -6,6 +6,7 @@ DATA_DIR="$PROJECT_ROOT/data/world"
 INDEX_FILE="$DATA_DIR/personajes_index.tsv"
 RETRATOS_DESTACADOS_FILE="$DATA_DIR/retratos_destacados.txt"
 tipo_solicitado="${1:-PERSONAJE}"
+nombre_solicitado="${2:-}"
 
 case "$tipo_solicitado" in
     PERSONAJE) titulo="ARCHIVO DE PERSONAJES"; sustantivo="personajes" ;;
@@ -38,30 +39,53 @@ if [[ -r "$RETRATOS_DESTACADOS_FILE" ]]; then
     done < "$RETRATOS_DESTACADOS_FILE"
 fi
 
-while IFS=$'\t' read -r personaje grupo tipo nivel arco primera_aparicion archivo; do
+while IFS=$'\t' read -r personaje grupo tipo nivel arco primera_aparicion ultima_aparicion archivo; do
     [[ "$personaje" == "PERSONAJE" || -z "$personaje" || -z "$archivo" ]] && continue
     [[ "$tipo" == "$tipo_solicitado" ]] || continue
+    if [[ -n "$nombre_solicitado" && "${personaje,,}" != "${nombre_solicitado,,}" ]]; then
+        continue
+    fi
 
-    case "$nivel" in
-        AMPLIADO) estado="Expediente ampliado" ;;
-        BREVE) estado="Ficha breve" ;;
-        IDENTIFICACIÓN)
-            case "$tipo" in
-                CAMINANTE) estado="Caminante identificado" ;;
-                ANIMAL) estado="Animal identificado" ;;
-            esac
-            ;;
-        *) estado="Ficha" ;;
-    esac
-
-    if [[ -n "$arco" && "$arco" != "UNCONFIRMED" ]]; then
-        if [[ -n "$primera_aparicion" && "$primera_aparicion" != "UNCONFIRMED" ]]; then
-            etiqueta="$personaje ($arco · $primera_aparicion)"
+    if [[ "$tipo_solicitado" == "PERSONAJE" || "$tipo_solicitado" == "ANTAGONISTA" ]]; then
+        etiqueta="$personaje"
+        if [[ -n "$arco" && "$arco" != "UNCONFIRMED" ]]; then
+            estado="$arco"
         else
-            etiqueta="$personaje ($arco)"
+            estado="Arco no confirmado"
+        fi
+
+        if [[ "$primera_aparicion" == \#* && "$ultima_aparicion" == \#* ]]; then
+            estado+=" · $primera_aparicion–$ultima_aparicion"
+        elif [[ "$primera_aparicion" == \#* ]]; then
+            estado+=" · desde $primera_aparicion"
+        elif [[ "$ultima_aparicion" == \#* ]]; then
+            estado+=" · hasta $ultima_aparicion"
+        elif [[ "$arco" == "Material complementario" ]]; then
+            estado+=" · sin aparición en la serie regular"
         fi
     else
-        etiqueta="$personaje (Arco no confirmado)"
+        case "$tipo" in
+            CAMINANTE) estado="Caminante identificado" ;;
+            ANIMAL) estado="Animal identificado" ;;
+            *) estado="Registro" ;;
+        esac
+
+        if [[ -n "$arco" && "$arco" != "UNCONFIRMED" ]]; then
+            if [[ "$primera_aparicion" == \#* && "$ultima_aparicion" == \#* ]]; then
+                if [[ "$primera_aparicion" == "$ultima_aparicion" ]]; then
+                    etiqueta="$personaje ($arco · $primera_aparicion)"
+                else
+                    etiqueta="$personaje ($arco · $primera_aparicion–$ultima_aparicion)"
+                fi
+            elif [[ "$primera_aparicion" == \#* ]]; then
+                etiqueta="$personaje ($arco · $primera_aparicion)"
+            else
+                etiqueta="$personaje ($arco)"
+            fi
+        else
+            etiqueta="$personaje (Arco no confirmado)"
+        fi
+        estado+=" · $grupo"
     fi
 
     nombre_base="${archivo##*/}"
@@ -72,13 +96,18 @@ while IFS=$'\t' read -r personaje grupo tipo nivel arco primera_aparicion archiv
         retrato_por_etiqueta["$etiqueta"]="NO"
     fi
 
-    opciones+=("$etiqueta" "$estado · $grupo")
+    opciones+=("$etiqueta" "$estado")
     archivo_por_etiqueta["$etiqueta"]="$archivo"
 done < "$INDEX_FILE"
 
 if (( ${#opciones[@]} == 0 )); then
-    dialog --title "$titulo" \
-        --msgbox "No hay fichas en la categoría $sustantivo." 7 64
+    if [[ -n "$nombre_solicitado" ]]; then
+        dialog --title "$titulo" \
+            --msgbox "No encontré una ficha de $sustantivo con el nombre '$nombre_solicitado'." 8 70
+    else
+        dialog --title "$titulo" \
+            --msgbox "No hay fichas en la categoría $sustantivo." 7 64
+    fi
     exit 0
 fi
 
@@ -130,7 +159,7 @@ crear_vista_ficha() {
     local archivo_salida="$2"
     local mostrar_retrato="${3:-NO}"
     local nombre_base="${archivo_ficha##*/}"
-    local extension imagen="" borde espacio fila max_filas indice trama
+    local extension imagen="" borde espacio fila max_filas indice
     local ancho_texto_ficha="$ANCHO_TEXTO"
     local ancho_retrato_ficha="$ANCHO_RETRATO"
     local separacion_ficha="$SEPARACION"
@@ -178,8 +207,7 @@ crear_vista_ficha() {
     )
 
     if [[ "$mostrar_retrato" == "SI" ]]; then
-        trama=$(printf '%*s' "$((ancho_retrato_ficha - 2))" '' | tr ' ' '/')
-        borde="+$trama+"
+        borde="+$(printf '%*s' "$((ancho_retrato_ficha - 2))" '' | tr ' ' '-')+"
         espacio="|$(printf '%*s' "$((ancho_retrato_ficha - 2))" '')|"
 
         for extension in png jpg jpeg webp gif; do
@@ -223,18 +251,70 @@ crear_vista_ficha() {
     done
 }
 
+if [[ -n "$nombre_solicitado" ]]; then
+    etiqueta="${opciones[0]}"
+    archivo="${archivo_por_etiqueta[$etiqueta]}"
+    vista_temporal=$(mktemp "${TMPDIR:-/tmp}/alexandria-ficha.XXXXXX")
+    if [[ -z "$vista_temporal" ]]; then
+        dialog --title "$titulo" --msgbox "No se pudo preparar la vista de la ficha." 7 62
+        exit 1
+    fi
+    mostrar_retrato="${retrato_por_etiqueta[$etiqueta]:-NO}"
+    crear_vista_ficha "$PROJECT_ROOT/$archivo" "$vista_temporal" "$mostrar_retrato"
+    dialog --title "$titulo | $etiqueta" --textbox "$vista_temporal" "$ALTURA_VENTANA" "$ANCHO_FICHA_ACTUAL"
+    rm -f -- "$vista_temporal"
+    exit 0
+fi
+
+
+max_fichas_por_pagina=30
+total_fichas=$((${#opciones[@]} / 2))
+total_paginas=$(((total_fichas + max_fichas_por_pagina - 1) / max_fichas_por_pagina))
+pagina=0
+ultima_etiqueta="${opciones[0]}"
 
 while true; do
-    etiqueta=$(dialog --title "$titulo" \
-        --menu "Elegí qué expediente querés consultar" 0 0 14 \
-        "${opciones[@]}" \
-        "__VOLVER__" "Regresar a THE WORLD" \
+    inicio=$((pagina * max_fichas_por_pagina))
+    fichas_en_pagina=$((total_fichas - inicio))
+    if (( fichas_en_pagina > max_fichas_por_pagina )); then
+        fichas_en_pagina="$max_fichas_por_pagina"
+    fi
+    offset_opciones=$((inicio * 2))
+    cantidad_opciones=$((fichas_en_pagina * 2))
+    opciones_pagina=("${opciones[@]:$offset_opciones:$cantidad_opciones}")
+    opciones_menu=()
+
+    if (( pagina > 0 )); then
+        opciones_menu+=("__ANTERIOR__" "<< Página anterior")
+    fi
+    if (( pagina < total_paginas - 1 )); then
+        opciones_menu+=("__SIGUIENTE__" "Siguiente página >>")
+    fi
+    opciones_menu+=("${opciones_pagina[@]}")
+    opciones_menu+=("__VOLVER__" "Regresar a THE WORLD")
+
+    etiqueta=$(dialog --title "$titulo | Página $((pagina + 1))/$total_paginas" \
+        --default-item "$ultima_etiqueta" \
+        --menu "$sustantivo $((inicio + 1))-$((inicio + fichas_en_pagina)) de $total_fichas" 0 0 30 \
+        "${opciones_menu[@]}" \
         3>&1 1>&2 2>&3)
     estado_dialog=$?
 
     if (( estado_dialog != 0 )) || [[ "$etiqueta" == "__VOLVER__" ]]; then
         break
     fi
+
+    if [[ "$etiqueta" == "__SIGUIENTE__" ]]; then
+        pagina=$((pagina + 1))
+        ultima_etiqueta="${opciones[$((pagina * max_fichas_por_pagina * 2))]}"
+        continue
+    elif [[ "$etiqueta" == "__ANTERIOR__" ]]; then
+        pagina=$((pagina - 1))
+        ultima_etiqueta="${opciones[$((pagina * max_fichas_por_pagina * 2))]}"
+        continue
+    fi
+
+    ultima_etiqueta="$etiqueta"
 
     archivo="${archivo_por_etiqueta[$etiqueta]:-}"
     if [[ -z "$archivo" || ! -r "$PROJECT_ROOT/$archivo" ]]; then

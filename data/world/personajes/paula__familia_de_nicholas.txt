@@ -1,23 +1,30 @@
+----------ARCHIVO DE PERSONAJES | Paula (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-paula
 NOMBRE: Paula
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Familia de Nicholas
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #72 (Volumen 12: Life Among Them, Parte 6 de 6; acreditada en #99).
+Apariciones posteriores: Números #85 (Vol. 15: We Find Ourselves), #99–#126
+(Volúmenes 17 al 21) y #158–#163 (Volumen 27: The Whisperer War).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido; esposa de Nicholas y madre de Mikey).
+- Perfil físico observado: Mujer caucásico-americana de mediados de los 30 años, complexión media, cabello rubio sucio/castaño claro y vestimenta civil o de combate.
+- Rol post-brote: Residente original de la Zona Segura de Alexandria, encargada de cocina y posteriormente soldado de la milicia comunitaria durante la Guerra contra Los Susurradores.
+- Incidente registrado (#72–#126): Presentada inicialmente durante la fiesta de bienvenida de Alexandria (#72), apoya más adelante a su esposo Nicholas tras el intento fallido de este por derrocar a Rick Grimes (#85, #99). Durante la Guerra Total contra Los Salvadores (#115–#126), es evacuada a la Colonia Hilltop junto a su hijo Mikey y queda viuda en el Número #125 cuando Nicholas muere infectado por un arma contaminada con vísceras de caminante.
+- Desenlace (#158–#163): Tras el salto temporal, Paula se entrena como soldado de la milicia de Alexandria para defender a su hijo. En el Número #163 (Volumen 27: The Whisperer War), cuando Beta dirige una megahorda masiva contra las puertas de Alexandria y derrumba las defensas, Paula combate en primera línea junto a Rick Grimes hasta quedar rodeada por los muertos vivientes. Al ser derribada y devorada viva por los caminantes, sus últimas palabras son una súplica a Rick para que encuentre a Mikey y lo mantenga a salvo (acción que distrae a los caminantes el tiempo suficiente para que Rick escape con ayuda de Negan).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Contexto narrativo: Su muerte en el Número #163 cumple un rol decisivo en la supervivencia de Rick Grimes durante la caída de los muros de Alexandria y consolida la alianza entre Rick y Negan.
+- Nota de desambiguación: No debe confundirse con Paula (teniente de Los Salvadores exclusiva de la serie televisiva de AMC en la temporada 6, episodio 6x13 "The Same Boat") ni con Paula (residente de King County en el episodio piloto de televisión).

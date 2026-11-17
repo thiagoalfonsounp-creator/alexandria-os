@@ -7,9 +7,19 @@ PERSONAJE: RICK GRIMES
 RELEVANCIA: A - PERSONAJE CENTRAL
 CANON: COMIC THE WALKING DEAD, SERIE PRINCIPAL
 ESTADO: FICHA AMPLIADA
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo, arco, primera y última aparición.
+ARCO: Days Gone Bye
+PRIMERA APARICIÓN: #1
+ÚLTIMA APARICIÓN: #192 (caminante)
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #1 y última aparición #192 (caminante). El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #1 y #192 (caminante).
+COTEJO: el propietario cotejó el contenido y las apariciones con el cómic; consultó la wiki individual y videos explicativos como apoyo de contexto.
+
 AVISO: CONTIENE SPOILERS HASTA EL FINAL
 
 IDENTIFICACION
+
 Nombre completo: Richard Grimes.
 Lugar de origen: Cynthiana, Kentucky.
 Ocupacion previa: ayudante del sheriff local.
@@ -24,7 +34,6 @@ Despierta en un hospital cuando la sociedad ya colapso.
 Conoce a Morgan y Duane, y luego viaja a Atlanta para buscar
 a Lori y Carl. Alli se reencuentra con su familia y con otros
 supervivientes, entre ellos Shane, su antiguo compañero.
-
 2. GRANJA, PRISION Y WOODBURY
 El grupo pasa por la granja de Hershel y luego se instala en
 una prision abandonada. Rick intenta proteger a los suyos y
@@ -32,20 +41,17 @@ conservar un orden comun, pero los conflictos internos y la
 guerra contra el Gobernador destruyen esa seguridad.
 Durante este periodo pierde una mano y Lori y Judith mueren
 en la caida de la prision. Carl sobrevive.
-
 3. ALEXANDRIA Y LAS COMUNIDADES
 Tras nuevas perdidas, Rick llega a la Zona Segura de Alexandria.
 Al principio desconfia de sus habitantes y de su lider, pero
 termina asumiendo responsabilidades para defender la comunidad.
 Contribuye a conectar Alexandria con Hilltop y el Reino.
-
 4. GUERRA CONTRA LOS SALVADORES
 Rick organiza una alianza para terminar con el dominio de Negan.
 La guerra causa nuevas muertes, pero las comunidades consiguen
 derrotar a los Salvadores. Rick decide mantener a Negan preso
 en lugar de ejecutarlo, buscando que la justicia reemplace
 la venganza.
-
 5. SUSURRADORES Y COMMONWEALTH
 Rick ayuda a defender a las comunidades de los Susurradores.
 La muerte de Andrea lo golpea profundamente.
@@ -54,6 +60,7 @@ desigual. Busca cambios politicos y estabilidad sin provocar
 una matanza entre sus habitantes.
 
 PSICOLOGIA Y LIDERAZGO
+
 Rick es protector, decidido, adaptable y capaz de inspirar a
 otros. Bajo presion puede volverse impulsivo, desconfiado y
 violento. Su conflicto principal es proteger a su familia sin
@@ -62,6 +69,7 @@ Su liderazgo cambia: comienza como una reaccion de supervivencia
 y termina orientado a crear comunidades con reglas compartidas.
 
 VINCULOS IMPORTANTES
+
 CARL GRIMES: su hijo y su vinculo mas importante; su relacion
 evoluciona desde la proteccion hacia la confianza y la autonomia.
 LORI GRIMES: su esposa; su relacion atraviesa dolor y conflictos
@@ -73,16 +81,19 @@ debe reconsiderar su papel frente a nuevas amenazas.
 MICHONNE Y GLENN: aliados y personas de confianza del grupo.
 
 DESTINO Y LEGADO
+
 En la Commonwealth, Sebastian Milton asesina a Rick.
 Cuando Rick regresa como caminante, Carl acaba con su sufrimiento.
 El episodio final muestra el impacto duradero de sus decisiones
 en las comunidades y en la vida adulta de Carl.
 
 REFERENCIAS DE LECTURA
+
 The Walking Dead, serie principal: numeros 1-193.
 Numero 1: despertar y busqueda de su familia.
 Numeros 192-193: desenlace de Rick y conclusion de la serie.
 
 NOTA DE CANON
+
 Esta ficha describe al Rick del comic. La adaptacion televisiva
 se documentara por separado.

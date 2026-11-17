@@ -1,23 +1,30 @@
+----------ARCHIVO DE PERSONAJES | Mikey (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-mikey
 NOMBRE: Mikey
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Familia de Nicholas
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #70 (Volumen 12: Life Among Them, Parte 4 de 6; acreditado en #71).
+Apariciones posteriores: Números #71–#177 (Volúmenes 12 al 29) y epílogo en
+Número #193 (Volumen 32: Rest In Peace).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Estudiante de escuela primaria en Estados Unidos (apellido desconocido; hijo único de Nicholas y Paula).
+- Perfil físico observado: Varón caucásico-americano (niño de 7 años en su debut, adolescente de 12 tras el salto temporal y adulto de 36 años en el epílogo), cabello rubio sucio/castaño claro y vestimenta casual o de trabajo de herrería.
+- Rol post-brote: Residente infantil original de la Zona Segura de Alexandria; posteriormente aprendiz de molinero, repartidor de mensajes/suministros y aprendiz de herrero en La Mancomunidad bajo la tutela de Carl Grimes.
+- Incidente registrado (#70–#84): Tras la llegada del grupo de Rick Grimes a Alexandria, Mikey tiene un altercado inicial con Carl Grimes al negarse a compartir sus juguetes (#70–#71), aunque ambos terminan forjando una amistad duradera. Sobrevive junto a sus padres tanto al ataque de Los Carroñeros como a la invasión de la gran horda de caminantes (#80–#83).
+- Guerra contra Los Salvadores (#115–#126): Evacuado temporalmente a la Colonia Hilltop junto a su madre Paula durante la Guerra Total contra Negan. Pierde a su padre Nicholas en el Número #125 tras el ataque con armas contaminadas en Hilltop.
+- Guerra contra Los Susurradores y Desenlace (#127–#193): Tras el salto temporal de dos años, trabaja en el molino de Alexandria y ayuda a cuidar a Hershel Greene II durante la feria (#144). En el Número #163 pierde a su madre Paula durante la invasión de la megahorda de Los Susurradores sobre Alexandria, quedando huérfano bajo el cuidado y protección de Rick Grimes (cumpliendo la última voluntad de Paula). En el epílogo del Número #193 (décadas después), Mikey continúa vivo y trabaja como aprendiz de herrero junto a Carl Grimes.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Es uno de los pocos residentes originales de la Zona Segura de Alexandria (junto a Aaron) que aparece vivo en el epílogo final del Número #193.

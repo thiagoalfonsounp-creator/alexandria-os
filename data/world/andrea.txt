@@ -6,73 +6,89 @@ EXPEDIENTE: TW-PER-006
 PERSONAJE: ANDREA
 FUENTE CANONICA: COMIC THE WALKING DEAD
 ESTADO: FICHA INTEGRAL
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo, arco, primera y última aparición.
+ARCO: Days Gone Bye
+PRIMERA APARICIÓN: #2
+ÚLTIMA APARICIÓN: #168 (cuerpo)
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #2 y última aparición #168 (cuerpo). El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #2 y #168 (cuerpo).
+COTEJO: el propietario cotejó el contenido y las apariciones con el cómic; consultó la wiki individual y videos explicativos como apoyo de contexto.
+
 AVISO: CONTIENE SPOILERS DEL COMIC
 
 IDENTIFICACION
+
 Andrea es una de las sobrevivientes del grupo inicial
 que Rick encuentra cerca de Atlanta. Es hermana de Amy
 y, con el tiempo, se convierte en una de las tiradoras
 más hábiles y confiables del grupo.
 
 PRIMEROS AÑOS
+
 Andrea llega al campamento con su hermana. La muerte de
 Amy durante un ataque de caminantes transforma su forma
 de enfrentar el mundo: aprende a usar armas y asume un
 papel activo en la protección de los demás.
-
 A lo largo del viaje participa en la defensa de distintos
 refugios. Su puntería resulta esencial cuando el grupo
 necesita observar amenazas a distancia y cubrir una
 retirada.
 
 VINCULOS Y FAMILIA
+
 DALE
+
 Dale es una de las primeras personas con quien Andrea
 forma un vínculo profundo. La relación está marcada por
 la supervivencia compartida y por las pérdidas del grupo.
 
 RICK GRIMES
+
 Con los años, Andrea y Rick forman una pareja y sostienen
 juntos una vida familiar. Andrea también se convierte en
 una figura materna para Carl y Judith.
 
 CARL Y JUDITH
+
 Los acompaña y los protege. Su presencia ayuda a que los
 hijos de Rick encuentren apoyo familiar después de perder
 a Lori.
 
 PERFIL PSICOLOGICO
+
 Andrea es valiente, observadora y disciplinada. No busca
 el conflicto, pero acepta la responsabilidad de defender
 a otros cuando hace falta.
-
 Su seguridad como tiradora se construye con experiencia.
 Las pérdidas no la vuelven indiferente: conserva la
 capacidad de amar, confiar y participar de una comunidad.
 
 EVOLUCION
+
 Pasa de ser una sobreviviente que apenas procesa el duelo
 por Amy a convertirse en una defensora experimentada y
 una de las personas en quienes Rick más confía.
-
 Durante los conflictos con los Salvadores y los
 Susurradores sigue cumpliendo un papel central en la
 seguridad del grupo.
 
 DESTINO Y LEGADO
+
 Andrea recibe una mordida de caminante durante el
 conflicto con los Susurradores. Muere después de despedirse
 de Rick y de quienes la acompañan.
-
 Su muerte deja una pérdida profunda en Rick y Carl. Su
 legado permanece en la familia que ayudó a construir y
 en la protección que ofreció a las comunidades.
 
 REFERENCIAS
+
 - Campamento de Atlanta y Amy: primeros numeros.
 - Relación con Rick y vida en Alexandria: arcos centrales.
 - Despedida y muerte: numero 167.
 
 NOTA DE CANON
+
 Esta ficha sigue la serie original de comics. No mezcla
 hechos de la adaptacion televisiva.

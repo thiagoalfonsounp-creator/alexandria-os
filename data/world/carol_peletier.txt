@@ -6,35 +6,48 @@ EXPEDIENTE: TW-PER-015
 PERSONAJE: CAROL
 CANON: COMIC THE WALKING DEAD, SERIE PRINCIPAL
 ESTADO: FICHA AMPLIADA
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo, arco, primera y última aparición.
+ARCO: Days Gone Bye
+PRIMERA APARICIÓN: #3
+ÚLTIMA APARICIÓN: #42
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #3 y última aparición #42. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #3 y #42.
+COTEJO: el propietario cotejó el contenido y las apariciones con el cómic; consultó la wiki individual y videos explicativos como apoyo de contexto.
+
 AVISO: CONTIENE SPOILERS
 
 IDENTIFICACION
+
 Carol aparece por primera vez en el numero 3. Es madre de Sophia y
 forma parte del campamento de Atlanta. El comic no establece el
 apellido Peletier.
 
 RECORRIDO
+
 Carol intenta cuidar a Sophia y construir una vida familiar en un
 mundo que cambia rapidamente. Despues de la muerte de su esposo Ed,
 se apoya en otros miembros del grupo. Su relacion con Tyreese genera
 un conflicto con Michonne y con las expectativas de Carol sobre
 el afecto y la pertenencia.
-
 Tras llegar a la prision, Carol atraviesa una crisis profunda. En el
 numero 42 se acerca deliberadamente a un caminante y muere. La escena
 marca el final de su recorrido en la serie principal y deja a Sophia
 sin su madre.
 
 EVIDENCIA
+
 CONFIRMED: primera aparicion en el numero 3 y ultima en el 42.
 OBSERVED: su necesidad de formar vinculos y la crisis que precede a
 su muerte se muestran en escenas; no se generalizan a otros casos.
-UNCONFIRMED: detalles de su infancia y del apellido que el comic no
+NO ESTABLECIDO EN EL CÓMIC: detalles de su infancia y del apellido que el comic no
 establece.
 
 VINCULOS
+
 SOPHIA: hija de Carol.
 TYREESE: pareja durante una etapa en la prision.
 
 REFERENCIAS
+
 The Walking Dead, numeros 3-42; desenlace en el numero 42.

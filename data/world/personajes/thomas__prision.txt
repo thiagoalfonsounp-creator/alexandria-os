@@ -4,14 +4,18 @@ ARCHIVO DOCUMENTAL - PERSONAJES
 
 EXPEDIENTE: TW-PER-BR-thomas
 NOMBRE: Thomas
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Prisión
+AGRUPACIÓN: Prisión
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
+EVIDENCIA CONFIRMADA: contenido narrativo y datos de aparición.
+ARCO: Safety Behind Bars
+PRIMERA APARICIÓN: #13
+ÚLTIMA APARICIÓN: #20 (cuerpo)
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #13 y última aparición #20 (cuerpo). El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #13 y #20 (cuerpo).
+COTEJO: el propietario verificó el contenido narrativo y las apariciones con el cómic; la wiki individual y videos explicativos se usaron como apoyo de contexto.
 
 REGISTRO
-BORRADOR DE DESCRIPCIÓN — UNCONFIRMED
-Contenido incorporado del RAR aportado por el usuario. Las afirmaciones, relaciones, destinos y números que aparecen debajo no se contrastaron directamente con las viñetas del cómic; no se consideran confirmados ni se usarán para completar datos del índice.
 
 Registro y Datos del Personaje en el Cómic
 
@@ -35,14 +39,5 @@ El destino final de Thomas Richards se desató en el Número 17 del cómic, marc
 • El destino de su cadáver: Rick Grimes y Hershel determinaron que el cuerpo de un monstruo como Thomas no merecía ser enterrado junto a las personas decentes de la prisión. Su cadáver fue sacado al patio exterior y arrojado por encima de las cercas perimetrales para que fuera devorado y despedazado por la horda de caminantes que rodeaba el recinto.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de cotejo directo. Las referencias de número que aparecen en el borrador no están verificadas.
 
-SIGUIENTE REVISIÓN
-Cotejar la descripción y cada número con el cómic. Mantener UNCONFIRMED hasta terminar esa verificación.
-
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
-
-FUENTE DE TRABAJO
-Archivo aportado por el usuario: twd fichas pag 1-2.rar; contenido incorporado el 2026-11-10.
+Referencia verificada: The Walking Dead #13 y #20.

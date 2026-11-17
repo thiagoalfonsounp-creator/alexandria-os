@@ -1,23 +1,32 @@
+Max (caminante) es otro de los zombis que merodean las afueras de la prisión en el Número 30 del cómic principal, siendo abatido fuera de panel por el grupo de Rick durante las jornadas de limpieza del recinto en el Número 35.
+
+----------CAMINANTES IDENTIFICADOS | Max (caminante) (Vol. 5: The Best Defense)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-max_caminante
 NOMBRE: Max (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #30 (Volumen 5: The Best Defense, Parte 6 de 6).
+Mención de desenlace: Número #35 (Volumen 6: This Sorrowful Life, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Perfil físico observado: Varón caucásico de entre 45 y 55 años aproximadamente, de cabello castaño.
+- Reanimación: Falleció por causas desconocidas durante el inicio del brote y reanimó como caminante en Georgia.
+- Incidente registrado (#30): Forma parte de la horda dispersa que merodea el perímetro exterior de la prisión en el momento en que Tyreese regresa corriendo hacia el interior del complejo.
+- Desenlace (#35): Durante los cuatro días que el grupo de Rick dedica a limpiar sistemáticamente el recinto de la prisión y sus alrededores, Max es eliminado definitivamente fuera de panel.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (NO CANÓNICO)
+- En el cómic principal nunca se menciona su nombre. Su identidad fue revelada posteriormente en la serie de relatos humorísticos "The Secret Diary of a Walker" (publicada en The Walking Dead: The Official Magazine).
+- Aunque el relato de la revista pertenece a una continuidad paródica (NO CANÓNICA), el nombre asignado al caminante se utiliza como referencia oficial de catalogación.

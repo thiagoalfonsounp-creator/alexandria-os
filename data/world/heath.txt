@@ -1,17 +1,29 @@
-EXPEDIENTE: TW-PER-020
-PERSONAJE: HEATH
-FUENTE CANÓNICA: THE WALKING DEAD (CÓMIC)
-ESTADO: FICHA DE REFERENCIA; INCLUYE SPOILERS
+----------ARCHIVO DE PERSONAJES | Heath (Vol. 12: Life Among Them)----------
+ALEXANDRIA OS | THE WORLD
+ARCHIVO DOCUMENTAL - PERSONAJES
+========================================================================================
 
-IDENTIFICACIÓN
-Sobreviviente de Alexandria y miembro de los equipos que salen a buscar suministros.
+EXPEDIENTE: TW-PER-BR-heath
+NOMBRE: Heath
+AGRUPACIÓN: Zona Segura de Alexandria
+TIPO: PERSONAJE
+ESTADO DE EVIDENCIA: CONFIRMED
 
-RECORRIDO
-Heath participa en recorridos y misiones fuera de la Zona Segura. Su experiencia como explorador lo 
-expone a caminantes y a conflictos entre grupos humanos. Permanece ligado a la defensa de 
-Alexandria y a las expediciones de sus habitantes.
+REGISTRO
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
-VÍNCULOS Y RELEVANCIA
-Su relación con Denise Cloyd y su trabajo junto a otros exploradores lo conectan con la vida 
-cotidiana de la comunidad. Es un personaje secundario útil para mostrar cómo se organiza 
-Alexandria.
+REFERENCIA PRIMARIA
+Primera aparición: Número #69 (Volumen 12: Life Among Them, Parte 3 de 6).
+Apariciones posteriores: Números #70–#192 (Volúmenes 12 al 31).
+
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón afroamericano de entre mediados de los 20 y principios de los 50 años (a lo largo de los saltos temporales), complexión atlética, cabello negro largo con rastas (dreadlocks) habitualmente recogido, gafas/lentes graduados y prótesis en la pierna izquierda a partir del Volumen 22.
+- Rol post-brote: Residente original de la Zona Segura de Alexandria, explorador y buscador de suministros (supply runner) junto a su mejor amigo Scott y Glenn Rhee, soldado de la milicia y miembro de la cuadrilla de desvío de hordas en La Mancomunidad.
+- Incidente registrado (#69–#84): Aparece por primera vez en las ruinas de Washington D.C. intentando rescatar a su compañero Scott tras haberse fracturado una pierna mientras huían de caminantes; ambos son socorridos por Rick Grimes, Abraham Ford y Aaron. Aunque inicialmente desconfía de los recién llegados, Heath aboga por ellos ante Regina Monroe, forja una estrecha amistad con Glenn y comienza una relación sentimental con la médica de la comunidad, la Dra. Denise Cloyd. Tras la muerte de Scott por infección (#77) y la invasión de la gran horda (#80–#83), participa activamente en la reconstrucción y defensa de Alexandria.
+- Guerra contra Los Salvadores (#98–#126): Colabora en las primeras resistencias frente a Negan y es uno de los prisioneros alineados por Los Salvadores cuando invaden Alexandria (#114). Durante el bombardeo con granadas sobre la comunidad en la Guerra Total (Volumen 20 / Número #120), una explosión le amputa la pierna izquierda por debajo de la rodilla. La Dra. Denise Cloyd logra salvarle la vida operándolo de urgencia pese a haber sido mordida previamente por Holly zombificada, negándose a recibir tratamiento para priorizar la vida de Heath.
+- Guerra contra Los Susurradores y La Mancomunidad (#127–#192): Tras el salto temporal y equipado con una pierna ortopédica, Heath se integra a la milicia liderada por Dwight, participa en la defensa de las comunidades frente a Los Susurradores y posteriormente colabora en las tareas de contención de hordas en La Mancomunidad. Su última aparición ocurre en el Número #192 (tras el asesinato de Rick Grimes), confirmándose vivo al cierre de la historia.
+
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Junto con Aaron, es uno de los pocos residentes originales de la Zona Segura de Alexandria (introducidos en el Volumen 12) que sobreviven hasta el final de la serie principal (apareciendo en un total de 68 números).

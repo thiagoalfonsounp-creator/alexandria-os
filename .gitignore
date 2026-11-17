@@ -3,3 +3,9 @@
 *.cbz
 imports/comics/*
 !imports/comics/.gitkeep
+
+# Artefactos de entrega y estado personal local
+*.[oO][vV][aA]
+*.[pP][dD][fF]
+data/cuaderno.txt
+__pycache__/

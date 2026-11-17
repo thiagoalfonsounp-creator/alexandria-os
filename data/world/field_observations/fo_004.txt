@@ -1,0 +1,11 @@
+ALEXANDRIA OS | THE WORLD
+FIELD OBSERVATIONS
+============================================================
+
+Observation ID: FO-004
+Subject: Reanimación sin mordida previa
+Comic Reference: The Walking Dead #22
+Description: Tyreese encuentra a su hija Julie reanimada tras fallecer por un disparo, sin haber sufrido ataques ni mordidas de caminantes. Rick confirma luego un patrón idéntico al desenterrar a Shane.
+Analysis: La transformación ocurre tras el cese de las funciones vitales siempre que el cerebro permanezca intacto, independientemente de la causa de muerte.
+Evidence Level: CONFIRMED
+Conclusion: El agente responsable de la reanimación ya está presente en los individuos vivos antes de morir, o la exposición ambiental es universal.

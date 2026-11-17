@@ -1,9 +1,10 @@
 ALCANCE DEL CATÁLOGO
 13 comunidades o grupos y 19 ubicaciones relevantes del cómic principal.
 No es un inventario de cada edificio o grupo menor de los 193 números.
-Las fichas separan descripción, relevancia narrativa e interpretación.
-Todas conservan UNCONFIRMED hasta cotejar número y escena primarios.
-Inventarios terciarios consultados solo para localizar nombres:
+Las fichas separan descripción, relevancia narrativa, análisis de supervivencia y evidencia.
+Los 32 registros recibidos el 11 de noviembre de 2026 están marcados CONFIRMED e incluyen referencias y notas de cotejo directo en los archivos fuente. Se conserva esa clasificación tal como fue entregada; no representa una revisión independiente realizada en esta tarea.
+Los apartados de análisis de supervivencia se identifican como interpretación editorial, no como reglas del canon.
+Los inventarios terciarios se consultan solo como localizadores, no como fuente primaria de evidencia:
 https://walkingdead.fandom.com/wiki/Locations_(Comic_Series)
 https://en.wikipedia.org/wiki/List_of_The_Walking_Dead_(comics)_characters
-Pendientes: cotejo primario y prueba interactiva en la VM Debian.
+Pendiente: prueba interactiva de ambas categorías en la VM Debian.

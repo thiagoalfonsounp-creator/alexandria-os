@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 GRANJA GREENE
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #10-#12.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Explotación rural
 
 DESCRIPCIÓN
-Vivienda familiar, campos e instalaciones agrícolas.
+Propiedad agrícola autosuficiente habitada por Hershel Greene y su familia, con cultivos, ganado y un granero utilizado para encerrar caminantes conocidos por ellos.
 
 RELEVANCIA NARRATIVA
-Es un refugio temporal y un punto de encuentro con la familia de Hershel.
+Introduce el conflicto ético sobre la naturaleza de los caminantes (tratados como enfermos por Hershel) y concluye con la fuga del granero y la expulsión del grupo de Rick.
 
 ANÁLISIS DE SUPERVIVENCIA
-El terreno productivo es valioso, pero requiere agua, trabajo y medidas de defensa.
+Las zonas rurales ofrecen aislamiento y producción de alimentos, pero la convivencia cercana con caminantes contenidos sin protocolos de neutralización representa un riesgo crítico de ruptura interna.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #10; The Walking Dead #11; The Walking Dead #12.
+Cotejado directamente con la llegada tras el disparo a Carl (#10), el incidente del granero (#11) y la partida hacia la prisión (#12).

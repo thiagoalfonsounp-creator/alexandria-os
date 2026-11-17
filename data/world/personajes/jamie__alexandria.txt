@@ -1,23 +1,29 @@
+----------ARCHIVO DE PERSONAJES | Jamie (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-jamie
 NOMBRE: Jamie
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #69 (Volumen 12: Life Among Them, Parte 3 de 6).
+Apariciones posteriores: Números #70–#73 (Vol. 12 y Vol. 13: Too Far Gone),
+#80–#83 (Volumen 14: No Way Out) y #115–#126 (Volúmenes 20 y 21: All Out War).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón latino-americano de entre finales de los 30 y principios de los 40 años, complexión robusta, cabello negro corto/calvicie superior, barba espesa y vestimenta de trabajo o guardia.
+- Rol post-brote: Residente original de la Zona Segura de Alexandria, miembro de la cuadrilla de construcción junto a Tobin, Bruce y Clyde, y posteriormente guardia de seguridad y soldado de la milicia.
+- Incidente registrado (#69–#83): Forma parte de los habitantes presentes en Alexandria cuando Rick Grimes y su grupo ingresan a la comunidad. Colabora en el mantenimiento y ampliación de los muros perimetrales, muestra interés por el armamento de Abraham Ford en la armería (#73) y participa activamente en la defensa de la comunidad durante el ataque de Los Carroñeros (The Scavengers) y la invasión de la gran horda de caminantes (#80–#83), logrando sobrevivir al asedio.
+- Guerra contra Los Salvadores y desenlace (#115–#126): Durante la Guerra Total (All Out War), integra las filas defensivas de Alexandria frente a las fuerzas de Negan y sobrevive a los enfrentamientos finales en el Número #126. Tras dicho capítulo no vuelve a mostrarse en viñeta ni se registra su muerte, por lo que su estado al cierre del cómic principal se clasifica oficialmente como vivo (o desconocido sin baja confirmada).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Dato editorial y de producción: Al igual que Clyde, Jamie nunca es llamado por su nombre dentro de los diálogos del cómic principal. Su identidad fue revelada oficialmente por Robert Kirkman en la sección "Cutting Room Floor" del Número #71 (donde figuraba anotado junto a la palabra "Security", vinculándolo con la escena de la armería del Número #73).

@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 EL REINO
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #108-#191.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Recinto comunitario
 
 DESCRIPCIÓN
-Asentamiento asociado con Ezekiel y la organización de su comunidad.
+Comunidad establecida en una escuela secundaria amurallada con autobuses escolares en Virginia, gobernada por Ezekiel con una estructura teatral de corte medieval.
 
 RELEVANCIA NARRATIVA
-Aporta personas y recursos a la alianza entre comunidades.
+Tercer pilar de la alianza militar contra Los Salvadores y socio comercial clave dentro de la red de comunidades tras el fin del conflicto.
 
 ANÁLISIS DE SUPERVIVENCIA
-Los edificios existentes pueden adaptarse para alojamiento y defensa; su capacidad no es ilimitada.
+El aprovechamiento de campus educativos cerrados ofrece aulas, comedores y patios interiores fáciles de fortificar, mientras que una identidad colectiva fuerte mantiene la cohesión moral.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #108-#126; The Walking Dead #127-#191.
+Cotejado directamente con la presentación de Ezekiel (#108), la campaña militar contra Negan (#115-#126) y la etapa liderada por William.

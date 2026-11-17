@@ -1,23 +1,31 @@
+----------ARCHIVO DE PERSONAJES | Gabriel Stokes (Vol. 11: Fear The Hunters)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-gabriel_stokes
-NOMBRE: Gabriel Stokes
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de la iglesia
+NOMBRE: Gabriel Stokes [Alias: Padre Gabriel]
+AGRUPACIÓN: Sobrevivientes de Atlanta / Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #61 (Volumen 11: Fear The Hunters, Parte 1 de 6).
+Apariciones posteriores: Números #62–#66 (Vol. 11), #67–#157 (Volúmenes 12 al 26)
+y desenlace en Número #158 (Volumen 27: The Whisperer War, Parte 2 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Sacerdote/pastor de una iglesia episcopal en una zona rural de Georgia.
+- Perfil físico observado: Varón afroamericano adulto (entre 40 y 50 años aproximadamente), complexión delgada/media, cabello negro corto con entradas y sotana clerical oscura con alzacuello blanco.
+- Rol post-brote: Sobreviviente aislado en su parroquia durante los primeros meses del brote; posteriormente consejero espiritual, vigía y residente permanente de la Zona Segura de Alexandria.
+- Incidente registrado (#61–#66): Cuando los caminantes invadieron su pueblo al inicio del apocalipsis, Gabriel cerró con llave las puertas de su iglesia y se negó a dejar entrar a los feligreses que suplicaban ayuda desde el exterior, condenándolos a morir devorados. Atormentado por la culpa, sobrevive solo alimentándose de las reservas enlatadas de la parroquia hasta que intercepta al grupo de Rick Grimes en el número #61, confesando su pecado en el número #63 y guiándolos involuntariamente hacia la emboscada de Los Cazadores.
+- Etapa en Alexandria y Guerra contra Los Salvadores (#69–#126): Se establece como el pastor oficial de la iglesia de Alexandria, oficiando funerales (incluidos los de Scott, Glenn y Abraham) y brindando apoyo moral a la comunidad. Inicialmente desconfía de Rick y lo denuncia ante Douglas Monroe (#70), aunque luego se convierte en un miembro leal y valiente, llegando a participar en la defensa de la comunidad durante el ataque de la gran horda y la guerra contra Negan.
+- Desenlace (#158): Tras el salto temporal y durante el estallido de la Guerra contra Los Susurradores, Gabriel es asignado como vigía en lo alto de una torre de agua para alertar sobre el avance de la horda enemiga. Al avistar el ejército de caminantes liderado por Los Susurradores, intenta descender apresuradamente por la escalera, pero resbala y queda atrapado de una pierna entre los peldaños, fracturándosela y quedando colgado cabeza abajo. Beta lo descubre indefenso, le abre el abdomen de un tajo con su cuchillo (destripándolo en el acto) y deja su cuerpo expuesto para que los caminantes de la horda lo devoren.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Es uno de los personajes secundarios de mayor longevidad en el cómic principal (apareciendo de forma continua a lo largo de 97 números, desde el #61 hasta el #158).
+- Impacto de su muerte: Su brutal ejecución a manos de Beta marca el inicio oficial de las bajas durante la invasión de la horda en la Guerra contra Los Susurradores (Volumen 27).

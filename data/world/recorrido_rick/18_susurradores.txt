@@ -1,20 +1,26 @@
 THE WORLD / RECORRIDO DE RICK
-ETAPA 08 — EXPANSIÓN Y SUSURRADORES
+ETAPA 08 — FRONTERAS Y SUSURRADORES
 ============================================================
-REFERENCIA DE LECTURA: #127-168.
-ÁREA: red de comunidades y territorios móviles.
+REFERENCIA DE LECTURA: #127–#172.
+PUNTOS: Alexandria, Hilltop, el Reino, Oceanside y territorios móviles.
 
 RECORRIDO
-Después del salto temporal entre #126 y #127, Alexandria y sus aliados
-mantienen intercambios y enfrentan una amenaza que no depende de una base
-fija. Los campamentos de los Susurradores cambian de lugar; la guerra afecta
-a varias comunidades y no se puede reducir a un único trayecto de Rick.
+Después del salto temporal de dos años (#127), las comunidades reconstruyen
+sus vínculos y comercian. Oceanside entra en la red costera; en #139 se
+identifica a través del regreso de Michonne con Pete. La alianza enfrenta a
+los Susurradores, un grupo nómada que conduce hordas con pieles de caminante.
+Alpha establece una frontera de picas con cabezas de residentes (#144).
+Después de su muerte (#156), la guerra continúa: la horda amenaza Alexandria
+y es desviada hacia el mar (#162–#164). La etapa cierra con la reconstrucción
+y los sucesos que preparan el nuevo contacto (#169–#172).
 
 LECTURA DEL MAPA
-Se conserva un diagrama de red y se identifica el territorio de los
-Susurradores como móvil. No se le asignan centro, límites ni coordenadas.
+La red de comunidades se relaciona con un territorio móvil; no se fija un
+campamento permanente de los Susurradores ni se les asignan coordenadas.
+Oceanside aparece como comunidad del cómic y nodo de intercambio costero.
 
 EVIDENCIA
-Evidence Level: UNCONFIRMED hasta cotejar los números directamente.
-Comic Reference: #127-168. Image Comics Compendium Four comienza en #145 y
-resume la transición desde los Susurradores hacia la Commonwealth.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #127–#172. Cotejado con el salto temporal
+(#127), Oceanside y el regreso de Michonne (#139), la frontera (#144), la
+muerte de Alpha (#156) y el desvío de la horda (#162–#164).

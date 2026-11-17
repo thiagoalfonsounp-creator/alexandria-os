@@ -1,23 +1,32 @@
+Justin (caminante) es uno de los zombis que merodean el perímetro exterior de la prisión en el Número 30 del cómic principal, siendo eliminado posteriormente fuera de panel por el grupo de Rick durante las jornadas de limpieza del recinto en el Número 35.
+
+----------CAMINANTES IDENTIFICADOS | Justin (caminante) (Vol. 5: The Best Defense)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-justin_caminante
 NOMBRE: Justin (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #30 (Volumen 5: The Best Defense, Parte 6 de 6).
+Mención de desenlace: Número #35 (Volumen 6: This Sorrowful Life, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Perfil físico observado: Varón caucásico de veintipocos años, distinguible por llevar el cabello teñido (de color rosa según el material complementario oficial).
+- Reanimación: Falleció por causas desconocidas durante el brote inicial y reanimó como caminante en Georgia.
+- Incidente registrado (#30): Mientras Tyreese corre de regreso hacia la seguridad de la prisión tras una incursión exterior, se observa a Justin merodeando cerca de las vallas perimetrales del complejo.
+- Desenlace (#35): Tras los conflictos con Woodbury y el regreso de Rick, los sobrevivientes dedican cuatro días enteros a despejar sistemáticamente las inmediaciones y el interior de la prisión. Justin es abatido (eliminado definitivamente) fuera de panel por el grupo de Rick durante estas tareas de limpieza.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (NO CANÓNICO)
+- En el cómic principal nunca se pronuncia su nombre. Su identidad fue revelada posteriormente en "The Secret Diary of a Walker" (publicado en The Walking Dead: The Official Magazine, número #15).
+- Aunque el relato humorístico de la revista pertenece a una continuidad paródica (NO CANÓNICA), el nombre asignado al caminante se toma como referencia oficial de identificación en los archivos del fandom.

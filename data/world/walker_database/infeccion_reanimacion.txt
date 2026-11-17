@@ -5,31 +5,77 @@ WALKER DATABASE - INFECTION & REANIMATION
 TEMA: RETORNO SIN MORDEDURA
 Evidence Level: OBSERVED
 Comic Reference: The Walking Dead #15
-AFIRMACIÓN: Julie vuelve después de morir sin una mordedura conocida.
+AFIRMACIÓN: Julie vuelve a reanimarse tras morir por un disparo, sin una
+mordedura observada.
 ANÁLISIS: La escena respalda que una mordedura no es requisito para el
 retorno. No fija por sí sola el intervalo ni el mecanismo.
 
 TEMA: MUERTE Y ESTADO DEL CEREBRO
 Evidence Level: CONFIRMED
-Comic Reference: —
-Author Reference: Letter Hacks #41 y #146; cotejo #146/#147 pendiente.
-AFIRMACIÓN: La declaración de Kirkman separa la infección febril mortal de
-la reanimación posterior y vincula esta última con el cerebro intacto.
-ANÁLISIS: La respuesta se conserva como fuente autoral, no como diálogo o
-escena del cómic.
+Comic Reference: The Walking Dead #15
+Author Reference: Letter Hacks #41 y #146; ver la discrepancia bibliográfica
+en Referencias y pendientes.
+AFIRMACIÓN: En #15, Rick deduce que el retorno ocurre tras la muerte cuando
+el cerebro permanece intacto. Las declaraciones de Kirkman separan la fiebre
+mortal de la reanimación posterior y vinculan el retorno con el cerebro intacto.
+ANÁLISIS: La escena y las declaraciones se distinguen como fuentes distintas.
+No se detalla la fisiología del proceso.
 
 TEMA: CONTAMINACIÓN POR MORDEDURA O MATERIA DE CAMINANTE
 Evidence Level: CONFIRMED
-Comic Reference: —
-Author Reference: Letter Hacks #146; Den of Geek la ubica en #147.
-AFIRMACIÓN: La explicación autoral atribuye la fiebre mortal a mordidas o a
-materia de caminante que entra directamente en el torrente sanguíneo.
-ANÁLISIS: No se nombra el agente causante ni se lo identifica como una
-bacteria específica. El número de la referencia queda por cotejar.
+Comic Reference: The Walking Dead #159 y #160
+Author Reference: Letter Hacks #146; ver la discrepancia bibliográfica en
+Referencias y pendientes.
+AFIRMACIÓN: La explicación autoral atribuye la fiebre letal a mordidas o a
+materia de caminante que ingresa directamente en el torrente sanguíneo. En
+#159–#160 se muestran heridas causadas por armas impregnadas.
+ANÁLISIS: La fuente no identifica el agente como una bacteria o un virus
+específico. La referencia de Letter Hacks se conserva según la ficha recibida,
+con la discrepancia #146/#147 todavía abierta.
+
+TEMA: CONTACTO SUPERFICIAL E INGESTA INDIRECTA
+Evidence Level: OBSERVED
+Comic Reference: The Walking Dead #4, #65 y #66
+Author Reference: —
+AFIRMACIÓN: En #4, Rick y Glenn se cubren con restos de caminante sin que la
+escena muestre una infección. En #65–#66, quienes comen carne de Dale no
+presentan la fiebre en esas escenas.
+ANÁLISIS: Son casos concretos de contacto e ingesta. No establecen por sí
+solos que toda exposición superficial o digestiva sea inocua.
+
+TEMA: CONTAMINACIÓN POR ARMAS IMPREGNADAS
+Evidence Level: OBSERVED
+Comic Reference: The Walking Dead #159 y #160
+Author Reference: —
+AFIRMACIÓN: Las escenas muestran fiebre letal después de heridas provocadas
+por armas recubiertas con materia de caminante.
+ANÁLISIS: Se registra el resultado de estos casos; no se generaliza a
+cualquier contacto con tejido o fluido fuera de las condiciones mostradas.
+
+TEMA: AMPUTACIÓN Y CONTENCIÓN LOCAL
+Evidence Level: OBSERVED
+Comic Reference: The Walking Dead #19 y #66
+Author Reference: —
+AFIRMACIÓN: Allen (#19) y Dale (#66) sobreviven a mordidas tras la extirpación
+de la extremidad afectada.
+ANÁLISIS: Estos casos respaldan que la intervención temprana puede contener
+la fiebre antes de que avance. No fijan una ventana de tiempo ni garantizan
+el mismo resultado en todos los casos.
 
 TEMA: INTERVALO DE REANIMACIÓN
 Evidence Level: UNCONFIRMED
+Comic Reference: The Walking Dead #15 y #115–#126
+Author Reference: —
+AFIRMACIÓN: El material citado no establece un intervalo numérico canónico.
+Las escenas registran retornos rápidos, incluso en cuestión de minutos.
+ANÁLISIS: Se conserva la observación cualitativa; no se importa ningún rango
+de la adaptación televisiva.
+
+TEMA: ORIGEN Y NATURALEZA DEL AGENTE PATÓGENO
+Evidence Level: UNCONFIRMED
 Comic Reference: The Walking Dead, serie principal
-AFIRMACIÓN: No se establece un intervalo numérico canónico en el material
-revisado del cómic.
-ANÁLISIS: No se importa ningún rango de la adaptación televisiva.
+Author Reference: Letter Hacks, varias entregas sin número puntual consignado
+AFIRMACIÓN: El canon citado no establece un origen epidemiológico ni una
+clasificación biológica confirmada para el agente.
+ANÁLISIS: La causa primaria permanece abierta. No se incorporan hipótesis
+externas como hechos del cómic.

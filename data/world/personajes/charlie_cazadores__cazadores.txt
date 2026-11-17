@@ -1,23 +1,30 @@
+----------ARCHIVO DE PERSONAJES | Charlie (cazadores) (Vol. 11: Fear The Hunters)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-charlie_cazadores
 NOMBRE: Charlie (cazadores)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Cazadores
+AGRUPACIÓN: Los Cazadores (The Hunters)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #63 (Volumen 11: Fear The Hunters, Parte 3 de 6).
+Apariciones posteriores: Números #64–#66 (Volumen 11: Fear The Hunters).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido; al inicio del apocalipsis formó parte de la comunidad que recurrió al canibalismo tras agotar sus alimentos, asesinando y devorando a los niños de su propio grupo para sobrevivir).
+- Perfil físico observado: Varón afroamericano de entre 30 y 40 años aproximadamente, complexión robusta/media, cabeza rapada/calvo, barba corta y vestimenta civil deteriorada.
+- Rol post-brote: Miembro activo y el único integrante afroamericano dentro de Los Cazadores (The Hunters), banda nómada de seis caníbales liderada por Chris que rastrea seres humanos en las inmediaciones de Virginia / Washington D.C. para cazarlos y devorarlos.
+- Incidente registrado (#63–#64): Participa en el secuestro nocturno de Dale Horvath en el bosque (luego de que este abandonara el campamento de Rick tras ser mordido por un caminante). En el escondite de la banda, Charlie participa en la amputación y consumo de la pierna izquierda de Dale; cuando Dale revela entre risas que está infectado ("¡Carne contaminada!"), Charlie entra en pánico y vomita horrorizado ante el temor de haber ingerido carne contaminada.
+- Enfrentamiento y captura (#64–#65): Tras arrojar a Dale moribundo frente a la iglesia del Padre Gabriel Stokes como carnada, acompaña a Chris y al resto de los Cazadores durante el intento de emboscada al grupo de Rick. Cuando Andrea dispara a Chris desde la distancia y Rick, Abraham y Michonne logran infiltrarse en su guarida y rodearlos, Charlie es desarmado y capturado junto a los demás.
+- Desenlace (#66): Tras confirmar que asesinaron y devoraron a sus propios hijos para sobrevivir, Rick Grimes decreta la ejecución de todo el grupo. Charlie es torturado y descuartizado brutalmente fuera de panel dentro del bosque por Rick, Abraham Ford, Michonne y Andrea utilizando armas blancas, siendo sus restos incinerados posteriormente en una hoguera.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Contexto narrativo: Con Charlie se completa el registro de los seis miembros de Los Cazadores en el cómic principal (Chris, Theresa, Albert, David, Greg y Charlie).
+- Nota de desambiguación: No debe confundirse con Charlie (el joven soldado de la Zona Segura de Alexandria que combate contra Los Salvadores y sobrevive hasta el final de la serie, debutando en el Número #114, Volumen 19: March To War).

@@ -1,23 +1,29 @@
+----------ARCHIVO DE PERSONAJES | Andy (saqueadores) (Vol. 10: What We Become)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-andy_saqueadores
-NOMBRE: Andy (saqueadores)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Saqueadores
+NOMBRE: Andy (saqueadores) [Apellido en material complementario: Denton]
+AGRUPACIÓN: Los Saqueadores (The Marauders)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #57 (Volumen 10: What We Become, Parte 3 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos en el canon principal.
+- Perfil físico observado: Varón caucásico-americano de alrededor de 35–40 años, complexión robusta/fornida, cabello castaño largo y desaliñado, barba espesa y vestimenta civil deteriorada.
+- Rol post-brote: Miembro de la banda de asaltantes y saqueadores de caminos conocida como Los Saqueadores (The Marauders), operando junto a Craig y Jud en las carreteras rumbo a Kentucky.
+- Incidente registrado (#57): Durante la primera noche del viaje de abastecimiento de Rick Grimes, Carl y Abraham Ford hacia Cynthiana, Andy participa en la emboscada nocturna en la autopista para robarles sus suministros y vehículos. Aprovechando la ausencia de la mano derecha de Rick, Andy lo reduce por la espalda sujetándolo del cuello mientras Craig encañona a Abraham y Jud intenta agredir sexualmente a Carl.
+- Desenlace (#57): Al ver a su hijo en peligro extremo y tener sus brazos inmovilizados, Rick Grimes gira violentamente la cabeza y muerde con todas sus fuerzas la yugular/garganta de Andy, arrancándole un trozo de carne. Andy cae al suelo desangrándose fatalmente en el acto, evento que desencadena el contraataque de Abraham contra Craig y la posterior ejecución de Jud a manos de Rick.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Contexto narrativo e impacto: Esta escena inspiró directamente el recordado enfrentamiento de Rick Grimes contra Joe y los "Claimers" en el final de la cuarta temporada de la serie televisiva de AMC (episodio 4x16, "A").
+- Apellido en guiones/adaptaciones: En ciertos materiales de referencia y wikis derivadas se le identifica bajo el apellido "Denton" junto a Craig y Jud, aunque en los diálogos del cómic principal únicamente se emplea su nombre de pila ("Andy").
+- Nota de desambiguación: No debe confundirse con Andy (soldado del ejército de Woodbury que muere en el Número #44) ni con Andy (residente de la Colonia Hilltop que colabora en el ataque contra el puesto de avanzada de Los Salvadores).

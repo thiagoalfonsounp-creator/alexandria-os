@@ -1,23 +1,27 @@
+----------ARCHIVO DE PERSONAJES | Carlos (Alexandria) (Vol. 22: A New Beginning)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-carlos_alexandria
 NOMBRE: Carlos (Alexandria)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #129 (Volumen 22: A New Beginning, Parte 3 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón adulto de complexión media, cabello oscuro corto, perilla/barba recortada y vestimenta de guardia con rifle de vigilancia.
+- Rol post-brote: Residente incorporado tras el salto temporal en la Zona Segura de Alexandria y guardia asignado a las torres de vigilancia perimetral y control de acceso.
+- Incidente registrado (#129): Tras el salto temporal de dos años posterior a la derrota de Negan, Rick Grimes y Carl Grimes se disponen a abandonar Alexandria a caballo para dirigirse hacia la Colonia Hilltop (donde Carl iniciará su aprendizaje como herrero junto a Earl Sutton). Desde lo alto de la torre de vigilancia junto al portón principal, Carlos verifica que el perímetro exterior esté despejado de caminantes, autoriza la apertura de la puerta y les desea buen viaje ("¡Todo despejado, muchachos! ¡Buen viaje!").
+- Desenlace (#129): Después de esta escena en el portón de Alexandria, Carlos no vuelve a aparecer acreditado en viñeta ni se menciona su fallecimiento en los arcos posteriores (como la Guerra contra Los Susurradores), por lo que su estado final al cierre de la serie se clasifica oficialmente como desconocido (o vivo sin baja confirmada).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Nota de desambiguación: No debe confundirse con Carlos (miembro de la banda de Los Carroñeros / The Scavengers liderada por Derek), quien aparece mucho antes en el Número #75 (Volumen 13: Too Far Gone) y muere de un disparo en la cabeza efectuado por Abraham Ford durante el intento de invasión a Alexandria.

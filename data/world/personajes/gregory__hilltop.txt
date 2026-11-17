@@ -1,23 +1,36 @@
+----------ARCHIVO DE PERSONAJES | Gregory (Vol. 16: A Larger World)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-gregory
 NOMBRE: Gregory
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Hilltop
+AGRUPACIÓN: Colonia Hilltop
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: A Larger World
+PRIMERA APARICIÓN: #95
+ÚLTIMA APARICIÓN: #141
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #95 y última aparición #141. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #95 y #141.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #95 (Volumen 16: A Larger World, Parte 5 de 6).
+Apariciones posteriores: Números #96–#140 (Volúmenes 16 al 24) y
+desenlace en Número #141 (Volumen 24: Life and Death, Parte 3 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido; figura administrativa/ejecutiva de mediana edad que asumió el liderazgo inicial de la comunidad de Hilltop tras el colapso).
+- Perfil físico observado: Varón caucásico-americano de entre 50 y 60 años de edad, complexión delgada, cabello blanco/canoso con calvicie frontal, bigote y barba recortada canosa, y vestimenta civil formal.
+- Rol post-brote: Fundador administrativo y primer líder de la Colonia Hilltop (residente en la mansión Barrington), posteriormente depuesto por Maggie Greene y convertido en conspirador disidente.
+- Incidente registrado (#95–#126): Presentado a Rick Grimes por Paul "Jesus" Monroe durante la primera visita a Hilltop (#95), Gregory sobrevive inicialmente a un intento de asesinato por parte de Ethan (#95–#96) y pacta con Rick la eliminación de Los Salvadores a cambio de la mitad de las provisiones de la colonia. Sin embargo, al estallar la Guerra Total contra Negan (#114–#126), Gregory intenta traicionar a la alianza ordenando a los habitantes de Hilltop que se retiren del frente de batalla, motivo por el cual Maggie Greene lo golpea y asume definitivamente el liderazgo de la comunidad.
+- Conspiración y desenlace (#135–#141): Tras el salto temporal de dos años, Gregory permanece resentido por su pérdida de autoridad. Cuando Carl Grimes golpea brutalmente a Brandon Rose y Brian (#137), Gregory manipula a los padres de Brandon (Morton y Tammy Rose) para conspirar contra Maggie. En el número #140, Gregory visita a Maggie en su oficina con una botella de licor envenenada bajo pretexto de reconciliación; Maggie bebe el veneno y comienza a convulsionar, pero es salvada a tiempo gracias a la rápida intervención de Jesus. Arrestado de inmediato, Gregory es juzgado y condenado a muerte por Maggie Greene; en el número #141 (Volumen 24: Life and Death), es ahorcado públicamente desde un árbol frente a toda la comunidad de Hilltop (mientras Rick Grimes llega justo a tiempo para presenciar su ejecución).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Es el primer personaje ejecutado en la horca por orden directa de los protagonistas en la etapa posterior a la guerra contra Negan, marcando el endurecimiento de la justicia comunitaria bajo el mando de Maggie Greene (escena recreada de forma casi idéntica en el estreno de la novena temporada de la serie televisiva de AMC, episodio 9x01 "A New Beginning").

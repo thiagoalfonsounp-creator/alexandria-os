@@ -1,23 +1,30 @@
+----------ARCHIVO DE PERSONAJES | Siddiq (Vol. 22: A New Beginning)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-siddiq
 NOMBRE: Siddiq
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #127 (Volumen 22: A New Beginning, Parte 1 de 6).
+Apariciones posteriores: Números #128–#192 (Volúmenes 22 al 31).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido; proviene de un hogar musulmán en Estados Unidos).
+- Perfil físico observado: Varón árabe-americano de entre mediados de los 20 y principios de los 30 años, complexión atlética/media, cabello negro corto y barba completa recortada.
+- Rol post-brote: Primer oficial a bordo del barco "The Companion" y pescador en Oceanside (previo a su llegada); posteriormente residente de la Zona Segura de Alexandria, capataz/jefe de construcción, guardia de puerta y soldado de la milicia comunitaria.
+- Incidente registrado (#127–#144): Tras conocer a Michonne Hawthorne en el mar y recibir indicaciones sobre Alexandria, Siddiq se integra a la comunidad durante el salto temporal de dos años posterior a la guerra contra Negan. Debuta en el número #127 supervisando las obras de construcción para la gran feria de las comunidades y mantiene una aventura sentimental secreta con Rosita Espinosa mientras ella estaba casada con Eugene Porter, dejándola embarazada.
+- Guerra contra Los Susurradores (#144–#174): Tras el asesinato de Rosita (aún embarazada) a manos de Alpha en la masacre de las picas (#144), Siddiq queda devastado y confiesa su culpa a Eugene Porter, aunque ambos logran perdonarse mutuamente para afrontar el duelo juntos. Participa activamente en la milicia contra Los Susurradores, descubre la fuga de Negan de su celda (#141) e intenta reclutar refuerzos en Oceanside.
+- Etapa en La Mancomunidad y Desenlace (#175–#192): Colabora en las tareas de contención y desvío de hordas en los alrededores de La Mancomunidad (#180–#190) y presencia los acontecimientos posteriores al asesinato de Rick Grimes. Su última aparición ocurre en el Número #192 (Volumen 31: The Rotten Core), confirmándose vivo al cierre de la serie regular (su destino tras el salto temporal del epílogo #193 no se muestra).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Continuidad con videojuegos canónicos: Su historia previa a su llegada a Alexandria (como tripulante de "The Companion" junto a Pete y pescador de Oceanside) se narra en el videojuego canónico de Telltale "The Walking Dead: Michonne" (2016), ambientado cronológicamente entre los números #126 y #127 del cómic.
+- Contexto narrativo: Es el primer personaje abiertamente musulmán introducido en el cómic principal de The Walking Dead.

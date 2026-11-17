@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 ARENA DE WOODBURY
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #27-#33.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Espacio de espectáculo
 
 DESCRIPCIÓN
-Recinto donde la violencia y los caminantes se utilizan como entretenimiento.
+Recinto cerrado dentro de Woodbury adaptado para combates clandestinos rodeados de caminantes encadenados, utilizado por El Gobernador como herramienta de control social.
 
 RELEVANCIA NARRATIVA
-Expone mecanismos de control social del Gobernador.
+Expone la degradación moral del régimen de Woodbury y sirve como escenario del enfrentamiento forzado entre Michonne y los luchadores locales antes de su fuga.
 
 ANÁLISIS DE SUPERVIVENCIA
-Un lugar dentro de una comunidad defendida puede seguir siendo peligroso para sus habitantes.
+El cautiverio intencional de caminantes dentro de zonas habitadas introduce un vector de riesgo permanente ante cualquier fallo de contención física.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #27; The Walking Dead #29; The Walking Dead #31.
+Cotejado directamente con las escenas de combate y exhibición dentro de Woodbury durante el cautiverio del grupo de Rick.

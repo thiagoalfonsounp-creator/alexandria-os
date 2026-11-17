@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 CAMPAMENTOS DE LOS SUSURRADORES
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #132-#162.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Territorios móviles
 
 DESCRIPCIÓN
-Zonas ocupadas por un grupo que cambia de posición y se mezcla con los muertos.
+Asentamientos nómadas sin estructuras permanentes ubicados en zonas boscosas, donde un grupo humano convive infiltrado dentro de megahordas usando pieles de caminantes.
 
 RELEVANCIA NARRATIVA
-Sostienen un conflicto territorial con las comunidades sedentarias.
+Plantean una amenaza asimétrica que rechaza la reconstrucción civilizada y culmina en la guerra de Los Susurradores y el desvío de la megahorda sobre Alexandria.
 
 ANÁLISIS DE SUPERVIVENCIA
-La ausencia de edificios o murallas no implica ausencia de organización humana.
+El nomadismo y el camuflaje biológico eliminan la necesidad de construir fortificaciones, pero impiden el desarrollo agrícola, médico o tecnológico sostenido.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #132-#162.
+Cotejado directamente con la captura de Lydia (#133-#134), la visita de Alpha a su campamento (#141-#143) y la dispersión final del grupo (#162).

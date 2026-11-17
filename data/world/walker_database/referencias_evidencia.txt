@@ -10,18 +10,36 @@ mecanismo ni una regla universal.
 UNCONFIRMED: cuestión que las fuentes citadas no resuelven.
 
 FUENTES DEL CÓMIC PRINCIPAL
-The Walking Dead #2-4, #7, #9-10, #15, #20, #34, #38, #41, #60, #120-121,
-#146 y #186. The Walking Dead Deluxe #41.
+The Walking Dead #2–#4, #7, #9–#10, #15, #18–#21, #34, #38, #41, #50,
+#60, #65–#66, #115–#126, #132, #146, #159–#160 y #186. The Walking Dead
+Deluxe #41.
 
 FUENTES AUTORALES
-Respuestas de Robert Kirkman en Letter Hacks #2, #7, #41, #120, #146 y
-#186. Se etiquetan como declaraciones del autor, no como escenas.
+Letter Hacks #2, #7, #41, #120, #121, #146 y #186. Se etiquetan como
+declaraciones del autor, no como escenas.
+
+LOCALIZADORES SECUNDARIOS
+Den of Geek, “The Walking Dead: What is the Origin of the Zombie Outbreak?”
+atribuye la explicación sobre zombificación a Letter Hacks #147.
+Walking Dead Wiki, “Letter Hacks”, la ubica en #146. Grand Comics Database
+registra una sección Letter Hacks de tres páginas en The Walking Dead #146;
+el catálogo confirma la sección, no el contenido de la respuesta.
+Se consultan como localizadores, no como sustituto del ejemplar.
+https://www.denofgeek.com/tv/the-walking-dead-origin-of-the-zombie-outbreak/
+https://walkingdead.fandom.com/wiki/Letter_Hacks
+https://www.comics.org/issue/1456931/
 
 PENDIENTES
-1. La respuesta extensa sobre infección y reanimación aparece atribuida a
-   Letter Hacks #146 en el índice consultado; Den of Geek la ubica en #147.
-   Cotejar el ejemplar antes de fijar la referencia bibliográfica.
-2. No se halló un intervalo numérico de reanimación establecido por el
-   cómic principal. No incorporar rangos de la televisión.
-3. El origen del brote permanece sin resolver en las fuentes autorales
-   consultadas.
+1. Las fichas recibidas citan Letter Hacks #146 para la explicación sobre
+   infección y reanimación. Den of Geek la atribuye a #147; el índice de
+   Letter Hacks la ubica en #146. El catálogo bibliográfico confirma que #146
+   incluye la sección, pero no identifica esa respuesta. Cotejar los ejemplares
+   antes de cerrar la discrepancia; mientras tanto, las fichas conservan la
+   referencia #146 del material recibido.
+2. El cómic principal no establece un intervalo numérico de reanimación.
+   Mantener las observaciones cualitativas sin añadir rangos de la televisión.
+3. El origen del brote permanece sin resolver en el canon y las fuentes
+   autorales citadas.
+4. El archivo recibido “DESTRUCCIÓN DEL TRONCO ENCEFÁLICO.txt” estaba vacío.
+   No se añadió una afirmación sobre cuánto daño cerebral basta para impedir
+   la reanimación; el umbral específico queda pendiente.

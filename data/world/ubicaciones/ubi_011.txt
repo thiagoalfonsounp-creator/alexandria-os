@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 ALEXANDRIA SAFE-ZONE
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #69-#193.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Urbanización amurallada
 
 DESCRIPCIÓN
-Casas, calles y defensas adaptadas a una vida comunitaria.
+Comunidad residencial en Virginia protegida por muros de acero reforzado y paneles solares, liderada inicialmente por Douglas Monroe y posteriormente por Rick Grimes.
 
 RELEVANCIA NARRATIVA
-Es la base principal de Rick durante la reconstrucción y las alianzas.
+Funciona como hogar principal y eje político de la serie desde el tramo medio hasta el final, sobreviviendo a megahordas, guerras contra Los Salvadores y el asedio de Los Susurradores.
 
 ANÁLISIS DE SUPERVIVENCIA
-La defensa necesita mantenimiento y coordinación; el perímetro no sustituye la preparación de sus habitantes.
+La combinación de murallas estructurales, generación eléctrica autónoma y expansión agrícola permite sostener una civilización estable a largo plazo si se mantienen protocolos de vigilancia perimetral.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #69-#193.
+Cotejado directamente desde el ingreso del grupo guiado por Aaron (#69) hasta la reconstrucción posterior a las guerras y el salto temporal (#127-#193).

@@ -1,23 +1,36 @@
+----------ARCHIVO DE PERSONAJES | Ron Anderson (Vol. 12: Life Among Them)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-ron_anderson
 NOMBRE: Ron Anderson
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Familia Anderson
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: Life Among Them
+PRIMERA APARICIÓN: #70
+ÚLTIMA APARICIÓN: #83
+ALCANCE: The Walking Dead, serie regular; extremos del rango: primera aparición #70 y última aparición #83. El intervalo no implica presencia en todos los números intermedios.
+REFERENCIA PRIMARIA: The Walking Dead #70 y #83.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #70 (Volumen 12: Life Among Them, Parte 4 de 6).
+Apariciones posteriores: Números #71–#82 (Volúmenes 12 al 14) y
+desenlace en Número #83 (Volumen 14: No Way Out, Parte 5 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Estudiante de escuela primaria en Estados Unidos (hijo único de Peter Anderson y Jessie Anderson).
+- Perfil físico observado: Niño caucásico-americano de entre 9 y 11 años de edad, cabello castaño claro/rubio sucio corto y vestimenta juvenil casual.
+- Rol post-brote: Residente infantil original de la Zona Segura de Alexandria y alumno de las clases escolares de la comunidad junto a Mikey, Lola y Josh.
+- Incidente registrado (#70–#78): Presentado inicialmente como uno de los niños residentes que intenta integrar a Carl Grimes en sus juegos (#70–#71), Ron sufre en silencio las golpizas y abusos físicos de su padre alcohólico Peter Anderson (incluyendo un ojo morado que oculta alegando haberse caído de un árbol, #75). Tras la intervención de Rick Grimes y la posterior ejecución de su padre (#77), Ron experimenta confusión y temor hacia la violencia del nuevo mundo.
+- Desenlace (#81–#83): Durante la invasión de la megahorda de caminantes sobre Alexandria (#81–#83), Ron queda refugiado dentro de su casa junto a su madre Jessie, Rick y Carl Grimes. En el número #83, se unta la ropa con vísceras de caminante para cruzar camuflado entre la horda tomada de la mano de su madre. Sin embargo, al verse rodeado por cientos de muertos vivientes en movimiento, Ron entra en pánico, rompe el silencio y comienza a gritar llorando por su padre, atrayendo de inmediato la atención de los caminantes que lo derriban y lo devoran vivo frente a su madre (desencadenando la reacción en cadena que provoca la muerte de Jessie y el disparo accidental que hiere el ojo de Carl).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Diferencia con la adaptación televisiva: En la serie de AMC (temporadas 5 y 6, interpretado por Austin Abrams), Ron es un adolescente mayor que desarrolla un profundo odio hacia Rick y Carl tras la muerte de su padre Pete; en el episodio 6x09 ("No Way Out"), intenta disparar a Rick por la espalda justo cuando los caminantes atacan a Jessie y Sam, siendo atravesado por la katana de Michonne (disparando accidentalmente el tiro que arranca el ojo derecho de Carl).

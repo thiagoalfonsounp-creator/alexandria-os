@@ -1,0 +1,11 @@
+ALEXANDRIA OS | THE WORLD
+FIELD OBSERVATIONS
+============================================================
+
+Observation ID: FO-007
+Subject: Infiltración humana en hordas
+Comic Reference: The Walking Dead #132
+Description: Un grupo de supervivientes avanza mezclado dentro de una horda utilizando pieles de caminantes sobre el rostro y el cuerpo, logrando desplazarse y dirigir el movimiento del grupo sin ser atacados.
+Analysis: A diferencia del camuflaje temporal con fluidos, el uso de piel tratada ofrece una cobertura persistente que evita la detección visual y olfativa a corta distancia.
+Evidence Level: OBSERVED
+Conclusion: La barrera sensorial de los caminantes puede ser explotada de forma sostenida por humanos mediante equipamiento adecuado y control del comportamiento.

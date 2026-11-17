@@ -1,0 +1,11 @@
+ALEXANDRIA OS | THE WORLD
+FIELD OBSERVATIONS
+============================================================
+
+Observation ID: FO-010
+Subject: Degradación tisular avanzada
+Comic Reference: The Walking Dead #53
+Description: Tras varios meses desde el inicio del brote, se observan caminantes con un deterioro muscular y cutáneo extremo que limita su desplazamiento, llegando en algunos casos a arrastrarse o quedar prácticamente inmóviles.
+Analysis: Aunque los tejidos blandos continúan descomponiéndose por exposición ambiental y falta de regeneración celular, la actividad neuronal básica persiste mientras el cráneo permanezca íntegro.
+Evidence Level: OBSERVED
+Conclusion: El paso del tiempo reduce la capacidad física de los caminantes, pero la degradación ambiental por sí sola es demasiado lenta para neutralizar la amenaza a corto plazo.

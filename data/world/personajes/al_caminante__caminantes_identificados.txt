@@ -1,23 +1,31 @@
+Al (caminante) es uno de los zombis que deambulan por la carretera en el Número 52 del cómic principal, donde es atropellado mortalmente por un automóvil conducido por Carl Grimes mientras viaja junto a su padre, Rick.
+
+----------CAMINANTES IDENTIFICADOS | Al (caminante) (Vol. 9: Here We Remain)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-al_caminante
 NOMBRE: Al (caminante)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Caminantes identificados
+AGRUPACIÓN: Caminantes identificados
 TIPO: CAMINANTE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ALCANCE: The Walking Dead, cómic principal #1–193 y epílogo
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #52 (Volumen 9: Here We Remain, Parte 4 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos.
+- Perfil físico observado: Varón adulto de complexión media, cabello oscuro corto.
+- Reanimación: Falleció por causas desconocidas durante el inicio del brote y reanimó como caminante en Georgia.
+- Incidente registrado (#52): Tras recuperarse parcialmente de su enfermedad y abandonar la vivienda donde se refugiaban, Rick Grimes emprende el viaje por carretera junto a Carl. Al forma parte de un pequeño grupo de caminantes errantes (junto a Sally) que bloquean el paso en medio de la vía rural.
+- Desenlace (#52): Mientras conducen por la carretera, Carl Grimes embiste directamente a Al con el automóvil, aplastando su cabeza contra el vehículo y acabando con él en el acto.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (NO CANÓNICO)
+- En el cómic principal nunca se pronuncia su nombre. Su identidad fue establecida posteriormente en la historia corta humorística "The Secret Diary of a Walker" (publicada en The Walking Dead: The Official Magazine, número #8).
+- En dicha versión paródica (NO CANÓNICA), Al es un caminante enamorado/interesado en Sally que decide participar en la caminata benéfica anual de zombis ("Walkers' Walk") solo porque ella asistirá. Durante el recorrido por el campo junto a Sally y otro caminante amigo, el auto conducido por Carl los embiste, matando a Al.

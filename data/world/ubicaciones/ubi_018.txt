@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 COMMONWEALTH
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #175-#192.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Centro urbano y red territorial
 
 DESCRIPCIÓN
-Espacios residenciales, laborales y de gobierno de una sociedad con fuerte jerarquía.
+Gran red de asentamientos en Ohio con cerca de cincuenta mil habitantes, ejército propio, industrias activas y una marcada estratificación socioeconómica heredada del mundo previo.
 
 RELEVANCIA NARRATIVA
-Es escenario del conflicto político de la etapa final.
+Introduce el conflicto político final de la obra entre el orden autoritario de clase y la igualdad comunitaria, desembocando en el asesinato de Rick Grimes y la reforma institucional.
 
 ANÁLISIS DE SUPERVIVENCIA
-La infraestructura permite una vida más estable, pero el acceso a sus beneficios depende también del orden social.
+Una escala poblacional masiva permite recuperar servicios complejos y defensa militar organizada, pero reproduce las tensiones de clase y riesgo de insurrección interna.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #175-#192.
+Cotejado directamente desde el contacto inicial de la expedición (#175) hasta la caída de Pamela Milton (#190) y la muerte de Rick (#191-#192).

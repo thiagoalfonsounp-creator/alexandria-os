@@ -1,23 +1,28 @@
+----------ARCHIVO DE PERSONAJES | Evan (Vol. 8: Made To Suffer)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-evan
 NOMBRE: Evan
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Sobrevivientes de Woodbury
+AGRUPACIÓN: Sobrevivientes de Woodbury
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #44 (Volumen 8: Made To Suffer, Parte 2 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Mujer caucásico-americana de entre mediados y finales de los 20 años, cabello castaño recogido en un moño y camiseta sin mangas (tank top).
+- Rol post-brote: Residente de la comunidad de Woodbury, Georgia, y soldado raso de la milicia armada bajo las órdenes de Brian Blake (El Gobernador).
+- Incidente registrado (#44): Forma parte del contingente militar de Woodbury que sitia y ataca la prisión. Durante el tiroteo inicial frente a las vallas perimetrales, avanza junto al resto de los soldados mientras abren fuego contra las posiciones defensivas de los sobrevivientes.
+- Desenlace (#44): En pleno intercambio de disparos frente a la prisión, Evan es alcanzada en la cabeza por un disparo de rifle de francotirador efectuado por Andrea desde una de las torres de vigilancia, muriendo en el acto (el Gobernador menciona su nombre al lamentar las bajas frente a las vallas).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO (UNIVERSO COMIC-NOVELAS)
+- Su muerte durante el primer asalto frente a las vallas de la prisión también se recoge en la novela canónica "The Walking Dead: The Fall of the Governor - Part Two" (Capítulo 11: "Doomsday Clock").
+- Posible aparición previa sin acreditar: En el Número #31 (Volumen 6: This Sorrowful Life) aparece una mujer de rasgos físicos idénticos (cabello castaño en moño y camiseta sin mangas) observando la pelea entre Michonne y Eugene Cooney en la arena de Woodbury, aunque su identidad como Evan recién se confirma en el Número #44.

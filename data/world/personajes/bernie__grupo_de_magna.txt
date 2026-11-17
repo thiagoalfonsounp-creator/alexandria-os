@@ -1,23 +1,33 @@
+----------ARCHIVO DE PERSONAJES | Bernie (Vol. 22: A New Beginning)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-bernie
 NOMBRE: Bernie
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Grupo de Magna
+AGRUPACIÓN: Grupo de Magna
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: A New Beginning
+PRIMERA APARICIÓN: #127
+ÚLTIMA APARICIÓN: #127
+ALCANCE: The Walking Dead, serie regular; aparición registrada en #127.
+REFERENCIA PRIMARIA: The Walking Dead #127.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #127 (Volumen 22: A New Beginning, Parte 1 de 6).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido).
+- Perfil físico observado: Varón caucásico-americano adulto (entre 35 y 45 años aproximadamente), complexión media, cabello oscuro corto y vestimenta de viaje desgastada.
+- Rol post-brote: Miembro del grupo nómada de sobrevivientes liderado por Magna (junto a Yumiko, Kelly, Connie y Luke) que viajaba por los alrededores de Washington D.C.
+- Incidente registrado y desenlace (#127): En el número #127 (Volumen 22: A New Beginning), mientras el grupo de Magna avanza por una carretera cercana a Washington D.C. en su carreta, se ven sorprendidos por una numerosa horda de caminantes que estaba siendo desviada por la patrulla de Alexandria comandada por Paul "Jesus" Monroe. En medio del caos, Bernie queda rezagado del grupo, es rodeado por los muertos vivientes y es devorado vivo antes de que Magna y los demás puedan rescatarlo (su pérdida marca el primer encuentro entre el grupo de Magna y los sobrevivientes de Alexandria).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Es la primera baja mostrada tras el salto temporal de dos años que inicia el Volumen 22 (A New Beginning) y su muerte motiva la desconfianza inicial de Magna hacia los habitantes de Alexandria.

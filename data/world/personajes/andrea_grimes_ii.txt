@@ -1,20 +1,34 @@
+----------ARCHIVO DE PERSONAJES | Andrea Grimes (hija de Carl y Sophia) (Vol. 32: Rest In Peace)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
-EXPEDIENTE: TW-PER-027
-PERSONAJE: ANDREA GRIMES
-CANON: COMIC THE WALKING DEAD, EPILOGO
-ESTADO: FICHA BREVE
+EXPEDIENTE: TW-PER-BR-andrea_grimes_hija_de_carl_y_sophia
+NOMBRE: Andrea Grimes (hija de Carl y Sophia)
+AGRUPACIÓN: Familia Grimes / Zona Segura (Era de Reconstrucción)
+TIPO: PERSONAJE
+ARCO: Rest In Peace
+PRIMERA APARICIÓN: #193
+ÚLTIMA APARICIÓN: #193
+ALCANCE: The Walking Dead, serie regular; aparición registrada en #193.
+REFERENCIA PRIMARIA: The Walking Dead #193.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
-IDENTIFICACION
-Andrea es hija de Carl Grimes y Sophia. Se la nombra en el
-epilogo del numero 193, durante la escena de la familia Grimes.
-
-REGISTRO DE ESCENA
-CONFIRMED: en el numero 193, Carl pregunta por su hija y Sophia
-responde que sigue durmiendo. El comic indica que tiene seis anos.
-No se le atribuyen otras acciones en esta ficha.
+REGISTRO
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-The Walking Dead, numero 193.
+Número #193 (Volumen 32: Rest In Peace, Epílogo final).
+
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: No aplica (nacida aproximadamente dos décadas después del estallido del apocalipsis, durante la era de paz y reconstrucción; hija de Carl Grimes y Sophia Grimes, nieta de Rick Grimes, Lori Grimes y Carol Peletier, y sobrina de Judith Grimes).
+- Perfil físico observado: Niña caucásico-americana de aproximadamente 6–8 años de edad, cabello rubio largo y vestimenta infantil cotidiana.
+- Rol post-brote: Miembro de la nueva generación nacida en la sociedad pacífica reconstruida y alumna de la escuela comunitaria impartida por Laura.
+- Incidente registrado y desenlace (#193): En el epílogo del Número #193 (Volumen 32: Rest In Peace), Andrea Grimes vive junto a sus padres Carl y Sophia en una granja rural cercana al antiguo territorio de Alexandria y Hilltop. Tras presenciar cómo su padre destruye con una espada a un caminante perteneciente al espectáculo ambulante de Hershel Greene Jr. que había invadido su propiedad, Andrea acompaña a Carl en su viaje en carreta hacia La Mancomunidad para asistir al juicio. Al cierre definitivo de la historia, escucha con admiración en su dormitorio cómo su padre le lee el libro ilustrado sobre el legado heroico de su abuelo Rick Grimes, confirmándose viva al final de la obra.
+
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Contexto narrativo: Fue bautizada en honor a Andrea (compañera sentimental de Rick Grimes y figura materna adoptiva de Carl, fallecida en el Número #167) y representa el futuro pacífico por el que luchó toda la familia Grimes.
+- Nota de desambiguación: No debe confundirse con Andrea (protagonista principal de la serie entre los números #2 y #167) ni con Andrea (Commonwealth) [ama de llaves en La Mancomunidad en el Número #181].

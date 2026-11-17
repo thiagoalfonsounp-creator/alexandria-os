@@ -1,24 +1,21 @@
 THE WORLD / COMUNIDADES
 SUPERVIVIENTES DE LA PRISIÓN
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #13-#48.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Comunidad de refugio
 
 DESCRIPCIÓN
-El grupo de Rick intenta convivir con los presos supervivientes y organizar la vida dentro del complejo.
+Comunidad híbrida formada en una penitenciaría estatal de Georgia tras la convergencia entre el grupo itinerante de Rick, la familia Greene y cuatro reclusos que habían quedado encerrados en la cafetería desde el inicio del brote (Axel, Dexter, Andrew y Thomas Richards). Tras despejar los bloques de celdas y los patios interiores, la población alcanza cerca de veinte integrantes que organizan turnos de cultivo, limpieza de vallas y vigilancia. Para evitar abusos de poder, establecen un gobierno colegiado mediante un comité de cuatro miembros (Rick, Dale, Hershel y Tyreese), aunque la autoridad ejecutiva recae nuevamente en Rick durante las crisis de seguridad.
 
 RELEVANCIA NARRATIVA
-La prisión concentra conflictos internos y el enfrentamiento con Woodbury.
+Constituye el primer laboratorio social de la serie donde se intenta restaurar la civilización mediante normas escritas, reparto de tareas y justicia interna. El arco explora la dificultad de integrar a desconocidos con historiales violentos (desembocando en los asesinatos cometidos por Thomas y el intento de motín liderado por Dexter) y culmina con la destrucción total de la comunidad tras el asalto militar de Woodbury, marcando el fin de la inocencia para los sobrevivientes.
 
 ANÁLISIS DE SUPERVIVENCIA
-Las barreras exteriores no resuelven las amenazas internas ni la necesidad de cultivar y abastecerse.
+El complejo penitenciario ofrece ventajas estructurales inmejorables frente a los caminantes: doble cercado metálico, muros de hormigón, celdas individuales que previenen ataques nocturnos internos y amplios terrenos cultivables. No obstante, el asentamiento fracasa por dos factores: la inestabilidad institucional derivada de convivir con individuos no evaluados sin mecanismos de contención previos, y la vulnerabilidad táctica frente a fuerzas humanas externas equipadas con armamento pesado y vehículos blindados capaces de derribar el perímetro.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #13-#48.
+Cotejado directamente desde la ingreso y encuentro con los reclusos (#13-#14), la crisis de Thomas y Dexter (#15-#19), la instauración del comité (#24) y la caída definitiva del recinto (#47-#48).

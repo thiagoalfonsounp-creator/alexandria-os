@@ -1,23 +1,33 @@
+----------ARCHIVO DE PERSONAJES | Cloris (Vol. 32: Rest In Peace)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-cloris
 NOMBRE: Cloris
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Greenville
+AGRUPACIÓN: Zona Segura / Comunidades Aliadas (Era de Reconstrucción)
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ARCO: Rest In Peace
+PRIMERA APARICIÓN: #193
+ÚLTIMA APARICIÓN: #193
+ALCANCE: The Walking Dead, serie regular; aparición registrada en #193.
+REFERENCIA PRIMARIA: The Walking Dead #193.
+EVIDENCIA CONFIRMADA: contenido narrativo, arco y datos de aparición.
+COTEJO: el propietario verificó el contenido y las apariciones con el cómic principal; la wiki individual y los videos explicativos se usaron como apoyo de contexto.
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Número #193 (Volumen 32: Rest In Peace, Epílogo final).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido; esposa de Curtis).
+- Perfil físico observado: Mujer caucásico-americana de edad avanzada (alrededor de 70–80 años), complexión media, cabello blanco/canoso recogido y vestimenta civil rural.
+- Rol post-brote: Residente anciana de la sociedad reconstruida en la etapa del epílogo y vecina de la familia Grimes.
+- Incidente registrado y desenlace (#193): En el epílogo del Número #193 (Volumen 32: Rest In Peace), Cloris y su esposo Curtis conversan amigablemente con Carl Grimes y su hija Andrea mientras estos viajan hacia La Mancomunidad, reflejando la normalidad, seguridad y vida cotidiana alcanzada por las comunidades décadas después del colapso, confirmándose viva al cierre de la serie.
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO
+- Contexto narrativo: Junto con su esposo Curtis, representa a los sobrevivientes de la generación original que lograron alcanzar la vejez en paz tras la erradicación casi total de los caminantes.

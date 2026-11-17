@@ -1,23 +1,29 @@
+----------ARCHIVO DE PERSONAJES | Annie (Alexandria) (Vol. 22: A New Beginning)----------
 ALEXANDRIA OS | THE WORLD
 ARCHIVO DOCUMENTAL - PERSONAJES
-============================================================
+========================================================================================
 
 EXPEDIENTE: TW-PER-BR-annie_alexandria
 NOMBRE: Annie (Alexandria)
-AGRUPACIÓN EN LA LISTA DE REFERENCIA: Alexandria
+AGRUPACIÓN: Zona Segura de Alexandria
 TIPO: PERSONAJE
-ALCANCE: The Walking Dead, cómic principal #1-193 y epílogo
-ESTADO DE EVIDENCIA: UNCONFIRMED
+ESTADO DE EVIDENCIA: CONFIRMED
 
 REGISTRO
-Esta ficha breve incorpora el nombre y la agrupación usados por la lista de referencia. Esa página sirve para localizar entradas del reparto; no sustituye la comprobación de la escena, el parentesco, la afiliación ni el destino en el número del cómic.
+El nombre y la agrupación de esta ficha fueron revisados por el propietario del
+proyecto contra el cómic principal.
 
 REFERENCIA PRIMARIA
-Número o escena: pendiente de verificación directa. No se asigna un número por inferencia.
+Primera aparición: Número #127 (Volumen 22: A New Beginning, Parte 1 de 6).
+Apariciones posteriores: Números #128–#131 (Vol. 22), #145–#192 (Volúmenes 25 al 31).
 
-SIGUIENTE REVISIÓN
-Confirmar la aparición y su contexto en el cómic. Si el nombre designa a más de una persona, mantener separadas las identidades hasta confirmarlas.
+HISTORIAL CANÓNICO (CÓMIC PRINCIPAL)
+- Antecedentes previos al brote: Desconocidos (apellido desconocido; residía junto a su padre antes y durante su llegada a Alexandria).
+- Perfil físico observado: Mujer caucásico-americana joven (finales de la adolescencia / principios de los 20 años), complexión delgada, cabello negro largo y vestimenta de trabajo rural.
+- Rol post-brote: Residente incorporada tras el salto temporal en la Zona Segura de Alexandria, encargada de tareas agrícolas y cuidado del ganado, y posteriormente soldado de la milicia comunitaria.
+- Incidente registrado (#127–#131): Aparece por primera vez conduciendo una carreta tirada por caballos tras el salto temporal de dos años posterior a la derrota de Negan (#127), ofreciendo llevar a Siddiq al Gran Salón de Alexandria. Acoge junto a su padre a los recién llegados del grupo de Magna, ayudándolos a integrarse y explicándoles la prosperidad y seguridad de la comunidad.
+- Guerra contra Los Susurradores (#145–#174): Se alista como soldado de la milicia liderada por Dwight. Participa en las patrullas de vigilancia, alerta sobre el avance de la megahorda de caminantes (#157–#158) y combate activamente en la defensa de Alexandria y la Colonia Hilltop frente a Los Susurradores.
+- Etapa en La Mancomunidad y Desenlace (#175–#192): Colabora en las tareas de contención y desvío de hordas en las inmediaciones de La Mancomunidad (#180–#190). Su última aparición ocurre en el Número #192 (Volumen 31: The Rotten Core, tras el asesinato de Rick Grimes), confirmándose viva al cierre de la serie regular (su estado tras el salto temporal de décadas del epílogo #193 permanece sin mostrar).
 
-FUENTE DE LOCALIZACIÓN
-Comic Series Characters, Walking Dead Wiki (Fandom), consultada el 2026-11-07.
-https://walkingdead.fandom.com/wiki/Comic_Series_Characters
+NOTAS DE ARCHIVO / MATERIAL COMPLEMENTARIO Y DESAMBIGUACIÓN
+- Nota de desambiguación: No debe confundirse con Annie Smith (residente de La Mancomunidad que debuta en el Número #183), ni con Annie (personaje exclusiva de la serie televisiva de AMC en la temporada 6, buscadora de suministros de Alexandria que muere devorada durante la invasión de la horda).

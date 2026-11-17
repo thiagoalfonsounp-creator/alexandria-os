@@ -1,24 +1,21 @@
 THE WORLD / UBICACIONES
 IGLESIA DE GABRIEL
-========================================================
-Continuidad: cómic principal de The Walking Dead, #1-193.
+====================================================================
+Continuidad: cómic principal de The Walking Dead, #61-#66.
 Aviso: contiene spoilers de la serie y del epílogo.
 Tipo: Edificio religioso
 
 DESCRIPCIÓN
-Refugio asociado con Gabriel durante el viaje del grupo.
+Pequeña parroquia rural habitada por el padre Gabriel Stokes, quien sobrevivió aislado negando refugio a sus feligreses durante el inicio del brote.
 
 RELEVANCIA NARRATIVA
-Su aparición se vincula con la etapa de los Cazadores.
+Punto de escala durante el trayecto hacia Washington D.C. donde se produce el enfrentamiento y eliminación del grupo caníbal conocido como Los Cazadores.
 
 ANÁLISIS DE SUPERVIVENCIA
-Un edificio cerrado ofrece abrigo, pero requiere salidas, vigilancia y suministros.
+Las edificaciones aisladas con puertas reforzadas permiten la supervivencia individual temporal si el ocupante mantiene perfil bajo, pero carecen de capacidad defensiva frente a grupos organizados.
 Este análisis es una interpretación editorial, no una regla del canon.
 
 REFERENCIA Y EVIDENCIA
-Evidence Level: UNCONFIRMED
-Comic Reference: pendiente de cotejo directo con número y escena.
-El resumen es provisional: no se ha comprobado aquí contra las páginas
-del cómic. No se asignan fechas, distancias ni cifras no verificadas.
-Los inventarios de fans se usan únicamente para localizar entradas.
-No se incorporan datos de la serie de televisión ni de videojuegos.
+Evidence Level: CONFIRMED
+Comic Reference: The Walking Dead #61-#66.
+Cotejado directamente con el encuentro con Gabriel (#61) y la emboscada nocturna contra Los Cazadores (#65-#66).
