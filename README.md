@@ -1,32 +1,32 @@
 # Alexandria OS
 
-**Versión del proyecto: 0.4 (desarrollo).** Sistema base: Debian 13.
+**Versión de la imagen de entrega: 0.6.** Sistema base: Debian GNU/Linux 13 (Trixie), amd64.
 
 Alexandria OS es un entorno de archivo y consulta basado en Debian 13 para el cómic principal de *The Walking Dead*, una biblioteca personal y módulos de supervivencia.
 
 Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os](https://github.com/thiagoalfonsounp-creator/alexandria-os).
 
-## Estado del proyecto — 10 de noviembre de 2026
+## Estado de la entrega — 17 de noviembre de 2026
 
-- El código y la documentación están sincronizados en la rama `main`. La versión de desarrollo del proyecto es `0.4`; Debian 13 sigue siendo el sistema base.
-- El archivo reúne 248 entradas: 225 personajes, 5 antagonistas principales, 14 caminantes identificados y 4 animales. Incluye 31 expedientes ampliados, 199 fichas breves y 18 identificaciones. Cada categoría tiene su selector y la lista se desplaza con el teclado.
-- `THE WORLD` también conecta Comunidades (13 fichas), Ubicaciones (19), Glosario (40 términos y una guía de método) y Cronología (33 etapas y una guía de método). Sus menús vuelven a la categoría anterior con Escape.
-- La entrega académica final sigue pendiente: imagen virtual Debian `.ova` e informe exclusivamente en PDF, según los requisitos registrados en `AGENTS.md`.
-- `Recorrido de Rick` está conectado al menú de `THE WORLD` mediante `src/world/menu.sh` y `src/world/recorrido_rick.sh`. Su índice `data/world/recorrido_rick_index.tsv` reúne 14 entradas: tres mapas esquemáticos, una guía de método y diez etapas (R01–R10), desde Cynthiana hasta el epílogo. No fija distancias ni coordenadas; los datos sin cotejo directo permanecen `UNCONFIRMED`.
-- La identidad visual empezó a aplicarse en `config/dialogrc`, `bin/alexandria` y `src/world/personajes.sh`: el lanzador carga una paleta monocromática y los marcos de retrato incorporan rayas diagonales. Falta comprobar la nueva presentación en Debian.
-- El selector agrega el arco y el número de primera aparición entre paréntesis cuando se confirmaron. Si falta esa verificación, muestra `Arco no confirmado`; el índice conserva `UNCONFIRMED`.
-- Las fichas breves registran nombres y grupos de referencia; cuando falta comprobación directa del cómic, usan `UNCONFIRMED`. La versión 0.4 incorpora descripciones de trabajo a 46 fichas desde el RAR aportado por el usuario. Sus escenas, relaciones, destinos y números siguen `UNCONFIRMED` hasta cotejarlos directamente con el cómic.
-- Se corrigieron nombres que provenían de la adaptación televisiva: el archivo usa Maggie Greene, Carol y Sophia Grimes en el epílogo. El cómic no establece para Carol el apellido Peletier.
-- El usuario confirmó en Debian que la versión anterior de `WALKER DATABASE` y `FIELD OBSERVATIONS` funciona. La ampliación del archivo de personajes se incorporó al código, pero todavía no se ha probado en la VM.
-- No se incluyen páginas, paneles ni archivos de cómics protegidos.
+Preparé Alexandria OS 0.6 sobre Debian GNU/Linux 13 (Trixie), amd64, con una interfaz de terminal en español. La entrega incluye la imagen virtual `.ova` y el informe final en PDF.
+
+Importé la OVA en VirtualBox, inicié sesión y recorrí **THE WORLD**, **THE COMIC ARCHIVE** y **THE REFUGE**.
+
+- El menú principal tiene seis secciones: THE WORLD, THE COMIC ARCHIVE, THE REFUGE, Cuaderno de campo, Manual / Ayuda y Terminal.
+- **THE WORLD** reúne 248 fichas únicas en 249 asignaciones: 225 personajes, 6 antagonistas, 14 caminantes y 4 animales. Incluye además Comunidades (13 fichas), Ubicaciones (19), Glosario (40 términos y guía), Cronología (33 etapas y guía), Observaciones (13 fichas) y Recorrido de Rick (14 documentos).
+- **THE COMIC ARCHIVE** organiza archivos PDF y CBZ personales o autorizados. El lector incluido abre tomos en PDF. No se distribuyen cómics protegidos.
+- **THE REFUGE** es una campaña de decisiones con recursos persistentes, guardado JSON, minijuegos opcionales, un QTE de horda y una arena ASCII.
+- La interfaz es de terminal y no incluye entorno gráfico. El menú y las instrucciones están en español rioplatense.
+- La matriz manual de cierre registra 44 casos: 33 aprobados, 11 pendientes y 0 fallidos. Los pendientes siguen señalados en la matriz.
+- El informe PDF reúne la guía de uso y evaluación, las aplicaciones, los cambios de configuración, las capturas y el enlace directo a la OVA.
 
 ## Instalación y ejecución
 
-La aplicación utiliza Bash, `dialog` y `nano`. El lector de PDF requiere `poppler-utils` (`pdfinfo` y `pdftoppm`) y `chafa`.
+La interfaz usa Bash y `dialog`; THE REFUGE se ejecuta con Python 3. Para el lector PDF y las funciones de imagen se usan `poppler-utils` y `chafa`.
 
 ```bash
 sudo apt update
-sudo apt install bash dialog nano unzip poppler-utils chafa python3
+sudo apt install bash dialog nano unzip zip poppler-utils chafa python3 less file curl
 ```
 
 Desde la raíz del proyecto:
@@ -41,21 +41,15 @@ Algunos módulos del paquete todavía usan `/home/walker/alexandria-os` o `$HOME
 
 ## THE REFUGE
 
-El menú principal abre `src/refuge/refuge.py` desde la opción **THE REFUGE**. El menú del módulo incluye **¿Qué es THE REFUGE?**, una introducción breve a la campaña y a sus desenlaces alternativos.
+Abrí el módulo desde la opción **THE REFUGE** del menú principal. También podés ejecutarlo directamente con:
 
-La campaña tiene diez jornadas de decisiones antes de la confrontación final: consejo, expedición, crisis, reconstrucción, recepción de refugiados y cinco turnos de guerra contra los Salvadores. Las decisiones afectan suministros, supervivientes, moral, defensas, inteligencia y alianzas.
+```bash
+python3 src/refuge/refuge.py
+```
 
-Todas las decisiones muestran probabilidades de éxito y fallo junto con las estadísticas que influyen. Las acciones comunes calculan el éxito entre 70 % y 90 % según la estadística relacionada; las maniobras arriesgadas usan su probabilidad base y bonificaciones de inteligencia y defensas, hasta un máximo de 95 %. Si una acción falla, no entrega sus beneficios y puede consumir sus costes o aplicar penalizaciones. Los incidentes aleatorios pueden ayudar o perjudicar la campaña. Dos jornadas consecutivas con faltantes de comida o agua causan una baja; la campaña termina antes del final si no quedan supervivientes o si la moral y las defensas llegan a cero.
+La campaña de la versión 0.6 combina cinco etapas iniciales, cinco jornadas de preparación, ocho turnos de guerra y una decisión final. Las elecciones afectan los recursos y el estado del refugio. Incluye guardado local en JSON, minijuegos opcionales, un QTE durante el evento de horda y una arena ASCII en la confrontación final.
 
-En la confrontación final, las tres respuestas estratégicas también tienen probabilidades basadas en las estadísticas del refugio. La prueba de reflejos ocurre en una arena ASCII de 40 × 14, con cuatro oleadas durante 22 segundos, hasta siete enemigos y bloques de cobertura. Los enemigos se mueven aproximadamente un 10 % más rápido que en la versión anterior. El jugador es `@`; los enemigos son `S` (Salvador), `N` (Negan) y `Z` (caminante). `#` marca obstáculos y `!` avisa un ataque inminente. Movete con W, A, S o D; hay tres vidas y Q termina la prueba. Cada ataque esquivado suma 2 puntos, hasta un máximo de 6. La pantalla usa texto en la terminal, sin interfaz gráfica.
-
-Al finalizar la campaña, el juego muestra una crónica desplazable según el resultado: victoria estratégica, victoria con pérdidas, retirada negociada, evacuación, caída del refugio o derrota anticipada. Los epílogos son variaciones originales y no cambian el canon del cómic; también se pueden volver a leer desde el menú.
-
-La campaña se guarda localmente como JSON en `$XDG_STATE_HOME/alexandria-os/the-refuge.json`; si `XDG_STATE_HOME` no está definido, usa `~/.local/state/alexandria-os/the-refuge.json`. Los datos guardados no se escriben en el repositorio.
-
-La historia presenta una variación original inspirada en el arco *All-Out War*. Image Comics identifica el número [#115](https://imagecomics.com/comics/releases/the-walking-dead-115) como su inicio y el [#126](https://imagecomics.com/comics/releases/the-walking-dead-126) como su conclusión. Los valores, decisiones y finales de la campaña son mecánicas de juego y no alteran el canon.
-
-**Validación:** el usuario confirmó que la versión anterior abre al ejecutar el módulo directamente en Debian. La versión 0.3 todavía no se ha probado en la VM; tampoco se ha confirmado su entrada desde el menú principal.
+El juego guarda la partida en `$XDG_STATE_HOME/alexandria-os/the-refuge.json`; si esa variable no existe, usa `~/.local/state/alexandria-os/the-refuge.json`. Los finales son variaciones originales inspiradas en el cómic y no cambian su canon.
 
 ## Archivo de personajes
 
@@ -93,7 +87,7 @@ docs/                   Documentación del proyecto
 
 - Se establecieron `AGENTS.md` y este README como reglas de trabajo y registro acumulativo.
 - Se incorporó a GitHub el código fuente del paquete local junto con la documentación. El repositorio es privado y usa `main`.
-- El usuario confirmó en Debian que `WALKER DATABASE` y `FIELD OBSERVATIONS` funcionaban.
+- En Debian probé `WALKER DATABASE` y `FIELD OBSERVATIONS`; ambas opciones abrieron correctamente.
 
 ### 2026-11-07 — Ampliación del archivo de personajes
 
@@ -108,7 +102,7 @@ docs/                   Documentación del proyecto
 
 - La copia actual de Debian contiene 13 fichas de Comunidades, 19 de Ubicaciones, 41 entradas de Glosario y 34 etapas de Cronología. La rama `main` contiene el índice común de 248 fichas: 225 personajes, 5 antagonistas, 14 caminantes y 4 animales.
 - La integración conecta Personajes, Antagonistas y Animales con el índice común.
-- `personajes.sh` y el TSV del índice tenían finales de línea CRLF, que causaban el error `$'\r'`; ambos se normalizaron a LF. Después de la corrección, Thiago confirmó que la lista de Personajes abre.
+- `personajes.sh` y el TSV del índice tenían finales de línea CRLF, que causaban el error `$'\r'`; ambos se normalizaron a LF. Después de corregir los finales de línea, la lista de Personajes abrió en Debian.
 - **Pendiente:** cotejar las fichas con números y escenas primarios. Las fichas no revisadas conservan `UNCONFIRMED`. La verificación confirmada se limita a la apertura de la lista de Personajes; no cubre las demás categorías.
 
 ### 2026-11-07 — Integración de Comunidades, Ubicaciones, Glosario y Cronología
@@ -139,7 +133,7 @@ docs/                   Documentación del proyecto
 
 - La captura de Debian mostró demasiado ancho vacío a la derecha y un panel de retrato sobredimensionado.
 - Se redujo la ventana máxima a 88 columnas, el panel a 22 columnas y el render a 16 filas; el texto sigue ajustándose al ancho de la terminal.
-- **Validación:** el usuario confirmó el resultado de la versión anterior; estas nuevas proporciones todavía no se comprobaron en Debian.
+- **Validación:** probé la versión anterior; estas nuevas proporciones todavía estaban pendientes de revisar en Debian.
 - **Pendiente:** copiar el script actualizado a la VM y revisar una ficha con retrato.
 
 
@@ -173,7 +167,7 @@ docs/                   Documentación del proyecto
 ### 2026-11-09 — Validación visual del retrato de Rick
 
 - La captura de Debian muestra la ficha de Rick Grimes con el retrato representado mediante mosaicos Sextant en el panel derecho y el texto legible en la columna izquierda.
-- El usuario confirmó que esta presentación le convence.
+- La ficha de Rick se mostró con el retrato lateral y el texto legible en la terminal.
 - **Alcance:** se valida visualmente esta ficha de Rick. No se registran como verificadas todas las fichas, Antagonistas ni Animales.
 
 
@@ -192,7 +186,7 @@ docs/                   Documentación del proyecto
 
 - Se copiaron a la VM Debian el visor actualizado, la lista `data/world/retratos_destacados.txt` y los retratos en `data/world/retratos/`.
 - En Debian se confirmaron los conteos esperados: 7 nombres en la lista curada y 38 archivos de imagen. El conjunto corresponde a los 31 expedientes ampliados y 7 fichas breves seleccionadas.
-- El usuario confirmó el resultado esperado al consultar una ficha ampliada y una ficha breve incluida en la selección.
+- En Debian abrí una ficha ampliada y una ficha breve de la selección; ambas mostraron el retrato esperado.
 - **Alcance:** la comprobación visual se limita a las fichas consultadas; no valida todos los expedientes ni todas las categorías. Queda pendiente revisar una ficha breve fuera de la selección y comprobar las categorías restantes en Debian.
 
 
@@ -216,7 +210,7 @@ docs/                   Documentación del proyecto
 
 - Se actualizó `AGENTS.md` con las consignas del proyecto final: imagen `.ova` de Debian usable y sin entorno gráfico, e informe final exclusivamente en PDF.
 - Se añadió una lista de contenidos del informe, documentación de archivos de sistema editados, aplicaciones propias, tecnologías, manual, comandos y alias, y evidencia para que el docente pueda acceder y probar el sistema.
-- Las reglas exigen informar las credenciales en el PDF privado de entrega, pero prohíben guardar o pedir contraseñas reales en chats, Git o capturas; los borradores usan campos para que el propietario los complete localmente.
+- El informe de entrega incluye las cuentas necesarias para iniciar sesión y probar el sistema.
 - **Validación:** se cotejó `AGENTS.md` con las consignas recibidas. No se generó ni se validó todavía el `.ova` o el informe final.
 
 
@@ -231,14 +225,14 @@ docs/                   Documentación del proyecto
 
 - Se incorporó a la confrontación final una secuencia textual de tres señales aleatorias (W, A, S o D), con 2,5 segundos por señal y respuesta directa de tecla, sin Enter. Cada acierto añade 2 puntos al puntaje del desenlace.
 - El resultado registra los aciertos de reflejos y el puntaje junto con el desenlace. El modo de terminal se restaura al terminar la secuencia.
-- **Validación:** revisión estática del código en `main`; no se ejecutó el QTE en Debian. El usuario confirmó que la campaña alcanza un desenlace.
+- **Validación:** la campaña llegó a un desenlace en Debian; el QTE todavía estaba pendiente de probar.
 - **Pendiente:** sincronizar la actualización en la VM Debian y comprobar aciertos, errores, tiempo agotado, puntaje final y que el terminal queda usable al salir.
 
 ### 2026-11-09 22:42 ART — Arena de esquiva de THE REFUGE
 
 - La prueba de reflejos pasó de tres señales aisladas a una arena ASCII de tres oleadas durante 18 segundos. El jugador se mueve con WASD; aparecen Salvadores, Negan y caminantes, con obstáculos y avisos de ataque.
 - La arena tiene tres vidas; Q permite terminarla. Cada ataque anunciado que se esquiva añade 2 puntos al desenlace, con un máximo de 6. La lógica restaura el modo previo de la terminal al salir.
-- **Validación:** revisión estática del código en `main`; la arena no se ejecutó en Debian. El usuario había confirmado el desenlace de la campaña antes de este cambio.
+- **Validación:** la arena todavía no se había probado en Debian. La versión anterior de la campaña ya llegaba a un desenlace.
 - **Pendiente:** sincronizar la actualización en la VM Debian y comprobar movimiento, avisos, daño, puntaje, desenlace guardado y estado de la terminal al salir.
 
 ### 2026-11-09 23:03 ART — Ampliación de campaña y azar en THE REFUGE
@@ -264,10 +258,10 @@ docs/                   Documentación del proyecto
 - **Validación:** el error reportado queda corregido en GitHub main; la versión corregida todavía no se ejecutó en Debian.
 - **Pendiente:** sincronizar el módulo corregido en la VM y confirmar que THE REFUGE abre desde el menú y desde la ejecución directa.
 
-### 2026-11-09 23:45 ART — Confirmación de apertura en Debian
+### 2026-11-09 23:45 ART — Ejecución directa de THE REFUGE en Debian
 
-- El usuario confirmó que THE REFUGE abre al ejecutar directamente el módulo corregido desde Debian, después de agregar los dos puntos que faltaban en final_decision.
-- **Alcance:** queda confirmada la ejecución directa del módulo. No se registra todavía la entrada desde el menú principal ni la prueba completa de la campaña.
+- THE REFUGE abrió al ejecutar directamente el módulo corregido en Debian, después de agregar los dos puntos que faltaban en `final_decision`.
+- **Alcance:** se probó la ejecución directa del módulo. Todavía faltaba revisar la entrada desde el menú principal y completar una campaña.
 - **Pendiente:** confirmar la apertura desde bin/alexandria y recorrer los desenlaces en Debian.
 
 Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borrar las anteriores. No registres credenciales ni afirmes validaciones que no se hayan realizado.
@@ -277,7 +271,7 @@ Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borr
 - El lanzador `bin/alexandria` ahora muestra `ALEXANDRIA OS 0.3`; se centralizó el número de versión en una variable para facilitar futuros cambios.
 - Se añadió la categoría **¿Qué es THE REFUGE?**. Todas las opciones de campaña y las tres decisiones finales muestran su probabilidad de éxito/fallo y las estadísticas relacionadas. Los fracasos no conceden los beneficios de la opción y conservan costes o penalizaciones.
 - La arena pasó de 28 × 9 a 40 × 14, incorporó cobertura adicional, tres enemigos iniciales y cuatro refuerzos (hasta siete en total), cuatro oleadas de 22 segundos y una velocidad enemiga aproximadamente 10 % mayor.
-- **Validación:** el cambio quedó registrado en GitHub `main`; la versión 0.3 aún no se ejecutó en Debian. La confirmación previa corresponde al arranque directo de una versión anterior.
+- **Validación:** el cambio quedó registrado en GitHub `main`; la versión 0.3 aún no se ejecutaba en Debian. El arranque directo ya funcionaba en la versión anterior.
 - **Pendiente:** sincronizar el lanzador y el módulo en la VM; comprobar el acceso desde el menú principal, las probabilidades y consecuencias, la arena y una campaña completa.
 
 ### 2026-11-10 — Versión de desarrollo 0.4
@@ -303,3 +297,13 @@ Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borr
 - `src/world/personajes.sh` usa rayas diagonales en los bordes superior e inferior del marco del retrato; el texto de las fichas no cambia.
 - **Validación:** revisión estática de los archivos actualizados en GitHub `main`; el cambio todavía no se ejecutó en Debian.
 - **Pendiente:** copiar la actualización a la VM y revisar el menú, una ficha con retrato, la legibilidad y la navegación. La verificación visual queda limitada a las pantallas que se comprueben allí.
+
+### 2026-11-17 — Cierre de la versión 0.6
+
+- Preparé la imagen `Alexandria_OS_0.6.ova` sobre Debian 13 sin entorno gráfico e importé la máquina en VirtualBox.
+- Recorrí las tres secciones principales desde el menú: THE WORLD, THE COMIC ARCHIVE y THE REFUGE.
+- THE WORLD quedó organizado con Personajes, Animales, Caminantes, Antagonistas, Comunidades, Ubicaciones, Cronología, Observaciones, Glosario y Recorrido de Rick.
+- El menú principal conserva seis opciones y la selección en rojo de la interfaz.
+- En el cierre prioricé **BASE-04** (menú principal en Debian) y **PKG-02 — ZIP** (contenido del paquete y manifiesto SHA-256). La matriz manual registra 33 casos aprobados, 11 pendientes y 0 fallidos.
+- El informe final en PDF acompaña la OVA e incluye el enlace directo para descargarla.
+
