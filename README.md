@@ -8,7 +8,7 @@ Repositorio privado y fuente de verdad: [thiagoalfonsounp-creator/alexandria-os]
 
 El menú principal usa el logo aprobado en [`assets/logo-alexandria-safe-zone.png`](assets/logo-alexandria-safe-zone.png). `src/ui/main_menu.py` lo representa con Chafa en caracteres a color, a la izquierda del menú. Esta distribución conserva la proporción del PNG y deja las opciones legibles en terminales de 80×24 y 120×40.
 
-`python3 tests/smoke_terminal.py` pasó en ambos tamaños dentro de un pseudoterminal: comprobó la presencia de la imagen, la posición del menú, la apertura de ayuda, THE WORLD y THE REFUGE, y la salida a consola. **Las 79 pruebas manuales siguen pendientes**; estos casos automatizados no alteran la matriz ni validan la VM de entrega.
+`python3 tests/smoke_terminal.py` pasó en ambos tamaños dentro de un pseudoterminal: comprobó la presencia de la imagen, la posición del menú, la apertura de ayuda, THE WORLD y THE REFUGE, y la salida a consola. El propietario confirmó que las pruebas manuales de 0.4 ya estaban aprobadas; ese antecedente se registra como confirmación suya, sin evidencias individuales adjuntas. Las regresiones y novedades de 0.6 siguen pendientes en la VM de entrega. La prueba automatizada de humo no sustituye esa revisión manual. Ver la [matriz de regresión 0.6](docs/MATRIZ_PRUEBAS_MANUALES_0.6.md) y la [matriz histórica 0.4](docs/MATRIZ_PRUEBAS_MANUALES_0.4.md).
 
 La OVA y el PDF final permanecen fuera de Git y pendientes de validación. Detalles y límites: [Continuación 0.6](docs/CONTINUACION_0.6.md).
 
@@ -576,3 +576,10 @@ Al cerrar cada tarea, agregá una entrada cronológica a este historial sin borr
 - El PNG está en `assets/logo-alexandria-safe-zone.png`, aparece en el checkout como archivo nuevo sin seguimiento y el lanzador lo pasa a `src/ui/main_menu.py`. No se ejecutó el menú ni se corrieron pruebas en esta revisión.
 - La matriz manual coincide byte por byte con la copia del ZIP adjunto; las 79 pruebas quedan pendientes y no se alteró su contenido ni sus resultados históricos.
 - El estado del checkout contiene 314 rutas modificadas ya versionadas y 20 nuevas sin seguimiento, sin cambios staged. Los archivos PDF y OVA no están rastreados y sus extensiones siguen ignoradas. No se hizo commit, push, PR ni publicación del entorno.
+
+
+### 2026-11-16 — Matriz manual alineada con Alexandria OS 0.6
+
+- El propietario confirmó que todas las pruebas manuales de 0.4 estaban aprobadas. La matriz histórica registra esa confirmación, pero no se proporcionaron la fecha original, el commit, el entorno ni evidencias individuales.
+- Se agregó [la matriz de regresión 0.6](docs/MATRIZ_PRUEBAS_MANUALES_0.6.md), con las expectativas actuales del menú con logo, el índice y sus conteos, los módulos y las verificaciones separadas de OVA/PDF. Sus pruebas siguen pendientes de ejecución en la VM de entrega.
+- El estado funcional no modifica etiquetas narrativas. No se ejecutaron pruebas ni se validó la VM en esta actualización documental.
